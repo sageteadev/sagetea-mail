@@ -8,7 +8,7 @@ PROJECT=/home/ubuntu/Projects/dekko
 BUILD_DIR=$PROJECT/.build-armhf
 PY_LIBS=$PROJECT/pylibs
 
-apt install qbs qtpim5-dev:armhf qttools5-dev-tools libconnectivity-qt1-dev:armhf libaccounts-qt5-dev:armhf qtdeclarative5-private-dev:armhf qtscript5-private-dev:armhf qml-module-qtquick-privatewidgets:armhf qtbase5-private-dev:armhf qtbase5-dev:armhf libqt5svg5-dev:armhf libsignon-qt5-dev:armhf libsasl2-dev:armhf signon-plugin-sasl-dev:armhf signon-plugin-oauth2-dev:armhf libsnappy-dev:armhf qemu-user-static python3-dev python3-pip git zlib1g-dev -y
+apt install qbs qtpim5-dev:armhf qttools5-dev-tools libconnectivity-qt1-dev:armhf libaccounts-qt5-dev:armhf qtdeclarative5-private-dev:armhf qtscript5-private-dev:armhf qtbase5-private-dev:armhf qtbase5-dev:armhf libqt5svg5-dev:armhf libsignon-qt5-dev:armhf libsasl2-dev:armhf signon-plugin-sasl-dev:armhf signon-plugin-oauth2-dev:armhf libsnappy-dev:armhf qemu-user-static python3-dev python3-pip git zlib1g-dev -y
 
 export QT_SELECT=qt5
 
