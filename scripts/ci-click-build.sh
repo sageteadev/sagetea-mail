@@ -12,8 +12,8 @@ apt install qbs qt5-qmake:armhf qtpim5-dev:armhf qttools5-dev-tools libconnectiv
 
 export QT_SELECT=qt5
 
-qbs ssetup-toolchains /usr/bin/arm-linux-gnueabihf-gcc gcc-armhf
-qbs setup-qt /usr/lib/arm-linux-gnueabihf/qt5/bin/qmake dekkoqt5-armhf
+qbs setup-toolchains /usr/bin/arm-linux-gnueabihf-gcc gcc-armhf
+qbs setup-qt $(which qt5-qmake-arm-linux-gnueabihf) dekkoqt5-armhf
 qbs config profiles.dekkoqt5-armhf.baseProfile gcc-armhf
 qbs config profiles.dekkoqt5-armhf.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
 
