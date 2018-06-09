@@ -77,7 +77,7 @@ Project {
         allowedValues: ["none", "ubuntu", "qqc2"]
     }
 
-    property bool pyotherside: true
+    property bool pyotherside: false
 
     property bool buildAll: true
 
