@@ -28,7 +28,7 @@ Inside the docker shell:
 cd /root/dekko
 ./clickable-docker-setup.sh
 ./build-armhf.sh
-click build $BUILD_DIR/**/install-root
+click build .build-armhf/**/install-root
 ```
 
 This will configure the container and build dekko. At the end you should see:
