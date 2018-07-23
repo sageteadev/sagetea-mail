@@ -8,15 +8,19 @@ git clone https://gitlab.com/doniks/dekko
 git checkout building
 git submodule update --init --recursive upstream/
 ```
-(Make sure clickable is set up.)
+(Also make sure clickable is set up.)
 
 ### Automatic build
-`clickable -k 16.04`
+```
+clickable -k 16.04
+```
 
 ### More manual build
 Enter a docker shell:
 
-`docker run -v ~/PATH/WHERE/YOU/CLONED/DEKKO:/root/dekko -it clickable/ubuntu-sdk:16.04-armhf bash`
+```
+docker run -v ~/PATH/WHERE/YOU/CLONED/DEKKO:/root/dekko -it clickable/ubuntu-sdk:16.04-armhf bash
+```
 
 Inside the docker shell:
 
