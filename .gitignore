@@ -2,9 +2,11 @@ CMakeLists.txt.user
 build
 __build
 .build
+.build-armhf/
 *.qbs.user
 pylibs
 snap/plugins/__pycache__
 /Qt
 click/manifest.json
 *.click
+*~
