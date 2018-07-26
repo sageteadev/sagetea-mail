@@ -19,6 +19,7 @@ Item {
                     var comp = d.getComponent("Dekko::Mail::Composer")
                     if (comp !== null) {
                         d.composeWindow = comp.createObject(root)
+                        d.composeWindow.setVisible(true)
                         MailStore.disableMsgListUpdates = true;
                     }
                 } else {
@@ -48,6 +49,7 @@ Item {
                     var comp = d.getComponent("Dekko::Mail::Settings")
                     if (comp !== null) {
                         d.settingsWindow = comp.createObject(root)
+                        d.settingsWindow.setVisible(true)
                     }
                 } else {
                     d.settingsWindow.raise()
@@ -72,6 +74,7 @@ Item {
                     var comp = d.getComponent("Dekko::Mail::SetupWizard")
                     if (comp !== null) {
                         d.setupWizard = comp.createObject(root)
+                        d.setupWizard.setVisible(true)
                     }
                 } else {
                     d.setupWizard.raise()
