@@ -3,6 +3,7 @@
     "build": "../../../build-armhf.sh",
     "specificDependencies": "true",
     "dir": ".build-armhf/release/install-root/",
+    "sdk": "ubuntu-sdk-16.04",
     "dependencies": [
         "binfmt-support", "libaccounts-qt5-dev:armhf", "libconnectivity-qt1-dev:armhf", "libexpat1-dev", "libpipeline1", "libpython3-dev", "libpython3.5", "libpython3.5-dev", "libqbscore1.10", "libqbsqtprofilesetup1.10", "libqt5script5", "libsasl2-dev:armhf", "libsasl2-modules:armhf", "libsignon-plugins-common1:armhf", "libsignon-qt5-dev:armhf", "libsnappy-dev:armhf", "libsnappy1v5:armhf", "python-pip-whl", "python3-dev", "python3-pip", "python3-setuptools", "python3-wheel", "python3.5-dev", "qbs", "qbs-common", "qemu-user-static", "qml-module-qtquick-privatewidgets:armhf", "qt5-qmake-bin:armhf", "signon-plugin-oauth2:armhf", "signon-plugin-oauth2-dev:armhf", "signon-plugin-sasl:armhf", "signon-plugin-sasl-dev:armhf", "zlib1g-dev"
     ]
