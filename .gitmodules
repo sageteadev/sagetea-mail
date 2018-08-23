@@ -1,6 +1,6 @@
 [submodule "upstream/qmf"]
 	path = upstream/qmf
-	url = https://gitlab.com/dekkoproject/messagingframework.git
+	url = https://gitlab.com/dekkan/messagingframework.git
 [submodule "upstream/controls"]
 	path = upstream/controls
 	url = https://gitlab.com/dekkoproject/dekko-controls.git
