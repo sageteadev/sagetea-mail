@@ -28,12 +28,13 @@ QString DekkodService::i18n() const
 
 void DekkodService::start()
 {
-    if (!serviceFileInstalled()) {
+    if (!serviceRunning()) {
+        // The service is started on login, so actually it should already be running.
+        // Overwrite service file to make sure thats not causing the problem.
+        // see also issue #114
         qDebug() << "[DekkodService] Installing service file";
         installServiceFile();
-    }
 
-    if (!serviceRunning()) {
         qDebug() << "[DekkodService] Starting dekkod service";
         startService();
     }
@@ -57,11 +58,6 @@ bool DekkodService::serviceFileInstalled() const
 
 bool DekkodService::installServiceFile() const
 {
-    if (serviceFileInstalled()) {
-        qDebug() << "[DekkodService] Service file already exists";
-        return false;
-    }
-
     QFile f(m_serviceFile);
     if (!f.open(QFile::WriteOnly | QFile::Truncate)) {
         qDebug() << "[DekkodService] Cannot create service file";
@@ -69,7 +65,7 @@ bool DekkodService::installServiceFile() const
     }
 
     QString appDir = QCoreApplication::applicationDirPath();
-    appDir.replace(QRegExp("dekko2.dekkoproject\/[0-9.]*\/"), "dekko2.dekkoproject/current/");
+    appDir.replace(QRegExp("dekko2.dekkoproject/[^/]+/"), "dekko2.dekkoproject/current/");
     f.write("start on started unity8\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
