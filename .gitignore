@@ -8,4 +8,5 @@ snap/plugins/__pycache__
 /Qt
 click/manifest.json
 *.click
-.clickable/
+.clickable
+.build-armhf
