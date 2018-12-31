@@ -4,6 +4,8 @@
 #include <QFile>
 #include <QProcess>
 #include <QRegExp>
+#include <QSettings>
+#include <SnapStandardPaths.h>
 
 DekkodService::DekkodService(QObject *parent): ServicePlugin(parent)
 {
@@ -28,6 +30,11 @@ QString DekkodService::i18n() const
 
 void DekkodService::start()
 {
+    if (newVersion() && serviceRunning()) {
+        qDebug() << "[DekkodService] Stopping service for version upgrade";
+        stopService();
+    }
+
     if (!serviceRunning()) {
         // The service is started on login, so actually it should already be running.
         // Overwrite service file to make sure thats not causing the problem.
@@ -115,6 +122,23 @@ bool DekkodService::stopService()
     qDebug() << "[DekkodService] should stop service";
     int ret = QProcess::execute("stop", {m_service});
     return ret == 0;
+}
+
+bool DekkodService::newVersion()
+{
+    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/dekkod/settings.ini");
+    QSettings settings(path, QSettings::IniFormat);
+    if (!settings.contains(QStringLiteral("version"))) {
+        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        return false;
+    }
+
+    const bool result = settings.value(QStringLiteral("version")).toString() > QStringLiteral(DEKKO_VERSION);
+    if (result) {
+        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+    }
+    settings.sync();
+    return result;
 }
 
 QVariantMap DekkodService::documentation() const
