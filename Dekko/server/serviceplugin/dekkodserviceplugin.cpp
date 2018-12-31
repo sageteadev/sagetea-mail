@@ -30,7 +30,7 @@ QString DekkodService::i18n() const
 
 void DekkodService::start()
 {
-    if (newVersion() && serviceRunning()) {
+    if (newVersion()) {
         qDebug() << "[DekkodService] Stopping service for version upgrade";
         stopService();
     }
