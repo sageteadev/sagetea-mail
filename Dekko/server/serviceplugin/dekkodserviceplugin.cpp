@@ -130,10 +130,13 @@ bool DekkodService::newVersion()
     QSettings settings(path, QSettings::IniFormat);
     if (!settings.contains(QStringLiteral("version"))) {
         settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
-        return false;
+        // Dekkod may already be running as we previously didn't version it.
+        // So we still need to stop it if running.
+        return serviceRunning();
     }
 
-    const bool result = settings.value(QStringLiteral("version")).toString() > QStringLiteral(DEKKO_VERSION);
+    // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
+    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
     if (result) {
         settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
     }
