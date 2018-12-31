@@ -32,6 +32,7 @@ protected:
     bool startService();
     bool restartService();
     bool stopService();
+    bool newVersion();
 
 private:
     QString m_service;
