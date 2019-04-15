@@ -1,9 +1,12 @@
 {
+    "clickable_minimum_required": "5.9.1",
     "template": "custom",
-    "build": "../../../build-armhf.sh",
-    "specificDependencies": "true",
-    "dir": ".build-armhf/release/install-root/",
-    "dependencies": [
-        "binfmt-support", "libaccounts-qt5-dev:armhf", "libconnectivity-qt1-dev:armhf", "libexpat1-dev", "libpipeline1", "libpython3-dev", "libpython3.5", "libpython3.5-dev", "libqbscore1.10", "libqbsqtprofilesetup1.10", "libqt5script5", "libsasl2-dev:armhf", "libsasl2-modules:armhf", "libsignon-plugins-common1:armhf", "libsignon-qt5-dev:armhf", "libsnappy-dev:armhf", "libsnappy1v5:armhf", "python-pip-whl", "python3-dev", "python3-pip", "python3-setuptools", "python3-wheel", "python3.5-dev", "qbs", "qbs-common", "qemu-user-static", "qml-module-qtquick-privatewidgets:armhf", "qt5-qmake-bin:armhf", "signon-plugin-oauth2:armhf", "signon-plugin-oauth2-dev:armhf", "signon-plugin-sasl:armhf", "signon-plugin-sasl-dev:armhf", "zlib1g-dev"
+    "build": "cd .. && ./build-armhf.sh",
+    "dir": ".build-armhf",
+    "dependencies_build": [
+        "binfmt-support", "libexpat1-dev", "libpipeline1", "libpython3-dev", "libpython3.5", "libpython3.5-dev", "libqbscore1.10", "libqbsqtprofilesetup1.10", "libqt5script5", "python-pip-whl", "python3-dev", "python3-pip", "python3-setuptools", "python3-wheel", "python3.5-dev", "qbs", "qbs-common", "qemu-user-static", "zlib1g-dev"
+    ],
+    "dependencies_target": [
+        "libaccounts-qt5-dev", "libconnectivity-qt1-dev", "libsasl2-dev", "libsasl2-modules", "libsignon-plugins-common1", "libsignon-qt5-dev", "libsnappy-dev", "libsnappy1v5", "qml-module-qtquick-privatewidgets", "qt5-qmake-bin", "signon-plugin-oauth2", "signon-plugin-oauth2-dev", "signon-plugin-sasl", "signon-plugin-sasl-dev"
     ]
 }

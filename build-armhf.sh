@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 function install_python_deps
 {
     PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown markupsafe pygments pynliner"
@@ -11,8 +13,6 @@ function install_python_deps
     done
 }
 
-# to be executed from .build-armhf/release/install-root/
-cd ../../..
 
 qbs setup-toolchains /usr/bin/arm-linux-gnueabihf-gcc gcc-armhf
 qbs setup-qt /usr/lib/arm-linux-gnueabihf/qt5/bin/qmake dekkoqt5-armhf

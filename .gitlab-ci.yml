@@ -1,23 +1,26 @@
 stages:
   - clickbuild
-  
+
 variables:
-  GIT_SUBMODULE_STRATEGY: normal
-  
+  GIT_SUBMODULE_STRATEGY: recursive
+  DOCKER_DRIVER: overlay2
+
 click:armhf:
   stage: clickbuild
-  image: clickable/ubuntu-sdk:16.04-armhf
+  image: clickable/ci-16.04-armhf
   tags:
     - docker
   script:
-    - sh ./scripts/ci-click-build.sh
+    - apt-get update
+    - apt-get install qemu-user-static --quiet --yes
+    - clickable build click-build
   cache:
     paths:
-      - Qt/
-      - .build/
+      - .build-armhf
+    untracked: true
   artifacts:
     paths:
-      - '*.click'
+      - '.build-armhf/*.click'
     when: on_success
     expire_in: 1 week
 
