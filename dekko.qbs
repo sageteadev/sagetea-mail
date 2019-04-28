@@ -5,7 +5,7 @@ Project {
     name: "Dekko Project"
     property string appName: "Dekko"
     property string pkgName: "dekko.dekkoproject"
-    property string version: "0.1.8"
+    property string version: "0.1.9"
 
     property string binDir: "bin"
     PropertyOptions {
