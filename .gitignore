@@ -9,4 +9,4 @@ snap/plugins/__pycache__
 click/manifest.json
 *.click
 .clickable
-.build-armhf
+build-armhf

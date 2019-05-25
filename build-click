@@ -10,7 +10,7 @@ LIB_DIR=$DIR_PREFIX
 DATA_DIR=/usr/share/dekko
 QML_DIR=$LIB_DIR
 PROJECT=/home/ubuntu/Projects/dekko
-BUILD_DIR=$PROJECT/.build-armhf
+BUILD_DIR=$PROJECT/build-armhf
 PY_LIBS=$PROJECT/pylibs
 
 function run_cmd {

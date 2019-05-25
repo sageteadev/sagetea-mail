@@ -1,1 +1,0 @@
-clickable/ubuntu-sdk:16.04-armhf-b9d60ad2-1e5d-46cc-b911-0ccbea9b324b

@@ -16,11 +16,11 @@ click:armhf:
     - clickable build click-build
   cache:
     paths:
-      - .build-armhf
+      - build-armhf
     untracked: true
   artifacts:
     paths:
-      - '.build-armhf/*.click'
+      - 'build-armhf/*.click'
     when: on_success
     expire_in: 1 week
 

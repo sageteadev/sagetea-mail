@@ -5,7 +5,7 @@ LIB_DIR=$DIR_PREFIX
 DATA_DIR=/usr/share/dekko
 QML_DIR=$LIB_DIR
 PROJECT=/home/ubuntu/Projects/dekko
-BUILD_DIR=$PROJECT/.build-armhf
+BUILD_DIR=$PROJECT/build-armhf
 PY_LIBS=$PROJECT/pylibs
 
 apt install qbs qt5-qmake:armhf qtpim5-dev:armhf qttools5-dev-tools libconnectivity-qt1-dev:armhf libaccounts-qt5-dev:armhf qtdeclarative5-private-dev:armhf qtbase5-private-dev:armhf qtbase5-dev:armhf libqt5svg5-dev:armhf libsignon-qt5-dev:armhf libsasl2-dev:armhf signon-plugin-sasl-dev:armhf signon-plugin-oauth2-dev:armhf libsnappy-dev:armhf qemu-user-static python3-dev python3-pip git zlib1g-dev -y
@@ -17,7 +17,7 @@ qbs setup-qt $(which qt5-qmake-arm-linux-gnueabihf) dekkoqt5-armhf
 qbs config profiles.dekkoqt5-armhf.baseProfile gcc-armhf
 qbs config profiles.dekkoqt5-armhf.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
 
-qbs build -d ${PWD}/.build \
+qbs build -d $BUILD_DIR \
     -f . \
     --clean-install-root \
     project.click:true \
