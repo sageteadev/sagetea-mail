@@ -44,7 +44,7 @@ pages:
   stage: deploy
   image: ruby:2.3
   script:
-    - mv doxygen-out/* ./
+    - mv doxygen-out/html/* ./
     - mv docs/Gemfile* ./
     - mv docs/_config.yml ./
     - bundle install
