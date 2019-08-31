@@ -1,0 +1,5 @@
+{
+    "id": "ubuntu-calendar-stage",
+    "register" : "Dekko::Stage::Calendar",
+    "component" : "CalendarStage.qml"
+}

@@ -1,18 +1,12 @@
 [submodule "upstream/qmf"]
 	path = upstream/qmf
 	url = https://gitlab.com/dekkoproject/messagingframework.git
-[submodule "upstream/controls"]
-	path = upstream/controls
-	url = https://gitlab.com/dekkoproject/dekko-controls.git
 [submodule "upstream/maz-db"]
 	path = upstream/maz-db
 	url = https://gitlab.com/dekkoproject/maz-db.git
 [submodule "upstream/notify"]
 	path = upstream/notify
 	url = https://gitlab.com/dekkoproject/notify.git
-[submodule "upstream/plugman"]
-	path = upstream/plugman
-	url = https://gitlab.com/dekkoproject/plugman.git
 [submodule "upstream/pyotherside"]
 	path = upstream/pyotherside
 	url = https://gitlab.com/dekkoproject/pyotherside.git
@@ -25,18 +19,9 @@
 [submodule "upstream/super-macros"]
 	path = upstream/super-macros
 	url = https://gitlab.com/dekkoproject/super-macros.git
-[submodule "upstream/ubuntu-plugin"]
-	path = upstream/ubuntu-plugin
-	url = https://gitlab.com/dekkan/ubuntu-ui-plugin.git
-[submodule "upstream/ubuntu-notification-plugin"]
-	path = upstream/ubuntu-notification-plugin
-	url = https://gitlab.com/dekkoproject/ubuntu-notification-plugin.git
 [submodule "upstream/ubuntu-push-client"]
 	path = upstream/ubuntu-push-client
 	url = https://gitlab.com/dekkoproject/ubuntu-push-client.git
-[submodule "upstream/cache-manager-plugin"]
-        path = upstream/cache-manager-plugin
-        url = https://gitlab.com/dekkoproject/cache-manager-plugin.git
 [submodule "upstream/richtext-editor"]
 	path = upstream/richtext-editor
 	url = https://gitlab.com/dekkoproject/qml-richtext-editor.git
