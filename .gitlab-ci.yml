@@ -28,17 +28,15 @@ click:armhf:
 
 builddocs:
   stage: builddocs
-  image: alpine
+  image: clickable/ci-16.04-armhf
   script:
-    - apk update
-    - apk add doxygen
+    - apt update
+    - apt install -y doxygen plantuml graphviz
     - doxygen
     - mv ../doxygen-out ./
   artifacts:
     paths:
       - ./doxygen-out
-  only:
-    - master
 
 pages:
   stage: deploy
