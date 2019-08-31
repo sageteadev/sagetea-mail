@@ -9,7 +9,7 @@
 title: Dekko
 email: info@ubports.com
 description: Documentation for Dekko
-baseurl: "/dekko" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 gitlab_username:  dekkan
 
