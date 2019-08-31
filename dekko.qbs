@@ -90,6 +90,7 @@ Project {
         "Dekko/components/components.qbs",
         "Dekko/utils/utils.qbs",
         "upstream/third-party.qbs",
+        "plugins/plugins.qbs",
         "Dekko/backend/backend.qbs",
         "Dekko/server/server.qbs",
         "Dekko/app/app.qbs"
