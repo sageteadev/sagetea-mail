@@ -177,6 +177,7 @@ void MsgPartReply::messageReady()
         setHeader(QNetworkRequest::ContentTypeHeader, ct.content());
     }
     formattedBufferContent = new QByteArray(data);
+    data.replace(QByteArray("charset="), QByteArray("char&zwnj;set="));
     buffer.close();
     secondBuffer = new QByteArray(data);
     buffer.setBuffer(secondBuffer);

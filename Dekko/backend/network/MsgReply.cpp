@@ -90,6 +90,7 @@ void MsgReply::messageReady()
     // Woohoo
     emit downloadProgress(2000, 2000);
     QByteArray data = m_msg.body().data().toUtf8();
+    data.replace(QByteArray("charset="), QByteArray("char&zwnj;set="));
     QMailMessageContentType ct = m_msg.body().contentType();
     if (m_format) {
         //do formatting
