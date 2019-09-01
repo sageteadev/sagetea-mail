@@ -18,6 +18,7 @@
 #include <QCoreApplication>
 #include <QTimer>
 #include <QDebug>
+#include <QQuickStyle>
 #include "Dekko.h"
 
 int main(int argc, char** argv)
@@ -30,6 +31,7 @@ int main(int argc, char** argv)
     if (!dekko.setup()) {
         return 0;
     }
+    QQuickStyle::setStyle("Suru");
 
     return dekko.exec();
 }

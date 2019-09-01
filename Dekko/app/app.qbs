@@ -36,6 +36,7 @@ Project {
                 "quick",
                 "qml",
                 "gui",
+                "quickcontrols2",
                 "widgets"
             ]
         }
