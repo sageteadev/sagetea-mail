@@ -99,25 +99,11 @@ class PrivacyPolicy : public GlobalPolicy
      * @accessors %allowRemoteContent(), setAllowRemoteContent()
      */
     Q_PROPERTY(bool allowRemoteContent READ allowRemoteContent WRITE setAllowRemoteContent NOTIFY policyChanged)
-    /**
-     * @brief Allow loading of images
-     *
-     * This differs slightly to allowRemoteContent as that blocks all network requests from a message body. i.e tracking links et al.
-     *
-     * This will only prevent images from loading in the message body.
-     * Usually we would want this to always be true and leave allowRemoteContent to handle the privacy stuff.
-     *
-     * @accessors %autoLoadImages(), setAutoLoadImages()
-     */
-    Q_PROPERTY(bool autoLoadImages READ autoLoadImages WRITE setAutoLoadImages NOTIFY policyChanged)
 public:
     explicit PrivacyPolicy(QObject *parent = 0);
 
     bool allowRemoteContent();
     void setAllowRemoteContent(const bool allowed);
-
-    bool autoLoadImages();
-    void setAutoLoadImages(const bool autoLoad);
 
     // PolicyInterface interface
 public:

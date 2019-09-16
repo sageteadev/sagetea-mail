@@ -37,15 +37,4 @@ PageFlickable {
             }
         }
     }
-
-    LabeledSwitch {
-        text: qsTr("Auto load images")
-        checked: PolicyManager.privacy.autoLoadImages
-        onCheckedChanged: {
-            if (checked !== PolicyManager.privacy.autoLoadImages) {
-                PolicyManager.privacy.autoLoadImages = checked
-            }
-        }
-    }
-
 }

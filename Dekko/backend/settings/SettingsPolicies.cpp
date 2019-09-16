@@ -146,22 +146,11 @@ void PrivacyPolicy::setAllowRemoteContent(const bool allowed) {
     setPolicy(QStringLiteral("remote.contentAllowed"), QString::number(allowed ? 1 : 0));
 }
 
-bool PrivacyPolicy::autoLoadImages() {
-    return readPolicy(QStringLiteral("remote.autoLoadImages")).toInt() != 0;
-}
-
-void PrivacyPolicy::setAutoLoadImages(const bool autoLoad) {
-    setPolicy(QStringLiteral("remote.autoLoadImages"), QString::number(autoLoad ? 1 : 0));
-}
-
 void PrivacyPolicy::setDefaults() {
     if (read("defaults_created").toBool()) {
         return;
     }
     setAllowRemoteContent(false);
-    // auto load images by default.
-    // allow remote content will block these until they are allowed anyway
-    setAutoLoadImages(true);
     write("defaults_created", true);
 }
 

@@ -103,7 +103,7 @@ DekkoPage {
             top: msgPgHeader.bottom
             right: parent.right
         }
-        onAllowClicked: webview.allowBlockedContent(true)
+        onAllowClicked: webview.allowBlockedContent()
     }
 
     Item {

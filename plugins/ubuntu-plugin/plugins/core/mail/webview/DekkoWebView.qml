@@ -48,10 +48,10 @@ WebEngineView {
         webview.url = body
     }
 
-    function allowBlockedContent(doReload) {
+    function allowBlockedContent() {
         internal.remoteContentBlockRunning = false
         ctxt.remoteContentAllowed = true;
-        if(doReload) reload()
+        reload()
     }
 
     // LOCK IT DOWN!!
