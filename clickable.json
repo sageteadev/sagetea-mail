@@ -3,6 +3,7 @@
     "template": "custom",
     "build": "$ROOT/build-armhf.sh",
     "build_dir": "build-armhf",
+    "install_dir": "$BUILD_DIR/release/install-root/",
     "dependencies_build": [
         "binfmt-support", "libexpat1-dev", "libpipeline1", "libpython3-dev", "libpython3.5", "libpython3.5-dev", "libqbscore1.10", "libqbsqtprofilesetup1.10", "libqt5script5", "python-pip-whl", "python3-dev", "python3-pip", "python3-setuptools", "python3-wheel", "python3.5-dev", "qbs", "qbs-common", "qemu-user-static", "zlib1g-dev"
     ],
