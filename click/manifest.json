@@ -19,6 +19,6 @@
             "push-helper": "dekko-helper.json"
         }
     },
-    "version": "0.1.9",
+    "version": "0.2.0",
     "maintainer": "Dan Chapman <dpniel@ubuntu.com>"
 }
