@@ -11,12 +11,14 @@ void DekkoWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestI
 {
     auto requestUrl = info.requestUrl();
 
-    qDebug() << "Request interceptor: Request intercepted for URL " << requestUrl.toString();
     if (!this->hasAllowedScheme(requestUrl))
     {
-        qDebug() << "Request blocked for URL " << requestUrl.toString();
-        info.block(this->remoteResourcesAreBlocked);
-        emit interceptedRemoteRequest(this->remoteResourcesAreBlocked);
+        // check the resourceType() to not block links, not sure thats reliable, but it
+        // seems navigationType() == QWebEngineUrlRequestInfo::NavigationTypeLink always...
+        bool doBlock = this->remoteResourcesAreBlocked
+                       && (info.resourceType() != QWebEngineUrlRequestInfo::ResourceTypeMainFrame);
+        info.block(doBlock);
+        emit interceptedRemoteRequest(doBlock);
     }
 }
 
