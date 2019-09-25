@@ -13,11 +13,7 @@ void DekkoWebEngineUrlSchemeHandler::requestStarted(QWebEngineUrlRequestJob *req
     qDebug() << "Scheme handler called for " << requestUrl.toString();
     if (this->testScheme("cid", requestUrl) && !requestUrl.toString().contains(this->cid))
     {
-        auto path = requestUrl.path();
-        path += this->cid;
-        requestUrl.setPath(path);
-        //request->redirect(requestUrl);
-        //qDebug() << "Scheme handler: Request redirected to url " << requestUrl.toString();
+        requestUrl.setQuery("messageId=" + this->cid);
     }
 
     pendingRequest = request;
