@@ -121,9 +121,6 @@ SettingsGroupPage {
     PageFlickable {
         margins: 0
         anchors.topMargin: units.gu(1)
-        SectionHeader {
-            text: qsTr("Standard folders")
-        }
         Item {
             height: units.gu(5)
             width: parent.width
@@ -196,6 +193,7 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "inbox")
             }
         }
+        
         TitledTextField {
             id: drafts
             anchors {
@@ -211,6 +209,7 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "drafts")
             }
         }
+        
         TitledTextField {
             id: junk
             anchors {
@@ -226,6 +225,7 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "spam")
             }
         }
+        
         TitledTextField {
             id: sent
             anchors {
@@ -241,6 +241,7 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "sent")
             }
         }
+        
         TitledTextField {
             id: outbox
             anchors {
@@ -256,6 +257,7 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "outbox")
             }
         }
+        
         TitledTextField {
             id: trash
             anchors {
@@ -271,42 +273,5 @@ SettingsGroupPage {
                 onTriggered: SettingsActions.pickFolder(account.id, "trash")
             }
         }
-
-        SectionHeader {
-            text: qsTr("Sending messages")
-        }
-
-//        TitledTextField {
-//            id: ccIncludes
-//            anchors {
-//                left: parent.left
-//                right: parent.right
-//                margins: units.gu(2)
-//            }
-//            inputMethodHints: Qt.ImhEmailCharactersOnly | Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
-//            title: qsTr("Cc these email addresses:")
-//            text: mailPolicy ? mailPolicy.ccIncludes : ""
-//            placeholderText: qsTr("Comma separated list")
-//        }
-
-//        TitledTextField {
-//            id: bccIncludes
-//            anchors {
-//                left: parent.left
-//                right: parent.right
-//                margins: units.gu(2)
-//            }
-//            inputMethodHints: Qt.ImhEmailCharactersOnly | Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
-//            title: qsTr("Bcc these email addresses:")
-//            text: mailPolicy ? mailPolicy.bccIncludes : ""
-//            placeholderText: qsTr("Comma separated list")
-//        }
-
-//        SectionHeader {
-//            text: qsTr("Draft messages")
-//        }
-//        SectionHeader {
-//            text: qsTr("Push folders")
-//        }
     }
 }
