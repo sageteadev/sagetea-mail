@@ -29,7 +29,7 @@ void DekkoWebContext::onInterceptedRemoteRequest(bool wasBlocked)
 
 void DekkoWebContext::setMessageUid(QString messageUid)
 {
-    this->urlSchemeHandler.setCid(messageUid);
+    this->urlSchemeHandler.setMessageUid(messageUid);
 }
 
 void DekkoWebContext::setRemoteContentAllowed(bool allowed)
@@ -39,7 +39,7 @@ void DekkoWebContext::setRemoteContentAllowed(bool allowed)
 
 QString DekkoWebContext::getMessageUid() const
 {
-    return this->urlSchemeHandler.getCid();
+    return this->urlSchemeHandler.getMessageUid();
 }
 
 bool DekkoWebContext::isRemoteContentAllowed() const

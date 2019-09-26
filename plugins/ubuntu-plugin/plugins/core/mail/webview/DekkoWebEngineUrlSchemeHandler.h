@@ -18,8 +18,8 @@ public:
     ~DekkoWebEngineUrlSchemeHandler() {
     }
 
-    void setCid(QString cid);
-    QString getCid() const;
+    void setMessageUid(QString messageUid);
+    QString getMessageUid() const;
     void setNetworkAccessManager(QNetworkAccessManager * qnam);
     
 public slots:
@@ -27,7 +27,7 @@ public slots:
 
 private:
     bool testScheme(const QString &scheme, const QUrl &url);
-    QString cid;
+    QString messageUid;
     QWebEngineUrlRequestJob * pendingRequest;
     QNetworkAccessManager * customNetworkAccessManager;
 };

@@ -3,7 +3,7 @@
 #include <QNetworkRequest>
 
 DekkoWebEngineUrlSchemeHandler::DekkoWebEngineUrlSchemeHandler(QWebEngineUrlSchemeHandler *parent) : QWebEngineUrlSchemeHandler(parent),
-    cid(""), pendingRequest(nullptr), customNetworkAccessManager(nullptr)
+    messageUid(""), pendingRequest(nullptr), customNetworkAccessManager(nullptr)
 {
 }
 
@@ -11,9 +11,9 @@ void DekkoWebEngineUrlSchemeHandler::requestStarted(QWebEngineUrlRequestJob *req
 {
     auto requestUrl = request->requestUrl();
     qDebug() << "Scheme handler called for " << requestUrl.toString();
-    if (this->testScheme("cid", requestUrl) && !requestUrl.toString().contains(this->cid))
+    if (this->testScheme("cid", requestUrl) && !requestUrl.toString().contains(this->messageUid))
     {
-        requestUrl.setQuery("messageId=" + this->cid);
+        requestUrl.setQuery("messageId=" + this->messageUid);
     }
 
     pendingRequest = request;
@@ -47,14 +47,14 @@ bool DekkoWebEngineUrlSchemeHandler::testScheme(const QString &scheme, const QUr
     return url.scheme() == scheme;
 }
 
-void DekkoWebEngineUrlSchemeHandler::setCid(QString cid)
+void DekkoWebEngineUrlSchemeHandler::setMessageUid(QString messageUid)
 {
-    this->cid = cid;
+    this->messageUid = messageUid;
 }
 
-QString DekkoWebEngineUrlSchemeHandler::getCid() const
+QString DekkoWebEngineUrlSchemeHandler::getMessageUid() const
 {
-    return this->cid;
+    return this->messageUid;
 }
 
 void DekkoWebEngineUrlSchemeHandler::setNetworkAccessManager(QNetworkAccessManager * qnam)
