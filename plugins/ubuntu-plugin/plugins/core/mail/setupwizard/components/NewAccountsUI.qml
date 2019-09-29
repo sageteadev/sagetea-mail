@@ -30,6 +30,12 @@ DekkoPage {
     objectName: "newAccountUI"
 
     pageHeader.title: qsTr("New account")
+    pageHeader.backAction: Action {
+        iconName: "back"
+        onTriggered: {
+            ViewActions.closeSetupWizard()
+        }
+    }
 
     PresetProviderModel {
         id: providers
