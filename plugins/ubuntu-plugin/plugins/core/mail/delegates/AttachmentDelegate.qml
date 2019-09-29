@@ -62,15 +62,5 @@ ListItem {
             visible: running
             running: attachment.fetchInProgress
         }
-
-        CachedImage {
-            height: Style.defaultSpacing
-            width: height
-            name: Icons.ContextMenuIcon
-            AbstractButton {
-                anchors.fill: parent
-                onClicked: PopupActions.showNotice(PopupKeys.popupMainWindow, "Not implemented. Fix before release")
-            }
-        }
     }
 }

@@ -1,5 +1,0 @@
-{
-    "id": "ubuntu-contacts-stage",
-    "register" : "Dekko::Stage::Contacts",
-    "component" : "AddressBookStage.qml"
-}

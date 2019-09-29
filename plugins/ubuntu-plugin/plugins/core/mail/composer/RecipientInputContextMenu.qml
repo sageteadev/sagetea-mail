@@ -48,7 +48,7 @@ Popover {
                 right: parent.right
             }
             ListItem {
-                visible: !ComposerStore.showCC && d.isToField
+                visible: !ComposerStore.showCC
                 height: ccl.height
                 ListItemLayout {
                     id: ccl
@@ -61,7 +61,7 @@ Popover {
                 }
             }
             ListItem {
-                visible: !ComposerStore.showBCC && d.isToField
+                visible: !ComposerStore.showBCC
                 height: bccl.height
                 ListItemLayout {
                     id: bccl
@@ -70,18 +70,6 @@ Popover {
                 }
                 onClicked: {
                     ComposerActions.addBCC()
-                    PopupUtils.close(info)
-                }
-            }
-            ListItem {
-                height: acl.height
-                ListItemLayout {
-                    id: acl
-                    height: units.gu(6)
-                    title.text: qsTr("Add contact")
-                }
-                onClicked: {
-                    ComposerActions.addRecipientFromContacts(recipientType)
                     PopupUtils.close(info)
                 }
             }

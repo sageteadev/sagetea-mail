@@ -1,5 +1,0 @@
-{
-    "id": "ubuntu-notes-stage",
-    "register" : "Dekko::Stage::Notes",
-    "component" : "NotesStage.qml"
-}

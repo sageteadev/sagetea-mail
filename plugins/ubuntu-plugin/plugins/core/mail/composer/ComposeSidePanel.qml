@@ -22,7 +22,6 @@ import Dekko.Components 1.0
 import QuickFlux 1.0
 import Dekko.Mail.API 1.0
 import Dekko.Mail.Stores.Composer 1.0
-//import Dekko.Contacts.Stores 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Components 1.0
 import "../contacts"
@@ -33,7 +32,7 @@ PanelContainer {
     resizable: !composer.isSmallFF
     minSize: units.gu(20)
     maxSize: units.gu(30)
-    size: ComposerStore.sidePanelOpen ? units.gu(25) : 0
+    size: ComposerStore.sidePanelOpen ? units.gu(15) : 0
     height: parent.height
     activeEdge: Item.Left
     viewState: composer
@@ -55,14 +54,14 @@ PanelContainer {
         AbstractButton {
             id: attachButton
             height: parent.height
-            width: parent.width / 2
+            width: parent.width
             anchors {
                 left: parent.left
                 top: parent.top
             }
             Rectangle {
-                anchors.fill: parent
-                visible: attachButton.pressed /*|| bar.currentIndex === 0*/
+                anchors.fill: parent                                                                                                                                                                  
+                visible: attachButton.pressed
                 color: Suru.neutralColor
             }
             onClicked: bar.currentIndex = 0
@@ -94,39 +93,6 @@ PanelContainer {
             }
         }
 
-        AbstractButton {
-            id: contactButton
-            height: parent.height
-            width: parent.width / 2
-            anchors {
-                right: parent.right
-                top: parent.top
-            }
-            Rectangle {
-                anchors.fill: parent
-                visible: contactButton.pressed /*|| bar.currentIndex === 1*/
-                color: Suru.neutralColor
-            }
-            onClicked: bar.currentIndex = 1
-            CachedImage {
-                anchors.centerIn: parent
-                name: Icons.NewContactIcon
-                height: units.gu(3)
-                width: height
-                color: bar.currentIndex === 1 ? UbuntuColors.blue : UbuntuColors.ash
-            }
-            Rectangle {
-                anchors {
-                    left: parent.left
-                    bottom: parent.bottom
-                    right: parent.right
-                }
-                height: units.dp(2)
-                color: UbuntuColors.blue
-                visible: bar.currentIndex === 1
-            }
-        }
-
         Line {
             anchors {
                 bottom: parent.bottom
@@ -146,18 +112,4 @@ PanelContainer {
             bottom: parent.bottom
         }
     }
-
-//    ContactsListView {
-//        visible: bar.currentIndex === 1
-//        addressBook: ContactsStore.selectedAddressBook
-//        filterEmailOnly: true
-//        state: "slimPicker"
-//        anchors {
-//            top: parent.top
-//            topMargin: units.gu(4)
-//            left: parent.left
-//            right: parent.right
-//            bottom: parent.bottom
-//        }
-//    }
 }

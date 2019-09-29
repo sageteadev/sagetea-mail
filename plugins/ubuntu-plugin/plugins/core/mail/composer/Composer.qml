@@ -77,24 +77,6 @@ ViewState {
                 }
             }
         }
-//        Rectangle {
-//            id: toolbar
-//            anchors {
-//                left: parent.left
-//                right: parent.right
-//            }
-//            height: composePanel.textFieldFocused ? units.gu(5) : 0
-//            implicitHeight: height
-//            color: Suru.secondaryBackgroundColor
-//            Line {
-//                anchors {
-//                    bottom: parent.bottom
-//                    right: parent.right
-//                    left: parent.left
-//                }
-//            }
-//            Behavior on height { UbuntuNumberAnimation {} }
-//        }
 
         Stretcher {
             id: content

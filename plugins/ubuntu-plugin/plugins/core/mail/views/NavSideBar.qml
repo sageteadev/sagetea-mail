@@ -44,10 +44,6 @@ StyledItem {
                 visible: dekko.isLargeFF
             },
             Action {
-                iconName: "like"
-                visible: dekko.isSmallFF
-            },
-            Action {
                 iconName: "settings"
                 visible: dekko.isSmallFF
                 onTriggered: ViewActions.openSettings()

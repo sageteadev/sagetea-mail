@@ -57,14 +57,6 @@ Popover {
                         PopupUtils.close(actionPopover)
                     }
                 },
-//                ContextAction {
-//                    visible: folder.supportedActions & MessageSet.SearchFolder
-//                    description: qsTr("Search folder")
-//                    actionIcon: Icons.SearchIcon
-//                    onTriggered: {
-//                        PopupUtils.close(actionPopover)
-//                    }
-//                },
                 ContextAction {
                     visible: folder.supportedActions & MessageSet.MarkAsRead
                     description: qsTr("Mark folder read")
@@ -73,44 +65,18 @@ Popover {
                         MailboxActions.markStandardFoldersRead(folder.folderType)
                         PopupUtils.close(actionPopover)
                     }
-                },
-                ContextAction {
-                    visible: folder.supportedActions & MessageSet.MarkAsDone
-                    description: qsTr("Mark all done")
-                    actionIcon: Icons.TickIcon
-                    onTriggered: {
-                        PopupActions.showNotice(PopupKeys.popupMainWindow, "Not implemented yet. Sorry :-(")
-                        PopupUtils.close(actionPopover)
-                    }
                 }
             ]
         }
 
         ContextGroup {
             contextActions: [
-//                ContextAction {
-//                    visible: folder.supportedActions & MessageSet.Expunge
-//                    description: qsTr("Compact folder")
-//                    actionIcon: Icons.DeleteIcon
-//                    onTriggered: {
-//                        PopupUtils.close(actionPopover)
-//                    }
-//                },
                 ContextAction {
                     visible: folder.supportedActions & MessageSet.EmptyTrash
                     description: qsTr("Empty trash")
                     actionIcon: Icons.DeleteIcon
                     onTriggered: {
                         MailboxActions.emptyTrash()
-                        PopupUtils.close(actionPopover)
-                    }
-                },
-                ContextAction {
-                    visible: folder.supportedActions & MessageSet.ShowProperties
-                    description: qsTr("Folder properties")
-                    actionIcon: Icons.FolderIcon
-                    onTriggered: {
-                        PopupActions.showNotice(PopupKeys.popupMainWindow, "Not implemented yet. Sorry :-(")
                         PopupUtils.close(actionPopover)
                     }
                 }

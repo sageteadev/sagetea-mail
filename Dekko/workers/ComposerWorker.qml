@@ -219,13 +219,6 @@ AppListener {
     }
 
     Filter {
-        type: ComposerKeys.addRecipientFromContacts
-        onDispatched: {
-            Log.logWarning("ComposerWorker::addRecipientFromContacts", "Not implemented yet")
-        }
-    }
-
-    Filter {
         type: ComposerKeys.appendTextToBody
         onDispatched: {
             ComposerStore.builder.appendTextToBody(message.text)

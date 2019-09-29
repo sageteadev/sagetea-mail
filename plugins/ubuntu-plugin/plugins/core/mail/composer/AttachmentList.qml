@@ -43,7 +43,6 @@ ScrollView {
             showDivider: true
             triggerIndex: model.index
             leftSideAction: ComposerStore.actions.deleteAttachment
-//            rightSideActions: [flagAction, readAction, contextAction]
             onItemClicked: {
                 if (mouse.button === Qt.RightButton) {
                     PopupUtils.open(Qt.resolvedUrl("../popovers/AttachmentPopover.qml"),
@@ -55,11 +54,7 @@ ScrollView {
                     return;
                 }
                 Log.logInfo("AttachmentList::openAttachment", "Attachment octet size is: %1".arg(model.qtObject.sizeInBytes))
-                // TODO; If attachment.partType === Attachment.File {
                 Qt.openUrlExternally("file:///%1".arg(attachment.url))
-                // } else {
-                // model.qtObject.open(openItem.createObject())
-                // }
             }
             ListItemLayout {
                 id: aLayout

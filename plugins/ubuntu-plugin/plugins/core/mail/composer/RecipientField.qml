@@ -135,6 +135,7 @@ FocusScope {
                 top: parent.top
                 topMargin: -units.gu(0.5)
             }
+            visible: !ComposerStore.showCC || !ComposerStore.showBCC
             height: units.gu(5)
             width: units.gu(4)
             implicitWidth: width

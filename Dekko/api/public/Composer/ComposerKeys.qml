@@ -46,7 +46,6 @@ KeyTable {
     property string invalidAddress
     property string validAddress
     property string addRecipientIfValid
-    property string addRecipientFromContacts
     property string addRecipientFromAddress
     property string addRecipientFromNameAddress
     property string removeRecipient

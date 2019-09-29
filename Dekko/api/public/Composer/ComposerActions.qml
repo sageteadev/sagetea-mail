@@ -42,10 +42,6 @@ ActionCreator {
     signal removeAttachment(int index)
     signal appendTextToSubject(string text)
     signal appendTextToBody(string text)
-    // Add recipient from address book contacts
-    // type: RecipientType enum value of To, Cc, Bcc
-    // This is used by the contact picker to add to the correct model
-    signal addRecipientFromContacts(int type)
     signal validateAddress(int type, string address)
     signal invalidAddress(int type, string address)
     signal validAddress(int type, string address)
