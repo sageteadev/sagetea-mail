@@ -29,6 +29,7 @@ AppListener {
         type: AccountKeys.deleteAccount
         onDispatched: {
             d.__accountAboutToRemove = message.accountId
+            d.removeAccountName = message.accountName
             if (!AccountStore.enabledAccounts.hasAccount(d.__accountAboutToRemove)) {
                 Log.logError("AccountWorker::deleteAccount", "Invalid account id. Cancelling removal")
                 if (message.confirmRemoval) {
@@ -50,7 +51,7 @@ AppListener {
         type: AccountKeys.confirmRemoveAccount
         onDispatched: {
             Log.logWarning("AccountWorker::confirmRemoveAccount", "Prompting to confirm account removal")
-            PopupActions.showConfirmationDialog(PopupKeys.popupSettings, d.removeAccountDlgId, qsTr("Remove account"), qsTr("Are you sure you wish to remove this account?"))
+            PopupActions.showConfirmationDialog(PopupKeys.popupSettings, d.removeAccountDlgId, qsTr("Remove %1").arg(d.removeAccountName), qsTr("Are you sure you wish to remove this account?"))
         }
     }
 
@@ -150,6 +151,7 @@ AppListener {
     QtObject {
         id: d
         property string removeAccountDlgId: "remove-account-dlg"
+        property string removeAccountName: "remove-account-name"
         property int __accountAboutToRemove: -1
     }
 }

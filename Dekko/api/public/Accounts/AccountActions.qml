@@ -31,9 +31,10 @@ ActionCreator {
     /*!
      * Deletes the complete account removing all messages and configs
      * @param int The accounts ID
+     * @param string The account name
      * @param bool Whether we should prompt for removal of the account.
      */
-    signal deleteAccount(int accountId, bool confirmRemoval)
+    signal deleteAccount(int accountId, string accountName, bool confirmRemoval)
     signal confirmRemoveAccount()
 
 

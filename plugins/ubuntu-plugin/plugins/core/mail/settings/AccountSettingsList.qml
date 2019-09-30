@@ -41,7 +41,7 @@ DekkoPage {
     pageHeader.primaryAction: Action {
         iconName: "delete"
         onTriggered: {
-            AccountActions.deleteAccount(SettingsStore.selectedAccountId, true)
+            AccountActions.deleteAccount(SettingsStore.selectedAccountId, SettingsStore.selectedAccount.name, true)
             ViewActions.popStageArea(ViewKeys.settingsStack2)
             ViewActions.popStageArea(ViewKeys.settingsStack1)
         }
