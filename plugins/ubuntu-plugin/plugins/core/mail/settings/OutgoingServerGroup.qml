@@ -26,7 +26,7 @@ import Dekko.Ubuntu.Components 1.0
 import "../components"
 
 SettingsGroupPage {
-    pageHeader.title: qsTr("Outgoing Server")
+    pageHeader.title: qsTr("Outgoing Server: %1").arg(SettingsStore.selectedAccount.name)
 
     property SmtpAccountConfig outgoing: account.outgoing
 

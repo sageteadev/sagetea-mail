@@ -23,7 +23,7 @@ import PlugMan 1.0
 import Dekko.Ubuntu.Components 1.0
 
 DekkoPage {
-    pageHeader.title: qsTr("Account Settings")
+    pageHeader.title: qsTr("Account Settings: %1").arg(SettingsStore.selectedAccount.name)
     pageHeader.backAction: Action {
         iconName: "back"
         onTriggered: {

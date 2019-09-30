@@ -24,7 +24,7 @@ import Dekko.Mail.Stores.Settings 1.0
 import Dekko.Ubuntu.Components 1.0
 
 SettingsGroupPage {
-    pageHeader.title: qsTr("Details")
+    pageHeader.title: qsTr("Details: %1").arg(SettingsStore.selectedAccount.name)
 
     function settingsChanged() {
         if (account.name !== accountName.text

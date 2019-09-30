@@ -28,7 +28,7 @@ import Dekko.Mail.Stores.Settings 1.0
 import Dekko.Ubuntu.Components 1.0
 
 SettingsGroupPage {
-    pageHeader.title: qsTr("Copies and Folders")
+    pageHeader.title: qsTr("Copies and Folders: %1").arg(SettingsStore.selectedAccount.name)
 
     property AccountConfig incoming: account.incoming
     property bool creatingStandardFolders: false

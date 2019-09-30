@@ -26,7 +26,7 @@ import Dekko.Ubuntu.Components 1.0
 import "../components"
 
 SettingsGroupPage {
-    pageHeader.title: qsTr("Incoming Server")
+    pageHeader.title: qsTr("Incoming Server: %1").arg(SettingsStore.selectedAccount.name)
 
     property AccountConfig incoming: account.incoming
 
