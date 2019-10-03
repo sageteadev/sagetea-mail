@@ -90,7 +90,9 @@ ViewState {
                 MailboxWorker {
                     mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
                 },
-                SettingsWorker {},
+                SettingsWorker {
+                    mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
+                },
                 UriWorker {},
                 ErrorsWorker {},
                 ContentWorker {}

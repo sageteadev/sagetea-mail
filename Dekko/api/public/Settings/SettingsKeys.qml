@@ -33,7 +33,6 @@ KeyTable {
     property string detectStandardFolders
     property string createStandardFolders
 
-
     property string saveCurrentGroup
     property string saveCurrentGroupNow
     property string saveIdentity

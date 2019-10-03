@@ -112,10 +112,11 @@ AppListener {
             if (Client.detectStandardFolders(SettingsStore.selectedAccount.id)) {
                 console.log("Standard Folders detected")
             } else {
-                console.warn("Standard folders no detected")
+                console.log("Standard folders no detected")
             }
         }
     }
+    
     Filter {
         type: SettingsKeys.createStandardFolders
         onDispatched: {
@@ -128,7 +129,7 @@ AppListener {
         property string fieldId: ""
         runWhen: SettingsKeys.pickFolder
         script: {
-            Log.logInfo("MailboxWorker::moveMessage", "Opening folder picker.")
+            console.log("SettingsWorker::moveMessage", "Opening folder picker.")
             fieldId = message.fieldId
             ViewActions.pushToStageArea(ViewKeys.settingsStack1,
                                         mailboxPickerUrl,
@@ -137,7 +138,7 @@ AppListener {
                                             accountId: message.accountId
                                         })
             once(SettingsKeys.folderPicked, function (result) {
-                Log.logInfo("MailboxWorker::moveMessage", "Folder selected")
+                console.log("SettingsWorker::moveMessage", "Folder selected")
                 if (result.pickerId !== pickerId) {
                     return;
                 }

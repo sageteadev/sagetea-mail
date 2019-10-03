@@ -23,7 +23,6 @@ import QuickFlux 1.0
 * @ingroup qml_actions
 */
 ActionCreator {
-
     signal openSettingsGroup(string group)
     signal switchSettingsGroupLocation(string stackKey)
     signal setSelectedAccount(var account)

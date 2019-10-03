@@ -31,7 +31,6 @@ SettingsGroupPage {
     pageHeader.title: qsTr("Copies and Folders: %1").arg(SettingsStore.selectedAccount.name)
 
     property AccountConfig incoming: account.incoming
-    property bool creatingStandardFolders: false
 
     function settingsChanged() {
         if (incoming.baseFolder !== basePath.text
@@ -40,18 +39,14 @@ SettingsGroupPage {
             || account.specialUseFolderPath(Account.SentFolder) !== sent.text
             || account.specialUseFolderPath(Account.JunkFolder) !== junk.text
             || account.specialUseFolderPath(Account.OutboxFolder) !== outbox.text
-            || account.specialUseFolderPath(Account.TrashFolder) !== trash.text
-            || ccIncludes.text !== mailPolicy.ccIncludes
-            || ccIncludes.text !== mailPolicy.ccIncludes )
+            || account.specialUseFolderPath(Account.TrashFolder) !== trash.text)
         {
-            Log.logInfo("CopyFoldersGroup::determineIfSettingsChanged", "Settings have changed")
             return true
         } else {
-            Log.logInfo("CopyFoldersGroup::determineIfSettingsChanged", "No changes")
             return false
         }
     }
-
+    
     MailPolicy {
         id: mailPolicy
         accountId: SettingsStore.selectedAccount.accountId
@@ -62,7 +57,7 @@ SettingsGroupPage {
         Filter {
             type: SettingsKeys.saveCurrentGroup
             onDispatched: {
-                Log.logInfo("CopyFoldersGroup::saveCurrentGroup", "Saving current group")
+                console.log("CopyFoldersGroup::saveCurrentGroup", "Saving current group")
                 if (!settingsChanged()) {
                     return
                 }
@@ -73,10 +68,8 @@ SettingsGroupPage {
                 account.setSpecialUseFolder(Account.JunkFolder, junk.text)
                 account.setSpecialUseFolder(Account.OutboxFolder, outbox.text)
                 account.setSpecialUseFolder(Account.TrashFolder, trash.text)
-                mailPolicy.ccIncludes = ccIncludes.text
-                mailPolicy.bccIncludes = bccIncludes.text
                 SettingsStore.settingsChanged = true
-                Log.logInfo("CopyFoldersGroup::saveCurrentGroup", "Current group saved")
+                console.log("CopyFoldersGroup::saveCurrentGroup", "Current group saved")
                 SettingsActions.currentGroupSaved()
             }
         }
@@ -110,14 +103,7 @@ SettingsGroupPage {
             }
         }
     }
-
-    Connections {
-        target: Client
-        onStandardFoldersCreated: {
-            creatingStandardFolders = false
-        }
-    }
-
+    
     PageFlickable {
         margins: 0
         anchors.topMargin: units.gu(1)
@@ -134,16 +120,6 @@ SettingsGroupPage {
                 text: qsTr("Detect standard folders")
             }
 
-            ActivityIndicator {
-                running: creatingStandardFolders
-                visible: running
-                anchors {
-                    right: detectButton.left
-                    rightMargin: units.gu(1)
-                    verticalCenter: detectButton.verticalCenter
-                }
-            }
-
             Button {
                 id: detectButton
                 Suru.highlightType: Suru.PositiveHighlight
@@ -156,7 +132,6 @@ SettingsGroupPage {
                 }
                 onClicked: {
                     SettingsActions.detectStandardFolders()
-                    creatingStandardFolders = true
                 }
             }
         }
