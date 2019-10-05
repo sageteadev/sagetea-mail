@@ -23,6 +23,13 @@ BaseStage {
         spacing: 0
         anchors.fill: parent
 
+        NavPluginSideBar {
+            height: parent.height
+            width: units.gu(8)
+            implicitWidth: width
+            visible: !dekko.isSmallFF && !AccountSetup.wizardRunning
+        }
+        
         Stretcher {
             anchors {
                 top: parent.top
