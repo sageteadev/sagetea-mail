@@ -17,6 +17,7 @@
 */
 import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
+import QtFeedback 5.0
 import Ubuntu.Components 1.3
 import Dekko.Components 1.0
 import Dekko.Mail.API 1.0
@@ -125,6 +126,21 @@ Flipable {
             anchors.centerIn: parent
             checked: msg && msg.checked
         }
+        
+        MouseArea {
+            id: mA
+            hoverEnabled: true
+            anchors.fill: parent
+            visible: flipable.state === "back"
+            onClicked: {
+                clickEffect.start()
+                if (msg.checked) {
+                    MessageActions.setMessageCheck(model.index, Qt.Unchecked)
+                } else {
+                    MessageActions.setMessageCheck(model.index, Qt.Checked)
+                }
+            }
+        }
     }
 
     transform: Rotation {
@@ -167,5 +183,15 @@ Flipable {
             }
             NumberAnimation { target: rotation; property: "angle"; duration: UbuntuAnimation.FastDuration }
         }
+    }
+    
+    HapticsEffect {
+        id: clickEffect
+        attackIntensity: 0.0
+        attackTime: 50
+        intensity: 1.0
+        duration: 10
+        fadeTime: 50
+        fadeIntensity: 0.0
     }
 }
