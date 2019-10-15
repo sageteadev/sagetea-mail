@@ -1,5 +1,4 @@
 import qbs
-import qbs.Process
 
 Project {
 
@@ -8,25 +7,6 @@ Project {
     QtGuiApplication {
         name: "Dekko Mail"
         targetName: "dekko"
-
-        Probe {
-            id: revprobe
-            property string revision
-            property string version: project.version
-            // --git-dir needs to be pointed at the toplevel .git directory to work
-            property string sourceDir: project.sourceDirectory + "/.git"
-            property string setVersionBin: project.sourceDirectory + "/click/set-version"
-
-            configure: {
-                revision = "no-git";
-                var p = new Process();
-                p.setWorkingDirectory(sourceDir)
-                if (p.exec("/usr/bin/git", ["--git-dir=" + sourceDir, "describe", "--dirty", "--long", "--always"], true) === 0)
-                    revision = p.readStdOut().trim();
-                    p.exec(setVersionBin, [version], true)
-                p.close()
-            }
-        }
 
         Depends { name : "cpp" }
         Depends {
@@ -56,7 +36,7 @@ Project {
             "SNAP_MODE",
             "APP_NAME=\"dekko\"",
             "APP_ORG=\"dekkoproject\"",
-            "DEKKO_VERSION=\"" + project.version + "-" + revprobe.revision + "\""
+            "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
         ]
 
         Properties {
@@ -65,7 +45,7 @@ Project {
                 "CLICK_MODE",
                 "APP_NAME=\"dekko2.dekkoproject\"",
                 "APP_ORG=\"dekko2.dekkoproject\"",
-                "DEKKO_VERSION=\"" + project.version + "-" + revprobe.revision + "\""
+                "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }
 

@@ -2,7 +2,7 @@
     "name": "dekko2.dekkoproject",
     "description": "Experimental release of the next generation Dekko.",
     "framework": "ubuntu-sdk-16.04",
-    "architecture": "armhf",
+    "architecture": "%HOST_ARCH%",
     "title": "Dekko 2",
     "hooks": {
         "dekko": {

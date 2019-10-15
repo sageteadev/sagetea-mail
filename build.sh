@@ -6,10 +6,15 @@ if [ "$ARCH_TRIPLET" == "arm-linux-gnueabihf" ]; then
     ARCH=armhf
 elif [ "$ARCH_TRIPLET" == "x86_64-linux-gnu" ]; then
     ARCH=amd64
+elif [ "$ARCH_TRIPLET" == "aarch64-linux-gnu" ]; then
+	ARCH=arm64
 else
     echo "unsupported target architecture $ARCH_TRIPLET"
     exit 1
 fi
+
+DIR=$(dirname "${BASH_SOURCE[0]}")
+cat ${DIR}/dekko.qbs.in | sed "s/%HOST_ARCH%/${ARCH}/" > ${DIR}/dekko.qbs
 
 function install_python_deps
 {
@@ -23,7 +28,7 @@ function install_python_deps
     done
 }
 
-ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
 cd $ROOT
 
 if [ "$ARCH" == "amd64" ]; then

@@ -20,6 +20,25 @@ click:armhf:
     when: on_success
     expire_in: 1 week
 
+click:arm64:
+  stage: clickbuild
+  image: clickable/ci-16.04-arm64
+  tags:
+    - docker
+  script:
+    - apt-get update
+    - apt-get install qemu-user-static --quiet --yes
+    - clickable build click-build
+  cache:
+    paths:
+      - build/aarch64-linux-gnu
+    untracked: true
+  artifacts:
+    paths:
+      - 'build/aarch64-linux-gnu/*.click'
+    when: on_success
+    expire_in: 1 week
+
 builddocs:
   stage: builddocs
   image: clickable/ci-16.04-armhf

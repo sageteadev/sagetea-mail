@@ -1,4 +1,5 @@
 import qbs
+import qbs.Process
 
 Project {
     id: dekko
@@ -6,6 +7,29 @@ Project {
     property string appName: "Dekko"
     property string pkgName: "dekko.dekkoproject"
     property string version: "0.2.2"
+	property string arch: "%HOST_ARCH%"
+
+    Probe {
+        id: revprobe
+
+        // --git-dir needs to be pointed at the toplevel .git directory to work
+        property string sourceDir: sourceDirectory + "/.git"
+        property string setVersionBin: sourceDirectory + "/click/set-version"
+        property string version: project.version
+        property string arch: project.arch
+        property string revision
+
+        configure: {
+            revision = "no-git";
+            var p = new Process();
+            p.setWorkingDirectory(sourceDir)
+            if (p.exec("/usr/bin/git", ["--git-dir=" + sourceDir, "describe", "--long", "--always"], true) === 0)
+                revision = p.readStdOut().trim();
+                p.exec(setVersionBin, [version, arch], true)
+            p.close()
+        }
+    }
+    property string revision: revprobe.revision
 
     property string binDir: "bin"
     PropertyOptions {

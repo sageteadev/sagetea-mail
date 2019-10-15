@@ -14,13 +14,6 @@ Product {
         fileTags: ["clickroot"]
     }
 
-//    Group {
-//        name: "Online Accounts"
-//        files: [
-//            "dekko.dekkoproject_dekko.*"
-//        ]
-//    }
-
     Group {
         name: "Click Manifests"
         files: [
@@ -30,13 +23,6 @@ Product {
         ]
         fileTags: ["clickroot"]
     }
-
-//    Group {
-//        name: "Push Helpers"
-//        files: [
-//            "dekko-helper"
-//        ]
-//    }
 
     Group {
         name: "Launcher"
