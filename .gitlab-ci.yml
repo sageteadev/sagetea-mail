@@ -13,9 +13,7 @@ click:armhf:
   tags:
     - docker
   script:
-    - apt-get update
-    - apt-get install qemu-user-static --quiet --yes
-    - clickable build click-build
+    - clickable build
   artifacts:
     paths:
       - 'build/arm-linux-gnueabihf/*.click'
