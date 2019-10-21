@@ -112,8 +112,10 @@ QString MinimalMessage::prettyDate()
     int beforeDays = timestamp.date().daysTo(QDate::currentDate());
     if (beforeDays <= 7) {
         return timestamp.toString(tr("ddd hh:mm"));
-    } else {
+    } else if (beforeDays <= 31) {
         return timestamp.toString(tr("dd MMM"));
+    } else {
+        return timestamp.toString(tr("dd MMM yy"));
     }
 }
 
