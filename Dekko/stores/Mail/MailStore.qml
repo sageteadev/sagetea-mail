@@ -70,7 +70,6 @@ BaseMessagingStore {
             repeat: false
             onTriggered: {
                 msgList.disableUpdates = false;
-                msgList.refresh();
             }
         }
     }
