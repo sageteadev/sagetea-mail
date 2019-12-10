@@ -59,6 +59,7 @@ public:
 
     bool hasRecipients() { return !m_to->isEmpty(); }
     bool hasIdentities() { return !m_identities->isEmpty(); }
+    int selectedIdentity() { return m_identities->selectedIndex(); }
     QObject *identities() const;
     QMailMessageId lastDraftId() const {return m_lastDraftId;}
     void setLastDraftId(const QMailMessageId &id);

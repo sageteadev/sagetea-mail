@@ -83,6 +83,11 @@ AppListener {
                 break
                 case SubmissionManager.NoIdentities:
                 Log.logError("ComposerStore::SubmissionManager::NoIdentities", "No identities available for MessageBuilder. Cannot proceed...")
+                PopupActions.showNotice(PopupKeys.popupComposer, qsTr("Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity."))
+                break
+                case SubmissionManager.InvalidIdentity:
+                Log.logError("ComposerStore::SubmissionManager::InvalidIdentity", "Invalid identity for MessageBuilder. Cannot proceed...")
+                PopupActions.showNotice(PopupKeys.popupComposer, qsTr("Somethings fishy with your Identity. Please select a valid sender."))
                 break
             }
         }

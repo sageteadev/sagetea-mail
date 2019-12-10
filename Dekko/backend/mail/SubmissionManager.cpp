@@ -106,12 +106,13 @@ void SubmissionManager::send()
 
 void SubmissionManager::saveDraft(const bool userTriggered)
 {
-    if (!hasBuilder() || !hasIdentities()) {
+    if (!hasBuilder() || !hasIdentities() || !selectedIdentityIsValid()) {
         return;
     }
     if (!userTriggered) {
         emit savingDraftSilently();
     }
+
     QMailMessage msg = m_builder->message();
     msg.setStatus(QMailMessage::Draft, true);
     msg.setStatus(QMailMessage::Outbox, false);
@@ -278,6 +279,15 @@ bool SubmissionManager::hasIdentities()
 {
     if (!m_builder->hasIdentities()) {
         emit error(Error::NoIdentities);
+        return false;
+    }
+    return true;
+}
+
+bool SubmissionManager::selectedIdentityIsValid()
+{
+    if (m_builder->selectedIdentity() == -1) {
+        emit error(Error::InvalidIdentity);
         return false;
     }
     return true;

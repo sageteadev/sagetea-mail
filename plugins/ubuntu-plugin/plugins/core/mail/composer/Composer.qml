@@ -43,6 +43,7 @@ ViewState {
                 TitledHeaderButton {
                     height: units.gu(5)
                     anchors.verticalCenter: parent.verticalCenter
+                    visible: ComposerStore.hasValidIdentity
                     action: ComposerStore.actions.saveDraftAction
                     showLabel: row.textVisible
                 }
@@ -64,6 +65,7 @@ ViewState {
                 TitledHeaderButton {
                     height: units.gu(5)
                     anchors.verticalCenter: parent.verticalCenter
+                    visible: ComposerStore.hasValidIdentity
                     action: ComposerStore.actions.sendAction
                     showLabel: row.textVisible
                 }

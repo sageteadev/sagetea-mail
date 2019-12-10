@@ -48,7 +48,8 @@ public:
     enum Error {
         NoBuilder,
         InvalidMessage,
-        NoIdentities
+        NoIdentities,
+        InvalidIdentity
     };
 
     QObject *builder() const;
@@ -80,6 +81,7 @@ public slots:
 protected:
     bool hasBuilder();
     bool hasIdentities();
+    bool selectedIdentityIsValid();
 
 private slots:
     void maybeStartSaveTimer();
