@@ -5,4 +5,5 @@ export DEKKO_PLUGINS=${DEKKO_EXPORT_PATH}/Dekko/plugins
 export QMF_PLUGINS=${DEKKO_EXPORT_PATH}/qmf/plugins5
 export QMF_DATA=$HOME/.cache/dekko2.dekkoproject
 
+ulimit -c unlimited
 dekkod
