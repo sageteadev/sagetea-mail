@@ -2,9 +2,9 @@
 
 set -e
 
-BUILD_VARIANT="qbs.buildVariant:release"
-if [ ${DEBUG_BUILD} == "1" ]; then
-    BUILD_VARIANT="qbs.buildVariant:debug"
+BUILD_VARIANT="release"
+if [ $DEBUG_BUILD == "1" ]; then
+    BUILD_VARIANT="debug"
 fi
 
 if [ "${ARCH_TRIPLET}" == "arm-linux-gnueabihf" ]; then
@@ -57,6 +57,6 @@ export LIB_DIR=$DIR_PREFIX
 export DATA_DIR=/usr/share/dekko
 export QML_DIR=$LIB_DIR
 
-qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:dekkoqt5-$ARCH $BUILD_VARIANT
+qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:dekkoqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT
 
 install_python_deps
