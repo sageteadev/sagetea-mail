@@ -46,7 +46,6 @@ builddocs:
     - apt update
     - apt install -y doxygen plantuml graphviz
     - doxygen
-    - mv ../doxygen-out ./
   artifacts:
     paths:
       - ./doxygen-out

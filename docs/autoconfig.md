@@ -1,4 +1,4 @@
-# Autoconfiguration in Dekko
+# Autoconfiguration in Dekko {#dev_autoconfig}
 
 During the account creation via the setup wizard. Dekko attempts to find an xml or json configuration file for the server
 details based on the users domain name.

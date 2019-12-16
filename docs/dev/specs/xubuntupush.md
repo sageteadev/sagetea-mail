@@ -1,5 +1,0 @@
-```json
-{
-    "hello": "world"
-}
-```

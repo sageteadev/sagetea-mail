@@ -1,4 +1,4 @@
-# Notification Plugin for Ubuntu/Ubports devices
+# Notification Plugin for Ubuntu/Ubports devices {#dev_notifications_plugin}
 
 This plugin consists of
 
