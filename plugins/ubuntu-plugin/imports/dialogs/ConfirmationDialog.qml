@@ -49,8 +49,6 @@ DialogBase {
             Button {
                 id: cancelButton
                 text: qsTr("Cancel")
-                Suru.highlightType: Suru.NegativeHighlight
-                color: Suru.highlightColor
                 width: parent.width / 2 - units.gu(0.5)
                 onClicked: {
                     if (cancelAction) {
