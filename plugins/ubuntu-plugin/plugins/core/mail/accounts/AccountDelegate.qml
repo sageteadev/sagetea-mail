@@ -49,7 +49,7 @@ ListItem {
         actions: [
             Action {
                 iconName: "delete"
-                onTriggered: AccountActions.deleteAccount(account.id, true)
+                onTriggered: AccountActions.deleteAccount(account.id, account.name, true)
             }
         ]
     }
