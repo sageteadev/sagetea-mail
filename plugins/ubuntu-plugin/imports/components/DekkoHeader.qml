@@ -260,6 +260,7 @@ PixelPerfectItem {
                     text: dekkoHeader.title
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.left: parent.left
+                    width: parent.width
                     fontSize: "large"
                     elide: Text.ElideRight
                     clip: true
