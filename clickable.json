@@ -4,7 +4,7 @@
     "build": "$ROOT/build.sh",
     "build_dir": "build/$ARCH_TRIPLET",
     "install_dir": "$BUILD_DIR/release/install-root/",
-    "dependencies_build": [
+    "dependencies_host": [
         "binfmt-support",
 	"libexpat1-dev",
 	"libpipeline1",
