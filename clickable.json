@@ -27,6 +27,7 @@
     ],
     "dependencies_target": [
         "libaccounts-qt5-dev",
+	"qtbase5-dev",
 	"libconnectivity-qt1-dev",
 	"libsasl2-dev",
 	"libsasl2-modules",
