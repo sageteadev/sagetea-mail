@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="nds">
 <context>
     <name>AccountSettingsList</name>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontoinstellungen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Details</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
         <source>Incoming Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Postingangsserver</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="64"/>
         <source>Outgoing Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Utgangsserver</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="68"/>
         <source>Copies and Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopien un Ördners</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="30"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Erfolg</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="89"/>

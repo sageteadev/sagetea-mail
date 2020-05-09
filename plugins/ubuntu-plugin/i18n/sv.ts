@@ -1049,7 +1049,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="45"/>
         <source>Display settings</source>
-        <translation>Visningsinställningar</translation>
+        <translation>Visa inställningarna</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="67"/>

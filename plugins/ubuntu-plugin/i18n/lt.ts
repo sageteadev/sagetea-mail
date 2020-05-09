@@ -117,7 +117,7 @@
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="62"/>
         <source>CRAM-MD5</source>
-        <translation type="unfinished"></translation>
+        <translation>CRAM-MD5</translation>
     </message>
 </context>
 <context>
@@ -664,7 +664,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="213"/>
         <source>Check when roaming</source>
-        <translation type="unfinished"></translation>
+        <translation>Tikrinti besinaudojant tarptinkliniu ryšiu</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="219"/>
@@ -890,7 +890,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="89"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Atlikta</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="103"/>
@@ -1133,7 +1133,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/delegates/NavMenuStandardFolderDelegate.qml" line="178"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gauta (%1)</translation>
     </message>
 </context>
 <context>
@@ -1290,7 +1290,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/PrivacySettings.qml" line="42"/>
         <source>Auto load images</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiškai įkelti paveikslus</translation>
     </message>
 </context>
 <context>
@@ -1452,7 +1452,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/delegates/SmartFolderDelegate.qml" line="155"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gauta (%1)</translation>
     </message>
 </context>
 <context>
@@ -1476,7 +1476,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../imports/components/TitledTextField.qml" line="61"/>
         <source> (Required)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Būtina)</translation>
     </message>
 </context>
 <context>

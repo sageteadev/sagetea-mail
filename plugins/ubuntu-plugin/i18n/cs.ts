@@ -220,7 +220,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="61"/>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="78"/>
@@ -312,7 +312,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="175"/>
         <source>Leave empty if you are unsure</source>
-        <translation>Pokud si nejste jisti zanechte prázdné</translation>
+        <translation>Pokud nevíte, nevyplňujte</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="190"/>
@@ -327,7 +327,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="220"/>
         <source>Spam folder</source>
-        <translation>Spam</translation>
+        <translation>Nevyžádaná pošta</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="235"/>
@@ -386,7 +386,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../imports/components/DekkoHeader.qml" line="204"/>
         <source>Enter search...</source>
-        <translation>Vyhledat...</translation>
+        <translation>Vyhledat…</translation>
     </message>
 </context>
 <context>
@@ -438,7 +438,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="28"/>
         <source>Navigation menu</source>
-        <translation>Hlavní menu</translation>
+        <translation>Hlavní nabídka</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="32"/>
@@ -463,7 +463,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="67"/>
         <source>Prefer plain text</source>
-        <translation>Upřednostnit jednoduchý text</translation>
+        <translation>Upřednostnit neformátovaný text</translation>
     </message>
 </context>
 <context>
@@ -576,7 +576,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="110"/>
         <source>Email Address</source>
-        <translation>Emailová adresa</translation>
+        <translation>E-mailová adresa</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="115"/>
@@ -597,7 +597,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="169"/>
         <source>Edit identity</source>
-        <translation>Editovat profil</translation>
+        <translation>Upravit profil</translation>
     </message>
 </context>
 <context>
@@ -666,7 +666,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="213"/>
         <source>Check when roaming</source>
-        <translation>Kontrola při roamingu</translation>
+        <translation>Zjišťovat i v roamingu</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="219"/>
@@ -780,7 +780,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="28"/>
         <source>Server configuration</source>
-        <translation>Nastavení serveru</translation>
+        <translation>Nastavení pro server</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="33"/>
@@ -955,7 +955,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/delegates/MessageListDelegate.qml" line="62"/>
         <source>Context menu</source>
-        <translation>Kontextové menu</translation>
+        <translation>Kontextová nabídka</translation>
     </message>
 </context>
 <context>
@@ -998,7 +998,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/views/MessageListView.qml" line="312"/>
         <source>Load more messages ...</source>
-        <translation>Stáhnout další zprávy ...</translation>
+        <translation>Stáhnout další zprávy …</translation>
     </message>
 </context>
 <context>
@@ -1204,7 +1204,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="92"/>
         <source>No email account is setup.</source>
-        <translation>Žádný účet nenastaven.</translation>
+        <translation>Není nastavený žádný e-mailový účet.</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="101"/>
@@ -1308,7 +1308,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/PrivacySettingsPopup.qml" line="21"/>
         <source>Privacy Settings</source>
-        <translation>Nastavení zabezpečení</translation>
+        <translation>Nastavení ochrany soukromí</translation>
     </message>
 </context>
 <context>
@@ -1501,12 +1501,12 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="44"/>
         <source>E.g Home, Work...</source>
-        <translation>Např. Domov, práce...</translation>
+        <translation>Např. soukromý, pracovní…</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="51"/>
         <source>Email address</source>
-        <translation>Emailová adresa</translation>
+        <translation>E-mailová adresa</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="53"/>

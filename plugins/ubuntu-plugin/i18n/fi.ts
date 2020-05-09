@@ -137,7 +137,9 @@
         <source>A IMAP server configuration was found for you domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>IMAP palvelimen asetukset löytyivät verkkotunnuksellesi.
+
+Haluaisitko käyttää sen sijaan sitä?</translation>
     </message>
 </context>
 <context>
@@ -684,7 +686,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="239"/>
         <source>Allowed to delete mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Viestien poistaminen sallittu</translation>
     </message>
 </context>
 <context>
@@ -821,7 +823,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/extensions/Markdown/MarkdownEditor.qml" line="66"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Esikatselu</translation>
     </message>
 </context>
 <context>
