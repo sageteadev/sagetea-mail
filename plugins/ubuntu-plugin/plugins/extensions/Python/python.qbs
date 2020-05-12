@@ -60,7 +60,9 @@ Project {
                 "encutils/**",
                 "pynliner/**",
                 "pygments/**",
-                "html2text/**"
+                "html2text/**",
+                "importlib_metadata**/**",
+                "zipp**"
             ]
             // cssutils comes with a large test suite
             // which we don't really need in the snap

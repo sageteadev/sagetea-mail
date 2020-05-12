@@ -3,3 +3,5 @@ jinja2
 pynliner
 pygments
 html2text
+importlib-metadata
+zipp

@@ -2,14 +2,14 @@
 
 set -e
 
-if [ "$ARCH_TRIPLET" == "arm-linux-gnueabihf" ]; then
+if [ "${ARCH_TRIPLET}" == "arm-linux-gnueabihf" ]; then
     ARCH=armhf
-elif [ "$ARCH_TRIPLET" == "x86_64-linux-gnu" ]; then
+elif [ "${ARCH_TRIPLET}" == "x86_64-linux-gnu" ]; then
     ARCH=amd64
-elif [ "$ARCH_TRIPLET" == "aarch64-linux-gnu" ]; then
+elif [ "${ARCH_TRIPLET}" == "aarch64-linux-gnu" ]; then
 	ARCH=arm64
 else
-    echo "unsupported target architecture $ARCH_TRIPLET"
+    echo "unsupported target architecture ${ARCH_TRIPLET}"
     exit 1
 fi
 
@@ -26,6 +26,10 @@ function install_python_deps
     for dep in $PYTHON_DEPS; do
         cp -r $PYTHON_DEPS_DIR/$dep $DEKKO_PYTHON_DIR
     done
+    if [ "${ARCH}" != "arm64" ]; then
+        cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
+        cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
+    fi
 }
 
 ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
@@ -37,11 +41,11 @@ else
     qbs setup-toolchains /usr/bin/${ARCH_TRIPLET}-gcc gcc-$ARCH
 fi
 
-qbs setup-qt /usr/lib/$ARCH_TRIPLET/qt5/bin/qmake dekkoqt5-$ARCH
+qbs setup-qt /usr/lib/${ARCH_TRIPLET}/qt5/bin/qmake dekkoqt5-$ARCH
 qbs config profiles.dekkoqt5-$ARCH.baseProfile gcc-$ARCH
 qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
 
-export DIR_PREFIX=/lib/$ARCH_TRIPLET
+export DIR_PREFIX=/lib/${ARCH_TRIPLET}
 export BIN_DIR=$DIR_PREFIX/bin
 export LIB_DIR=$DIR_PREFIX
 export DATA_DIR=/usr/share/dekko
