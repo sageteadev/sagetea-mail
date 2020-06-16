@@ -6,7 +6,6 @@
   * @subpage core_dumps
   * @subpage dev_codestyle
   * @subpage dev_autoconfig
-  * @subpage dev_architecture
   * @subpage dev_designs
   * @subpage dev_notifications_plugin
 
