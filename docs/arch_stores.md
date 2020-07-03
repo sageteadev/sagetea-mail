@@ -8,7 +8,7 @@ package "[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/stores src://Dekk
 
     class "AccountStore\n[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/stores/Accounts/AccountStore.qml AccountStore.qml]]" as accountstore 
 
-    class "ComposerStore\n[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/stores/Composer/ComposerStore.qml ComposerStore.qml]]" as composerstore 
+    class "[[architecture_composer_store.html ComposerStore]]\n[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/stores/Composer/ComposerStore.qml ComposerStore.qml]]" as composerstore 
 
     class "MailboxStore\n[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/stores/Mail/MailboxStore.qml MailboxStore.qml]]" as mailboxstore 
 

@@ -4,7 +4,7 @@
 
 title Main process (dekko)
 
-package "[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/ src://Dekko/app]]" as dekko {
+frame "[[https://gitlab.com/dekkan/dekko/-/tree/master/Dekko/ src://Dekko/app]]" as dekko {
 
     package "plugman" {
     }
@@ -39,9 +39,9 @@ contenthub --> utui : provides data
 :User: --> utui : touches, puts in
 utui --> :User: : views state
 
-package "dekkod" as dekkod {
+frame "[[architecture_dekko_worker.html dekko-worker]]" as dekkoworker {
 }
-backend --> dekkod : sends, fetches and syncs mail
+backend <--> dekkoworker : sends, fetches and syncs mail
 
 @enduml
 

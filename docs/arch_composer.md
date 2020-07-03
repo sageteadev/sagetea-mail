@@ -52,18 +52,13 @@ package "[[architecture_stores.html stores]]" {
 }
 
 composerstore --> composer : hasValidIdentity
-composerstore --> messagecomposer : bodyDocument
-composerstore --> messagecomposer : currentSignature
+composerstore --> messagecomposer : bodyDocument\n currentSignature
 composerstore --> composesidepanel : sidePanelOpen (attachments)
 composerstore --> composewindow : builder.hasDraft
 composerstore --> attachmentlist : attachments
 composerstore --> subjectfield : subjectDocument
-composerstore --> senderidentityfield : identitiesModel
-composerstore --> senderidentityfield : identityIndex
-composerstore --> senderidentityfield : identity
-composerstore --> recipientfield : showCC
-composerstore --> recipientfield : showBCC
-composerstore --> recipientfield : recipients
+composerstore --> senderidentityfield : identitiesModel\n identityIndex\n identity
+composerstore --> recipientfield : showCC\n showBCC\n recipients
 
 
 package "[[architecture_workers.html workers]]" {
@@ -74,28 +69,20 @@ package "[[architecture_workers.html workers]]" {
     }
 }
 
-composer --> composerworker : discardMessageAction
-composer --> composerworker : saveDraftAction
-composer --> composerworker : sendAction
-composewindow --> composerworker : discardMessage
-composewindow --> composerworker : resetComposer
+composer --> composerworker : discardMessageAction\n saveDraftAction\n sendAction
+composewindow --> composerworker : discardMessage, resetComposer
 composewindow --> viewworker : closeComposer
 attachmentlist --> composerworker : removeAttachment
 senderidentityfield --> composerworker : setIdentity
-recipientfield --> composerworker : validateAddress
-recipientfield --> composerworker : addRecipientFromAddress
-composerworker --> recipientfield : validAddress
-composerworker --> recipientfield : invalidAddress
+recipientfield --> composerworker : validateAddress\n addRecipientFromAddress
+composerworker --> recipientfield : validAddress\n invalidAddress
 
 () "Content-Hub" as contenthub
 
-contenthub --> contentworker : importRequest
-contenthub --> contentworker : shareRequest
+contenthub --> contentworker : importRequest, shareRequest
 contentworker --> contenthub : pick content
 
-contentworker --> composerworker : addFileAttachement
-contentworker --> composerworker : appendTextToSubject
-contentworker --> composerworker : appendTextToBody
+contentworker --> composerworker : addFileAttachement\n appendTextToSubject\n appendTextToBody
 
 contentworker --> viewworker : openComposer
 
