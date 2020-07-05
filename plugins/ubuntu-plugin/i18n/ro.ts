@@ -21,7 +21,7 @@
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="64"/>
         <source>Outgoing Server</source>
-        <translation>Server de ieșire</translation>
+        <translation>Server de trimitere</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="68"/>

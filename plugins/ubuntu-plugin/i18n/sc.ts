@@ -327,7 +327,7 @@ Boles impreare custa imbetzes de s&apos;anteriore?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="220"/>
         <source>Spam folder</source>
-        <translation>Cartella de arga</translation>
+        <translation>Cartella de àliga</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="235"/>

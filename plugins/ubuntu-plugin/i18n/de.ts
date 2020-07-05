@@ -34,7 +34,7 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="30"/>
         <source>Success</source>
-        <translation>Erfolg</translation>
+        <translation>Erfolgreich</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="89"/>
@@ -44,7 +44,7 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="98"/>
         <source>Continue</source>
-        <translation>Fortsetzen</translation>
+        <translation>Fortfahren</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="113"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
         <source>IMAP server found</source>
-        <translation>IMAP-Server wurde gefunden</translation>
+        <translation>IMAP-Server gefunden</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="78"/>
@@ -266,7 +266,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/webview/ContentBlockedNotice.qml" line="41"/>
         <source>Remote content blocked</source>
-        <translation>Entfernte Inhalte blockiert</translation>
+        <translation>Von außen stammende Inhalte blockiert</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/webview/ContentBlockedNotice.qml" line="54"/>
@@ -312,7 +312,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="175"/>
         <source>Leave empty if you are unsure</source>
-        <translation>Leerlassen, wenn Sie sich unsicher sind</translation>
+        <translation>Leerlassen, wenn Sie unsicher sind</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="190"/>
@@ -641,7 +641,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="183"/>
         <source>Allow untrusted certificates</source>
-        <translation>Nichtvertrauenswürdige Zertifikate erlauben</translation>
+        <translation>Nicht vertrauenswürdige Zertifikate erlauben</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="188"/>
@@ -651,7 +651,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="193"/>
         <source>Check for new mail on start</source>
-        <translation>Beim Start nach ungelesen Nachrichten suchen</translation>
+        <translation>Beim Start nach neuen Nachrichten suchen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="199"/>
@@ -917,7 +917,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="142"/>
         <source>Restore to %1</source>
-        <translation>Zurücksetzen zu %1</translation>
+        <translation>Auf %1 zurücksetzen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="151"/>
@@ -968,7 +968,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/views/MessageListView.qml" line="106"/>
         <source>Select all</source>
-        <translation>Alle auswählen</translation>
+        <translation>Alles auswählen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/views/MessageListView.qml" line="118"/>
@@ -1016,7 +1016,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageViewContextMenu.qml" line="63"/>
         <source>Share link</source>
-        <translation>Link-Adresse teilen</translation>
+        <translation>Link teilen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageViewContextMenu.qml" line="77"/>
@@ -1150,7 +1150,7 @@ Wollen Sie diese verwenden?</translation>
         <location filename="../imports/components/private/NavSideBar.qml" line="169"/>
         <location filename="../plugins/core/mail/views/NavSideBar.qml" line="169"/>
         <source>Folders</source>
-        <translation>Verzeichnisse</translation>
+        <translation>Ordner</translation>
     </message>
 </context>
 <context>
@@ -1274,7 +1274,7 @@ Wollen Sie diese verwenden?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/OutgoingServerGroup.qml" line="155"/>
         <source>Allow untrusted certificates</source>
-        <translation>Nichtvertrauenswürdige Zertifikate erlauben</translation>
+        <translation>Nicht vertrauenswürdige Zertifikate erlauben</translation>
     </message>
 </context>
 <context>
