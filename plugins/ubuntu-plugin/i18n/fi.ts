@@ -163,7 +163,7 @@ Haluaisitko käyttää sen sijaan sitä?</translation>
     <message>
         <location filename="../plugins/core/mail/composer/ComposeWindow.qml" line="22"/>
         <source>Dekko Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekko-muokkain</translation>
     </message>
 </context>
 <context>
@@ -930,12 +930,12 @@ Haluaisitko käyttää sen sijaan sitä?</translation>
     <message>
         <location filename="../plugins/core/mail/delegates/MessageListDelegate.qml" line="41"/>
         <source>Un-mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista merkintä</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/delegates/MessageListDelegate.qml" line="41"/>
         <source>Mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>Merkitse</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/delegates/MessageListDelegate.qml" line="50"/>
@@ -1163,7 +1163,7 @@ Haluaisitko käyttää sen sijaan sitä?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/NavViewContextMenu.qml" line="53"/>
         <source>Send pending</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähetä odottavat</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/NavViewContextMenu.qml" line="70"/>

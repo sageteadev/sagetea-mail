@@ -5,46 +5,46 @@
     <name>CacheSettings</name>
     <message>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache verwalten</translation>
     </message>
 </context>
 <context>
     <name>CacheSettingsPage</name>
     <message>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache verwalten</translation>
     </message>
     <message>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Woche</translation>
     </message>
     <message>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>Vierzehn Tage</translation>
     </message>
     <message>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Monat</translation>
     </message>
     <message>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Drei Monate</translation>
     </message>
     <message>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Sechs Monate</translation>
     </message>
     <message>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichten aus Cache entfernen</translation>
     </message>
     <message>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses wird Nachrichten älter als der eingestellte Zeitraum löschen</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 </TS>

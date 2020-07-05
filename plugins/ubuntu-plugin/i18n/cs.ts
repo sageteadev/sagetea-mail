@@ -102,12 +102,12 @@
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="45"/>
         <source>Authentication</source>
-        <translation>Ověření</translation>
+        <translation>Ověření se</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation>PROSTÝ</translation>
+        <translation>PROSTÉ</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
@@ -130,16 +130,16 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
         <source>IMAP server found</source>
-        <translation>IMAP server nalezen</translation>
+        <translation>Nalezen IMAP server</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="78"/>
         <source>A IMAP server configuration was found for you domain.
 
 Would you like to use this instead?</source>
-        <translation>Nastavení IMAP serveru pro Vaši doménu nalezeno.
+        <translation>Nalezeno nastavení IMAP serveru pro vaši doménu.
 
-Přejete si použít tuto?</translation>
+Přejete si použít toto?</translation>
     </message>
 </context>
 <context>
@@ -180,7 +180,7 @@ Přejete si použít tuto?</translation>
         <location filename="../imports/dialogs/ConfirmationDialog.qml" line="50"/>
         <location filename="../plugins/core/mail/dialogs/ConfirmationDialog.qml" line="50"/>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>Storno</translation>
     </message>
     <message>
         <location filename="../imports/dialogs/ConfirmationDialog.qml" line="63"/>
@@ -347,7 +347,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="274"/>
         <source>Sending messages</source>
-        <translation>Odesílání zprávy</translation>
+        <translation>Odesílání zpráv</translation>
     </message>
 </context>
 <context>
@@ -373,7 +373,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/extensions/addressbook/DefaultPlugin.qml" line="11"/>
         <source>Internal</source>
-        <translation>Vlastní</translation>
+        <translation>Vnitřní</translation>
     </message>
     <message>
         <location filename="../plugins/extensions/addressbook/DefaultPlugin.qml" line="106"/>
@@ -1527,7 +1527,7 @@ Přejete si použít tuto?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="78"/>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>Storno</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="82"/>

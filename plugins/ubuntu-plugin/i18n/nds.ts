@@ -11,7 +11,7 @@
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished">Details</translation>
+        <translation>Details</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
@@ -39,17 +39,17 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="89"/>
         <source>New account created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuer Zugang erstellt.</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="98"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortfahren</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="113"/>
         <source>Add another</source>
-        <translation type="unfinished"></translation>
+        <translation>Weiteren hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -57,12 +57,12 @@
     <message>
         <location filename="../plugins/core/mail/contacts/AddressBookList.qml" line="12"/>
         <source>Addressbooks</source>
-        <translation type="unfinished"></translation>
+        <translation>Adressbuch</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/AddressBookList.qml" line="65"/>
         <source>Add Collection</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammlung hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -70,7 +70,7 @@
     <message>
         <location filename="../plugins/core/contacts/AddressBookStage.qml" line="34"/>
         <source>Coming soon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommt bald</translation>
     </message>
 </context>
 <context>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../plugins/core/mail/components/AttachmentPanel.qml" line="81"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Anhänge</translation>
     </message>
 </context>
 <context>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../plugins/core/mail/popovers/AttachmentPopover.qml" line="46"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 <context>
@@ -94,7 +94,7 @@
     <message>
         <location filename="../plugins/extensions/attachments/AttachmentsStage.qml" line="34"/>
         <source>Coming soon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommt bald</translation>
     </message>
 </context>
 <context>
@@ -102,22 +102,22 @@
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="45"/>
         <source>Authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>Authentifizierung</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation type="unfinished"></translation>
+        <translation>licht</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
         <source>LOGIN</source>
-        <translation type="unfinished"></translation>
+        <translation>Anmellen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/AuthenticationSelector.qml" line="62"/>
         <source>CRAM-MD5</source>
-        <translation type="unfinished"></translation>
+        <translation>CRAM-MD5</translation>
     </message>
 </context>
 <context>
@@ -125,19 +125,21 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="35"/>
         <source>Searching for configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>söök na de Instellung.</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
         <source>IMAP server found</source>
-        <translation type="unfinished"></translation>
+        <translation>IMAP Server funnen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="78"/>
         <source>A IMAP server configuration was found for you domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>En IMAP Server Instellen is för dien E-Mail funnen worrn.
+
+Wullt du düsse stattdessen nutzen?</translation>
     </message>
 </context>
 <context>
@@ -145,7 +147,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/composer/BottomEdgeComposer.qml" line="65"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Anhänge</translation>
     </message>
 </context>
 <context>
@@ -153,7 +155,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/calendar/CalendarStage.qml" line="34"/>
         <source>Coming soon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kummt bald</translation>
     </message>
 </context>
 <context>
@@ -161,7 +163,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/composer/ComposeWindow.qml" line="22"/>
         <source>Dekko Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekko Paketverwaltung</translation>
     </message>
 </context>
 <context>
@@ -169,7 +171,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/composer/Composer.qml" line="52"/>
         <source>Attach</source>
-        <translation type="unfinished"></translation>
+        <translation>anhangen</translation>
     </message>
 </context>
 <context>
@@ -178,13 +180,13 @@ Would you like to use this instead?</source>
         <location filename="../imports/dialogs/ConfirmationDialog.qml" line="50"/>
         <location filename="../plugins/core/mail/dialogs/ConfirmationDialog.qml" line="50"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <location filename="../imports/dialogs/ConfirmationDialog.qml" line="63"/>
         <location filename="../plugins/core/mail/dialogs/ConfirmationDialog.qml" line="63"/>
         <source>Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestätigen</translation>
     </message>
 </context>
 <context>
@@ -192,12 +194,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/views/ContactFilterView.qml" line="112"/>
         <source>Add contact</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontakt hinzufügen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/views/ContactFilterView.qml" line="123"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht senden</translation>
     </message>
 </context>
 <context>
@@ -205,7 +207,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactListPage.qml" line="11"/>
         <source>Address book</source>
-        <translation type="unfinished"></translation>
+        <translation>Adressbuch</translation>
     </message>
 </context>
 <context>
@@ -213,42 +215,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="11"/>
         <source>Contact</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontakt</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="61"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-Mail</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="78"/>
         <source>Phone</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefon</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="92"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="96"/>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>Straße</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="102"/>
         <source>City</source>
-        <translation type="unfinished"></translation>
+        <translation>Stadt</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="108"/>
         <source>Zip</source>
-        <translation type="unfinished"></translation>
+        <translation>PLZ</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="114"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Land</translation>
     </message>
 </context>
 <context>
@@ -256,7 +258,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactsListView.qml" line="36"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Suche</translation>
     </message>
 </context>
 <context>
@@ -264,12 +266,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/webview/ContentBlockedNotice.qml" line="41"/>
         <source>Remote content blocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Entfernter Inhalt blockiert</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/webview/ContentBlockedNotice.qml" line="54"/>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Erlauben</translation>
     </message>
 </context>
 <context>
@@ -277,7 +279,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/views/ContributorsPage.qml" line="25"/>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitwirkende</translation>
     </message>
 </context>
 <context>
@@ -285,67 +287,67 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="30"/>
         <source>Copies and Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopien und Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="124"/>
         <source>Standard folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="136"/>
         <source>Detect standard folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Ordner erkennen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="152"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Erkennen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="173"/>
         <source>Base folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="175"/>
         <source>Leave empty if you are unsure</source>
-        <translation type="unfinished"></translation>
+        <translation>Leer lassen falls du dir unsicher bist</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="190"/>
         <source>Inbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Posteingang</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="205"/>
         <source>Drafts folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Entwürfe</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="220"/>
         <source>Spam folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Spam Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="235"/>
         <source>Sent folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesendet Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="250"/>
         <source>Outbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Postausgang</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="265"/>
         <source>Trash folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Papierkorb</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="274"/>
         <source>Sending messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Sende Nachricht</translation>
     </message>
 </context>
 <context>
@@ -353,17 +355,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/messageview/DefaultMessagePage.qml" line="182"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Von:</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/messageview/DefaultMessagePage.qml" line="235"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>An:</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/messageview/DefaultMessagePage.qml" line="240"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cc:</translation>
     </message>
 </context>
 <context>
@@ -371,12 +373,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/extensions/addressbook/DefaultPlugin.qml" line="11"/>
         <source>Internal</source>
-        <translation type="unfinished"></translation>
+        <translation>Intern</translation>
     </message>
     <message>
         <location filename="../plugins/extensions/addressbook/DefaultPlugin.qml" line="106"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
 </context>
 <context>
@@ -384,7 +386,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../imports/components/DekkoHeader.qml" line="204"/>
         <source>Enter search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Suche eingeben...</translation>
     </message>
 </context>
 <context>
@@ -392,12 +394,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/webview/DekkoWebView.qml" line="142"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Im Browser öffnen?</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/webview/DekkoWebView.qml" line="143"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestätige um %1 im Browser zu öffnen</translation>
     </message>
 </context>
 <context>
@@ -405,17 +407,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/messageview/DetailList.qml" line="47"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Details</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/messageview/DetailList.qml" line="52"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>An:</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/messageview/DetailList.qml" line="58"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cc:</translation>
     </message>
 </context>
 <context>
@@ -423,12 +425,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Details</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
         <source>Account name</source>
-        <translation type="unfinished"></translation>
+        <translation>Zugangsname</translation>
     </message>
 </context>
 <context>
@@ -436,32 +438,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="28"/>
         <source>Navigation menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigationsmenü</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="32"/>
         <source>Show smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige intelligente Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="42"/>
         <source>Show favourite folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige favorisierte Ordner</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="53"/>
         <source>Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichten</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="57"/>
         <source>Show avatars</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige Avatare</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettings.qml" line="67"/>
         <source>Prefer plain text</source>
-        <translation type="unfinished"></translation>
+        <translation>Reintext bevorzugen</translation>
     </message>
 </context>
 <context>
@@ -469,7 +471,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettingsPage.qml" line="21"/>
         <source>Display Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzeigeeinstellungen</translation>
     </message>
 </context>
 <context>
@@ -477,7 +479,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettingsPopup.qml" line="21"/>
         <source>Display Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzeigeeinstellungen</translation>
     </message>
 </context>
 <context>
@@ -485,22 +487,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/components/EncryptionSelector.qml" line="46"/>
         <source>Encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>Verschlüsselung</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/EncryptionSelector.qml" line="61"/>
         <source>No encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Verschlüsselung</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/EncryptionSelector.qml" line="62"/>
         <source>Use encryption (STARTTLS)</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwende Verschlüsselung (STARTTLS)</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/components/EncryptionSelector.qml" line="63"/>
         <source>Force encryption (SSL/TLS)</source>
-        <translation type="unfinished"></translation>
+        <translation>Erzwinge Verschlüsselung (SSL/TLS)</translation>
     </message>
 </context>
 <context>
@@ -508,7 +510,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../imports/components/ExpandablePanel.qml" line="62"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Anhänge</translation>
     </message>
 </context>
 <context>
@@ -517,7 +519,7 @@ Would you like to use this instead?</source>
         <location filename="../imports/dialogs/FilePickerDialog.qml" line="23"/>
         <location filename="../plugins/core/mail/dialogs/FilePickerDialog.qml" line="23"/>
         <source>Add Attachment</source>
-        <translation type="unfinished"></translation>
+        <translation>Anhang hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -525,12 +527,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/delegates/FolderListDelegate.qml" line="52"/>
         <source>Un-favourite</source>
-        <translation type="unfinished"></translation>
+        <translation>Entfavorisieren</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/delegates/FolderListDelegate.qml" line="52"/>
         <source>Favourite</source>
-        <translation type="unfinished"></translation>
+        <translation>Favorit</translation>
     </message>
 </context>
 <context>
@@ -538,7 +540,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/extensions/html-viewer/HtmlViewer.qml" line="11"/>
         <source>HTML Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML Anzeige</translation>
     </message>
 </context>
 <context>
@@ -546,12 +548,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/IdentitiesListPage.qml" line="14"/>
         <source>Identities</source>
-        <translation type="unfinished"></translation>
+        <translation>Identitäten</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentitiesListPage.qml" line="106"/>
         <source> (Default)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Standard)</translation>
     </message>
 </context>
 <context>
@@ -559,43 +561,43 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="54"/>
         <source>Default identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard Identität</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="67"/>
         <source>Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Zugang</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="105"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Name</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="110"/>
         <source>Email Address</source>
-        <translation type="unfinished"></translation>
+        <translation>E-Mail Adresse</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="115"/>
         <source>Reply-To</source>
-        <translation type="unfinished"></translation>
+        <translation>Antwort-An</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="119"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Signatur</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="137"/>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="145"/>
         <source>New identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Identität</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IdentityInput.qml" line="169"/>
         <source>Edit identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Identität bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -603,78 +605,78 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="28"/>
         <source>Incoming Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingangsserver</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="105"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>Hostname</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="114"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="123"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzername</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="132"/>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="135"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Passwort</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="142"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige Passwort</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="148"/>
         <source>Security settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Sicherheitseinstellungen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="183"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>Erlaube nicht vertrauenswürdige Zertifikate</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="188"/>
         <source>Server settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Servereinstellungen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="193"/>
         <source>Check for new mail on start</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfe auf neue E-Mails beim Start</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="199"/>
         <source>Enable IMAP IDLE</source>
-        <translation type="unfinished"></translation>
+        <translation>IMAP IDLE aktivieren</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="206"/>
         <source>Check interval (minutes)</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfungsinterval (MInuten)</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="213"/>
         <source>Check when roaming</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfe im Roaming</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="219"/>
         <source>Maximum mail size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximale E-Mail Größe (MB)</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="225"/>
         <source>No maximum mail size</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine maximale E-Mail Größe</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="233"/>

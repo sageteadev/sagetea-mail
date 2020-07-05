@@ -5,18 +5,18 @@
     <name>NotificationSettings</name>
     <message>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigungen</translation>
     </message>
 </context>
 <context>
     <name>NotificationSettingsPage</name>
     <message>
         <source>Notification Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigungseinstellungen</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviert</translation>
     </message>
 </context>
 </TS>
