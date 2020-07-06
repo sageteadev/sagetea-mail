@@ -39,7 +39,7 @@
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="89"/>
         <source>New account created.</source>
-        <translation>Nieuw account gecreëerd.</translation>
+        <translation>Nieuw account aangemaakt.</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="98"/>
@@ -163,7 +163,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/composer/ComposeWindow.qml" line="22"/>
         <source>Dekko Composer</source>
-        <translation>Dekko Opstellen</translation>
+        <translation>Opstellen</translation>
     </message>
 </context>
 <context>
@@ -240,7 +240,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="102"/>
         <source>City</source>
-        <translation>Stad</translation>
+        <translation>Plaatsnaam</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/contacts/ContactView.qml" line="108"/>
@@ -312,7 +312,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="175"/>
         <source>Leave empty if you are unsure</source>
-        <translation>Bij twijfel leeglaten</translation>
+        <translation>Bij twijfel: leeglaten</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/CopyFoldersGroup.qml" line="190"/>
@@ -471,7 +471,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettingsPage.qml" line="21"/>
         <source>Display Settings</source>
-        <translation>Scherminstellingen</translation>
+        <translation>Weergave-instellingen</translation>
     </message>
 </context>
 <context>
@@ -479,7 +479,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/DisplaySettingsPopup.qml" line="21"/>
         <source>Display Settings</source>
-        <translation>Scherminstellingen</translation>
+        <translation>Weergave-instellingen</translation>
     </message>
 </context>
 <context>
@@ -641,7 +641,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="183"/>
         <source>Allow untrusted certificates</source>
-        <translation>Niet-vertrouwde certificaten toestaan</translation>
+        <translation>Onvertrouwde certificaten toestaan</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/settings/IncomingServerGroup.qml" line="188"/>
@@ -810,7 +810,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
         <source>Password empty</source>
-        <translation>Wachtwoord leeg</translation>
+        <translation>Geen wachtwoord opgegeven</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
@@ -823,7 +823,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/extensions/Markdown/MarkdownEditor.qml" line="66"/>
         <source>Preview</source>
-        <translation>Voorbeeld</translation>
+        <translation>Voorvertoning</translation>
     </message>
 </context>
 <context>
@@ -917,7 +917,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="142"/>
         <source>Restore to %1</source>
-        <translation>Terugzetten naar %1</translation>
+        <translation>Terugzetten in %1</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageListActionPopover.qml" line="151"/>
@@ -963,7 +963,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/views/MessageListView.qml" line="106"/>
         <source>Unselect all</source>
-        <translation>Selectie ongedaan maken</translation>
+        <translation>Niets selecteren</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/views/MessageListView.qml" line="106"/>
@@ -1036,7 +1036,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/MessageViewContextMenu.qml" line="106"/>
         <source>View source</source>
-        <translation>Bron tonen</translation>
+        <translation>Broncode tonen</translation>
     </message>
 </context>
 <context>
@@ -1178,7 +1178,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/popovers/NavViewContextMenu.qml" line="101"/>
         <source>Empty trash</source>
-        <translation>Prullenbak leegmaken</translation>
+        <translation>Prullenbak legen</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/popovers/NavViewContextMenu.qml" line="110"/>
@@ -1204,12 +1204,12 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="92"/>
         <source>No email account is setup.</source>
-        <translation>Nog geen account ingesteld.</translation>
+        <translation>Je hebt nog geen account ingesteld.</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="101"/>
         <source>Add now</source>
-        <translation>Nu toevoegen</translation>
+        <translation>Nu instellen</translation>
     </message>
 </context>
 <context>
@@ -1274,7 +1274,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/settings/OutgoingServerGroup.qml" line="155"/>
         <source>Allow untrusted certificates</source>
-        <translation>Niet-vertrouwde certificaten toestaan</translation>
+        <translation>Onvertrouwde certificaten toestaan</translation>
     </message>
 </context>
 <context>
@@ -1422,7 +1422,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/ServerDetails.qml" line="140"/>
         <source>Allow untrusted certificates</source>
-        <translation>Niet-vertrouwde certificaten toestaan</translation>
+        <translation>Onvertrouwde certificaten toestaan</translation>
     </message>
 </context>
 <context>
@@ -1537,7 +1537,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="124"/>
         <source>Password empty</source>
-        <translation>Wachtwoord is leeg</translation>
+        <translation>Geen wachtwoord opgegeven</translation>
     </message>
     <message>
         <location filename="../plugins/core/mail/setupwizard/components/UserInputUI.qml" line="124"/>
@@ -1550,7 +1550,7 @@ Wil je deze gebruiken?</translation>
     <message>
         <location filename="../plugins/core/mail/setupwizard/states/ValidationState.qml" line="36"/>
         <source>Validating credentials.</source>
-        <translation>Bezig met valideren van inloggegevens...</translation>
+        <translation>Bezig met controleren van inloggegevens...</translation>
     </message>
 </context>
 <context>
