@@ -116,5 +116,14 @@ ViewState {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
     }
+
+    Connections {
+        target: UriHandler
+        onOpened: {
+            Log.logInfo("UriListener::UriHandler::onOpened", "We got uris to handle: " + uris)
+            ViewActions.openUris(uris)
+        }
+    }
+
 }
 

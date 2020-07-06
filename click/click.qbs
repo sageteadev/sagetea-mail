@@ -27,7 +27,6 @@ Product {
     Group {
         name: "Launcher"
         files: [
-            "dekko-launch",
             "dekkod-launch"
         ]
         fileTags: ["clickbin"]

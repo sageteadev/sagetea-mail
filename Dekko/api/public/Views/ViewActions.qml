@@ -48,7 +48,7 @@ ActionCreator {
     signal replyToOpenMessage()
     signal detachComposer()
     signal attachComposer()
-    signal openUri(string uri)
+    signal openUris(var uris)
     signal navigateToAccount(var accountId)
     signal navigateToFolder(var accountId, var folderId)
     signal navigateToMessage(var accountId, var folderId, var messageId)

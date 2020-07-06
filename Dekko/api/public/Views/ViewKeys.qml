@@ -46,7 +46,7 @@ KeyTable {
     property string replyToOpenMessage
     property string detachComposer
     property string attachComposer
-    property string openUri
+    property string openUris
     property string navigateToAccount
     property string navigateToFolder
     property string navigateToMessage

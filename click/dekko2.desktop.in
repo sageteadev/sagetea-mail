@@ -5,7 +5,6 @@ Terminal=false
 X-Ubuntu-Touch=true
 Name=Dekko 2
 Keywords=mail;e-mail;IMAP;SMTP;eml;MUA;
-Exec=dekko-launch %U
+Exec=env DEKKO_PLUGINS=./lib/%HOST_ARCH_TRIPLET%/Dekko/plugins QMF_PLUGINS=./lib/%HOST_ARCH_TRIPLET%/qmf/plugins5 QMF_DATA_HOME=~/.cache/dekko2.dekkoproject dekko %U
 Icon=dekko.png
-MimeType=x-scheme-handler/mailto;application/dekko;x-scheme-handler/dekko;
 X-Ubuntu-Splash-Color=#F5F5F5

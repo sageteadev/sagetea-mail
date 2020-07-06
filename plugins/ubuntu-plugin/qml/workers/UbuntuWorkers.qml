@@ -25,6 +25,7 @@ import Dekko.Mail.API 1.0
 // but be available shortly after app start.
 
 // We will also load all plugins that registered as a "Dekko::Listener"
+// TODO: !This seems to be unused!
 ListenerRegistry {
     defaultListeners: [
         AccountsWorker {},
@@ -38,4 +39,6 @@ ListenerRegistry {
             onPluginsReady: ViewActions.delayCall(ContactKeys.registerAddressBooks)
         }
     ]
+
+
 }

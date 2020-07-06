@@ -15,6 +15,7 @@ fi
 
 DIR=$(dirname "${BASH_SOURCE[0]}")
 cat ${DIR}/dekko.qbs.in | sed "s/%HOST_ARCH%/${ARCH}/" > ${DIR}/dekko.qbs
+cat ${DIR}/click/dekko2.desktop.in | sed "s/%HOST_ARCH_TRIPLET%/${ARCH_TRIPLET}/g" > ${DIR}/click/dekko2.desktop
 
 function install_python_deps
 {

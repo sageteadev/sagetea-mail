@@ -26,24 +26,16 @@ AppListener {
     waitFor: [ComposerStore.listenerId]
 
     Filter {
-        type: ViewKeys.openUri
+        type: ViewKeys.openUris
         onDispatched: {
-            d.processUri(message.uri)
+            d.processUris(message.uris)
         }
     }
-//      TODO: Move this to where the worker is declared and call ViewKeys.openUris()
-//    Connections {
-//        target: UriHandler
-//        onOpened: {
-//            Log.logInfo("UriListener::UriHandler::onOpened", "We got uris to handle: " + uris)
-//            d.processUris(uris)
-//        }
-//    }
 
     // We make these private as we want to enforce the use
     // of the dispatcher api.
     // If you need to open a uri from anywhere in the app
-    // then you just need to dispatch ViewActions.openUri
+    // then you just need to dispatch ViewActions.openUris
     QtObject {
         id: d
 

@@ -28,7 +28,6 @@ ListenerRegistry {
         AccountsWorker {},
         MailboxWorker {},
         SettingsWorker {},
-        UriWorker {},
         ErrorsWorker {}
     ]
 }
