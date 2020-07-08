@@ -100,7 +100,7 @@ Popover {
                     actionIcon: Icons.SendIcon
                     onTriggered: {
                         // Just dispatch a mailto: uri to be opened.
-                        ViewActions.openUri(address.toRfc6068Mailto())
+                        ViewActions.openUris(address.toRfc6068Mailto())
                         PopupUtils.close(info)
                     }
                 },

@@ -118,7 +118,7 @@ DekkoPage {
                     }
                     Suru.highlightType: Suru.PositiveHighlight
                     color: Suru.highlightColor
-                    onTriggered: ViewActions.openUri(Uris.newContactUri(sender.completeAddress))
+                    onTriggered: ViewActions.openUris([Uris.newContactUri(sender.completeAddress)])
                 }
                 Button {
                     id: sendButton
@@ -130,7 +130,7 @@ DekkoPage {
                     }
                     Suru.highlightType: Suru.PositiveHighlight
                     color: Suru.highlightColor
-                    onTriggered: ViewActions.openUri(sender.toRfc6068Mailto())
+                    onTriggered: ViewActions.openUris([sender.toRfc6068Mailto()])
                 }
             }
         }
