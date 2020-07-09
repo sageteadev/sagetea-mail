@@ -3,7 +3,7 @@
 set -e
 
 BUILD_VARIANT="release"
-if [ $DEBUG_BUILD == "1" ]; then
+if [ "${DEBUG_BUILD}" == "1" ]; then
     BUILD_VARIANT="debug"
 fi
 
