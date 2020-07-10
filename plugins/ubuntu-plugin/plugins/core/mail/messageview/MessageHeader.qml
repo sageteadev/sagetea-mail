@@ -95,8 +95,7 @@ ListItem {
                     topMargin: parent.iconsVerticalSpacing
                 }
                 height: units.gu(6)
-                width: units.gu(4.5)
-                iconSize: units.gu(2.25)
+                width: units.gu(4)
                 iconColor: UbuntuColors.ash
                 action: Action {
                     iconSource: Paths.actionIconUrl(Icons.ContextMenuIcon)
@@ -112,8 +111,7 @@ ListItem {
                     topMargin: parent.iconsVerticalSpacing
                 }
                 height: units.gu(6)
-                width: units.gu(4.5)
-                iconSize: units.gu(2.25)
+                width: units.gu(4)
                 iconColor: UbuntuColors.ash
                 action: Action {
                     iconSource: Paths.actionIconUrl(Icons.MailReplyIcon)

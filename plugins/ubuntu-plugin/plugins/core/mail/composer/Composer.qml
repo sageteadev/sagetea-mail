@@ -35,13 +35,13 @@ ViewState {
                 spacing: units.gu(1)
                 readonly property bool textVisible: composer.width > units.gu(60)
                 TitledHeaderButton {
-                    height: units.gu(5)
+                    height: units.gu(4)
                     anchors.verticalCenter: parent.verticalCenter
                     action: ComposerStore.actions.discardMessageAction
                     showLabel: row.textVisible
                 }
                 TitledHeaderButton {
-                    height: units.gu(5)
+                    height: units.gu(4)
                     anchors.verticalCenter: parent.verticalCenter
                     visible: ComposerStore.hasValidIdentity
                     action: ComposerStore.actions.saveDraftAction
@@ -49,7 +49,7 @@ ViewState {
                 }
 
                 TitledHeaderButton {
-                    height: units.gu(5)
+                    height: units.gu(4)
                     anchors.verticalCenter: parent.verticalCenter
                     action: Action {
                         text: qsTr("Attach")
@@ -63,7 +63,7 @@ ViewState {
                 Stretcher {}
 
                 TitledHeaderButton {
-                    height: units.gu(5)
+                    height: units.gu(4)
                     anchors.verticalCenter: parent.verticalCenter
                     visible: ComposerStore.hasValidIdentity
                     action: ComposerStore.actions.sendAction

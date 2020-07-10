@@ -47,7 +47,7 @@ Item {
         visible: showBack
 
         height: units.gu(6)
-        width: showBack ? units.gu(4.5) : 0
+        width: showBack ? units.gu(4) : 0
         action: Action {
             iconName: "back"
             onTriggered: {
@@ -102,8 +102,7 @@ Item {
             top: parent.top
         }
         height: units.gu(6)
-        width: units.gu(4.5)
-        iconSize: units.gu(2.25)
+        width: units.gu(4)
         iconColor: msg.isImportant ? "#f0e442" : "#888888"
         action: Action {
             iconSource: msg.isImportant ? Paths.actionIconUrl(Icons.StarredIcon) : Paths.actionIconUrl(Icons.UnStarredIcon)
@@ -119,8 +118,7 @@ Item {
             top: parent.top
         }
         height: units.gu(6)
-        width: units.gu(4.5)
-        iconSize: units.gu(2.25)
+        width: units.gu(4)
         action: Action {
             iconName: "delete"
             shortcut: "Delete"

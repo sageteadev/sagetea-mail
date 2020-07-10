@@ -35,8 +35,8 @@ AbstractButton {
 
     UbuntuShape {
         anchors {
-            topMargin: units.gu(0.5)
-            bottomMargin: units.gu(0.5)
+            topMargin: 0
+            bottomMargin: 0
             fill: parent
         }
         aspect: showLabel ? UbuntuShape.DropShadow : UbuntuShape.Flat
@@ -51,7 +51,7 @@ AbstractButton {
             bottom: parent.bottom
             margins: units.gu(1)
         }
-        height: units.gu(2.25)
+        height: units.gu(2)
         width: height
         name: action.iconName
     }
