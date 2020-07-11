@@ -46,8 +46,6 @@ QtObject {
             console.log("Popup queue triggered")
             if (!__popupOnScreen && __popups.length) {
                 __showNextPopup(__popups.shift(), __parents.shift(), __properties.shift());
-            } else {
-                timer.start()
             }
         }
     }
