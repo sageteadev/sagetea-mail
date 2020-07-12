@@ -32,27 +32,10 @@ public:
 
     Q_INVOKABLE bool validate(const QString &emailAddress);
 
-    static const QString AtomCharacters;
-    bool isLetterOrDigit(const QChar &c);
-    bool isAtom(const QChar &c);
-    bool isDomain(const QChar &c);
-    bool isHexDigit(const QChar &c);
-    bool skipAtom(const QString &txt);
-    bool skipSubDomain(const QString &txt);
-    bool skipDomain(const QString &txt);
-    bool skipQuoted(const QString &txt);
-    bool skipWord(const QString &txt);
-    bool skipIPv4Literal(const QString &txt);
-    bool skipIPv6Literal(const QString &txt);
-
     // For qml singleton
     static QObject *factory(QQmlEngine *engine, QJSEngine *scriptEngine);
     // For c++ singleton
     static QSharedPointer<EmailValidator> instance();
-
-private:
-    int m_index;
-
 };
 
 #endif // EMAILVALIDATOR_H
