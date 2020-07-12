@@ -35,7 +35,7 @@ BottomEdgeConfiguration {
             anchors.fill: parent
             color: Suru.backgroundColor
         }
-        pageHeader.title: "New message"
+        pageHeader.title: qsTr("New message")
         pageHeader.backAction: Action {
             iconName: "down"
             onTriggered: ComposerActions.discardMessage()

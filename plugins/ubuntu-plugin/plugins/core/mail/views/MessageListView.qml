@@ -207,7 +207,7 @@ DekkoPage {
                 Suru.highlightType: Suru.PositiveHighlight
                 color: Suru.highlightColor
                 action: Action {
-                    text: "Undo"
+                    text: qsTr("Undo")
                     onTriggered: MessageActions.undoRecentActions()
                 }
             }

@@ -41,5 +41,14 @@
         "signon-plugin-oauth2-dev",
         "signon-plugin-sasl",
         "signon-plugin-sasl-dev"
-    ]
+    ],
+    "libraries": {
+        "update-ts-files": {
+            "builder": "custom",
+            "build": "cd ${ROOT} && scripts/update-i18n Dekko plugins/ubuntu-plugin",
+            "dependencies_host": [
+                "qttools5-dev-tools"
+            ]
+        }
+    }
 }

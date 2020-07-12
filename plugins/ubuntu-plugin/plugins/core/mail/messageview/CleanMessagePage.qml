@@ -26,7 +26,7 @@ import Dekko.Ubuntu.Constants 1.0
 
 DekkoPage {
 
-    pageHeader.title: "Message"
+    pageHeader.title: qsTr("Message")
     pageHeader.backAction: Action {
         id: back
         iconName: "back"

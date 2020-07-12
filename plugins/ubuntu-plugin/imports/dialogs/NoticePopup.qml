@@ -24,7 +24,7 @@ DialogBase {
     id: dlg
 
     Button {
-        text: "Ok"
+        text: qsTr("Ok")
         Suru.highlightType: Suru.PositiveHighlight
         color: Suru.highlightColor
         onClicked: PopupUtils.close(dlg)

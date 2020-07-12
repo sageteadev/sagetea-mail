@@ -13,28 +13,6 @@ Project {
         "imports/dialogs/dialogs.qbs"
     ]
 
-    DynamicLibrary {
-        name: "i18n"
-        type: "dynamiclibrary"
-
-        Depends { name: "cpp" }
-        Depends { name: "Qt.core" }
-
-        Group {
-            name: "ts files"
-            prefix: "i18n/"
-            files: [
-                "*.ts"
-            ]
-        }
-
-        Group {
-            qbs.install: true
-            qbs.installDir: project.binDir + "/plugins/ui/i18n"
-            fileTagsFilter: ["qm"]
-        }
-    }
-
     Product {
         name: "QML UI"
         condition: project.enabled

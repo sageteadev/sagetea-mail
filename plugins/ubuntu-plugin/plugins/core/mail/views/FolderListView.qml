@@ -26,7 +26,7 @@ import "../delegates"
 
 DekkoPage {
 
-    property string pageTitle: "Folders"
+    property string pageTitle: qsTr("Folders")
     property alias accountId: picker.accountId
 
     pageHeader.title: pageTitle
