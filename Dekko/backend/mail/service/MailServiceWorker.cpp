@@ -22,6 +22,8 @@ MailServiceWorker::MailServiceWorker(QObject *parent) : QObject(parent),
     connect(m_service, &ClientService::syncAccountFailed, this, &MailServiceWorker::syncAccountFailed);
     connect(m_service, &ClientService::actionFailed, this, &MailServiceWorker::handleActionFailed);
     connect(m_service, &ClientService::standardFoldersCreated, this, &MailServiceWorker::standardFoldersCreated);
+    connect(m_service, &ClientService::foldersSynced, this, &MailServiceWorker::handleFoldersSynced);
+    connect(m_service, &ClientService::foldersSyncFailed, this, &MailServiceWorker::handleFoldersSyncFailed);
 }
 
 void MailServiceWorker::registerTypes() {
@@ -229,4 +231,16 @@ void MailServiceWorker::handleMessageSendingFailed(const QMailMessageIdList &ids
 void MailServiceWorker::handleActionFailed(const quint64 &id, const QMailServiceAction::Status &status)
 {
     emit actionFailed(id, static_cast<int>(status.errorCode), status.text);
+}
+
+void MailServiceWorker::handleFoldersSynced(const quint64 &accountId, const QMailFolderIdList &folders)
+{
+    QList<quint64> folderIds = to_dbus_folderlist(folders);
+    emit foldersSynced(accountId, folderIds);
+}
+
+void MailServiceWorker::handleFoldersSyncFailed(const quint64 &accountId, const QMailFolderIdList &folders)
+{
+    QList<quint64> folderIds = to_dbus_folderlist(folders);
+    emit foldersSyncFailed(accountId, folderIds);
 }

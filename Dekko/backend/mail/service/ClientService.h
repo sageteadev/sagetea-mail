@@ -92,6 +92,8 @@ signals:
     void syncAccountFailed(const quint64 &id);
     void actionFailed(const quint64 &id, const QMailServiceAction::Status &status);
     void standardFoldersCreated(const quint64 &id, const bool created);
+    void foldersSynced(const quint64 &accountId, const QMailFolderIdList &folders);
+    void foldersSyncFailed(const quint64 &accountId, const QMailFolderIdList &folders);
 
 public slots:
     void undoActions();
@@ -150,6 +152,8 @@ signals:
     void accountSynced(const quint64 &id);
     void syncAccountFailed(const quint64 &id);
     void standardFoldersCreated(const quint64 &id, const bool created);
+    void foldersSynced(const quint64 &accountId, const QMailFolderIdList &folders);
+    void foldersSyncFailed(const quint64 &accountId, const QMailFolderIdList &folders);
     void actionFailed(const quint64 &id, const QMailServiceAction::Status &status);
 
 public slots:
@@ -172,6 +176,11 @@ public slots:
                         //                        qDebug() << "Sync account successful";
                         ClientServiceAction *clientAction = m_queue->at(0);
                         emit accountSynced(clientAction->accountId().toULongLong());
+                    } else if (m_queue->first()->serviceActionType() == ClientServiceAction::SyncFolderAction) {
+                        //                        qDebug() << "Sync folder successful";
+                        ClientServiceAction *clientAction = m_queue->at(0);
+                        emit foldersSynced(clientAction->accountId().toULongLong(), clientAction->folderIds());
+
                     } else if (m_queue->first()->serviceActionType() == ClientServiceAction::CreateStandardFolders) {
                         ClientServiceAction *clientAction = m_queue->at(0);
                         emit standardFoldersCreated(clientAction->accountId().toULongLong(), true);
@@ -213,6 +222,12 @@ public slots:
                         ClientServiceAction *clientAction = m_queue->at(0);
                         emit syncAccountFailed(clientAction->accountId().toULongLong());
                         emit actionFailed(clientAction->accountId().toULongLong(), action->status());
+                    } else if (m_queue->first()->serviceActionType() == ClientServiceAction::SyncFolderAction) {
+                        //                        qDebug() << "Sync folder failed";
+                        ClientServiceAction *clientAction = m_queue->at(0);
+                        emit foldersSyncFailed(clientAction->accountId().toULongLong(), clientAction->folderIds());
+
+
                     } else if (m_queue->first()->serviceActionType() == ClientServiceAction::CreateStandardFolders) {
                         ClientServiceAction *clientAction = m_queue->at(0);
                         emit standardFoldersCreated(clientAction->accountId().toULongLong(), false);

@@ -40,6 +40,16 @@
     <signal name="accountSynced">
       <arg name="id" type="t" direction="out"/>
     </signal>
+    <signal name="foldersSynced">
+      <arg direction="out" type="t" name="accountId"/>
+      <arg direction="out" type="(iiii)" name="folderIds"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.In1" value="QList&lt;quint64>"/>
+    </signal>
+    <signal name="foldersSyncFailed">
+      <arg direction="out" type="t" name="accountId"/>
+      <arg direction="out" type="(iiii)" name="folderIds"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.In1" value="QList&lt;quint64>"/>
+    </signal>
     <signal name="syncAccountFailed">
       <arg name="id" type="t" direction="out"/>
     </signal>
@@ -149,6 +159,21 @@
       <arg name="limit" type="i" direction="in"/>
       <arg name="messages" type="(iiii)" direction="out"/>
       <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QList&lt;quint64>"/>
+    </method>
+    <method name="queryFolders">
+      <arg name="folderKey" type="ay" direction="in"/>
+      <arg name="sortKey" type="ay" direction="in"/>
+      <arg name="limit" type="i" direction="in"/>
+      <arg name="folders" type="(iiii)" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QList&lt;quint64>"/>
+    </method>
+    <method name="totalCount">
+      <arg name="msgKey" type="ay" direction="in"/>
+      <arg name="count" type="i" direction="out"/>
+    </method>
+    <method name="pruneCache">
+      <arg name="msgIds" type="(iiii)" direction="in" />
+      <annotation name="org.qtproject.QtDBus.QtTypeName.In0" value="QList&lt;quint64>"/>
     </method>
   </interface>
 </node>

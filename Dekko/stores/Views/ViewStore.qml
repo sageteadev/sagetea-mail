@@ -41,8 +41,6 @@ AppListener {
     readonly property string selectedNavFolder: d.currentNavFolder
     property int selectedNavIndex: 0
 
-
-
     waitFor: [
         ComposerStore.listenerId,
         MailStore.listenerId,

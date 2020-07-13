@@ -40,6 +40,8 @@ ClientService::ClientService(QObject *parent) : QObject(parent),
     connect(m_serviceWatcher, &ClientServiceWatcher::accountSynced, this, &ClientService::accountSynced);
     connect(m_serviceWatcher, &ClientServiceWatcher::syncAccountFailed, this, &ClientService::syncAccountFailed);
     connect(m_serviceWatcher, &ClientServiceWatcher::standardFoldersCreated, this, &ClientService::standardFoldersCreated);
+    connect(m_serviceWatcher, &ClientServiceWatcher::foldersSynced, this, &ClientService::foldersSynced);
+    connect(m_serviceWatcher, &ClientServiceWatcher::foldersSyncFailed, this, &ClientService::foldersSyncFailed);
     connect(this, &ClientService::messagesSent, this, &ClientService::markSentRead);
     emit queueChanged();
 }

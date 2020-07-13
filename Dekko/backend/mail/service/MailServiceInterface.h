@@ -239,6 +239,8 @@ Q_SIGNALS: // SIGNALS
     void syncAccountFailed(qulonglong id);
     void undoCountChanged();
     void updatesRolledBack();
+    void foldersSynced(const qulonglong accountId, const QList<quint64> &folderIds);
+    void foldersSyncFailed(const qulonglong accountId, const QList<quint64> &folderIds);
 };
 
 #endif

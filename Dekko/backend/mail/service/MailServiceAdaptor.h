@@ -68,6 +68,16 @@ class MailServiceAdaptor: public QDBusAbstractAdaptor
 "    <signal name=\"accountSynced\">\n"
 "      <arg direction=\"out\" type=\"t\" name=\"id\"/>\n"
 "    </signal>\n"
+"    <signal name=\"foldersSynced\">\n"
+"      <arg direction=\"out\" type=\"t\" name=\"accountId\"/>\n"
+"      <arg direction=\"out\" type=\"(iiii)\" name=\"folderIds\"/>\n"
+"      <annotation value=\"QList&lt;quint64&gt;\" name=\"org.qtproject.QtDBus.QtTypeName.In1\"/>\n"
+"    </signal>\n"
+"    <signal name=\"foldersSyncFailed\">\n"
+"      <arg direction=\"out\" type=\"t\" name=\"accountId\"/>\n"
+"      <arg direction=\"out\" type=\"(iiii)\" name=\"folderIds\"/>\n"
+"      <annotation value=\"QList&lt;quint64&gt;\" name=\"org.qtproject.QtDBus.QtTypeName.In1\"/>\n"
+"    </signal>\n"
 "    <signal name=\"syncAccountFailed\">\n"
 "      <arg direction=\"out\" type=\"t\" name=\"id\"/>\n"
 "    </signal>\n"
@@ -246,6 +256,8 @@ Q_SIGNALS: // SIGNALS
     void syncAccountFailed(qulonglong id);
     void undoCountChanged();
     void updatesRolledBack();
+    void foldersSynced(const qulonglong accountId, const QList<quint64> &folderIds);
+    void foldersSyncFailed(const qulonglong accountId, const QList<quint64> &folderIds);
 };
 
 #endif

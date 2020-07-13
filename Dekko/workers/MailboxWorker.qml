@@ -64,6 +64,7 @@ AppListener {
         onDispatched: {
             Log.logInfo("MailboxWorker::syncStandardFolders", "Syncing standard folder")
             Client.syncStandardFolder(message.standardFolder)
+            MailboxStore.folderSyncActive = true
         }
     }
 
@@ -72,6 +73,7 @@ AppListener {
         onDispatched: {
             Log.logInfo("MailboxWorker::syncStandardFolder", "Syncing folder for account: %1".arg(message.accountId))
             Client.syncStandardFolder(message.accountId, message.standardFolder)
+            MailboxStore.folderSyncActive = true
         }
     }
 
@@ -80,6 +82,7 @@ AppListener {
         onDispatched: {
             Log.logInfo("MailboxWorker::syncFolder", "Syncing folder for account: %1".arg(message.accountId))
             Client.syncFolder(message.accountId, message.folderId)
+            MailboxStore.folderSyncActive = true
         }
     }
 
@@ -130,6 +133,16 @@ AppListener {
             })
         }
 
+    }
+
+    Connections {
+        target: Client
+        onFoldersSynced: {
+            MailboxStore.folderSyncActive = false
+            if(folderSyncErrorOccurred) {
+                console.log("Errors occurred during folder synchronization.");
+            }
+        }
     }
 
     QtObject {

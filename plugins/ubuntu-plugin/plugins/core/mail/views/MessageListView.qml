@@ -336,6 +336,11 @@ DekkoPage {
                         onClicked: MessageActions.showMoreMessages()
                     }
                 }
+
+                PullToRefresh {
+                    refreshing: MailboxStore.folderSyncActive
+                    onRefresh: MailboxActions.syncStandardFolders(Folder.StandardFolder)
+                }
             }
         }
 

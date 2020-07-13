@@ -36,6 +36,7 @@ BaseMessagingStore {
     property alias smartFolders: smartFolders
     property alias standardFoldersModel: stdFolders.children
     property alias smartFoldersModel: smartFolders.children
+    property bool folderSyncActive: false
 
     MessageFilterCollection {
         id: stdFolders

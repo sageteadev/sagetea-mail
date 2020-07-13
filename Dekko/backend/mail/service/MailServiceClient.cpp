@@ -45,7 +45,9 @@ QObject *Client::factory(QQmlEngine *engine, QJSEngine *scriptEngine)
 
 Client::Client(QObject *parent) : QObject(parent),
     m_service(0),
-    m_mService(0)
+    m_mService(0),
+    m_folderSyncsInProgress(0),
+    m_folderSyncErrorOccurred(false)
 {
 
     MailServiceWorker::registerTypes();
@@ -62,6 +64,8 @@ Client::Client(QObject *parent) : QObject(parent),
     connect(m_mService, &MailServiceInterface::messagesSent, this, &Client::handleMessagesSent);
     connect(m_mService, &MailServiceInterface::messageSendingFailed, this, &Client::handleMessageSendingFailed);
     connect(m_mService, &MailServiceInterface::accountSynced, this, &Client::accountSynced);
+    connect(m_mService, &MailServiceInterface::foldersSynced, this, &Client::handleFoldersSynced);
+    connect(m_mService, &MailServiceInterface::foldersSyncFailed, this, &Client::handleFoldersSyncFailed);
     connect(m_mService, &MailServiceInterface::syncAccountFailed, this, &Client::syncAccountFailed);
     connect(m_mService, &MailServiceInterface::standardFoldersCreated, this, &Client::standardFoldersCreated);
     connect(m_mService, &MailServiceInterface::actionFailed, this, &Client::handleFailure);
@@ -228,6 +232,10 @@ void Client::emptyTrash(const QMailAccountIdList &ids)
 
 void Client::syncFolders(const QMailAccountId &accountId, const QMailFolderIdList &folders)
 {
+    if (m_folderSyncsInProgress == 0) {
+        m_folderSyncErrorOccurred = false;
+    }
+    m_folderSyncsInProgress++;
     m_mService->syncFolders(accountId.toULongLong(), to_dbus_folderlist(folders));
 }
 
@@ -414,6 +422,19 @@ void Client::handleMessageSendingFailed(const QList<quint64> &msgIds, const int 
     QMailMessageIdList messages = from_dbus_msglist(msgIds);
     QMailServiceAction::Status::ErrorCode err = static_cast<QMailServiceAction::Status::ErrorCode>(error);
     emit messageSendingFailed(messages, err);
+}
+
+void Client::handleFoldersSynced(const quint64 &accountId, const QList<quint64> &folderIds)
+{
+    QMailFolderIdList folders = from_dbus_folderlist(folderIds);
+    m_folderSyncsInProgress--;
+    if(m_folderSyncsInProgress == 0) emit foldersSynced(m_folderSyncErrorOccurred);
+}
+
+void Client::handleFoldersSyncFailed(const quint64 &accountId, const QList<quint64> &folderIds)
+{
+    m_folderSyncErrorOccurred = true;
+    handleFoldersSynced(accountId, folderIds);
 }
 
 QMailAccountIdList Client::getEnabledAccountIds() const

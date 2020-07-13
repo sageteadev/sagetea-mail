@@ -176,6 +176,8 @@ signals:
     void clientError(const quint64 &accountId, const int &error, const QString &errorString);
     void standardFoldersCreated(const quint64 &accountId, const bool &created);
     void actionFailed(const quint64 &id, const int &statusCode, const QString &statusText);
+    void foldersSynced(const quint64 &accountId, const QList<quint64> &folderIds);
+    void foldersSyncFailed(const quint64 &accountId, const QList<quint64> &folderIds);
 
 
 private slots:
@@ -184,6 +186,8 @@ private slots:
     void handleMessagesSent(const QMailMessageIdList &msgIds);
     void handleMessageSendingFailed(const QMailMessageIdList &ids, QMailServiceAction::Status::ErrorCode error);
     void handleActionFailed(const quint64 &id, const QMailServiceAction::Status &status);
+    void handleFoldersSynced(const quint64 &accountId, const QMailFolderIdList &folders);
+    void handleFoldersSyncFailed(const quint64 &accountId, const QMailFolderIdList &folders);
 
 private:
     ClientService *m_service;

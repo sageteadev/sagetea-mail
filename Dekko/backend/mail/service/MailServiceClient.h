@@ -147,6 +147,7 @@ signals:
     void syncAccountFailed(const quint64 &id);
     void clientError(const quint64 &accountId, const Error &error, const QString &errorString);
     void standardFoldersCreated(const quint64 &accountId, const bool &created);
+    void foldersSynced(const bool folderSyncErrorOccurred);
 
 public slots:
     void handleFailure(const quint64 &id, const int &statusCode, const QString &statusText);
@@ -156,6 +157,8 @@ private slots:
     void handleMessageFetchFailed(const QList<quint64> &msgIds);
     void handleMessagesSent(const QList<quint64> &msgIds);
     void handleMessageSendingFailed(const QList<quint64> &msgIds, const int &error);
+    void handleFoldersSynced(const quint64 &accountId, const QList<quint64> &folderIds);
+    void handleFoldersSyncFailed(const quint64 &accountId, const QList<quint64> &folderIds);
 
 protected:
     QMailAccountIdList getEnabledAccountIds() const;
@@ -164,6 +167,8 @@ private:
 
     ClientService *m_service;
     MailServiceInterface *m_mService;
+    uint m_folderSyncsInProgress;
+    bool m_folderSyncErrorOccurred;
 
 };
 

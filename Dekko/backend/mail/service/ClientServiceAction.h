@@ -83,9 +83,15 @@ public:
         Q_ASSERT(false);
         return 0;
     }
+
     virtual QMailMessageIdList messageIds() {
         Q_ASSERT(false);
         return QMailMessageIdList();
+    }
+
+    virtual QMailFolderIdList folderIds() {
+        Q_ASSERT(false);
+        return QMailFolderIdList();
     }
 
     // Used by PriorityQueue
