@@ -34,6 +34,7 @@ FocusScope {
     property alias text: input.text
     property alias textDocument: input.textDocument
     property alias recipientModel: repeater.model
+    property bool isInvalidated: false
 
     height: main.height
 
@@ -97,9 +98,13 @@ FocusScope {
                         placeholderText: qsTr("Enter an address")
                         height: parent.height
                         onActiveFocusChanged: {
-                            if (!activeFocus && input.text) {
+                            if (!activeFocus && input.text && !isInvalidated) {
                                 Log.logInfo("RecipientFIeld::focusChanged", "Lost focus adding recipient")
                                 ComposerActions.addRecipientIfValid(recipientType, input.text)
+                            }
+
+                            if (activeFocus && isInvalidated) {
+                                isInvalidated = false
                             }
                         }
 
@@ -172,6 +177,7 @@ FocusScope {
             }
             once(ComposerKeys.validAddress, function(message) {
                 Log.logInfo("RecipientField::validAddress", "Address is valid, adding to recipients")
+                isInvalidated = false
                 ComposerActions.addRecipientFromAddress(message.type, message.address)
                 input.text = ""
             })
@@ -179,9 +185,9 @@ FocusScope {
             once(ComposerKeys.invalidAddress, function(message) {
                 Log.logInfo("RecipientField::invalidAddress", "Address invalid: %1".arg(message.address))
                 input.cursorPosition = input.length
+                isInvalidated = true
                 PopupActions.showError(PopupKeys.popupComposer, "Invalid email address: %1".arg(message.address))
             })
         }
     }
 }
-
