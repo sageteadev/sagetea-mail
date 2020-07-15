@@ -288,35 +288,39 @@ void MessageBuilder::buildForward(const MessageBuilder::ForwardType &type, const
     } else {
         m_subject->textDocument()->setPlainText(subject);
     }
-    // So what we have to think about is....
-    QString body;
-    QString srcBody;
+
+    QString srcBody = "";
     bool hasInlineBody(false);
-    // if message only has a plaintext part then we forward it inline
-    if (src.hasBody() && src.hasPlainTextBody()) {
-        //use it
+
+    // if message has a plaintext part then we forward it inline
+    if (src.hasPlainTextBody()) {
         hasInlineBody = true;
         srcBody = src.body().data();
-        // if it is just a multipart/alternative with no other attachments then inline the text/plain
-    } else if (src.multipartType() == QMailMessage::MultipartAlternative) {
+    }
+
+    if (src.multipartType() == QMailMessage::MultipartAlternative || src.multipartType() == QMailMessage::MultipartMixed) {
         QMailMessagePartContainer *ptext = src.findPlainTextContainer();
         if (ptext) {
-            // use it
             hasInlineBody = true;
             srcBody = static_cast<QMailMessagePart *>(ptext)->body().data();
-            // FIXME: fetch the plaintext part!!!
-            if (srcBody.isEmpty() && src.hasHtmlBody()) {
-                QMailMessagePartContainer *htext = src.findHtmlContainer();
-                if (htext) {
-                    QMailMessagePart *part = static_cast<QMailMessagePart *>(htext);
-                    QTextDocument b;
-                    b.setHtml(part->body().data());
-                    srcBody = b.toPlainText();
-                }
-            }
+        }
+    } 
+
+    // if srcBody is still empty then try to use html body
+    if (srcBody.isEmpty() && src.hasHtmlBody()) {
+        QMailMessagePartContainer *htext = src.findHtmlContainer();
+        if (htext) {
+            QMailMessagePart *part = static_cast<QMailMessagePart *>(htext);
+            QTextDocument b;
+            b.setHtml(part->body().data());
+            srcBody = b.toPlainText();
+            hasInlineBody = true;
+        } else {
+            qDebug() << "src.hasHtmlBody() but src.findHtmlContainer() == null. That should never happen!?!";
         }
     }
 
+    QString body;
     if (hasInlineBody) {
         QString forwardBlock = "\n------------ " + tr("Forwarded Message") + " ------------\n";
         forwardBlock += tr("Date: ") + src.date().toString() + '\n';
@@ -325,6 +329,8 @@ void MessageBuilder::buildForward(const MessageBuilder::ForwardType &type, const
         forwardBlock += tr("Subject: ") + src.subject().simplified() + '\n';
         body = (forwardBlock % QStringLiteral("\n") % srcBody);
     } else {
+        qDebug() << "Seems we've found nothing to be used as body inline. Multipart type is: "
+                 << src.multipartType();
         // We need to attach the message instead using part refs if possible
         Attachment *srcAttach = new Attachment(this, QString::number(src.id().toULongLong()), Attachment::PartType::Message, Attachment::Disposition::Attached);
         m_attachments->append(srcAttach);
