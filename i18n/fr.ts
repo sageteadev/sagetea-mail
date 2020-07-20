@@ -166,7 +166,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau message</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
@@ -179,7 +179,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Message</translation>
     </message>
 </context>
 <context>
@@ -188,13 +188,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>messages</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>message</translation>
     </message>
 </context>
 <context>

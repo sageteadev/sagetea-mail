@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto-Einstellungen: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültige Email-Adresse</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesendet mit Dekko von meinem Ubuntu-Gerät</translation>
     </message>
 </context>
 <context>
@@ -58,12 +58,12 @@
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>Soll dieses Konto wirklich entfernt werden?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto wurde entfernt</translation>
     </message>
 </context>
 <context>
@@ -2279,12 +2279,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichten wurden gesendet</translation>
     </message>
     <message>
         <location filename="../Dekko/Mail/Stores/Views/ViewStore.qml" line="74"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht wurde gesendet</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="77"/>
