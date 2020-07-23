@@ -190,7 +190,7 @@ FlagsAction::FlagsAction(QObject *parent, const QMailMessageIdList &msgs,
             flagAction = tr("as todo");
             break;
         case State::Remove:
-            flagAction = tr("no loger todo");
+            flagAction = tr("no longer todo");
             break;
         }
     }
