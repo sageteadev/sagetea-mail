@@ -21,7 +21,7 @@
 ForbiddenReply::ForbiddenReply(QObject *parent):
     QNetworkReply(parent)
 {
-    setError(QNetworkReply::ContentOperationNotPermittedError, tr("Remote Content Is Banned"));
+    setError(QNetworkReply::ContentOperationNotPermittedError, tr("Remote content is banned"));
     setFinished(true);
     QTimer::singleShot(0, this, SLOT(slotFinish()));
 }
@@ -39,5 +39,3 @@ void ForbiddenReply::slotFinish()
     emit error(QNetworkReply::ContentOperationNotPermittedError);
     emit finished();
 }
-
-
