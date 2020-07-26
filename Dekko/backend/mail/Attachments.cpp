@@ -56,7 +56,7 @@ Attachment::Attachment(QObject *parent) : QObject(parent),
 }
 
 Attachment::Attachment(QObject *parent, const QString &attachment, const Attachment::PartType &partType, const Attachment::Disposition &disposition):
-    QObject(parent), m_partType(partType), m_disposition(disposition), m_hasRefs(false)
+    QObject(parent), m_fetching(false), m_partType(partType), m_disposition(disposition), m_hasRefs(false)
 {
     switch(partType) {
     case Message:
@@ -245,9 +245,15 @@ void Attachment::addToMessage(QMailMessage &msg)
 
 void Attachment::open(QObject *qmlObject)
 {
+    if (m_partType == File) {
+        qDebug() << "Fixme: opening attachments of part type File not yet implemented";
+        return;
+    }
+
     m_fetching = true;
     m_url = QString();
     emit progressChanged();
+
     if (!contentAvailable()) {
         QQmlEngine *engine = qmlEngine(qmlObject);
         Q_ASSERT(engine);
@@ -262,6 +268,8 @@ void Attachment::fetch()
 {
     if (!m_qnam) {
         // TODO emit some error
+        m_fetching = false;
+        emit progressChanged();
         return;
     }
     if (m_reply) {

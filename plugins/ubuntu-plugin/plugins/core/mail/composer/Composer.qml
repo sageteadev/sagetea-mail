@@ -10,6 +10,7 @@ import PlugMan 1.0
 import Dekko.Ubuntu.Components 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Helpers 1.0
+import "../components"
 
 ViewState {
     id: composer
@@ -88,15 +89,25 @@ ViewState {
                 spacing: 0
 
                 Stretcher {
-                    implicitHeight: parent.height
+                    implicitHeight: parent.height - attachmentPanel.height
                     MessageComposer {
                         id: composePanel
                         anchors.fill: parent
                     }
                 }
-                ComposeSidePanel {}
+
+                AttachmentPanel {
+                    id: attachmentPanel
+                    attachments: ComposerStore.attachments
+                    isReadOnly: false
+                    anchors {
+                        left: parent.left
+                        bottom: parent.bottom
+                        right: parent.right
+                    }
+                    maxHeight: parent.height / 2
+                }
             }
         }
-
     }
 }

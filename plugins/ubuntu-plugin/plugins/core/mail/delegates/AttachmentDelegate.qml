@@ -22,42 +22,51 @@ import Dekko.Mail.API 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Components 1.0
 
-ListItem {
+ListItemWithActions {
+    id: listItem
     property Component openItem: Item{}
     property var attachment: model.qtObject
-    height: aLayout.height
+    width: parent.width
+    showDivider: true
+    triggerIndex: model.index
 
-    Connections {
-        target: model.qtObject
-        onReadyToOpen: {
-            if (isRunningOnMir) {
-                ContentActions.exportFile(dekko, url)
-            } else {
-                Qt.openUrlExternally(url)
+    Item {
+        Connections {
+            target: attachment
+            onReadyToOpen: {
+                if (isRunningOnMir) {
+                    ContentActions.exportFile(dekko, url)
+                } else {
+                    Qt.openUrlExternally(url)
+                }
             }
         }
     }
-    onClicked: {
-        Log.logInfo("AttachmentPanel::openAttachment", "Attachment octet size is: %1".arg(model.qtObject.sizeInBytes))
+
+    onItemClicked: {
+        Log.logInfo("AttachmentPanel::openAttachment", "Attachment octet size is: %1".arg(attachment.sizeInBytes))
         // This really is a crude hack
         // the attachments object can't directly
         // access the custom qnam factory. So we pass
         // it a QObject from the qml context which
         // the attachment object can access the QQmlEngine from
         // FIXME: Refactor Client* classes into seperate lib
-        model.qtObject.open(openItem.createObject())
+        attachment.open(openItem.createObject())
     }
+
     ListItemLayout {
         id: aLayout
-        height: units.gu(6)
-        title.text: attachment.displayName
-        subtitle.text: attachment.mimeType + ", " + attachment.size
+        height: listItem.height
+        title.text: attachment ? attachment.displayName : ""
+        subtitle.text: attachment ? attachment.mimeType + ", " + attachment.size : ""
+
         Icon {
             source: Paths.mimeIconForMimeType(attachment.mimeType)
             color: "#888888"
             height: Style.largeSpacing; width: height
             SlotsLayout.position: SlotsLayout.Leading
         }
+
         ActivityIndicator {
             visible: running
             running: attachment.fetchInProgress

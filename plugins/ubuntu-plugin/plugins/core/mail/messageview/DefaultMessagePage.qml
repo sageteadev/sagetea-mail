@@ -245,6 +245,7 @@ DekkoPage {
             }
         }
     }
+
     Item {
         id: hiddenMargin
         anchors {
@@ -252,12 +253,13 @@ DekkoPage {
             bottom: parent.bottom
             right: parent.right
         }
-        height: attachmentPanel.visible ? units.gu(6) : 0
+        height: attachmentPanel.visible ? attachmentPanel.height : 0
     }
 
     AttachmentPanel {
         id: attachmentPanel
-        attachments: message.attachments
+        attachments: message.attachments.model
+        isReadOnly: true
         anchors {
             left: parent.left
             bottom: parent.bottom

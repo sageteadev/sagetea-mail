@@ -20,6 +20,7 @@ import QtQuick.Controls.Suru 2.2
 import Ubuntu.Components 1.3
 import Dekko.Components 1.0
 import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Composer 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Components 1.0
 import "../delegates"
@@ -28,13 +29,15 @@ Rectangle {
     id: attachmentPanel
 
     property var attachments
+    property bool isReadOnly
     property int maxHeight
+    property int attachmentDelegateHeight: units.gu(6)
     readonly property int expandedHeight: internalHeight > maxHeight ? maxHeight : internalHeight
-    readonly property int internalHeight: header.height + col.height
+    readonly property int internalHeight: header.height + attachmentList.contentHeight
     readonly property int collapsedHeight: attachmentPanel.visible ? header.height : 0
     readonly property bool expanded: state === "expanded"
     color: Suru.backgroundColor
-    visible: attachments.model.count
+    visible: attachments.count
 
     MouseArea {
         anchors.fill: parent
@@ -99,7 +102,7 @@ Rectangle {
                 anchors.margins: units.gu(0.5)
                 anchors.centerIn: parent
                 fontSize: "small"
-                text: attachments.model.count
+                text: attachments.count
             }
         }
 
@@ -141,21 +144,18 @@ Rectangle {
             right: parent.right
             bottom: parent.bottom
         }
-        Flickable {
+
+        ListView {
+            id: attachmentList
             anchors.fill: parent
-            contentHeight: col.height
-            clip: true
-            Column {
-                id: col
-                anchors {
-                    left: parent.left
-                    top: parent.top
-                    right: parent.right
-                }
-                Repeater {
-                    model: attachments ? attachments.model : 0
-                    delegate:  AttachmentDelegate{}
-                }
+            add: DekkoAnimation.listViewAddTransition
+            addDisplaced: DekkoAnimation.listViewAddDisplacedTransition
+            remove: DekkoAnimation.listViewRemoveTransition
+            removeDisplaced: DekkoAnimation.listViewRemoveDisplacedTransition
+            model: attachments ? attachments : 0
+            delegate: AttachmentDelegate {
+                height: attachmentDelegateHeight
+                leftSideAction: isReadOnly ? 0 : ComposerStore.actions.deleteAttachment
             }
         }
     }
