@@ -198,7 +198,7 @@ DekkoPage {
 
             Button {
                 height: Style.largeSpacing
-                width: Style.largeSpacing * 2
+                width: Style.largeSpacing * 4
                 anchors {
                     right: parent.right
                     rightMargin: Style.defaultSpacing
@@ -385,4 +385,3 @@ DekkoPage {
         }
     }
 }
-
