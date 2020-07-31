@@ -44,7 +44,8 @@ DekkoPage {
         ListItemLayout {
             title.text: qsTr("Clear messages from cache")
             summary.text: qsTr("This will clear messages older than the given period")
-            summary.color: UbuntuColors.green
+            summary.color: theme.palette.normal.negative
+            summary.wrapMode: Text.WordWrap
         }
 
         OptionSelector {
@@ -70,8 +71,8 @@ DekkoPage {
                     rightMargin: units.gu(1)
                     verticalCenter: parent.verticalCenter
                 }
-                color: UbuntuColors.green
-                text: qsTr("Clear")
+                color: theme.palette.normal.negative
+                text: qsTr("Clear now")
                 onClicked: service.sendMessage("cache-manager", "prune:%1".arg(SettingsStore.selectedAccountId), selector.selectedIndex);
             }
         }
