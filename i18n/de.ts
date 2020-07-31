@@ -1188,12 +1188,12 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
 <context>
     <name>Message</name>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="227"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
         <translation>Ich</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="229"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
         <translation>an %1</translation>
     </message>
@@ -1503,29 +1503,34 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
     <name>MinimalMessage</name>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="110"/>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
-        <translation>hh:mm</translation>
+        <comment>time format as hours:minutes e.g. 12:45</comment>
+        <translation type="unfinished">hh:mm</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="114"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
-        <translation>ddd hh:mm</translation>
+        <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
+        <translation type="unfinished">ddd hh:mm</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="116"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
-        <translation>dd. MMM</translation>
+        <comment>date format as day name and month e.g. 02 May</comment>
+        <translation type="unfinished">dd. MMM</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="118"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
-        <translation>dd.MM.yyyy</translation>
+        <comment>date format as day month year e.g. 31 02 2020</comment>
+        <translation type="unfinished">dd.MM.yyyy</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
-        <translation>dddd dd</translation>
+        <comment>time format as long day name and day e.g. Monday 02</comment>
+        <translation>dddd dd.</translation>
     </message>
 </context>
 <context>

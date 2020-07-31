@@ -1240,22 +1240,27 @@ Would you like to use this instead?</source>
     <name>MinimalMessage</name>
     <message>
         <source>hh:mm</source>
+        <comment>time format as hours:minutes e.g. 12:45</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ddd hh:mm</source>
+        <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>dd MMM</source>
+        <comment>date format as day name and month e.g. 02 May</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>dd MMM yy</source>
+        <comment>date format as day month year e.g. 31 02 2020</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>dddd dd</source>
+        <comment>time format as long day name and day e.g. Monday 02</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
