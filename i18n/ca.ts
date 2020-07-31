@@ -569,7 +569,7 @@ Voleu fer servir aquesta en el seu lloc?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="42"/>
         <source>Show favourite folders</source>
-        <translation>Mostra les carpetes favorites</translation>
+        <translation>Mostra les carpetes preferides</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="53"/>
@@ -745,12 +745,12 @@ Voleu fer servir aquesta en el seu lloc?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/FolderListDelegate.qml" line="53"/>
         <source>Un-favourite</source>
-        <translation>Treu dels favorits</translation>
+        <translation>Treu dels preferits</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/FolderListDelegate.qml" line="53"/>
         <source>Favourite</source>
-        <translation>Afegeix als favorits</translation>
+        <translation>Afegeix als preferits</translation>
     </message>
 </context>
 <context>
@@ -982,7 +982,7 @@ Voleu fer servir aquesta en el seu lloc?</translation>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation>Favorits</translation>
+        <translation>Preferits</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1025,12 +1025,12 @@ Voleu fer servir aquesta en el seu lloc?</translation>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation>Fes favorit</translation>
+        <translation>Fes preferit</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation>No facis favorit</translation>
+        <translation>No facis preferit</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
