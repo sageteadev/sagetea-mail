@@ -107,22 +107,23 @@ QString MinimalMessage::prettyDate()
         return QString();
 
     if (timestamp.date() == QDate::currentDate())
-        return timestamp.toString(tr("hh:mm"));
+        return timestamp.toString(tr("hh:mm","time format as hours:minutes e.g. 12:45"));
 
     int beforeDays = timestamp.date().daysTo(QDate::currentDate());
     if (beforeDays <= 7) {
-        return timestamp.toString(tr("ddd hh:mm"));
+        //:Timeformat as short day name hour:minute e.g. Mon. 12:45
+        return timestamp.toString(tr("ddd hh:mm","time/date format as short day name hours:minutes e.g. Mon. 12:45"));
     } else if (beforeDays <= 31) {
-        return timestamp.toString(tr("dd MMM"));
+        return timestamp.toString(tr("dd MMM","date format as day name and month e.g. 02 May"));
     } else {
-        return timestamp.toString(tr("dd MMM yy"));
+        return timestamp.toString(tr("dd MMM yy","date format as day month year e.g. 31 02 2020"));
     }
 }
 
 QString MinimalMessage::prettyLongDate()
 {
     QDateTime t = date();
-    return QStringLiteral("%1, %2").arg(t.toString(tr("dddd dd")), t.toString(tr("hh:mm")));
+    return QStringLiteral("%1, %2").arg(t.toString(tr("dddd dd","time format as long day name and day e.g. Monday 02")), t.toString(tr("hh:mm","time format as hours:minutes e.g. 12:45")));
 }
 
 Qt::CheckState MinimalMessage::checked() const
