@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sq_AL">
+<TS version="2.1" language="sq_AL">
 <context>
     <name>AccountSettingsList</name>
     <message>
@@ -142,6 +142,52 @@ Would you like to use this instead?</source>
     </message>
     <message>
         <source>New message</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CacheSettings</name>
+    <message>
+        <source>Manage cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CacheSettingsPage</name>
+    <message>
+        <source>Manage cache: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One Week</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fortnight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Three Months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Six Months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear messages from cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will clear messages older than the given period</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear now</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -398,22 +444,6 @@ Would you like to use this instead?</source>
 <context>
     <name>DekkoWebView</name>
     <message>
-        <source>New mail</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select all</source>
-        <translation type="unfinished">Zgjidh të gjitha</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Open in browser?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -578,11 +608,11 @@ Would you like to use this instead?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>no loger todo</source>
+        <source>Marking %1 messages %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Marking %1 messages %2</source>
+        <source>no longer todo</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -634,7 +664,7 @@ Would you like to use this instead?</source>
 <context>
     <name>ForbiddenReply</name>
     <message>
-        <source>Remote Content Is Banned</source>
+        <source>Remote content is banned</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1374,6 +1404,24 @@ Would you like to use this instead?</source>
     <name>NoticePopup</name>
     <message>
         <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NotificationSettings</name>
+    <message>
+        <source>Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NotificationSettingsPage</name>
+    <message>
+        <source>Notification Settings: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="et">
+<TS version="2.1" language="et">
 <context>
     <name>AccountSettingsList</name>
     <message>
@@ -105,7 +105,7 @@
 <context>
     <name>AttachmentPanel</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="82"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="85"/>
         <source>Attachments</source>
         <translation>Manused</translation>
     </message>
@@ -175,6 +175,62 @@ Would you like to use this instead?</source>
     </message>
 </context>
 <context>
+    <name>CacheSettings</name>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
+        <source>Manage cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CacheSettingsPage</name>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
+        <source>Manage cache: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
+        <source>One Week</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
+        <source>Fortnight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
+        <source>One Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
+        <source>Three Months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
+        <source>Six Months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
+        <source>Clear messages from cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
+        <source>This will clear messages older than the given period</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
+        <source>Clear now</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CleanMessagePage</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
@@ -185,14 +241,14 @@ Would you like to use this instead?</source>
 <context>
     <name>ClientService</name>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
         <translation type="unfinished"></translation>
     </message>
@@ -208,7 +264,7 @@ Would you like to use this instead?</source>
 <context>
     <name>Composer</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="55"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
         <translation type="unfinished"></translation>
     </message>
@@ -478,26 +534,6 @@ Would you like to use this instead?</source>
 <context>
     <name>DekkoWebView</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="203"/>
-        <source>New mail</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="203"/>
-        <source>Open link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="212"/>
-        <source>Select all</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="217"/>
-        <source>Copy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
         <translation type="unfinished"></translation>
@@ -696,7 +732,7 @@ Would you like to use this instead?</source>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
-        <source>no loger todo</source>
+        <source>no longer todo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -763,7 +799,7 @@ Would you like to use this instead?</source>
     <name>ForbiddenReply</name>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
-        <source>Remote Content Is Banned</source>
+        <source>Remote content is banned</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1075,7 +1111,7 @@ Would you like to use this instead?</source>
 <context>
     <name>MailboxWorker</name>
     <message>
-        <location filename="../Dekko/workers/MailboxWorker.qml" line="148"/>
+        <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1187,27 +1223,27 @@ Would you like to use this instead?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="321"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="322"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="323"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="324"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -1669,6 +1705,27 @@ Would you like to use this instead?</source>
     </message>
 </context>
 <context>
+    <name>NotificationSettings</name>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
+        <source>Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NotificationSettingsPage</name>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
+        <source>Notification Settings: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>OutgoingServerGroup</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
@@ -1749,7 +1806,7 @@ Would you like to use this instead?</source>
 <context>
     <name>QObject</name>
     <message numerus="yes">
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="336"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1757,17 +1814,17 @@ Would you like to use this instead?</source>
         </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="338"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="340"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="342"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1775,7 +1832,7 @@ Would you like to use this instead?</source>
 <context>
     <name>RecipientField</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="97"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="98"/>
         <source>Enter an address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2277,17 +2334,17 @@ Would you like to use this instead?</source>
 <context>
     <name>ViewStore</name>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="74"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="77"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
         <translation type="unfinished"></translation>
     </message>

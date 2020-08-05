@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<TS version="2.1" language="cs">
 <context>
     <name>AccountSettingsList</name>
     <message>
@@ -105,7 +105,7 @@
 <context>
     <name>AttachmentPanel</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="82"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="85"/>
         <source>Attachments</source>
         <translation>Přílohy</translation>
     </message>
@@ -177,6 +177,62 @@ Přejete si použít raději toto nastavení?</translation>
     </message>
 </context>
 <context>
+    <name>CacheSettings</name>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
+        <source>Manage cache</source>
+        <translation>Správa mezipaměti</translation>
+    </message>
+</context>
+<context>
+    <name>CacheSettingsPage</name>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
+        <source>Manage cache: %1</source>
+        <translation>Správa mezipaměti: %1</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
+        <source>One Week</source>
+        <translation>Jeden týden</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
+        <source>Fortnight</source>
+        <translation>Čtrnáct dní</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
+        <source>One Month</source>
+        <translation>Jeden měsíc</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
+        <source>Three Months</source>
+        <translation>Tři týdny</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
+        <source>Six Months</source>
+        <translation>Šest měsíců</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
+        <source>Clear messages from cache</source>
+        <translation>Vymazat zprávy z mezipaměti</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
+        <source>This will clear messages older than the given period</source>
+        <translation>Tímto vymažete zprávy starší než dané období</translation>
+    </message>
+    <message>
+        <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
+        <source>Clear now</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CleanMessagePage</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
@@ -187,14 +243,14 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>ClientService</name>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
         <translation>zprávy</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="76"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="80"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
         <translation>zpráva</translation>
     </message>
@@ -210,7 +266,7 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>Composer</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="55"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
         <translation>Vložit přílohu</translation>
     </message>
@@ -480,26 +536,6 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>DekkoWebView</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="203"/>
-        <source>New mail</source>
-        <translation>Nová pošta</translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="203"/>
-        <source>Open link</source>
-        <translation>Otevřít odkaz</translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="212"/>
-        <source>Select all</source>
-        <translation>Vybrat vše</translation>
-    </message>
-    <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="217"/>
-        <source>Copy</source>
-        <translation>Kopírovat</translation>
-    </message>
-    <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
         <translation>Otevřít v prohlížeči?</translation>
@@ -698,7 +734,7 @@ Přejete si použít raději toto nastavení?</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
-        <source>no loger todo</source>
+        <source>no longer todo</source>
         <translation>odebrat značku</translation>
     </message>
     <message>
@@ -765,8 +801,8 @@ Přejete si použít raději toto nastavení?</translation>
     <name>ForbiddenReply</name>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
-        <source>Remote Content Is Banned</source>
-        <translation>Vzdálený obsah je zakázán</translation>
+        <source>Remote content is banned</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1077,7 +1113,7 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>MailboxWorker</name>
     <message>
-        <location filename="../Dekko/workers/MailboxWorker.qml" line="148"/>
+        <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
         <translation>Zpráva byla přesunuta</translation>
     </message>
@@ -1190,27 +1226,27 @@ Přejete si použít raději toto nastavení?</translation>
 </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="321"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
         <translation>Přeposlaná zpráva</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="322"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
         <translation>Datum: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="323"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
         <translation>Od: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="324"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
         <translation>Komu: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
         <translation>Věc: </translation>
     </message>
@@ -1672,6 +1708,27 @@ Přejete si použít raději toto nastavení?</translation>
     </message>
 </context>
 <context>
+    <name>NotificationSettings</name>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
+        <source>Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NotificationSettingsPage</name>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
+        <source>Notification Settings: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>OutgoingServerGroup</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
@@ -1752,7 +1809,7 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>QObject</name>
     <message numerus="yes">
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="336"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
         <translation>
             <numerusform>%n bajt</numerusform>
@@ -1761,17 +1818,17 @@ Přejete si použít raději toto nastavení?</translation>
         </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="338"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="340"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="342"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
@@ -1779,7 +1836,7 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>RecipientField</name>
     <message>
-        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="97"/>
+        <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="98"/>
         <source>Enter an address</source>
         <translation>Zadat adresu</translation>
     </message>
@@ -2281,17 +2338,17 @@ Přejete si použít raději toto nastavení?</translation>
 <context>
     <name>ViewStore</name>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
         <translation>Zprávy odeslány</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="74"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
         <translation>Zpráva odeslána</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="77"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
         <translation>Odeslání zprávy se nezdařilo</translation>
     </message>

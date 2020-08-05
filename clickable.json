@@ -45,7 +45,7 @@
     "libraries": {
         "update-ts-files": {
             "builder": "custom",
-            "build": "cd ${ROOT} && scripts/update-i18n Dekko plugins/ubuntu-plugin",
+            "build": "cd ${ROOT} && scripts/update-i18n Dekko plugins/ubuntu-plugin plugins/ubuntu-notification-plugin plugins/cache-manager-plugin",
             "dependencies_host": [
                 "qttools5-dev-tools"
             ]
