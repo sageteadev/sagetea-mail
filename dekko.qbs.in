@@ -6,7 +6,7 @@ Project {
     name: "Dekko Project"
     property string appName: "Dekko"
     property string pkgName: "dekko.dekkoproject"
-    property string version: "0.3.0"
+    property string version: "0.3.1"
 	property string arch: "%HOST_ARCH%"
 
     Probe {
