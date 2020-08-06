@@ -32,10 +32,9 @@ function install_python_deps
     for dep in $PYTHON_DEPS; do
         cp -r $PYTHON_DEPS_DIR/$dep $DEKKO_PYTHON_DIR
     done
-    if [ "${ARCH}" != "arm64" ]; then
-        cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
-        cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
-    fi
+    
+    cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
+    cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
 }
 
 ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
