@@ -37,22 +37,28 @@ Item {
                 left: parent.left
                 leftMargin: Style.defaultSpacing
                 verticalCenter: parent.verticalCenter
+                right: allowButton.left
+                rightMargin: units.gu(1.5)
             }
+            elide: Text.ElideRight
+            clip: true
             visible: notice.contentBlocked
             text: qsTr("Remote content blocked")
         }
 
         Button {
+            id: allowButton
             height: units.gu(4)
-            width: units.gu(8)
+            width: allowAction.text.width > units.gu(15) ? units.gu(15) : allowAction.text.width
             anchors {
                 right: parent.right
                 rightMargin: Style.defaultSpacing
                 verticalCenter: parent.verticalCenter
             }
-            Suru.highlightType: Suru.PositiveHighlight
+            Suru.highlightType: Suru.NegativeHighlight
             color: Suru.highlightColor
             action: Action {
+                id: allowAction
                 text: qsTr("Allow")
                 onTriggered: notice.allowClicked()
             }
@@ -92,4 +98,3 @@ Item {
         }
     ]
 }
-

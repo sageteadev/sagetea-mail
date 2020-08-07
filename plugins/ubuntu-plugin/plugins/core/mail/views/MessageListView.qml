@@ -191,14 +191,19 @@ DekkoPage {
                     left: parent.left
                     leftMargin: Style.defaultSpacing
                     verticalCenter: parent.verticalCenter
+                    right: undoButton.left
+                    rightMargin: units.gu(1.5)
                 }
+                elide: Text.ElideRight
+                clip: true
                 visible: MailStore.hasUndoableActions
                 text: MailStore.undoableActionDescription
             }
 
             Button {
+                id: undoButton
                 height: Style.largeSpacing
-                width: Style.largeSpacing * 4
+                width: undoAction.text.width > units.gu(15) ? units.gu(15) : undoAction.text.width
                 anchors {
                     right: parent.right
                     rightMargin: Style.defaultSpacing
@@ -207,6 +212,7 @@ DekkoPage {
                 Suru.highlightType: Suru.PositiveHighlight
                 color: Suru.highlightColor
                 action: Action {
+                    id: undoAction
                     text: qsTr("Undo")
                     onTriggered: MessageActions.undoRecentActions()
                 }
