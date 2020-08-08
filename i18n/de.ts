@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation>Konto-Einstellungen: %1</translation>
+        <translation>Kontoeinstellungen: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -1525,7 +1525,7 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
         <source>dddd dd</source>
-        <translation>dddd dd.</translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
