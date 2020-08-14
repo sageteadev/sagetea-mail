@@ -86,7 +86,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="115"/>
         <source>Add another</source>
-        <translation>Dodaj kolejny</translation>
+        <translation>Dodaj kolejne</translation>
     </message>
 </context>
 <context>
@@ -229,7 +229,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyczyść teraz</translation>
     </message>
 </context>
 <context>
@@ -268,7 +268,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
-        <translation>Dołączać</translation>
+        <translation>Załącznik</translation>
     </message>
 </context>
 <context>
@@ -735,7 +735,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>już nie do zrobienia</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
@@ -802,7 +802,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdalne treści są zakazane</translation>
     </message>
 </context>
 <context>
@@ -956,7 +956,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="240"/>
         <source>Allowed to delete mail</source>
-        <translation>Do usuwania poczty</translation>
+        <translation>Zezwalaj na usuwanie poczty</translation>
     </message>
 </context>
 <context>
@@ -1164,7 +1164,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="75"/>
         <source>Next</source>
-        <translation>Następny</translation>
+        <translation>Dalej</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
@@ -1712,7 +1712,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Powiadomienia</translation>
     </message>
 </context>
 <context>
@@ -1720,12 +1720,12 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustawienia powiadomień: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Włączone</translation>
     </message>
 </context>
 <context>
@@ -2301,7 +2301,7 @@ Czy chcesz zamiast tego użyć tego?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="83"/>
         <source>Next</source>
-        <translation>Następny</translation>
+        <translation>Dalej</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="125"/>

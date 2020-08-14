@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="el">
 <context>
     <name>AccountSettingsList</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις λογαριασμού: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
         <source>Incoming Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής εισερχομένων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="64"/>
         <source>Outgoing Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής εξερχομένων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="68"/>
         <source>Copies and Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντίγραφα και Φάκελοι</translation>
     </message>
 </context>
 <context>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Μη έγκυρη ηλεκτρονική διεύθυνση</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Απεστάλη με τη χρήση του Dekko από την συσκευή μου με Ubuntu</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποτυχία αφαίρεσης λογαριασμού</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>Είστε σίγουροι για την αφαίρεση αυτού του λογαριασμού;</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο λογαριασμός αφαιρέθηκε</translation>
     </message>
 </context>
 <context>
@@ -71,22 +71,22 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="31"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιτυχώς</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="90"/>
         <source>New account created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δημιουργήθηκε νέος λογαριασμός.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="99"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνέχεια</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="115"/>
         <source>Add another</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη άλλου</translation>
     </message>
 </context>
 <context>
@@ -94,12 +94,12 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/AddressBookList.qml" line="12"/>
         <source>Addressbooks</source>
-        <translation type="unfinished"></translation>
+        <translation>Βιβλίο διευθύνσεων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/AddressBookList.qml" line="65"/>
         <source>Add Collection</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη συλλογής</translation>
     </message>
 </context>
 <context>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="85"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισυναπτόμενα</translation>
     </message>
 </context>
 <context>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/AttachmentPopover.qml" line="46"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαγραφή</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="45"/>
         <source>Authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>Πιστοποίηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
@@ -133,12 +133,12 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
         <source>LOGIN</source>
-        <translation type="unfinished"></translation>
+        <translation>ΣΥΝΔΕΣΗ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="62"/>
         <source>CRAM-MD5</source>
-        <translation type="unfinished"></translation>
+        <translation>CRAM-MD5</translation>
     </message>
 </context>
 <context>

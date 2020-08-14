@@ -229,7 +229,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>Smazat nyní</translation>
     </message>
 </context>
 <context>
@@ -802,7 +802,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdálený obsah je zakázán</translation>
     </message>
 </context>
 <context>
@@ -1712,7 +1712,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznámení</translation>
     </message>
 </context>
 <context>
@@ -1720,12 +1720,12 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení oznámení: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolena</translation>
     </message>
 </context>
 <context>
