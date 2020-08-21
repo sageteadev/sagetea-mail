@@ -128,7 +128,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation type="unfinished"></translation>
+        <translation>ΑΠΛΟ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
@@ -146,19 +146,21 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="35"/>
         <source>Searching for configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Γίνεται αναζήτηση για ρυθμίσεις.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
         <source>IMAP server found</source>
-        <translation type="unfinished"></translation>
+        <translation>Βρέθηκε διακομιστής IMAP</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="78"/>
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>Βρέθηκαν ρυθμίσεις διακομιστή IMAP για τον τομέα σας.
+
+Θα θέλατε τις χρησιμοποιήσετε;</translation>
     </message>
 </context>
 <context>
@@ -166,12 +168,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Νέο μήνυμα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνημμένα</translation>
     </message>
 </context>
 <context>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαχείριση λανθάνουσας μνήμης</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαχείριση λανθάνουσας μνήμης: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Μια εβδομάδα</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεκαπενθήμερο</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Ένας μήνας</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Τρείς μήνες</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Έξι μήνες</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκκαθάριση μηνυμάτων από την λανθάνουσα μνήμη</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτό θα διαγράψει μηνύματα παλαιότερα από τη δεδομένη περίοδο</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκκαθάριση τώρα</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Μήνυμα</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>μηνύματα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>μήνυμα</translation>
     </message>
 </context>
 <context>
@@ -258,7 +260,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
         <source>Dekko Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνθέτης Dekko</translation>
     </message>
 </context>
 <context>
@@ -266,7 +268,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισύναψη</translation>
     </message>
 </context>
 <context>
@@ -274,22 +276,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
-        <translation type="unfinished"></translation>
+        <translation>Παρακαλούμε επιλέξτε έναν αποστολέα. Διαφορετικά, κανένα πρόχειρο δεν θα αποθηκευτεί αυτόματα. Εξετάστε το ενδεχόμενο να ορίσετε μια προεπιλεγμένη ταυτότητα.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάτι απίθανο συμβαίνει με την ταυτότητά σας. Επιλέξτε έναν έγκυρο αποστολέα.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το μήνυμα βρίσκεται στην ουρά.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το πρόχειρο αποθηκεύτηκε.</translation>
     </message>
 </context>
 <context>
@@ -297,22 +299,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποστολή</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποθήκευση προχείρου</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόρριψη</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισύναψη</translation>
     </message>
 </context>
 <context>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόρριψη μηνύματος</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να απορρίψετε αυτό το μήνυμα;</translation>
     </message>
 </context>
 <context>
@@ -333,12 +335,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="51"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="63"/>
         <source>Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιβεβαίωση</translation>
     </message>
 </context>
 <context>
@@ -346,12 +348,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="113"/>
         <source>Add contact</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη επαφής</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="125"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποστολή μηνύματος</translation>
     </message>
 </context>
 <context>
@@ -359,7 +361,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactListPage.qml" line="11"/>
         <source>Address book</source>
-        <translation type="unfinished"></translation>
+        <translation>Βιβλίο διευθύνσεων</translation>
     </message>
 </context>
 <context>
@@ -367,42 +369,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="11"/>
         <source>Contact</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαφή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="61"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>Ηλεκτρονική διεύθυνση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="78"/>
         <source>Phone</source>
-        <translation type="unfinished"></translation>
+        <translation>Τηλέφωνο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="92"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Διεύθυνση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="96"/>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>Οδός</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="102"/>
         <source>City</source>
-        <translation type="unfinished"></translation>
+        <translation>Πόλη</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="108"/>
         <source>Zip</source>
-        <translation type="unfinished"></translation>
+        <translation>ΤΚ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="114"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Χώρα</translation>
     </message>
 </context>
 <context>
@@ -410,7 +412,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactsListView.qml" line="36"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναζήτηση</translation>
     </message>
 </context>
 <context>
@@ -418,12 +420,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/ContentBlockedNotice.qml" line="42"/>
         <source>Remote content blocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Το απομακρυσμένο περιεχόμενο αποκλείστηκε</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/ContentBlockedNotice.qml" line="56"/>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπεται</translation>
     </message>
 </context>
 <context>
@@ -431,7 +433,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContributorsPage.qml" line="25"/>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνεισφέροντες</translation>
     </message>
 </context>
 <context>
@@ -439,57 +441,57 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντίγραφα και Φάκελοι: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
         <source>Detect standard folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανίχνευση τυπικών φακέλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="127"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανίχνευση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="147"/>
         <source>Base folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Βασικός φάκελος</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="149"/>
         <source>Leave empty if you are unsure</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφήστε κενό εάν δεν είστε σίγουροι</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="164"/>
         <source>Inbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος εισερχομένων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="180"/>
         <source>Drafts folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος προχείρων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="196"/>
         <source>Spam folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος ανεπιθύμητων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="212"/>
         <source>Sent folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος απεσταλμένων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="228"/>
         <source>Outbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος εξερχομένων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="244"/>
         <source>Trash folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελος απορριμμάτων</translation>
     </message>
 </context>
 <context>
@@ -497,17 +499,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="183"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Από:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="236"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="241"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation>Κοιν:</translation>
     </message>
 </context>
 <context>
@@ -515,12 +517,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/addressbook/DefaultPlugin.qml" line="11"/>
         <source>Internal</source>
-        <translation type="unfinished"></translation>
+        <translation>Εσωτερικός</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/addressbook/DefaultPlugin.qml" line="106"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπιλογή</translation>
     </message>
 </context>
 <context>
@@ -528,7 +530,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/DekkoHeader.qml" line="206"/>
         <source>Enter search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισαγωγή αναζήτησης...</translation>
     </message>
 </context>
 <context>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα στον περιηγητή;</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιβεβαίωση ανοίγματος του %1 στον περιηγητή</translation>
     </message>
 </context>
 <context>
@@ -549,17 +551,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="48"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="53"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="59"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation>Κοιν:</translation>
     </message>
 </context>
 <context>
@@ -567,12 +569,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
         <source>Account name</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα λογαριασμού</translation>
     </message>
 </context>
 <context>
@@ -580,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Ειδοποίηση</translation>
     </message>
 </context>
 <context>
@@ -593,32 +595,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="28"/>
         <source>Navigation menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Μενού περιήγησης</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="32"/>
         <source>Show smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση έξυπνων φακέλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="42"/>
         <source>Show favourite folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση αγαπημένων φακέλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="53"/>
         <source>Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Μηνύματα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="57"/>
         <source>Show avatars</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση avatar</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="67"/>
         <source>Prefer plain text</source>
-        <translation type="unfinished"></translation>
+        <translation>Προτίμηση απλού κειμένου</translation>
     </message>
 </context>
 <context>
@@ -626,7 +628,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettingsPage.qml" line="21"/>
         <source>Display Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις εμφάνισης</translation>
     </message>
 </context>
 <context>
@@ -634,7 +636,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettingsPopup.qml" line="21"/>
         <source>Display Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις εμφάνισης</translation>
     </message>
 </context>
 <context>
@@ -642,22 +644,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/EncryptionSelector.qml" line="46"/>
         <source>Encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>Κρυπτογράφηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/EncryptionSelector.qml" line="61"/>
         <source>No encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς κρυπτογράφηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/EncryptionSelector.qml" line="62"/>
         <source>Use encryption (STARTTLS)</source>
-        <translation type="unfinished"></translation>
+        <translation>Χρήση κρυπτογράφησης (STARTTLS)</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/EncryptionSelector.qml" line="63"/>
         <source>Force encryption (SSL/TLS)</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναγκαστική κρυπτογράφηση (SSL/TLS)</translation>
     </message>
 </context>
 <context>
@@ -666,17 +668,17 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Χωρίς σύνδεση</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Η σύνδεση δεν είναι διαθέσιμη</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Έληξε η ενέργεια</translation>
     </message>
 </context>
 <context>
@@ -684,7 +686,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/ExpandablePanel.qml" line="63"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνημμένα</translation>
     </message>
 </context>
 <context>
@@ -692,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>Συγχρονισμός αλλαγών για λογαριασμό %1</translation>
     </message>
 </context>
 <context>
@@ -700,7 +702,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/FilePickerDialog.qml" line="23"/>
         <source>Add Attachment</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη συνημμένου</translation>
     </message>
 </context>
 <context>
@@ -708,37 +710,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>σημαντικό</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>μη συμαντικό</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>μη αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
-        <translation type="unfinished"></translation>
+        <translation>ως προς διεκπεραίωση</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>όχι πια προς διεκπεραίωση</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση %1 μηνυμάτων %2</translation>
     </message>
 </context>
 <context>
@@ -746,32 +748,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρόχειρα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισερχόμενα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανεπιθύμητα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξερχόμενα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Απεσταλμένα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάδος απορριμάτων</translation>
     </message>
 </context>
 <context>
@@ -779,12 +781,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/FolderListDelegate.qml" line="53"/>
         <source>Un-favourite</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναίρεση αγαπημένου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/FolderListDelegate.qml" line="53"/>
         <source>Favourite</source>
-        <translation type="unfinished"></translation>
+        <translation>Αγαπημένο</translation>
     </message>
 </context>
 <context>
@@ -792,7 +794,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελοι</translation>
     </message>
 </context>
 <context>
@@ -800,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Το απαγορευμένο περιεχόμενο είναι απαγορευμένο</translation>
     </message>
 </context>
 <context>
@@ -808,7 +810,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/html-viewer/HtmlViewer.qml" line="11"/>
         <source>HTML Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβολή HTML</translation>
     </message>
 </context>
 <context>
@@ -816,12 +818,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="15"/>
         <source>Identities</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταυτότητες</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="107"/>
         <source> (Default)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Προεπιλογή)</translation>
     </message>
 </context>
 <context>
@@ -829,43 +831,43 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="55"/>
         <source>Default identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπιλεγμένη ταυτότητα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="68"/>
         <source>Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Λογαριασμός</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="106"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="111"/>
         <source>Email Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Διεύθυνση ηλεκτρονικού ταχυδρομείου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="116"/>
         <source>Reply-To</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση σε</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="120"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Υπογραφή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="138"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="146"/>
         <source>New identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Νέα ταυτότητα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="170"/>
         <source>Edit identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Επεξεργασία ταυτότητας</translation>
     </message>
 </context>
 <context>
@@ -873,88 +875,88 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής εισερχομένων: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα κεντρικού υπολογιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="115"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Θύρα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="124"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα χρήστη</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="133"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="136"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="143"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση συνθηματικού</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="149"/>
         <source>Security settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ασφαλείας</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="184"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπονται μη έμπιστα πιστοποιητικά</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="189"/>
         <source>Server settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις διακομιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="194"/>
         <source>Check for new mail on start</source>
-        <translation type="unfinished"></translation>
+        <translation>Να γίνεται έλεγχος για νέα αλληλογραφία κατά την εκκίνηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="200"/>
         <source>Enable IMAP IDLE</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποίηση IMAP IDLE</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="207"/>
         <source>Check interval (minutes)</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλεγχος διαστήματος (λεπτά)</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="214"/>
         <source>Check when roaming</source>
-        <translation type="unfinished"></translation>
+        <translation>Έλεγχος κατά την περιαγωγή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="220"/>
         <source>Maximum mail size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Μέγιστο μέγεθος μηνύματος (MB)</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="226"/>
         <source>No maximum mail size</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν υπάρχει μέγιστο μέγεθος μηνύματος</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="234"/>
         <source>Automatically download attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτόματη λήψη επισυναπτόμενων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="240"/>
         <source>Allowed to delete mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπεται η διαγραφή αλληλογραφίας</translation>
     </message>
 </context>
 <context>
@@ -962,7 +964,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/LicensesPage.qml" line="25"/>
         <source>Licenses</source>
-        <translation type="unfinished"></translation>
+        <translation>Άδειες</translation>
     </message>
 </context>
 <context>
@@ -970,27 +972,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="11"/>
         <source>Mail Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις αλληλογραφίας</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="24"/>
         <source>Accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>Λογαριασμοί</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
         <source>Identities</source>
-        <translation type="unfinished"></translation>
+        <translation>Ταυτότητες</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="44"/>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="51"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Ιδιωτικότητα</translation>
     </message>
 </context>
 <context>
@@ -998,7 +1000,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettingsAction.qml" line="7"/>
         <source>Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Αλληλογραφία</translation>
     </message>
 </context>
 <context>
@@ -1006,42 +1008,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Μη αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισημασμένα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>Απαντημένα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>Προωθημένα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνειμμένα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ημερολόγιο</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοπικά</translation>
     </message>
 </context>
 <context>
@@ -1049,37 +1051,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποεπιλογή όλων</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished"></translation>
+        <translation>Με αστέρι</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση αστεριού</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως μη αναγνωσμένου</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως αναγνωσμένου</translation>
     </message>
 </context>
 <context>
@@ -1087,17 +1089,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>Κοιν</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>Κρυφή Κοιν</translation>
     </message>
 </context>
 <context>
@@ -1105,7 +1107,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MailboxPickerPage.qml" line="34"/>
         <source>Select folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογή φακέλου</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Το μήνυμα μετακινήθηκε</translation>
     </message>
 </context>
 <context>
@@ -1121,7 +1123,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
         <source>Dekko Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Αλληλογραφία Dekko</translation>
     </message>
 </context>
 <context>
@@ -1129,7 +1131,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/ManageAccountsPage.qml" line="26"/>
         <source>Manage accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαχείριση λογαριασμών</translation>
     </message>
 </context>
 <context>
@@ -1137,42 +1139,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="28"/>
         <source>Server configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρύθμιση διακομιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="33"/>
         <source>IMAP Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής IMAP:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="46"/>
         <source>POP3 Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής POP3:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="59"/>
         <source>SMTP Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής SMTP:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="71"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Πίσω</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="75"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Μπροστά</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
         <source>Password empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Κενό συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
         <source>Would you like to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε να συνεχίσετε;</translation>
     </message>
 </context>
 <context>
@@ -1180,7 +1182,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/Markdown/MarkdownEditor.qml" line="67"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Προεπισκόπηση</translation>
     </message>
 </context>
 <context>
@@ -1188,12 +1190,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="227"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>εσύ</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="229"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>έως %1</translation>
     </message>
 </context>
 <context>
@@ -1201,17 +1203,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="44"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση όλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="52"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Προώθηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="65"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακίνηση</translation>
     </message>
 </context>
 <context>
@@ -1220,32 +1222,33 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Στις %1, %2 έγραψε:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Προωθημένο μήνυμα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ημερομηνία: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>Από: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>Προς: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>Θέμα: </translation>
     </message>
 </context>
 <context>
@@ -1253,47 +1256,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλα τα εισερχόμενα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρόχειρα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Ανεπιθύμητα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξερχόμενα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Απεσταλμένα</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Κάδος απορριμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Σήμερα, %1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς διεκπεραίωση</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Ολοκληρωμένα</translation>
     </message>
 </context>
 <context>
@@ -1301,12 +1304,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/MessageHeader.qml" line="47"/>
         <source>Hide details</source>
-        <translation type="unfinished"></translation>
+        <translation>Απόκρυψη λεπτομερειών</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/MessageHeader.qml" line="47"/>
         <source>View details</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβολή λεπτομερειών</translation>
     </message>
 </context>
 <context>
@@ -1314,67 +1317,67 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="45"/>
         <source>Mark as unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως μη αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="45"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="53"/>
         <source>Mark as not important</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως μη σημαντικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="53"/>
         <source>Mark as important</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως σημαντικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="61"/>
         <source>Mark as spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως ανεπιθύμητο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="74"/>
         <source>To-do</source>
-        <translation type="unfinished"></translation>
+        <translation>Προς διεκπεραίωση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="91"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Ολοκληρωμένα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="105"/>
         <source>Reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="113"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση όλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="121"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Προώθηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="135"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακίνηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="144"/>
         <source>Restore to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαναφορά στο %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="153"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαγραφή</translation>
     </message>
 </context>
 <context>
@@ -1382,32 +1385,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="51"/>
         <source>Un-mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναίρεση επισήμανσης με σημαία</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="51"/>
         <source>Mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση με σημαία</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="60"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως μη αναγνωσμένου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="60"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως αναγνωσμένου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="67"/>
         <source>Move message</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετακίνηση μηνύματος</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="72"/>
         <source>Context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Μενού περιβάλλοντος</translation>
     </message>
 </context>
 <context>
@@ -1415,47 +1418,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Unselect all</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποεπιλογή όλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Star</source>
-        <translation type="unfinished"></translation>
+        <translation>Με αστέρι</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Remove star</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση αστεριού</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="131"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως μη αναγνωσμένου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="131"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Σημείωση ως αναγνωσμένου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="138"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναίρεση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
         <source>Load more messages ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Φόρτωση περισσότερων μηνυμάτων ...</translation>
     </message>
 </context>
 <context>
@@ -1463,37 +1466,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="46"/>
         <source>Open in browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα στον περιηγητή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="54"/>
         <source>Copy link</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγραφή συνδέσμου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="63"/>
         <source>Share link</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαμοιρασμός συνδέσμου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="77"/>
         <source>Reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="86"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>Απάντηση όλων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="94"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Προώθηση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="106"/>
         <source>View source</source>
-        <translation type="unfinished"></translation>
+        <translation>Προβολή κώδικα</translation>
     </message>
 </context>
 <context>
@@ -1502,27 +1505,27 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/Message.cpp" line="110"/>
         <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
         <source>hh:mm</source>
-        <translation type="unfinished"></translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="114"/>
         <source>ddd hh:mm</source>
-        <translation type="unfinished"></translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="116"/>
         <source>dd MMM</source>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="118"/>
         <source>dd MMM yy</source>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM yy</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
         <source>dddd dd</source>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1530,17 +1533,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="29"/>
         <source>Manage accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>Διαχείριση λογαριασμών</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="45"/>
         <source>Display settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις προβολής</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="67"/>
         <source>Privacy settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ιδιωτικότητας</translation>
     </message>
 </context>
 <context>
@@ -1548,17 +1551,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="27"/>
         <source>Addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>Βιβλίο διευθύνσεων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="43"/>
         <source>Recent contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>Πρόσφατες επαφές</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="58"/>
         <source>Import contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισαγωγή επαφών</translation>
     </message>
 </context>
 <context>
@@ -1566,17 +1569,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="27"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="45"/>
         <source>Licenses</source>
-        <translation type="unfinished"></translation>
+        <translation>Άδειες</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="63"/>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνεισφέροντες</translation>
     </message>
 </context>
 <context>
@@ -1584,12 +1587,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="98"/>
         <source>Smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Έξυπνοι φάκελοι</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="120"/>
         <source>Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελοι</translation>
     </message>
 </context>
 <context>
@@ -1598,22 +1601,22 @@ Would you like to use this instead?</source>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="30"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="64"/>
         <source>Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Αλληλογραφία</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="67"/>
         <source>Contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>Επαφές</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="70"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="73"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Περί</translation>
     </message>
 </context>
 <context>
@@ -1621,7 +1624,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/NavMenuStandardFolderDelegate.qml" line="192"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισερχόμενα (%1)</translation>
     </message>
 </context>
 <context>
@@ -1630,13 +1633,13 @@ Would you like to use this instead?</source>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="155"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavSideBar.qml" line="151"/>
         <source>Smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Έξυπνοι φάκελοι</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="169"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavSideBar.qml" line="165"/>
         <source>Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>Φάκελοι</translation>
     </message>
 </context>
 <context>
@@ -1644,22 +1647,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="44"/>
         <source>Sync folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Συγχρονισμός φακέλου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="53"/>
         <source>Send pending</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποστολή σε εκκρεμότητα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="62"/>
         <source>Mark folder read</source>
-        <translation type="unfinished"></translation>
+        <translation>Επισήμανση φακέλου ως αναγνωσμένο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="76"/>
         <source>Empty trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Άδειασμα κάδου απορριμάτων</translation>
     </message>
 </context>
 <context>
@@ -1667,7 +1670,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NewAccountsUI.qml" line="32"/>
         <source>New account</source>
-        <translation type="unfinished"></translation>
+        <translation>Νέος λογαριασμός</translation>
     </message>
 </context>
 <context>
@@ -1675,17 +1678,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="31"/>
         <source>Accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>Λογαριασμοί</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="93"/>
         <source>No email account is setup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν έχει ρυθμιστεί λογαριασμός αλληλογραφίας.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="102"/>
         <source>Add now</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη τώρα</translation>
     </message>
 </context>
 <context>
@@ -1693,7 +1696,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NothingSelectedPage.qml" line="55"/>
         <source>No message selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν επιλέχθηκαν μηνύματα</translation>
     </message>
 </context>
 <context>
@@ -1701,7 +1704,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>ΟΚ</translation>
     </message>
 </context>
 <context>
@@ -1709,7 +1712,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ειδοποιήσεις</translation>
     </message>
 </context>
 <context>
@@ -1717,12 +1720,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ειδοποιήσεων: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποιήθηκε</translation>
     </message>
 </context>
 <context>
@@ -1730,48 +1733,48 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Διακομιστής εξερχομένων: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα κεντρικού υπολογιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="84"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Θύρα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="93"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα χρήστη</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="101"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="104"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="111"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση συνθηματικού</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="117"/>
         <source>Security settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ασφαλείας</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="150"/>
         <source>Authenticate from server capabilities</source>
-        <translation type="unfinished"></translation>
+        <translation>Πιστοποίηση από δυνατότητες διακομιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="156"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπονται μη έμπιστα πιστοποιητικά</translation>
     </message>
 </context>
 <context>
@@ -1779,12 +1782,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="28"/>
         <source>Message content</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιεχόμενο μηνύματος</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="32"/>
         <source>Allow remote content</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπεται απομακρυσμένο περιεχόμενο</translation>
     </message>
 </context>
 <context>
@@ -1792,7 +1795,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettingsPage.qml" line="21"/>
         <source>Privacy Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ιδιωτικότητας</translation>
     </message>
 </context>
 <context>
@@ -1800,7 +1803,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettingsPopup.qml" line="21"/>
         <source>Privacy Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις ιδιωτικότητας</translation>
     </message>
 </context>
 <context>
@@ -1808,24 +1811,25 @@ Would you like to use this instead?</source>
     <message numerus="yes">
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
 </context>
 <context>
@@ -1833,7 +1837,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="98"/>
         <source>Enter an address</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισάγετε μια διεύθυνση</translation>
     </message>
 </context>
 <context>
@@ -1841,22 +1845,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="42"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Πίσω</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="94"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγραφή στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="108"/>
         <source>Add to addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη στο βιβλίο διευθύνσεων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="123"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποστολή μηνύματος</translation>
     </message>
 </context>
 <context>
@@ -1864,12 +1868,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientInputContextMenu.qml" line="56"/>
         <source>Add CC</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη Κοιν</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientInputContextMenu.qml" line="69"/>
         <source>Add BCC</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη Κρυφή Κοιν</translation>
     </message>
 </context>
 <context>
@@ -1877,22 +1881,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="81"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγραφή στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="90"/>
         <source>Add to addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσθήκη στο βιβλίο διευθύνσεων</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="99"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποστολή μηνύματος</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="109"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Αφαίρεση</translation>
     </message>
 </context>
 <context>
@@ -1900,7 +1904,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/SenderIdentityField.qml" line="53"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Από:</translation>
     </message>
 </context>
 <context>
@@ -1908,33 +1912,33 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="70"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα κεντρικού υπολογιστή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="79"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Θύρα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="101"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα χρήστη</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="110"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="120"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση συνθηματικού</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="141"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>Να επιτρέπονται μη έμπιστα πιστοποιητικά</translation>
     </message>
 </context>
 <context>
@@ -1942,41 +1946,41 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Καταστροφή διαχειριστή υπηρεσίας</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation type="unfinished"></translation>
+        <translation>Η υπηρεσία δεν ήταν διαθέσιμη, δεν ήταν δυνατή η αποστολή</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο λογαριασμός ενημερώθηκε με άλλη διαδικασία</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο λογαριασμός καταργήθηκε</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
-        <translation type="unfinished"></translation>
+        <translation>Το αίτημα δεν προχωρά</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
         <source>Cancelled by user</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακυρώθηκε από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
         <source>Unable to enqueue messages for transmission</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ενεργοποίηση μηνυμάτων για μετάδοση</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
@@ -2002,167 +2006,167 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατός ο εντοπισμός πηγής για λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η εύρεση συνδέσμου για λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση λίστας φακέλων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση λίστας μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση νέων μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση τυπικών φακέλων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση τμήματος μηνύματος για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση του εύρους μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση του εύρους τμημάτων μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ανάκτηση όλων των μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή ενημερώσεων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν ήταν δυνατός ο συγχρονισμός για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η διαγραφή μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
         <source>Deleting messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Γίνεται διαγραφή μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η απόρριψη μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η αντιγραφή μηνυμάτων σε μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η αντιγραφή μηνυμάτων σε πολλούς προοριζόμενους λογαριασμούς!</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η αντιγραφή μηνυμάτων για λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η μετακίνηση μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η επισήμανση μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ασύγχρονη προσθήκη μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ασύγχρονη ενημέρωση μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η ασύγχρονη προσθήκη μηνυμάτων, ασυνεπές περιεχόμενο</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατός ο συγχρονισμός μηνυμάτων, ασυνεπές περιεχόμενο</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
         <source>Could not delete messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Αδυναμία διαγραφής μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η δημιουργία φακέλου για μη έγκυρο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η μετονομασία του μη έγκυρου φακέλου</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η διαγραφή μη έγκυρου φακέλου</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η αναζήτηση μηνυμάτων για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Δεν είναι δυνατή η προώθηση αιτήματος για συγκεκριμένο πρωτόκολλο για μη ρυθμισμένο λογαριασμό</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
-        <translation type="unfinished"></translation>
+        <translation>Αποτυχία εκτέλεσης της ζητούμενης ενέργειας!</translation>
     </message>
 </context>
 <context>
@@ -2170,7 +2174,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/Settings.qml" line="11"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις</translation>
     </message>
 </context>
 <context>
@@ -2178,7 +2182,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
         <source>Dekko Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ρυθμίσεις Dekko</translation>
     </message>
 </context>
 <context>
@@ -2186,7 +2190,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο λογαριασμός αποθηκεύτηκε</translation>
     </message>
 </context>
 <context>
@@ -2194,7 +2198,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/SetupWizardWindow.qml" line="20"/>
         <source>Mail Setup Wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>Οδηγός ρύθμισης αλληλογραφίας</translation>
     </message>
 </context>
 <context>
@@ -2202,7 +2206,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/SmartFolderDelegate.qml" line="155"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Εισερχόμενα (%1)</translation>
     </message>
 </context>
 <context>
@@ -2210,7 +2214,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Σήμερα, %1</translation>
     </message>
 </context>
 <context>
@@ -2218,7 +2222,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Απεστάλη με τη χρήση του Dekko από συσκευή με Ubuntu</translation>
     </message>
 </context>
 <context>
@@ -2226,7 +2230,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/SubjectField.qml" line="56"/>
         <source>Subject:</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέμα:</translation>
     </message>
 </context>
 <context>
@@ -2234,7 +2238,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/SyncState.qml" line="35"/>
         <source>Synchronizing account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Γίνεται συγχρονισμός λογαριασμού.</translation>
     </message>
 </context>
 <context>
@@ -2242,7 +2246,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/TitledTextField.qml" line="62"/>
         <source> (Required)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Απαιτείται)</translation>
     </message>
 </context>
 <context>
@@ -2250,63 +2254,63 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="36"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="37"/>
         <source>Full name</source>
-        <translation type="unfinished"></translation>
+        <translation>Πλήρες όνομα</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="44"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Περιγραφή</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="45"/>
         <source>E.g Home, Work...</source>
-        <translation type="unfinished"></translation>
+        <translation>Π.Χ. Σπίτι, Εργασία...</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="52"/>
         <source>Email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Διεύθυνση ηλεκτρονικού ταχυδρομείου</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="54"/>
         <source>email@example.org</source>
-        <translation type="unfinished"></translation>
+        <translation>email@example.org</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="60"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="63"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="69"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση συνθηματικού</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="79"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="83"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Επόμενο</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="125"/>
         <source>Password empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Κενό συνθηματικό</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="125"/>
         <source>Would you like to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέλετε να συνεχίσετε;</translation>
     </message>
 </context>
 <context>
@@ -2314,7 +2318,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/ValidationState.qml" line="36"/>
         <source>Validating credentials.</source>
-        <translation type="unfinished"></translation>
+        <translation>Επικύρωση διαπιστευτηρίων.</translation>
     </message>
 </context>
 <context>
@@ -2322,12 +2326,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/VersionDialog.qml" line="26"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/VersionDialog.qml" line="30"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλείσιμο</translation>
     </message>
 </context>
 <context>
@@ -2335,17 +2339,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Τα μηνύματα απεστάλησαν</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Το μήνυμα απεστάλη</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Η αποστολή μηνύματος απέτυχε</translation>
     </message>
 </context>
 </TS>
