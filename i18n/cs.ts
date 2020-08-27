@@ -441,7 +441,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation>Kopie a složky:% 1</translation>
+        <translation>Kopie a složky: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
@@ -543,7 +543,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation>Potvrďte otevření% 1 ve webovém prohlížeči</translation>
+        <translation>Potvrďte otevření %1 ve webovém prohlížeči</translation>
     </message>
 </context>
 <context>
@@ -569,7 +569,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation>Podrobnosti:% 1</translation>
+        <translation>Podrobnosti: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
@@ -694,7 +694,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation>Probíhá synchronizace změn pro účet% 1</translation>
+        <translation>Probíhá synchronizace změn pro účet %1</translation>
     </message>
 </context>
 <context>
@@ -875,7 +875,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation>Server příchozí:% 1</translation>
+        <translation>Příchozí server: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
@@ -1733,7 +1733,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation>Odchozí server:% 1</translation>
+        <translation>Odchozí server: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
