@@ -6,27 +6,27 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות חשבון: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>פרטים</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
         <source>Incoming Server</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת נכנס</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="64"/>
         <source>Outgoing Server</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת יוצא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="68"/>
         <source>Copies and Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>עותקים ותיקיות</translation>
     </message>
 </context>
 <context>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>כתובת דוא&quot;ל לא תקינה</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>נשלח באמצעות Dekko ממכשיר אובונטו שלי</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>הסרת החשבון נכשלה</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>הסר את %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם אתה בטוח שברצונך להסיר חשבון זה?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>החשבון הוסר</translation>
     </message>
 </context>
 <context>
@@ -71,22 +71,22 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="31"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>בוצע</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="90"/>
         <source>New account created.</source>
-        <translation type="unfinished"></translation>
+        <translation>נוצר חשבון חדש.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="99"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>להמשיך</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="115"/>
         <source>Add another</source>
-        <translation type="unfinished"></translation>
+        <translation>להוסיף עוד</translation>
     </message>
 </context>
 <context>
@@ -94,12 +94,12 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/AddressBookList.qml" line="12"/>
         <source>Addressbooks</source>
-        <translation type="unfinished"></translation>
+        <translation>פנקסי כתובות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/AddressBookList.qml" line="65"/>
         <source>Add Collection</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף אוסף</translation>
     </message>
 </context>
 <context>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AttachmentPanel.qml" line="85"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>קבצים מצורפים</translation>
     </message>
 </context>
 <context>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/AttachmentPopover.qml" line="46"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>מחק</translation>
     </message>
 </context>
 <context>
@@ -123,22 +123,22 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="45"/>
         <source>Authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>אימות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation type="unfinished"></translation>
+        <translation>PLAIN</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
         <source>LOGIN</source>
-        <translation type="unfinished"></translation>
+        <translation>LOGIN</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="62"/>
         <source>CRAM-MD5</source>
-        <translation type="unfinished"></translation>
+        <translation>CRAM-MD5</translation>
     </message>
 </context>
 <context>
@@ -146,19 +146,21 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="35"/>
         <source>Searching for configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>מחפש תצורה.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
         <source>IMAP server found</source>
-        <translation type="unfinished"></translation>
+        <translation>נמצא שרת IMAP</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="78"/>
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>נמצאה תצורת שרת IMAP לדומיין שלך.
+
+האם תרצה להשתמש בזה במקום?</translation>
     </message>
 </context>
 <context>
@@ -166,12 +168,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעה חדשה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
         <source>Attachments</source>
-        <translation type="unfinished"></translation>
+        <translation>קבצים מצורפים</translation>
     </message>
 </context>
 <context>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>נהל מטמון</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>נהל מטמון: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>שבוע אחד</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>שבועים</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>חודש אחד</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>שלושה חודשים</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>שישה חודשים</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>נקה הודעות מהמטמון</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>פעולה זו תמחק הודעות ישנות יותר מהתקופה הנתונה</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>נקה עכשיו</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעה</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעה</translation>
     </message>
 </context>
 <context>
@@ -258,7 +260,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
         <source>Dekko Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>מחבר Dekko</translation>
     </message>
 </context>
 <context>
@@ -266,7 +268,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
-        <translation type="unfinished"></translation>
+        <translation>צרף</translation>
     </message>
 </context>
 <context>
@@ -274,22 +276,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
-        <translation type="unfinished"></translation>
+        <translation>אנא בחר שולח. אחרת שום טיוטות לא יישמרו אוטומטית. שקול להגדיר זהות ברירת מחדל.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished"></translation>
+        <translation>משהו לא כשורה עם הזהות שלך. אנא בחר שולח תקין.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
-        <translation type="unfinished"></translation>
+        <translation>ההודעה בתור.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>הטיוטה נשמרה.</translation>
     </message>
 </context>
 <context>
@@ -297,22 +299,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>שלח</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>שמור טיוטה</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>להשליך</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished"></translation>
+        <translation>צרף</translation>
     </message>
 </context>
 <context>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>מחק הודעה</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>האם אתה בטוח שברצונך למחוק את ההודעה הזו?</translation>
     </message>
 </context>
 <context>
@@ -333,12 +335,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="51"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>בטל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="63"/>
         <source>Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>אשר</translation>
     </message>
 </context>
 <context>
@@ -346,12 +348,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="113"/>
         <source>Add contact</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף איש קשר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="125"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>שלח הודעה</translation>
     </message>
 </context>
 <context>
@@ -359,7 +361,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactListPage.qml" line="11"/>
         <source>Address book</source>
-        <translation type="unfinished"></translation>
+        <translation>פנקס הכתובות</translation>
     </message>
 </context>
 <context>
@@ -367,42 +369,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="11"/>
         <source>Contact</source>
-        <translation type="unfinished"></translation>
+        <translation>איש קשר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="61"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>דוא&quot;ל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="78"/>
         <source>Phone</source>
-        <translation type="unfinished"></translation>
+        <translation>טלפון</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="92"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation>כתובת</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="96"/>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation>רחוב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="102"/>
         <source>City</source>
-        <translation type="unfinished"></translation>
+        <translation>עיר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="108"/>
         <source>Zip</source>
-        <translation type="unfinished"></translation>
+        <translation>מיקוד</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="114"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>מדינה</translation>
     </message>
 </context>
 <context>
@@ -410,7 +412,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactsListView.qml" line="36"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>חפש</translation>
     </message>
 </context>
 <context>
@@ -418,12 +420,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/ContentBlockedNotice.qml" line="42"/>
         <source>Remote content blocked</source>
-        <translation type="unfinished"></translation>
+        <translation>תוכן מרוחק חסום</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/ContentBlockedNotice.qml" line="56"/>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>להתיר</translation>
     </message>
 </context>
 <context>
@@ -431,7 +433,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContributorsPage.qml" line="25"/>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>תורמים</translation>
     </message>
 </context>
 <context>
@@ -439,47 +441,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>עותקים ותיקיות: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
         <source>Detect standard folders</source>
-        <translation type="unfinished"></translation>
+        <translation>זיהוי תיקיות סטנדרטיות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="127"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>לזהות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="147"/>
         <source>Base folder</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיית בסיס</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="149"/>
         <source>Leave empty if you are unsure</source>
-        <translation type="unfinished"></translation>
+        <translation>השאר ריק אם אינך בטוח</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="164"/>
         <source>Inbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיית תיבת דואר נכנס</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="180"/>
         <source>Drafts folder</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיית טיוטות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="196"/>
         <source>Spam folder</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיית ספאם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="212"/>
         <source>Sent folder</source>
-        <translation type="unfinished"></translation>
+        <translation>התיקיית נשלחו</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="228"/>
@@ -1069,17 +1071,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>מחק</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כלא נקרא</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כנקרא</translation>
     </message>
 </context>
 <context>
@@ -1087,17 +1089,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>אל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>עותק</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>עותק מוסתר</translation>
     </message>
 </context>
 <context>
@@ -1105,7 +1107,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MailboxPickerPage.qml" line="34"/>
         <source>Select folder</source>
-        <translation type="unfinished"></translation>
+        <translation>בחר תיקייה</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>ההודעה הועברה</translation>
     </message>
 </context>
 <context>
@@ -1121,7 +1123,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
         <source>Dekko Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>דואר Dekko</translation>
     </message>
 </context>
 <context>
@@ -1129,7 +1131,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/ManageAccountsPage.qml" line="26"/>
         <source>Manage accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>נהל חשבונות</translation>
     </message>
 </context>
 <context>
@@ -1137,42 +1139,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="28"/>
         <source>Server configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>תצורת השרת</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="33"/>
         <source>IMAP Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת IMAP:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="46"/>
         <source>POP3 Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת POP3:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="59"/>
         <source>SMTP Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת SMTP:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="71"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>חזור</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="75"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>הבא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
         <source>Password empty</source>
-        <translation type="unfinished"></translation>
+        <translation>הסיסמה ריקה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ManualInputUI.qml" line="135"/>
         <source>Would you like to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>תרצה להמשיך?</translation>
     </message>
 </context>
 <context>
@@ -1180,7 +1182,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/Markdown/MarkdownEditor.qml" line="67"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>תצוגה מקדימה</translation>
     </message>
 </context>
 <context>
@@ -1188,12 +1190,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="227"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>אתה</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="229"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>אל %1</translation>
     </message>
 </context>
 <context>
@@ -1201,17 +1203,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="44"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>השב לכולם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="52"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageActionPopover.qml" line="65"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר</translation>
     </message>
 </context>
 <context>
@@ -1220,32 +1222,33 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>ב %1, %2 כתבו:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעה שהועברה</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>תאריך: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>מ: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>אל: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>נושא: </translation>
     </message>
 </context>
 <context>
@@ -1253,47 +1256,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>כל תיבות הדואר הנכנס</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>טיוטות</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>ספאם</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>דואר יוצא</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>נשלח</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>אשפה</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>היום, %1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished"></translation>
+        <translation>לעשות</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>בוצע</translation>
     </message>
 </context>
 <context>
@@ -1301,12 +1304,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/MessageHeader.qml" line="47"/>
         <source>Hide details</source>
-        <translation type="unfinished"></translation>
+        <translation>הסתר פרטים</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/MessageHeader.qml" line="47"/>
         <source>View details</source>
-        <translation type="unfinished"></translation>
+        <translation>הצג פרטים</translation>
     </message>
 </context>
 <context>
@@ -1314,67 +1317,67 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="45"/>
         <source>Mark as unread</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כלא נקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="45"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כנקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="53"/>
         <source>Mark as not important</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כלא חשוב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="53"/>
         <source>Mark as important</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כחשוב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="61"/>
         <source>Mark as spam</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כספאם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="74"/>
         <source>To-do</source>
-        <translation type="unfinished"></translation>
+        <translation>לעשות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="91"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>בוצע</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="105"/>
         <source>Reply</source>
-        <translation type="unfinished"></translation>
+        <translation>מענה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="113"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>השב לכולם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="121"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="135"/>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="144"/>
         <source>Restore to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>שחזר ל %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="153"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>מחק</translation>
     </message>
 </context>
 <context>
@@ -1382,32 +1385,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="51"/>
         <source>Un-mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>בטל סימון סומן</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="51"/>
         <source>Mark flagged</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן מסומן</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="60"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כלא נקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="60"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כנקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="67"/>
         <source>Move message</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר הודעה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="72"/>
         <source>Context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>תפריט הקשר</translation>
     </message>
 </context>
 <context>
@@ -1415,47 +1418,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Unselect all</source>
-        <translation type="unfinished"></translation>
+        <translation>בטל את הבחירה בכולם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>בחר הכל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Star</source>
-        <translation type="unfinished"></translation>
+        <translation>לסמן בכוכב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Remove star</source>
-        <translation type="unfinished"></translation>
+        <translation>הסר כוכב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="131"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כלא נקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="131"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן כנקרא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="138"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>מחק</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>לבטל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
         <source>Load more messages ...</source>
-        <translation type="unfinished"></translation>
+        <translation>טען עוד הודעות ...</translation>
     </message>
 </context>
 <context>
@@ -1463,37 +1466,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="46"/>
         <source>Open in browser</source>
-        <translation type="unfinished"></translation>
+        <translation>פתוח בדפדפן</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="54"/>
         <source>Copy link</source>
-        <translation type="unfinished"></translation>
+        <translation>העתק קישור</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="63"/>
         <source>Share link</source>
-        <translation type="unfinished"></translation>
+        <translation>שתף קישור</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="77"/>
         <source>Reply</source>
-        <translation type="unfinished"></translation>
+        <translation>השב</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="86"/>
         <source>Reply all</source>
-        <translation type="unfinished"></translation>
+        <translation>השב לכולם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="94"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>העבר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="106"/>
         <source>View source</source>
-        <translation type="unfinished"></translation>
+        <translation>ראה מקור</translation>
     </message>
 </context>
 <context>
@@ -1502,27 +1505,27 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/Message.cpp" line="110"/>
         <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
         <source>hh:mm</source>
-        <translation type="unfinished"></translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="114"/>
         <source>ddd hh:mm</source>
-        <translation type="unfinished"></translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="116"/>
         <source>dd MMM</source>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="118"/>
         <source>dd MMM yy</source>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM yy</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="125"/>
         <source>dddd dd</source>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1530,17 +1533,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="29"/>
         <source>Manage accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>נהל חשבונות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="45"/>
         <source>Display settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות תצוגה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="67"/>
         <source>Privacy settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות פרטיות</translation>
     </message>
 </context>
 <context>
@@ -1548,17 +1551,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="27"/>
         <source>Addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>פנקס הכתובות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="43"/>
         <source>Recent contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>אנשי קשר אחרונים</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuContactsModel.qml" line="58"/>
         <source>Import contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>ייבא אנשי קשר</translation>
     </message>
 </context>
 <context>
@@ -1566,17 +1569,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="27"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>גרסה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="45"/>
         <source>Licenses</source>
-        <translation type="unfinished"></translation>
+        <translation>רישיונות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuDekkoVisualModel.qml" line="63"/>
         <source>Contributors</source>
-        <translation type="unfinished"></translation>
+        <translation>תורמים</translation>
     </message>
 </context>
 <context>
@@ -1584,12 +1587,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="98"/>
         <source>Smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיות חכמות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="120"/>
         <source>Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיות</translation>
     </message>
 </context>
 <context>
@@ -1598,22 +1601,22 @@ Would you like to use this instead?</source>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="30"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="64"/>
         <source>Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>דואר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="67"/>
         <source>Contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>אנשי קשר</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="70"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="73"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>אודות</translation>
     </message>
 </context>
 <context>
@@ -1621,7 +1624,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/NavMenuStandardFolderDelegate.qml" line="192"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>דואר נכנס (%1)</translation>
     </message>
 </context>
 <context>
@@ -1630,13 +1633,13 @@ Would you like to use this instead?</source>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="155"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavSideBar.qml" line="151"/>
         <source>Smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיות חכמות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="169"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavSideBar.qml" line="165"/>
         <source>Folders</source>
-        <translation type="unfinished"></translation>
+        <translation>תיקיות</translation>
     </message>
 </context>
 <context>
@@ -1644,22 +1647,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="44"/>
         <source>Sync folder</source>
-        <translation type="unfinished"></translation>
+        <translation>סנכרן תיקיה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="53"/>
         <source>Send pending</source>
-        <translation type="unfinished"></translation>
+        <translation>שלח בהמתנה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="62"/>
         <source>Mark folder read</source>
-        <translation type="unfinished"></translation>
+        <translation>סמן תיקיה כנקראה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="76"/>
         <source>Empty trash</source>
-        <translation type="unfinished"></translation>
+        <translation>רוקן פח אשפה</translation>
     </message>
 </context>
 <context>
@@ -1667,7 +1670,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NewAccountsUI.qml" line="32"/>
         <source>New account</source>
-        <translation type="unfinished"></translation>
+        <translation>חשבון חדש</translation>
     </message>
 </context>
 <context>
@@ -1675,17 +1678,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="31"/>
         <source>Accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>חשבונות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="93"/>
         <source>No email account is setup.</source>
-        <translation type="unfinished"></translation>
+        <translation>לא מוגדר חשבון דוא&quot;ל.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="102"/>
         <source>Add now</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף כעת</translation>
     </message>
 </context>
 <context>
@@ -1693,7 +1696,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NothingSelectedPage.qml" line="55"/>
         <source>No message selected</source>
-        <translation type="unfinished"></translation>
+        <translation>לא נבחרה הודעה</translation>
     </message>
 </context>
 <context>
@@ -1701,7 +1704,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>בסדר</translation>
     </message>
 </context>
 <context>
@@ -1709,7 +1712,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>התראות</translation>
     </message>
 </context>
 <context>
@@ -1717,12 +1720,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות התראה: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>מופעל</translation>
     </message>
 </context>
 <context>
@@ -1730,48 +1733,48 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>שרת יוצא: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>שם מארח</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="84"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>פורט</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="93"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>שם משתמש</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="101"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="104"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="111"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>הצג סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="117"/>
         <source>Security settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות אבטחה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="150"/>
         <source>Authenticate from server capabilities</source>
-        <translation type="unfinished"></translation>
+        <translation>אימות מיכולות השרת</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="156"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר אישורים לא מהימנים</translation>
     </message>
 </context>
 <context>
@@ -1779,12 +1782,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="28"/>
         <source>Message content</source>
-        <translation type="unfinished"></translation>
+        <translation>תוכן ההודעה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="32"/>
         <source>Allow remote content</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר תוכן מרוחק</translation>
     </message>
 </context>
 <context>
@@ -1792,7 +1795,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettingsPage.qml" line="21"/>
         <source>Privacy Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות פרטיות</translation>
     </message>
 </context>
 <context>
@@ -1800,7 +1803,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettingsPopup.qml" line="21"/>
         <source>Privacy Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות פרטיות</translation>
     </message>
 </context>
 <context>
@@ -1808,25 +1811,27 @@ Would you like to use this instead?</source>
     <message numerus="yes">
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>n% בתים</numerusform>
+            <numerusform>n% בתים</numerusform>
+            <numerusform>n% בתים</numerusform>
+            <numerusform>n% בתים</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
 </context>
 <context>
@@ -1834,7 +1839,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientField.qml" line="98"/>
         <source>Enter an address</source>
-        <translation type="unfinished"></translation>
+        <translation>הכנס כתובת</translation>
     </message>
 </context>
 <context>
@@ -1842,22 +1847,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="42"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>חזור</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="94"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>העתק ללוח</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="108"/>
         <source>Add to addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף לפנקס הכתובות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="123"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>שלח הודעה</translation>
     </message>
 </context>
 <context>
@@ -1865,12 +1870,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientInputContextMenu.qml" line="56"/>
         <source>Add CC</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף CC</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/RecipientInputContextMenu.qml" line="69"/>
         <source>Add BCC</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף BCC</translation>
     </message>
 </context>
 <context>
@@ -1878,22 +1883,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="81"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>העתק ללוח</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="90"/>
         <source>Add to addressbook</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף לפנקס הכתובות</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="99"/>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>שלח הודעה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="109"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>הסר</translation>
     </message>
 </context>
 <context>
@@ -1901,7 +1906,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/SenderIdentityField.qml" line="53"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>מ:</translation>
     </message>
 </context>
 <context>
@@ -1909,33 +1914,33 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="70"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>שם מארח</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="79"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>פורט</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="101"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>שם משתמש</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="110"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="120"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>הצג סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="141"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר אישורים לא מהימנים</translation>
     </message>
 </context>
 <context>
@@ -1943,41 +1948,41 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
-        <translation type="unfinished"></translation>
+        <translation>משמיד מטפל השירות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation type="unfinished"></translation>
+        <translation>השירות לא היה זמין, ולא הצליח להעביר אותו</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
-        <translation type="unfinished"></translation>
+        <translation>החשבון עודכן על ידי תהליך אחר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>החשבון הוסר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
-        <translation type="unfinished"></translation>
+        <translation>הבקשה לא מתקדמת</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
         <source>Cancelled by user</source>
-        <translation type="unfinished"></translation>
+        <translation>בוטל על ידי המשתמש</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
         <source>Unable to enqueue messages for transmission</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לצרף הודעות להעברה</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
@@ -2003,167 +2008,167 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאתר מקור לחשבון</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאתר כיור לחשבון</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר את רשימת התיקיות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר את רשימת ההודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר הודעות חדשות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר תיקיות סטנדרטיות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר הודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר חלק מההודעה עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר את טווח ההודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר את טווח חלקי ההודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לאחזר את כל ההודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לייצא עדכונים עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסנכרן חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן למחוק הודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
         <source>Deleting messages</source>
-        <translation type="unfinished"></translation>
+        <translation>מחיקת הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן למחוק הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להעתיק הודעות לחשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להעתיק הודעות למספר חשבונות יעד!</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להעתיק הודעות לחשבון</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להעביר הודעות לחשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסמן הודעות עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסנכרן להוסיף הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסנכרן עדכוני הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסנכרן להוסיף הודעות, תכנית תוכן לא עקבית</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לסנכרן עדכון הודעות, תכנית תוכן לא עקבית</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
         <source>Could not delete messages</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן היה למחוק הודעות</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן ליצור תיקיה עבור חשבון לא חוקי</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לשנות את שם התיקיה הלא חוקית</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן למחוק תיקיה לא חוקית</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן לחפש בהודעות חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>לא ניתן להעביר בקשה ספציפית לפרוטוקול עבור חשבון לא מוגדר</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
-        <translation type="unfinished"></translation>
+        <translation>ביצוע הפעולה המבוקש נכשל!</translation>
     </message>
 </context>
 <context>
@@ -2171,7 +2176,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/Settings.qml" line="11"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות</translation>
     </message>
 </context>
 <context>
@@ -2179,7 +2184,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
         <source>Dekko Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות Dekko</translation>
     </message>
 </context>
 <context>
@@ -2187,7 +2192,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
-        <translation type="unfinished"></translation>
+        <translation>החשבון נשמר</translation>
     </message>
 </context>
 <context>
@@ -2195,7 +2200,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/SetupWizardWindow.qml" line="20"/>
         <source>Mail Setup Wizard</source>
-        <translation type="unfinished"></translation>
+        <translation>אשף הגדרת הדואר</translation>
     </message>
 </context>
 <context>
@@ -2203,7 +2208,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/SmartFolderDelegate.qml" line="155"/>
         <source>Inbox (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>דואר נכנס (%1)</translation>
     </message>
 </context>
 <context>
@@ -2211,7 +2216,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>היום, %1</translation>
     </message>
 </context>
 <context>
@@ -2219,7 +2224,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>נשלח באמצעות Dekko ממכשיר אובונטו שלי</translation>
     </message>
 </context>
 <context>
@@ -2227,7 +2232,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/SubjectField.qml" line="56"/>
         <source>Subject:</source>
-        <translation type="unfinished"></translation>
+        <translation>נושא:</translation>
     </message>
 </context>
 <context>
@@ -2235,7 +2240,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/SyncState.qml" line="35"/>
         <source>Synchronizing account.</source>
-        <translation type="unfinished"></translation>
+        <translation>סנכרון חשבון.</translation>
     </message>
 </context>
 <context>
@@ -2243,7 +2248,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/TitledTextField.qml" line="62"/>
         <source> (Required)</source>
-        <translation type="unfinished"></translation>
+        <translation> (נחוץ)</translation>
     </message>
 </context>
 <context>
@@ -2251,63 +2256,63 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="36"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>שם</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="37"/>
         <source>Full name</source>
-        <translation type="unfinished"></translation>
+        <translation>שם מלא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="44"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>תיאור</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="45"/>
         <source>E.g Home, Work...</source>
-        <translation type="unfinished"></translation>
+        <translation>למשל בית, עבודה ...</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="52"/>
         <source>Email address</source>
-        <translation type="unfinished"></translation>
+        <translation>כתובת דוא&quot;ל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="54"/>
         <source>email@example.org</source>
-        <translation type="unfinished"></translation>
+        <translation>email@example.org</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="60"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="63"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="69"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation>הצג סיסמה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="79"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>לבטל</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="83"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>הבא</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="125"/>
         <source>Password empty</source>
-        <translation type="unfinished"></translation>
+        <translation>הסיסמה ריקה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="125"/>
         <source>Would you like to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>תרצה להמשיך?</translation>
     </message>
 </context>
 <context>
@@ -2315,7 +2320,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/ValidationState.qml" line="36"/>
         <source>Validating credentials.</source>
-        <translation type="unfinished"></translation>
+        <translation>אימות אישורים.</translation>
     </message>
 </context>
 <context>
@@ -2323,12 +2328,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/VersionDialog.qml" line="26"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>גרסה</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/VersionDialog.qml" line="30"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>סגור</translation>
     </message>
 </context>
 <context>
@@ -2336,17 +2341,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעות נשלחו</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>הודעה נשלחה</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
-        <translation type="unfinished"></translation>
+        <translation>שליחת ההודעה נכשלה</translation>
     </message>
 </context>
 </TS>
