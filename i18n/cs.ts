@@ -740,7 +740,7 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation>Označování zpráv% 1% 2</translation>
+        <translation>Označování zpráv %1 %2</translation>
     </message>
 </context>
 <context>
@@ -1222,7 +1222,7 @@ Přejete si použít raději toto nastavení?</translation>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation>Na% 1,% 2 napsal:
+        <translation>Na %1, %2 napsal:
 </translation>
     </message>
     <message>
