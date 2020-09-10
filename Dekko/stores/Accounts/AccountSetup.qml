@@ -533,7 +533,8 @@ AppListener {
             identity["name"] = account.outgoing.name
             identity["email"] = account.outgoing.email
             identity["replyTo"] = ""
-            identity["signature"] = qsTr("Sent using Dekko from my Ubuntu device")
+            //TRANSLATORS: 'convergent' describes the apps ability of being usable on desktop and mobile devices running different OS
+            identity["signature"] = qsTr("Sent with Dekko - the convergent email app")
             AccountActions.addIdentity(identity)
         }
     }
@@ -608,5 +609,3 @@ AppListener {
         }
     }
 }
-
-
