@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished">Настройки учётной записи: %1</translation>
+        <translation>Настройки учётной записи: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -39,7 +39,7 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished">Отправлено с помощью Dekko с моего Ubuntu устройства</translation>
+        <translation>Отправлено с помощью Dekko с моего Ubuntu-устройства</translation>
     </message>
 </context>
 <context>
@@ -159,6 +159,7 @@
 
 Would you like to use this instead?</source>
         <translation>Для вашего домена была найден готовый файл конфигурации сервера IMAP.
+
 Использовать его?</translation>
     </message>
 </context>
@@ -180,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Управление кешем</translation>
     </message>
 </context>
 <context>
@@ -188,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Управление кешем: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished">Одна неделя</translation>
+        <translation>Одна неделя</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished">Две недели</translation>
+        <translation>Две недели</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Один месяц</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Три месяца</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Шесть месяцев</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить сообщения из кеша</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished">Данное действие удалит сообщения старше указанного периода</translation>
+        <translation>Данное действие удалит сообщения старше заданного периода</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished">Удалить сейчас</translation>
+        <translation>Удалить сейчас</translation>
     </message>
 </context>
 <context>
@@ -280,7 +281,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished">Что-то не так с учётной записью. Пожалуйста, выберите корректного отправителя.</translation>
+        <translation>Что-то не так с учётной записью. Пожалуйста, выберите действительного отправителя.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
@@ -586,7 +587,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished">Уведомление</translation>
+        <translation>Уведомление</translation>
     </message>
 </context>
 <context>
@@ -672,12 +673,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Соединение недоступно</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished">Время действия истекло</translation>
+        <translation>Время действия истекло</translation>
     </message>
 </context>
 <context>
@@ -709,12 +710,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>важно</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>неважно</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
@@ -1114,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщение перенесено</translation>
     </message>
 </context>
 <context>

@@ -1892,7 +1892,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="109"/>
         <source>Remove</source>
-        <translation>Fùlia</translation>
+        <translation>Boga</translation>
     </message>
 </context>
 <context>
