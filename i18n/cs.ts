@@ -446,12 +446,12 @@ Přejete si použít raději toto nastavení?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
         <source>Detect standard folders</source>
-        <translation>Objevit základní složky</translation>
+        <translation>Zjistit základní složky</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="127"/>
         <source>Detect</source>
-        <translation>Objevit</translation>
+        <translation>Zjistit</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="147"/>
