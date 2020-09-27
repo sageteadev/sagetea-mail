@@ -6,10 +6,11 @@ stages:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   DOCKER_DRIVER: overlay2
+  CLICKABLE_VERSION: 6.17.0
 
 click:armhf:
   stage: clickbuild
-  image: clickable/ci-16.04-armhf
+  image: clickable/ci-16.04-armhf:$CLICKABLE_VERSION
   tags:
     - docker
   script:
@@ -22,7 +23,7 @@ click:armhf:
 
 click:arm64:
   stage: clickbuild
-  image: clickable/ci-16.04-arm64
+  image: clickable/ci-16.04-arm64:$CLICKABLE_VERSION
   tags:
     - docker
   script:
@@ -41,7 +42,7 @@ click:arm64:
 
 builddocs:
   stage: builddocs
-  image: clickable/ci-16.04-armhf
+  image: clickable/ci-16.04-armhf:$CLICKABLE_VERSION
   script:
     - apt update
     - apt install -y doxygen plantuml graphviz doxyqml wget
