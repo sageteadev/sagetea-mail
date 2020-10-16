@@ -1228,7 +1228,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Videresendt melding</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
@@ -2017,12 +2017,12 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Fant ikke vask for konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke hente mappeliste for uoppsatt konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
@@ -2053,12 +2053,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke hente meldingsomfang for uoppsatt konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kunne ikke hente del av meldingsomfang for uoppsatt konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
@@ -2119,24 +2119,24 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke legge til meldinger asynkront</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke oppdatere meldinger asynkront</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kunne ikke legge til meldinger asynkront, inkonsekvent innholdsskjema</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunne ikke oppdatere meldinger asynkront, inkonsekvent innholdsskjema</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
