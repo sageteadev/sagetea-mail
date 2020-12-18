@@ -1506,7 +1506,7 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
-        <translation type="unfinished">hh:mm</translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
@@ -1524,7 +1524,7 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
-        <translation type="unfinished">dd.MM.yyyy</translation>
+        <translation>dd.MM.yyyy</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
