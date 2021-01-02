@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation>כתובת דוא&quot;ל לא תקינה</translation>
+        <translation>כתובת דוא״ל שגויה</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation>נשלח באמצעות Dekko ממכשיר אובונטו שלי</translation>
+        <translation>נשלח באמצעות Dekko ממכשיר האובונטו שלי</translation>
     </message>
 </context>
 <context>
@@ -53,12 +53,12 @@
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation>הסר את %1</translation>
+        <translation>להסיר את %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation>האם אתה בטוח שברצונך להסיר חשבון זה?</translation>
+        <translation>להסיר חשבון זה?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
