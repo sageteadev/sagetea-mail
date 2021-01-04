@@ -466,32 +466,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="164"/>
         <source>Inbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Inbox folder</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="180"/>
         <source>Drafts folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Drafts folder</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="196"/>
         <source>Spam folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Spam folder</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="212"/>
         <source>Sent folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sent folder</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="228"/>
         <source>Outbox folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Outbox folder</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="244"/>
         <source>Trash folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Trash folder</translation>
     </message>
 </context>
 <context>
@@ -499,17 +499,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="183"/>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">From:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="236"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">To:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="241"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cc:</translation>
     </message>
 </context>
 <context>
@@ -517,12 +517,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/addressbook/DefaultPlugin.qml" line="11"/>
         <source>Internal</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Internal</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/extensions/addressbook/DefaultPlugin.qml" line="106"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Default</translation>
     </message>
 </context>
 <context>
@@ -530,7 +530,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/DekkoHeader.qml" line="206"/>
         <source>Enter search...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enter search...</translation>
     </message>
 </context>
 <context>
@@ -538,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open in browser?</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>ୱେବ୍ ବ୍ରାଉଜରରେ %1 ଖୋଲିବାକୁ ନିଶ୍ଚିତ କରନ୍ତୁ</translation>
     </message>
 </context>
 <context>
@@ -551,17 +551,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="48"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>ବିବରଣୀ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="53"/>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">To:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="59"/>
         <source>Cc:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cc:</translation>
     </message>
 </context>
 <context>
@@ -569,12 +569,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ବିବରଣୀ: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
         <source>Account name</source>
-        <translation type="unfinished"></translation>
+        <translation>ଏକାଉଣ୍ଟ ନାମ</translation>
     </message>
 </context>
 <context>
@@ -582,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>ତ୍ରୁଟି</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>ଧ୍ୟାନ ଦିଅନ୍ତୁ</translation>
     </message>
 </context>
 <context>
@@ -595,17 +595,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="28"/>
         <source>Navigation menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Navigation menu</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="32"/>
         <source>Show smart folders</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show smart folders</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="42"/>
         <source>Show favourite folders</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show favourite folders</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="53"/>
@@ -823,7 +823,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="107"/>
         <source> (Default)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Default)</translation>
     </message>
 </context>
 <context>
@@ -831,43 +831,43 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="55"/>
         <source>Default identity</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Default identity</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="68"/>
         <source>Account</source>
-        <translation type="unfinished"></translation>
+        <translation>ଏକାଉଣ୍ଟ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="106"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>ନାମ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="111"/>
         <source>Email Address</source>
-        <translation type="unfinished"></translation>
+        <translation>ଇମେଲ ଠିକଣା</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="116"/>
         <source>Reply-To</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Reply-To</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="120"/>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Signature</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="138"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="146"/>
         <source>New identity</source>
-        <translation type="unfinished"></translation>
+        <translation>ନୂତନ ପରିଚୟ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="170"/>
         <source>Edit identity</source>
-        <translation type="unfinished"></translation>
+        <translation>ପରିଚୟ ବଦଳାନ୍ତୁ</translation>
     </message>
 </context>
 <context>
@@ -875,88 +875,88 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Incoming Server: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hostname</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="115"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Port</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="124"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Username</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="133"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="136"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Password</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="143"/>
         <source>Show password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Show password</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="149"/>
         <source>Security settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Security settings</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="184"/>
         <source>Allow untrusted certificates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Allow untrusted certificates</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="189"/>
         <source>Server settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Server settings</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="194"/>
         <source>Check for new mail on start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Check for new mail on start</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="200"/>
         <source>Enable IMAP IDLE</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enable IMAP IDLE</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="207"/>
         <source>Check interval (minutes)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Check interval (minutes)</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="214"/>
         <source>Check when roaming</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Check when roaming</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="220"/>
         <source>Maximum mail size (MB)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Maximum mail size (MB)</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="226"/>
         <source>No maximum mail size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">No maximum mail size</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="234"/>
         <source>Automatically download attachments</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Automatically download attachments</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="240"/>
         <source>Allowed to delete mail</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Allowed to delete mail</translation>
     </message>
 </context>
 <context>
@@ -964,7 +964,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/LicensesPage.qml" line="25"/>
         <source>Licenses</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Licenses</translation>
     </message>
 </context>
 <context>
@@ -972,12 +972,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="11"/>
         <source>Mail Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mail Settings</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="24"/>
         <source>Accounts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Accounts</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
