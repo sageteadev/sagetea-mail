@@ -1,48 +1,56 @@
 stages:
-  - clickbuild
-  - builddocs
+  - build
+  - doc
   - deploy
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   DOCKER_DRIVER: overlay2
-  CLICKABLE_VERSION: 6.17.0
+  CLICKABLE_VERSION: 6.21.0
 
-click:armhf:
-  stage: clickbuild
-  image: clickable/ci-16.04-armhf:$CLICKABLE_VERSION
+.armhf: &armhf
+  variables:
+    ARCH: "armhf"
+    ARCH_TRIPLET: "arm-linux-gnueabihf"
+
+.arm64: &arm64
+  variables:
+    ARCH: "arm64"
+    ARCH_TRIPLET: "aarch64-linux-gnu"
+
+.amd64: &amd64
+  variables:
+    ARCH: "amd64"
+    ARCH_TRIPLET: "x86_64-linux-gnu"
+
+.dekko:
+  stage: build
+  image: clickable/ci-16.04-$ARCH:$CLICKABLE_VERSION
   tags:
     - docker
   script:
     - clickable build
   artifacts:
     paths:
-      - 'build/arm-linux-gnueabihf/*.click'
+      - 'build/$ARCH_TRIPLET/*.click'
     when: on_success
     expire_in: 1 week
 
-click:arm64:
-  stage: clickbuild
-  image: clickable/ci-16.04-arm64:$CLICKABLE_VERSION
-  tags:
-    - docker
-  script:
-    - apt-get update
-    - apt-get install qemu-user-static --quiet --yes
-    - clickable build click-build
-  cache:
-    paths:
-      - build/aarch64-linux-gnu
-    untracked: true
-  artifacts:
-    paths:
-      - 'build/aarch64-linux-gnu/*.click'
-    when: on_success
-    expire_in: 1 week
+dekko:armhf:
+  <<: *armhf
+  extends: .dekko
 
-builddocs:
-  stage: builddocs
-  image: clickable/ci-16.04-armhf:$CLICKABLE_VERSION
+dekko:arm64:
+  <<: *arm64
+  extends: .dekko
+
+dekko:amd64:
+  <<: *amd64
+  extends: .dekko
+
+docs:
+  stage: doc
+  image: clickable/ci-16.04-amd64:$CLICKABLE_VERSION
   script:
     - apt update
     - apt install -y doxygen plantuml graphviz doxyqml wget
@@ -62,7 +70,7 @@ pages:
     - bundle install
     - bundle exec jekyll build -d public
   dependencies:
-    - builddocs
+    - docs
   artifacts:
     paths:
       - public

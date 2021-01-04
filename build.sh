@@ -56,6 +56,6 @@ export LIB_DIR=$DIR_PREFIX
 export DATA_DIR=/usr/share/dekko
 export QML_DIR=$LIB_DIR
 
-qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:dekkoqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT
+qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress config:build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:dekkoqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT qbs.installPrefix:/
 
 install_python_deps
