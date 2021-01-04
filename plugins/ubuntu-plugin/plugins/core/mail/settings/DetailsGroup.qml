@@ -26,30 +26,16 @@ import Dekko.Ubuntu.Components 1.0
 SettingsGroupPage {
     pageHeader.title: qsTr("Details: %1").arg(SettingsStore.selectedAccount.name)
 
-    function settingsChanged() {
-        if (account.name !== accountName.text
-            || account.outgoing.name !== name.text
-            || account.outgoing.email !== email.text) {
-            return true
-        } else {
-            return false
-        }
-    }
-
     AppListener {
         Filter {
             type: SettingsKeys.saveCurrentGroup
             onDispatched: {
                 Log.logInfo("DetailsGroup::saveCurrentGroup", "Saving current group")
-                if (!settingsChanged()) {
+                if (account.name === accountName.text) {
                     Log.logInfo("DetailsGroup::saveCurrentGroup", "No settings changed")
                     return
                 }
                 account.name = accountName.text
-                account.outgoing.name = name.text
-                if (EmailValidator.validate(email.text)) {
-                    account.outgoing.email = email.text
-                }
                 SettingsStore.settingsChanged = true
                 Log.logInfo("DetailsGroup::saveCurrentGroup", "Current group saved")
             }
