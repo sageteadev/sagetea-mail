@@ -982,7 +982,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
         <source>Identities</source>
-        <translation type="unfinished"></translation>
+        <translation>ପରିଚୟ ଗୁଡିକ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="44"/>
