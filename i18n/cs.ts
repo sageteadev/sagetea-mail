@@ -123,7 +123,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="45"/>
         <source>Authentication</source>
-        <translation>Ověření se</translation>
+        <translation>Ověření</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
@@ -1222,7 +1222,7 @@ Přejete si použít raději toto nastavení?</translation>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation>Na %1, %2 napsal:
+        <translation>%1 odesílatel %2 napsal:
 </translation>
     </message>
     <message>

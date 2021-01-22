@@ -412,7 +412,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactsListView.qml" line="36"/>
         <source>Search</source>
-        <translation>Искать</translation>
+        <translation>Поиск</translation>
     </message>
 </context>
 <context>
@@ -720,17 +720,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>прочитанное</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>непрочитанное</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
-        <translation type="unfinished"></translation>
+        <translation>как задание</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
@@ -802,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Подгружаемый контент заблокирован</translation>
     </message>
 </context>
 <context>
@@ -1008,27 +1008,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Все</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Непрочитанные</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>Помеченные</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>Отвеченные</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересланные</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1061,12 +1061,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">Пометить звёздочкой</translation>
+        <translation>Пометить как важное</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">Убрать звёздочку</translation>
+        <translation>Пометить как неважное</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
@@ -1195,7 +1195,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>в адрес %1</translation>
     </message>
 </context>
 <context>
@@ -1222,12 +1222,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>На %1, %2 писал:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересланное сообщение</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
@@ -1290,7 +1291,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">Добавить в список дел</translation>
+        <translation>Добавить в список дел</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
@@ -1956,23 +1957,23 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation type="unfinished"></translation>
+        <translation>Услуга недоступна, не удалось отправить</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
-        <translation type="unfinished"></translation>
+        <translation>Аккаунт обновлен другим процессом</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished">Учётная запись удалена</translation>
+        <translation>Аккаунт удален</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
-        <translation type="unfinished"></translation>
+        <translation>Запрос не обрабатывается</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
@@ -2088,7 +2089,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно отменить сообщения</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
@@ -2195,7 +2196,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Аккаунт сохранен</translation>
     </message>
 </context>
 <context>
@@ -2344,12 +2345,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщения отправлены</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщение отправлено</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>

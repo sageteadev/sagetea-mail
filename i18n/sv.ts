@@ -678,7 +678,7 @@ Vill du använda denna istället?</translation>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsgränsen för åtgärden nåddes</translation>
     </message>
 </context>
 <context>
@@ -1543,7 +1543,7 @@ Vill du använda denna istället?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="45"/>
         <source>Display settings</source>
-        <translation>Visa inställningarna</translation>
+        <translation>Utseende</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuAccountSettingsModel.qml" line="67"/>
@@ -2017,7 +2017,7 @@ Vill du använda denna istället?</translation>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation>Kan inte hitta handfat för kontot</translation>
+        <translation>Kan inte hitta underliggande för kontot</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
@@ -2171,7 +2171,7 @@ Vill du använda denna istället?</translation>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att utföra begärd åtgärd!</translation>
     </message>
 </context>
 <context>
