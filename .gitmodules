@@ -12,7 +12,7 @@
 	url = https://gitlab.com/dekkoproject/pyotherside.git
 [submodule "upstream/quick-flux"]
 	path = upstream/quick-flux
-	url = https://gitlab.com/dekkoproject/quick-flux.git
+	url = https://gitlab.com/dekkan/quick-flux.git
 [submodule "upstream/snap-standard-paths"]
 	path = upstream/snap-standard-paths
 	url = https://gitlab.com/dekkoproject/snap-standard-paths.git

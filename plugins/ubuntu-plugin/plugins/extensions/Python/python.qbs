@@ -52,6 +52,7 @@ Project {
             // List the package dirs you want in the qml plugin
             // The idea here is to only declare what's _required_ to reduce our size a bit
             files: [
+                "soupsieve/**",
                 "markdown/**",
                 "jinja2/**",
                 "markupsafe/**",

@@ -29,3 +29,4 @@ TitledHeaderButton 1.0 TitledHeaderButton.qml
 TitledTextField 1.0 TitledTextField.qml
 UbuntuShapeGravatar 1.0 UbuntuShapeGravatar.qml
 NavPluginSideBar 1.0 NavPluginSideBar.qml
+NavPluginModel 1.0 NavPluginModel.qml

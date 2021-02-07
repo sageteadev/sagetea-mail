@@ -2,13 +2,14 @@
 
 /************** Adds most of QString/QByteArray API to JS String *******************************/
 
-function addMethod (object, method) {
-    Object.defineProperty (object, method.name, {
-                               "value" : method,
-                               "enumerable" : false
-                           });
+function addMethod(object, method) {
+	if (typeof object[method.name] === 'undefined') {
+		Object.defineProperty(object, method.name, {
+			"value": method,
+			"enumerable": false
+		});
+	}
 }
-
 
 function at (idx) {
     return (this [idx]);
