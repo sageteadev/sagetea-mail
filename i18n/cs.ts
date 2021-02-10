@@ -1222,7 +1222,9 @@ Přejete si použít raději toto nastavení?</translation>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation>%1 odesílatel %2 napsal:
+        <translation>---------- Původní e-mail ----------
+Od: %2
+Datum: %1
 </translation>
     </message>
     <message>
