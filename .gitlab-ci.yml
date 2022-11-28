@@ -29,7 +29,7 @@ variables:
     - export CLICKABLE_CONTAINER_MODE=1
     - export CLICKABLE_ARCH=$ARCH
     - export CLICKABLE_NON_INTERACTIVE=1
-    - clickable build --arm64
+    - clickable build --arch arm64
   artifacts:
     paths:
       - 'build/$ARCH_TRIPLET/*.click'
