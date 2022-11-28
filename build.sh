@@ -34,7 +34,7 @@ function install_python_deps
     done
     
     cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
-    cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
+    ##cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
 }
 
 ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
