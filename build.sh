@@ -48,7 +48,7 @@ fi
 
 qbs setup-qt /usr/lib/${ARCH_TRIPLET}/qt5/bin/qmake dekkoqt5-$ARCH
 qbs config profiles.dekkoqt5-$ARCH.baseProfile gcc-$ARCH
-qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
+qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/${ARCH_TRIPLET}/qt5/bin
 
 export DIR_PREFIX=/lib/${ARCH_TRIPLET}
 export BIN_DIR=$DIR_PREFIX/bin
