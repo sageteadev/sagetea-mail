@@ -2,7 +2,7 @@
     "name": "dekko2.dekkoproject",
     "description": "Experimental release of the next generation Dekko.",
     "framework": "@CLICK_FRAMEWORK@",
-    "architecture": "@CLICK_ARCH@",
+    "architecture": "arm64",
     "title": "Dekko 2",
     "hooks": {
         "dekko": {

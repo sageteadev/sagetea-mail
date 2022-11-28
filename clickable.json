@@ -1,7 +1,7 @@
 {
     "clickable_minimum_required": "6.21.0",
     "builder": "custom",
-    "build": "DEBUG_BUILD=${DEBUG_BUILD} ${ROOT}/build.sh",
+    "build": "${ROOT}/build.sh",
     "build_dir": "build/${ARCH_TRIPLET}",
     "install_dir": "${BUILD_DIR}/build/install-root/",
     "image_setup": {

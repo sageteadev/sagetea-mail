@@ -7,7 +7,7 @@ Project {
     property string appName: "Dekko"
     property string pkgName: "dekko.dekkoproject"
     property string version: "0.3.3"
-	property string arch: "%HOST_ARCH%"
+	property string arch: "arm64"
 
     Probe {
         id: revprobe
