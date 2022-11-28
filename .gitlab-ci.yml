@@ -1,7 +1,5 @@
 stages:
   - build
-  - doc
-  - deploy
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -59,32 +57,3 @@ dekko:arm64:
 dekko:amd64:
   <<: *amd64
   extends: .dekko
-
-docs:
-  stage: doc
-  image: clickable/ci-16.04-amd64:$CLICKABLE_VERSION
-  script:
-    - apt update
-    - apt install -y doxygen plantuml graphviz doxyqml wget
-    - wget -O /usr/share/plantuml/plantuml.jar https://downloads.sourceforge.net/project/plantuml/plantuml.jar?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fplantuml%2Ffiles%2Fplantuml.jar%2Fdownload&ts=1591870450
-    - doxygen
-  artifacts:
-    paths:
-      - ./doxygen-out
-
-pages:
-  stage: deploy
-  image: ruby:2.3
-  script:
-    - mv doxygen-out/html/* ./
-    - mv docs/Gemfile* ./
-    - mv docs/_config.yml ./
-    - bundle install
-    - bundle exec jekyll build -d public
-  dependencies:
-    - docs
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
