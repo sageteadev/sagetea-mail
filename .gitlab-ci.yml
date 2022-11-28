@@ -6,20 +6,10 @@ variables:
   DOCKER_DRIVER: overlay2
   CLICKABLE_VERSION: 6.23.0
 
-.armhf: &armhf
-  variables:
-    ARCH: "armhf"
-    ARCH_TRIPLET: "arm-linux-gnueabihf"
-
 .arm64: &arm64
   variables:
     ARCH: "arm64"
     ARCH_TRIPLET: "aarch64-linux-gnu"
-
-.amd64: &amd64
-  variables:
-    ARCH: "amd64"
-    ARCH_TRIPLET: "x86_64-linux-gnu"
 
 .dekko:
   stage: build
@@ -46,14 +36,6 @@ variables:
     when: on_success
     expire_in: 1 week
 
-dekko:armhf:
-  <<: *armhf
-  extends: .dekko
-
 dekko:arm64:
   <<: *arm64
-  extends: .dekko
-
-dekko:amd64:
-  <<: *amd64
   extends: .dekko
