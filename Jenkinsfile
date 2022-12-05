@@ -1,7 +1,8 @@
 pipeline {
-    agent {
-        docker { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
+    agent docker{
+            { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
         }
+        
     stages {
         stage('submodule update') {
             steps {
