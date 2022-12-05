@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
+        docker { image 'clickable/ci-16.04-arm64:6.24.0' }
     }
     stages {
         stage('sageteamail:arm64') {
