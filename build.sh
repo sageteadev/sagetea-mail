@@ -19,14 +19,14 @@ else
 fi
 
 DIR=$(dirname "${BASH_SOURCE[0]}")
-cat ${DIR}/dekko.qbs.in | sed "s/%HOST_ARCH%/${ARCH}/" > ${DIR}/dekko.qbs
-cat ${DIR}/click/dekko2.desktop.in | sed "s/%HOST_ARCH_TRIPLET%/${ARCH_TRIPLET}/g" > ${DIR}/click/dekko2.desktop
+cat ${DIR}/sageteamail.qbs.in | sed "s/%HOST_ARCH%/${ARCH}/" > ${DIR}/sageteamail.qbs
+cat ${DIR}/click/sageteamail2.desktop.in | sed "s/%HOST_ARCH_TRIPLET%/${ARCH_TRIPLET}/g" > ${DIR}/click/sageteamail2.desktop
 
 function install_python_deps
 {
     PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown markupsafe pygments pynliner soupsieve"
     PYTHON_DEPS_DIR=pylibs/lib/python3.5/site-packages/
-    DEKKO_PYTHON_DIR=$CLICK_LD_LIBRARY_PATH/Dekko/Python/
+    DEKKO_PYTHON_DIR=$CLICK_LD_LIBRARY_PATH/SageteaMail/Python/
 
     mkdir -p $DEKKO_PYTHON_DIR
     for dep in $PYTHON_DEPS; do
@@ -34,7 +34,7 @@ function install_python_deps
     done
     
     cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
-    ##cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
+    #cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
 }
 
 ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
@@ -48,16 +48,16 @@ fi
 
 qbs setup-qt /usr/lib/${ARCH_TRIPLET}/qt5/bin/qmake dekkoqt5-$ARCH
 qbs config profiles.dekkoqt5-$ARCH.baseProfile gcc-$ARCH
-qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/${ARCH_TRIPLET}/qt5/bin
+qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
 
 export DIR_PREFIX=/lib/${ARCH_TRIPLET}
 export BIN_DIR=$DIR_PREFIX/bin
 export LIB_DIR=$DIR_PREFIX
-export DATA_DIR=/usr/share/dekko
+export DATA_DIR=/usr/share/sageteamail
 export QML_DIR=$LIB_DIR
 
 qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress config:build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:dekkoqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT qbs.installPrefix:/
 
 install_python_deps
 
-mv ${INSTALL_DIR}/lib/Dekko/Controls ${INSTALL_DIR}/lib/${ARCH_TRIPLET}/Dekko/
+mv ${INSTALL_DIR}/lib/SageteaMail/Controls ${INSTALL_DIR}/lib/${ARCH_TRIPLET}/SageteaMail/

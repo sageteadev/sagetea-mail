@@ -4,22 +4,22 @@ file(GLOB_RECURSE CLICK_FILES
 add_custom_target(ClickSrcs ALL SOURCES ${CLICK_FILES})
 
 if (UNCONFINED)
-    set(APPARMOR_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/openstore/dekko.apparmor)
+    set(APPARMOR_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/openstore/sageteamail.apparmor)
 else()
-    set(APPARMOR_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/dekko.apparmor)
+    set(APPARMOR_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail.apparmor)
 endif()
 
-set(CLICK_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/dekko.json)
+set(CLICK_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail.json)
 
 set(OTHER_MANIFEST
     ${CMAKE_CURRENT_SOURCE_DIR}/.excludes
     ${APPARMOR_MANIFEST}
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekko.dekkoproject_dekko.application
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekko.dekkoproject_dekko.service
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekko.url-dispatcher
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekko-content.json
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekkohelper-aa.json
-    ${CMAKE_CURRENT_SOURCE_DIR}/dekko-helper.json
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail.sageteamailproject_sageteamail.application
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail.sageteamailproject_sageteamail.service
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail.url-dispatcher
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail-content.json
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamailhelper-aa.json
+    ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail-helper.json
 )
 
 if (CLICK_MODE)
@@ -30,11 +30,11 @@ if (CLICK_MODE)
         DESTINATION ${CMAKE_INSTALL_PREFIX}
     )
     install(
-        PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/dekko-launch
+        PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail-launch
         DESTINATION ${BIN_DIR}
     )
     install(
-        PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/dekko-helper
+        PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/sageteamail-helper
         DESTINATION ${CMAKE_INSTALL_PREFIX}
     )
 endif()
