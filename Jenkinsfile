@@ -9,9 +9,6 @@ pipeline {
             }
         }
         stage('sageteamail:arm64') {
-            agent {
-        docker { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
-        }
             steps {
                 sh 'clickable build'
                 archiveArtifacts(artifacts: 'build/$ARCH_TRIPLET/*.click', fingerprint: true, onlyIfSuccessful: true)
