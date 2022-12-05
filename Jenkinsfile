@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
+        }
     stages {
         stage('submodule update') {
             steps {
@@ -8,7 +10,7 @@ pipeline {
         }
         stage('sageteamail:arm64') {
             agent {
-        docker { image 'clickable/ci-16.04-arm64:6.24.0' }
+        docker { image 'clickable/ci-16.04-arm64:6.24.0' }.inside
         }
             steps {
                 sh 'clickable build'
