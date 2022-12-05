@@ -31,16 +31,16 @@ fi
 export LD_LIBRARY_PATH=$INSTALL_PATH/lib/$ARCH_TRIPLE/
 export QML2_IMPORT_PATH=$LD_LIBRARY_PATH
 export QMF_PLUGINS=$LD_LIBRARY_PATH/qmf/plugins5
-export DEKKO_PLUGINS=$LD_LIBRARY_PATH/Dekko/plugins
+export DEKKO_PLUGINS=$LD_LIBRARY_PATH/SageteaMail/plugins
 
 # Location qmf will store the mailstore cache
-export QMF_DATA=$HOME/.cache/dekko
+export QMF_DATA=$HOME/.cache/sageteamail
 
 echo $0
 echo $1
 
 if [ "$1" == "debug" ]; then
-    exec gdb --args $INSTALL_PATH/lib/$ARCH_TRIPLE/bin/dekko $@
+    exec gdb --args $INSTALL_PATH/lib/$ARCH_TRIPLE/bin/sageteamail $@
 else
-    exec $INSTALL_PATH/lib/$ARCH_TRIPLE/bin/dekko $@
+    exec $INSTALL_PATH/lib/$ARCH_TRIPLE/bin/sageteamail $@
 fi
