@@ -1956,7 +1956,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation>El servicio no está disponible, no se puede enviar.</translation>
+        <translation>El servicio no está disponible, no se puede enviar</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>

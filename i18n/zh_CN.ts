@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation>账户设置：%1</translation>
+        <translation>账户设置 %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -252,7 +252,7 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>短信</translation>
     </message>
 </context>
 <context>
@@ -309,12 +309,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>丢弃</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">添加附件</translation>
+        <translation>添加附件</translation>
     </message>
 </context>
 <context>
@@ -322,7 +322,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>丢弃信息</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
@@ -543,7 +543,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished">确认在浏览器中打开 %1</translation>
+        <translation>确认在浏览器中打开 %1</translation>
     </message>
 </context>
 <context>
@@ -668,7 +668,7 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>没有互联网连接</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
@@ -740,7 +740,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>标记 %1 信件为 %2</translation>
     </message>
 </context>
 <context>
@@ -768,7 +768,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>已发送</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
@@ -794,7 +794,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">文件夹</translation>
+        <translation>文件夹</translation>
     </message>
 </context>
 <context>
@@ -1033,7 +1033,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">附件</translation>
+        <translation>附件</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1051,37 +1051,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">清除所有选择</translation>
+        <translation>清除所有选择</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">选择全部</translation>
+        <translation>选择全部</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">加星</translation>
+        <translation>加星</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">去星</translation>
+        <translation>去星</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">删除</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">标记为未读</translation>
+        <translation>标记为未读</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">标记为已读</translation>
+        <translation>标记为已读</translation>
     </message>
 </context>
 <context>
@@ -1290,12 +1290,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">需要做的事</translation>
+        <translation>需要做的事</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">完成</translation>
+        <translation>完成</translation>
     </message>
 </context>
 <context>

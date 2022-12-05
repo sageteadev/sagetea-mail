@@ -6,12 +6,12 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>การตั้งค่าบัญชี: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>รายละเอียด</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>ที่อยู่อีเมลไม่ถูกต้อง</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>ส่งด้วย Dekko จากอุปกรณ์ Ubuntu</translation>
     </message>
 </context>
 <context>

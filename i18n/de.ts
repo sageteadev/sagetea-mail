@@ -1512,13 +1512,13 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
-        <translation type="unfinished">ddd hh:mm</translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
-        <translation>tt. MMM</translation>
+        <translation>dd.MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
@@ -2274,7 +2274,7 @@ Soll diese gefundene Konfiguration verwendet werden?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="45"/>
         <source>E.g Home, Work...</source>
-        <translation>z. B. zu Hause, auf Arbeit, ...</translation>
+        <translation>z.B. zu Hause, auf Arbeit, ...</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="52"/>

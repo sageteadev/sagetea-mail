@@ -128,7 +128,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation type="unfinished">Grynasis</translation>
+        <translation>Grynasis</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
@@ -258,7 +258,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
         <source>Dekko Composer</source>
-        <translation type="unfinished">Dekko rašyklė</translation>
+        <translation>Dekko rašyklė</translation>
     </message>
 </context>
 <context>
@@ -351,7 +351,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="125"/>
         <source>Send message</source>
-        <translation type="unfinished">Išsiųsti</translation>
+        <translation>Siųsti žinutę</translation>
     </message>
 </context>
 <context>
@@ -536,7 +536,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Atverti naršyklėje?</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
@@ -1092,12 +1092,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>Cc</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>Bcc</translation>
     </message>
 </context>
 <context>

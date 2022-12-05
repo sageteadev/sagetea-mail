@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto Instellung</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>falsk E-Mail Adress</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Sendt mit Smuck van menen Ubuntu Gereedskupp</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto ofmaaken fehlslaan</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>lösken %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>Büst du di wirklich seker, dat du dit Konto entfernen wullt?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto is nu weg</translation>
     </message>
 </context>
 <context>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/AttachmentPopover.qml" line="46"/>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>lösken</translation>
     </message>
 </context>
 <context>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="60"/>
         <source>PLAIN</source>
-        <translation>licht</translation>
+        <translation>Anzeig</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/components/AuthenticationSelector.qml" line="61"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="35"/>
         <source>Searching for configuration.</source>
-        <translation>söök na de Instellung.</translation>
+        <translation>Sööken na de Instellung.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
@@ -158,7 +158,9 @@
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>Op düsse Domään wurr en IMAP Serverkonfiguration funnen. 
+
+Wullt du düsse bruken?</translation>
     </message>
 </context>
 <context>
@@ -166,12 +168,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Neje Naricht</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Anhang</translation>
     </message>
 </context>
 <context>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüskenspieker verwalten</translation>
     </message>
 </context>
 <context>
@@ -187,22 +189,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüskenspieker verwalten: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Een Week</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>2 Weeken</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>En Maant</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
@@ -312,7 +314,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">anhangen</translation>
+        <translation>anhangen</translation>
     </message>
 </context>
 <context>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Openmaken in söker?</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Besattigen, dat %1 in&apos; Söker apen warrn schall</translation>
     </message>
 </context>
 <context>
@@ -980,7 +982,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
         <source>Identities</source>
-        <translation type="unfinished">Identitäten</translation>
+        <translation>Identitäten</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="44"/>
@@ -1031,7 +1033,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">Anhänge</translation>
+        <translation>Anhänge</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1069,7 +1071,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Löschen</translation>
+        <translation>lösken</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
@@ -1374,7 +1376,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="153"/>
         <source>Delete</source>
-        <translation type="unfinished">Löschen</translation>
+        <translation>lösken</translation>
     </message>
 </context>
 <context>
@@ -1445,7 +1447,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="138"/>
         <source>Delete</source>
-        <translation type="unfinished">Löschen</translation>
+        <translation>lösken</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
@@ -1740,12 +1742,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
         <source>Hostname</source>
-        <translation type="unfinished">Hostname</translation>
+        <translation>Hostname</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="84"/>
         <source>Port</source>
-        <translation type="unfinished">Port</translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="93"/>

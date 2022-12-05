@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuración da conta: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Enderezo electrónico non válido</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviado usando Dekko desde o meu dispositivo Ubuntu</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fallo ao eliminal a conta</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ten a certeza de que desexa eliminar esta conta?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Conta eliminada</translation>
     </message>
 </context>
 <context>
@@ -158,7 +158,9 @@
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>A configuración do servidor IMAP atopouse no teu dominio.
+
+Quererías usalo en cambio?</translation>
     </message>
 </context>
 <context>
@@ -166,7 +168,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova mensaxe</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Xestionar caché</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Xestionar caché: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Unha semana</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>Quince días</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Un mes</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Tres meses</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Seis meses</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar mensaxes do caché</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>Isto eliminará as mensaxes máis antigas que o período dado</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar agora</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>mensaxes</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>mensaxe</translation>
     </message>
 </context>
 <context>
@@ -274,22 +276,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar un emisor. Do contrario, os borradores non se gardarán automaticamente. Considere establecer unha identidade por defecto.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished"></translation>
+        <translation>Algo foi mal coa súa identidade. Seleccione un emisor válido.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe en espera.</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrador gardado.</translation>
     </message>
 </context>
 <context>
@@ -297,22 +299,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Gardar borrador</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Descartar</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">Anexar</translation>
+        <translation>Anexar</translation>
     </message>
 </context>
 <context>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>Descartar mensaxe</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tes a certeza de que quere descartar esta mensaxe?</translation>
     </message>
 </context>
 <context>
@@ -439,7 +441,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Copias e cartafoles: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir no navegador?</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Confirmar para abrir %1 no navegador web</translation>
     </message>
 </context>
 <context>
@@ -567,7 +569,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Detalles: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
@@ -580,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Aviso</translation>
     </message>
 </context>
 <context>
@@ -626,7 +628,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettingsPage.qml" line="21"/>
         <source>Display Settings</source>
-        <translation>Mostrar axustes</translation>
+        <translation>Mostrar configuración</translation>
     </message>
 </context>
 <context>
@@ -634,7 +636,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettingsPopup.qml" line="21"/>
         <source>Display Settings</source>
-        <translation>Mostrar axustes</translation>
+        <translation>Mostrar configuración</translation>
     </message>
 </context>
 <context>
@@ -666,17 +668,17 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Non hai conexión</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Non está dispoñible a conexión</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Acción pausada</translation>
     </message>
 </context>
 <context>
@@ -692,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizando cambios para %1 conta</translation>
     </message>
 </context>
 <context>
@@ -708,37 +710,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>importante</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>non é importante</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>lido</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>non lido</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
-        <translation type="unfinished"></translation>
+        <translation>pendente</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>non hai máis para facer</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcando %1 mensaxes %2</translation>
     </message>
 </context>
 <context>
@@ -746,32 +748,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Borradores</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Caixa de correo</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Correo lixo</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Caixa de saída</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Lixo</translation>
     </message>
 </context>
 <context>
@@ -792,7 +794,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">Cartafoles</translation>
+        <translation>Cartafoles</translation>
     </message>
 </context>
 <context>
@@ -800,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Foi excluído o contido remoto</translation>
     </message>
 </context>
 <context>
@@ -873,7 +875,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Servidor entrante: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
@@ -1006,42 +1008,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Todo</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Non lido</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcado</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>Respondido</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">Anexos</translation>
+        <translation>Anexos</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Calendario</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Local</translation>
     </message>
 </context>
 <context>
@@ -1049,37 +1051,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">Deseleccionar todas</translation>
+        <translation>Deseleccionar todas</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">Seleccionar todas</translation>
+        <translation>Seleccionar todas</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">Estrela</translation>
+        <translation>Estrela</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">Eliminar estrela</translation>
+        <translation>Eliminar estrela</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Eliminar</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">Marcar como non lido</translation>
+        <translation>Marcar como non lido</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">Marcar como lido</translation>
+        <translation>Marcar como lido</translation>
     </message>
 </context>
 <context>
@@ -1087,17 +1089,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Para</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>Cc</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>Bcc</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe movida</translation>
     </message>
 </context>
 <context>
@@ -1188,12 +1190,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>ti</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>para %1</translation>
     </message>
 </context>
 <context>
@@ -1220,32 +1222,33 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>En %1, %2 escribiu:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe enviada</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Data: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>De: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>Para: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>Asunto: </translation>
     </message>
 </context>
 <context>
@@ -1253,47 +1256,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Todas as caixas</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Borradores</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Correo lixo</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Caixa de saída</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Lixo</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoxe, %1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">Tarefas pendentes</translation>
+        <translation>Tarefas pendentes</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">Feito</translation>
+        <translation>Feito</translation>
     </message>
 </context>
 <context>
@@ -1450,7 +1453,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Desfacer</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
@@ -1503,31 +1506,31 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM aa</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1706,7 +1709,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Aceptar</translation>
     </message>
 </context>
 <context>
@@ -1714,7 +1717,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificacións</translation>
     </message>
 </context>
 <context>
@@ -1722,12 +1725,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuración das notificacións: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Activado</translation>
     </message>
 </context>
 <context>
@@ -1735,7 +1738,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Servidor saínte: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
@@ -1813,25 +1816,25 @@ Would you like to use this instead?</source>
     <message numerus="yes">
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Kb</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Mb</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Gb</translation>
     </message>
 </context>
 <context>
@@ -1948,41 +1951,41 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Destruíndo o xestor do Servizo</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation type="unfinished"></translation>
+        <translation>O Servizo non está dispoñible, non puido despachar</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
-        <translation type="unfinished"></translation>
+        <translation>Conta actualizada por outros procesos</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Conta eliminada</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
-        <translation type="unfinished"></translation>
+        <translation>A socilitude non está procesando</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
         <source>Cancelled by user</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelado polo usuario</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
         <source>Unable to enqueue messages for transmission</source>
-        <translation type="unfinished"></translation>
+        <translation>Active para as mensaxes en fila para transmisión</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
@@ -2008,167 +2011,167 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar para fonte buscada para esta conta</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido atopar o colector da conta</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir a lista de cartafoles da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir a lista de mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir a lista de mensaxes novas da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir os cartafoles estándar da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir as mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir a parte da mensaxe da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir o intervalo da mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir o intervalo das partes das mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido conseguir a totalidade das mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido exportar as actualizacións da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido sincronizar a conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido eliminar as mensaxes da conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
         <source>Deleting messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminando mensaxes</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido descartar as mensaxes</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido copiar as mensaxes da cotna sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido copiar as mensaxes das contas de destino!</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido copiar as mensaxes da conta</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido mover as mensaxes á conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido marcas as mensaxes á conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido engadir as mensaxes sincronizadas</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido actualizar as mensaxes sincronizadas</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido engadir as mensaxes sincronizadas, esquema de contido inconsistente</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido actualizar as mensaxes sincronizadas, esquema de contido inconsistente</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
         <source>Could not delete messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido eliminar as mensaxes</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido crear o cartafol pola conta inválida</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido renomear o cartafol inválido</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido eliminar o cartafol inválido</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido buscar as mensaxes á conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido pasar a petición de protocolo específico á conta sen configuración</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se puido realizar a acción solicitada!</translation>
     </message>
 </context>
 <context>
@@ -2192,7 +2195,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Conta gardada</translation>
     </message>
 </context>
 <context>
@@ -2216,7 +2219,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoxe, %1</translation>
     </message>
 </context>
 <context>
@@ -2224,7 +2227,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviado usando o Dekko desde o meu dispositivo Ubuntu</translation>
     </message>
 </context>
 <context>
@@ -2341,17 +2344,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxes enviadas</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaxe enviada</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fallou o envío da mensaxe</translation>
     </message>
 </context>
 </TS>

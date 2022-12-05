@@ -312,7 +312,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">Vedhæft</translation>
+        <translation>Vedhæft</translation>
     </message>
 </context>
 <context>
@@ -792,7 +792,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">Foldere</translation>
+        <translation>Foldere</translation>
     </message>
 </context>
 <context>
@@ -821,7 +821,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="107"/>
         <source> (Default)</source>
-        <translation> (Default)</translation>
+        <translation>  (Default)</translation>
     </message>
 </context>
 <context>
@@ -1049,37 +1049,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">Fravælg alt</translation>
+        <translation>Fravælg alt</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">Tilvælg alt</translation>
+        <translation>Tilvælg alt</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">Stjerne</translation>
+        <translation>Stjerne</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">Fjern stjerne</translation>
+        <translation>Fjern stjerne</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Slet</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">Markér som ulæst</translation>
+        <translation>Markér som ulæst</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">Markér som læst</translation>
+        <translation>Markér som læst</translation>
     </message>
 </context>
 <context>
@@ -1288,12 +1288,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">At-gøre</translation>
+        <translation>At-gøre</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">Færdig</translation>
+        <translation>Færdig</translation>
     </message>
 </context>
 <context>

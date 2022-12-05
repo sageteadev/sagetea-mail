@@ -258,7 +258,7 @@ Would you like to use this instead?</source>
     </message>
     <message>
         <source>Attach</source>
-        <translation type="unfinished">Ngjit</translation>
+        <translation>Ngjit</translation>
     </message>
 </context>
 <context>
@@ -868,19 +868,19 @@ Would you like to use this instead?</source>
     <name>MailStoreActions</name>
     <message>
         <source>Unselect all</source>
-        <translation type="unfinished">Hiq zgjidhjet</translation>
+        <translation>Hiq zgjidhjet</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Zgjidh të gjitha</translation>
+        <translation>Zgjidh të gjitha</translation>
     </message>
     <message>
         <source>Star</source>
-        <translation type="unfinished">Yllë</translation>
+        <translation>Yllë</translation>
     </message>
     <message>
         <source>Remove star</source>
-        <translation type="unfinished">Hiq Yllin</translation>
+        <translation>Hiq Yllin</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -888,7 +888,7 @@ Would you like to use this instead?</source>
     </message>
     <message>
         <source>Mark as un-read</source>
-        <translation type="unfinished">Marko si të palexuar</translation>
+        <translation>Marko si të palexuar</translation>
     </message>
     <message>
         <source>Mark as read</source>
@@ -1066,11 +1066,11 @@ Would you like to use this instead?</source>
     </message>
     <message>
         <source>To-do</source>
-        <translation type="unfinished">Për të kryer</translation>
+        <translation>Për të kryer</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">E kryer</translation>
+        <translation>E kryer</translation>
     </message>
 </context>
 <context>

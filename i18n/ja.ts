@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>アカウント設定: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>メールアドレスが正しくありません</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Ubuntu デバイスから Dekko で送信</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>アカウントを削除できませんでした</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を削除</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>このアカウントを削除しますか？</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>アカウントを削除しました</translation>
     </message>
 </context>
 <context>
@@ -158,7 +158,9 @@
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>このドメインの IMAP サーバー設定が見つかりました。
+
+代わりに使用しますか？</translation>
     </message>
 </context>
 <context>
@@ -166,7 +168,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>新着メッセージ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>キャッシュの管理</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>キャッシュを管理: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>1週間</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>2週間</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>1ヶ月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>3か月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>6ヶ月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>キャッシュからメッセージを削除</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>一定期間が経過したメッセージを削除します</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>すぐに削除</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージ</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージ</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージ</translation>
     </message>
 </context>
 <context>
@@ -274,22 +276,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
-        <translation type="unfinished"></translation>
+        <translation>送信者を選択してください。未選択の場合は、下書きは自動保存されません。デフォルト送信者を設定することもできます。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished"></translation>
+        <translation>送信者情報に問題があります。正しい送信者を選択してください。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
-        <translation type="unfinished"></translation>
+        <translation>送信待ちにしました。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>下書きを保存しました。</translation>
     </message>
 </context>
 <context>
@@ -297,22 +299,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>送信</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>下書き保存</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>破棄</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">添付</translation>
+        <translation>添付する</translation>
     </message>
 </context>
 <context>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージを削除</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>このメッセージを削除しますか？</translation>
     </message>
 </context>
 <context>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>ブラウザで開きますか？</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 をブラウザで開くには確認してください。</translation>
     </message>
 </context>
 <context>
@@ -567,7 +569,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
@@ -580,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>お知らせ</translation>
     </message>
 </context>
 <context>
@@ -666,17 +668,17 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>接続されていません</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>接続が使用できません</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>タイムアウトしました</translation>
     </message>
 </context>
 <context>
@@ -692,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>アカウント %1 を同期しています</translation>
     </message>
 </context>
 <context>
@@ -708,22 +710,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>重要</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>重要でない</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>開封済</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>未開封</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
@@ -746,32 +748,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>下書き</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>受信トレイ</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>迷惑メール</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>送信トレイ</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>送信済み</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>ゴミ箱</translation>
     </message>
 </context>
 <context>
@@ -800,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>外部のコンテンツはブロックされています</translation>
     </message>
 </context>
 <context>

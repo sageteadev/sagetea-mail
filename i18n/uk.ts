@@ -11,7 +11,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation type="unfinished">Подробиці</translation>
+        <translation>Подробиці</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/AttachmentPopover.qml" line="46"/>
         <source>Delete</source>
-        <translation type="unfinished">Вилучити</translation>
+        <translation>Вилучити</translation>
     </message>
 </context>
 <context>
@@ -333,12 +333,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="51"/>
         <source>Cancel</source>
-        <translation type="unfinished">Скасувати</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/ConfirmationDialog.qml" line="63"/>
         <source>Confirm</source>
-        <translation type="unfinished">Підтвердити</translation>
+        <translation>Підтвердити</translation>
     </message>
 </context>
 <context>
@@ -372,7 +372,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="61"/>
         <source>Email</source>
-        <translation type="unfinished">Ел. пошта</translation>
+        <translation>Ел. пошта</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/contacts/ContactView.qml" line="78"/>
@@ -502,12 +502,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="236"/>
         <source>To:</source>
-        <translation type="unfinished">До:</translation>
+        <translation>До:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DefaultMessagePage.qml" line="241"/>
         <source>Cc:</source>
-        <translation type="unfinished">Копія:</translation>
+        <translation>Копія:</translation>
     </message>
 </context>
 <context>
@@ -549,17 +549,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="48"/>
         <source>Details</source>
-        <translation type="unfinished">Подробиці</translation>
+        <translation>Подробиці</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="53"/>
         <source>To:</source>
-        <translation type="unfinished">До:</translation>
+        <translation>До:</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/DetailList.qml" line="59"/>
         <source>Cc:</source>
-        <translation type="unfinished">Копія:</translation>
+        <translation>Копія:</translation>
     </message>
 </context>
 <context>
@@ -888,13 +888,13 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="124"/>
         <source>Username</source>
-        <translation type="unfinished">Користувач</translation>
+        <translation>Користувач</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="133"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="136"/>
         <source>Password</source>
-        <translation type="unfinished">Пароль</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="143"/>
@@ -975,7 +975,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="24"/>
         <source>Accounts</source>
-        <translation type="unfinished">Облікові записи</translation>
+        <translation>Облікові записи</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
@@ -1069,7 +1069,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Вилучити</translation>
+        <translation>Вилучити</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
@@ -1374,7 +1374,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="153"/>
         <source>Delete</source>
-        <translation type="unfinished">Вилучити</translation>
+        <translation>Вилучити</translation>
     </message>
 </context>
 <context>
@@ -1445,7 +1445,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="138"/>
         <source>Delete</source>
-        <translation type="unfinished">Вилучити</translation>
+        <translation>Вилучити</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
@@ -1613,7 +1613,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="70"/>
         <source>Settings</source>
-        <translation type="unfinished">Параметри</translation>
+        <translation>Налаштування</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavMenuPage.qml" line="73"/>
@@ -1680,7 +1680,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="31"/>
         <source>Accounts</source>
-        <translation type="unfinished">Облікові записи</translation>
+        <translation>Облікові записи</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="93"/>
@@ -1750,13 +1750,13 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="93"/>
         <source>Username</source>
-        <translation type="unfinished">Користувач</translation>
+        <translation>Користувач</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="101"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="104"/>
         <source>Password</source>
-        <translation type="unfinished">Пароль</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="111"/>
@@ -1920,18 +1920,18 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="79"/>
         <source>Port</source>
-        <translation type="unfinished">Порт</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="101"/>
         <source>Username</source>
-        <translation type="unfinished">Користувач</translation>
+        <translation>Користувач</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="110"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="113"/>
         <source>Password</source>
-        <translation type="unfinished">Пароль</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="120"/>
@@ -2177,7 +2177,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/Settings.qml" line="11"/>
         <source>Settings</source>
-        <translation type="unfinished">Параметри</translation>
+        <translation>Налаштування</translation>
     </message>
 </context>
 <context>
@@ -2288,7 +2288,7 @@ Would you like to use this instead?</source>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="60"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="63"/>
         <source>Password</source>
-        <translation type="unfinished">Пароль</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="69"/>
@@ -2298,7 +2298,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="79"/>
         <source>Cancel</source>
-        <translation type="unfinished">Скасувати</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="83"/>
@@ -2334,7 +2334,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/VersionDialog.qml" line="30"/>
         <source>Close</source>
-        <translation type="unfinished">Закрити</translation>
+        <translation>Закрити</translation>
     </message>
 </context>
 <context>

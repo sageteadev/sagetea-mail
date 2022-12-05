@@ -94,8 +94,7 @@ ViewState {
                     mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
                 },
                 UriWorker {},
-                ErrorsWorker {},
-                ContentWorker {}
+                ErrorsWorker {}
             ]
         }
     }
@@ -105,6 +104,7 @@ ViewState {
         id: d
         property MailWorker mailWorker: MailWorker {}
         property ComposerWorker composeWorker: ComposerWorker {}
+        property ContentWorker contentWorker: ContentWorker {}
         property Logger logger: Logger {
             devLoggingEnabled: devModeEnabled
         }

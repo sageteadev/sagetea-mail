@@ -11,7 +11,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
         <source>Details</source>
-        <translation>Подробности</translation>
+        <translation>Подробнее</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="60"/>
@@ -735,7 +735,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>больше не делать</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
@@ -1043,7 +1043,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальный</translation>
     </message>
 </context>
 <context>
@@ -1190,7 +1190,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>вы</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
@@ -1952,7 +1952,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Уничтожение обработчика службы</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
@@ -2012,74 +2012,74 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно найти источник для учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно найти выход для учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить список папок для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить список сообщений для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить новые сообщения для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить стандартные папки для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить сообщения для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить часть сообщения для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить диапазон сообщений для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить часть сообщения для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно получить все сообщения для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно экспортировать обновления для ненастроенной учётной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно синхронизировать ненастроенную учётную запись</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось удалить сообщения для ненастроенной учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
@@ -2095,49 +2095,49 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось скопировать сообщения в ненастроенную учетную запись</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось скопировать сообщения в несколько назначенных учетных записей!</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось скопировать сообщения для учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удается переместить сообщения для ненастроенной учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удается пометить сообщения для ненастроенной учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось выполнить асинхронное добавление сообщений</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось выполнить асинхронное обновление сообщений</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось асинхронно добавлять сообщения, несогласованное содержимое</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось асинхронно обновить сообщения, несогласованное содержимое</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
@@ -2147,27 +2147,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось создать папку для недопустимой учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось переименовать недопустимую папку</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось удалить недопустимую папку</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось выполнить поиск сообщений для ненастроенной учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось переслать конкретный протокол запрос для ненастроенной учетной записи</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>

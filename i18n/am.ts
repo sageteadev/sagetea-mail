@@ -76,7 +76,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="90"/>
         <source>New account created.</source>
-        <translation>አዲስ መግለጫ ተፈጥሯል:</translation>
+        <translation>አዲስ መግለጫ ተፈጥሯል.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/AddAnotherUI.qml" line="99"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="35"/>
         <source>Searching for configuration.</source>
-        <translation>ለ ማሰናዳት በ መፈለግ ላይ:</translation>
+        <translation>ለ ማሰናዳት በ መፈለግ ላይ</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/states/AutoConfigState.qml" line="77"/>
@@ -217,7 +217,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ cache ውስጥ መልእክቶች ማጥፊያ</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
@@ -312,7 +312,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">ማያያዣ</translation>
+        <translation>ማያያዣ</translation>
     </message>
 </context>
 <context>
@@ -792,7 +792,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">ፎልደሮች</translation>
+        <translation>ፎልደሮች</translation>
     </message>
 </context>
 <context>
@@ -1031,7 +1031,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">ማያያዣዎች</translation>
+        <translation>ማያያዣዎች</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1049,37 +1049,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">ሁሉንም አለመምረጥ</translation>
+        <translation>ሁሉንም አለመምረጥ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">ሁሉንም መምረጫ</translation>
+        <translation>ሁሉንም መምረጫ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">ኮከብ</translation>
+        <translation>ኮከብ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">ኮከብ ማስወገጃ</translation>
+        <translation>ኮከብ ማስወገጃ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">ማጥፊያ</translation>
+        <translation>ማጥፊያ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">እንደ ያል-ተነበበ ምልክት ማድረጊያ</translation>
+        <translation>እንደ ያል-ተነበበ ምልክት ማድረጊያ</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">እንደ ተነበበ ምልክት ማድረጊያ</translation>
+        <translation>እንደ ተነበበ ምልክት ማድረጊያ</translation>
     </message>
 </context>
 <context>
@@ -1288,12 +1288,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">የሚ-ሰሩ</translation>
+        <translation>የሚ-ሰሩ</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">ተፈጽሟል</translation>
+        <translation>ተፈጽሟል</translation>
     </message>
 </context>
 <context>
@@ -1685,7 +1685,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="93"/>
         <source>No email account is setup.</source>
-        <translation>ምንም የ ኢሜይል መግለጫ አልተሰናዳም:</translation>
+        <translation>ምንም የ ኢሜይል መግለጫ አልተሰናዳም.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="102"/>

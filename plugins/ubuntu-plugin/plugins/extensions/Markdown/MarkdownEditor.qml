@@ -133,6 +133,7 @@ ScrollView {
                 selectionStart: te.selectionStart
                 selectionEnd: te.selectionEnd
             }
+            Component.onCompleted: cursorPosition = 0
         }
     }
 }

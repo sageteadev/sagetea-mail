@@ -1013,7 +1013,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation>Μη αναγνωσμένο</translation>
+        <translation>Μη αναγνωσμένα</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>

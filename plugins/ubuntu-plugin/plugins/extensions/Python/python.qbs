@@ -101,7 +101,7 @@ Project {
         Group {
             fileTagsFilter: "py-comps"
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/" + project.name
+            qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
             qbs.installSourceBase: path
         }
     }

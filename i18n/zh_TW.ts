@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>帳戶設定： %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>無效的電子郵件位址</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>從我的 Ubuntu 裝置上使用 Dekko 發送</translation>
     </message>
 </context>
 <context>
@@ -48,22 +48,22 @@
         <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除帳戶失敗</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>移除 %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要刪除此帳戶嗎？</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>已移除帳戶</translation>
     </message>
 </context>
 <context>
@@ -158,7 +158,9 @@
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>為您的網域找到了 IMAP 伺服器的配置。
+
+你想用這個代替嗎？</translation>
     </message>
 </context>
 <context>
@@ -166,7 +168,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>新郵件</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>管理快取</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>管理快取：%1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>一週</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>兩週</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>一個月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>三個月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>六個月</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>清理郵件中的快取</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>這將會清除早於給定時間內的郵件</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>現在清理</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件</translation>
     </message>
 </context>
 <context>
@@ -266,7 +268,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/Composer.qml" line="56"/>
         <source>Attach</source>
-        <translation>添加附件</translation>
+        <translation>附加</translation>
     </message>
 </context>
 <context>
@@ -274,22 +276,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
-        <translation type="unfinished"></translation>
+        <translation>請選擇寄件人。否則，將不會自動保存任何草稿。考慮設置一個預設標示。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
-        <translation type="unfinished"></translation>
+        <translation>你的身份有些可疑。請選擇有效的送件人。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件排列。</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>草稿已儲存。</translation>
     </message>
 </context>
 <context>
@@ -297,22 +299,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>傳送</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>儲存草稿</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>丟棄</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">添加附件</translation>
+        <translation>附加</translation>
     </message>
 </context>
 <context>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>丟棄郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要丟棄這封郵件嗎？</translation>
     </message>
 </context>
 <context>
@@ -351,7 +353,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/ContactFilterView.qml" line="125"/>
         <source>Send message</source>
-        <translation>發送訊息</translation>
+        <translation>傳送郵件</translation>
     </message>
 </context>
 <context>
@@ -439,7 +441,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>副本和資料夾： %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>在瀏覽器中打開？</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>確認在網路瀏覽器中打開%1</translation>
     </message>
 </context>
 <context>
@@ -567,7 +569,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細資訊：%1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
@@ -580,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>注意</translation>
     </message>
 </context>
 <context>
@@ -608,7 +610,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="53"/>
         <source>Messages</source>
-        <translation>訊息</translation>
+        <translation>郵件</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="57"/>
@@ -666,17 +668,17 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有連接</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>連結不可用</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>動作超時</translation>
     </message>
 </context>
 <context>
@@ -692,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>同步 %1 帳戶的更改</translation>
     </message>
 </context>
 <context>
@@ -708,37 +710,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>重要</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>不重要</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>已讀</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>未讀</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
-        <translation type="unfinished"></translation>
+        <translation>作為行事項目</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>從行事項目中劃除</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>標記 %1 郵件 %2</translation>
     </message>
 </context>
 <context>
@@ -746,32 +748,32 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>草稿</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>收件匣</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>垃圾郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>寄件匣</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>送出</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>垃圾桶</translation>
     </message>
 </context>
 <context>
@@ -792,7 +794,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">資料夾</translation>
+        <translation>資料夾</translation>
     </message>
 </context>
 <context>
@@ -800,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>遠端內容被禁止</translation>
     </message>
 </context>
 <context>
@@ -873,7 +875,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>傳入伺服器：%1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
@@ -1006,42 +1008,42 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>全部</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>未讀</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>已加星號</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>已回覆</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>已轉寄</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">附件</translation>
+        <translation>附件</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>行事曆</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>當地</translation>
     </message>
 </context>
 <context>
@@ -1049,37 +1051,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">取消選擇所有</translation>
+        <translation>全部取消選取</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">全部選擇</translation>
+        <translation>全部選取</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">新增星號</translation>
+        <translation>星號</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">刪除星號</translation>
+        <translation>移除星號</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">刪除</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">標記為未讀</translation>
+        <translation>標記為未讀</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">標記為已讀</translation>
+        <translation>標記為已讀</translation>
     </message>
 </context>
 <context>
@@ -1087,17 +1089,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>收件人</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>副本</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>密件副本</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件已移動</translation>
     </message>
 </context>
 <context>
@@ -1188,12 +1190,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>你</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>至 %1</translation>
     </message>
 </context>
 <context>
@@ -1220,32 +1222,33 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>在 %1, %2 寫道：
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>轉發郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>日期： </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>來自： </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>收件人： </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>標題： </translation>
     </message>
 </context>
 <context>
@@ -1253,47 +1256,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>所有收件匣</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>草稿</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>垃圾郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>寄件匣</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>送出</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>垃圾桶</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>今天，%1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">要做的事</translation>
+        <translation>行事曆</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">完成</translation>
+        <translation>完成</translation>
     </message>
 </context>
 <context>
@@ -1339,7 +1342,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="74"/>
         <source>To-do</source>
-        <translation>要做的事</translation>
+        <translation>行事曆</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="91"/>
@@ -1349,7 +1352,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="105"/>
         <source>Reply</source>
-        <translation>答覆</translation>
+        <translation>回覆</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="113"/>
@@ -1402,7 +1405,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="67"/>
         <source>Move message</source>
-        <translation>移動訊息</translation>
+        <translation>移動郵件</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/delegates/MessageListDelegate.qml" line="72"/>
@@ -1415,22 +1418,22 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Unselect all</source>
-        <translation>取消選擇所有</translation>
+        <translation>取消全部選取</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="115"/>
         <source>Select all</source>
-        <translation>全部選擇</translation>
+        <translation>全部選取</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Star</source>
-        <translation>新增星號</translation>
+        <translation>星號</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="127"/>
         <source>Remove star</source>
-        <translation>刪除星號</translation>
+        <translation>移除星號</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="131"/>
@@ -1450,12 +1453,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>復原</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
         <source>Load more messages ...</source>
-        <translation>載入更多訊息...</translation>
+        <translation>載入更多郵件...</translation>
     </message>
 </context>
 <context>
@@ -1473,7 +1476,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="63"/>
         <source>Share link</source>
-        <translation>共用連結</translation>
+        <translation>分享連結</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageViewContextMenu.qml" line="77"/>
@@ -1503,31 +1506,31 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
-        <translation type="unfinished"></translation>
+        <translation>MMMM dd</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
-        <translation type="unfinished"></translation>
+        <translation>yy MMM dd</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1654,7 +1657,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="53"/>
         <source>Send pending</source>
-        <translation>發送待處理</translation>
+        <translation>傳送待處理</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/NavViewContextMenu.qml" line="62"/>
@@ -1698,7 +1701,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NothingSelectedPage.qml" line="55"/>
         <source>No message selected</source>
-        <translation>未選擇任何消息</translation>
+        <translation>未選取任何郵件</translation>
     </message>
 </context>
 <context>
@@ -1706,7 +1709,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>確定</translation>
     </message>
 </context>
 <context>
@@ -1714,7 +1717,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>通知</translation>
     </message>
 </context>
 <context>
@@ -1722,12 +1725,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>通知設定：%1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用</translation>
     </message>
 </context>
 <context>
@@ -1735,7 +1738,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>寄出伺服器：%1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
@@ -1784,7 +1787,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="28"/>
         <source>Message content</source>
-        <translation>訊息內容</translation>
+        <translation>郵件內容</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/PrivacySettings.qml" line="32"/>
@@ -1813,24 +1816,24 @@ Would you like to use this instead?</source>
     <message numerus="yes">
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 位元組</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
 </context>
 <context>
@@ -1861,7 +1864,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/RecipientInfo.qml" line="123"/>
         <source>Send message</source>
-        <translation>發送訊息</translation>
+        <translation>傳送郵件</translation>
     </message>
 </context>
 <context>
@@ -1892,7 +1895,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="99"/>
         <source>Send message</source>
-        <translation>發送訊息</translation>
+        <translation>傳送郵件</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/RecipientPopover.qml" line="109"/>
@@ -1947,41 +1950,41 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
-        <translation type="unfinished"></translation>
+        <translation>銷毀服務處理程式</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
-        <translation type="unfinished"></translation>
+        <translation>服務變得不可用，無法分配</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
-        <translation type="unfinished"></translation>
+        <translation>帳戶已由其他流程進行更新</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>已移除帳戶</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
-        <translation type="unfinished"></translation>
+        <translation>請求未取得進展</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
         <source>Cancelled by user</source>
-        <translation type="unfinished"></translation>
+        <translation>被用戶取消</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
         <source>Unable to enqueue messages for transmission</source>
-        <translation type="unfinished"></translation>
+        <translation>無法排隊發送郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
@@ -2007,167 +2010,167 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法找到帳戶的來源</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法找到帳戶的接收器</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶資料夾清單</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶郵件清單</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法為未配置的帳戶進行檢查新的郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法為未配置的帳戶進行檢查一般資料夾</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶郵件部分</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶郵件範圍</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶郵件部分範圍</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法檢查未配置的帳戶所有郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法為未配置的帳戶進行匯出更新</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法同步未配置的帳戶</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法刪除未配置的帳戶郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
         <source>Deleting messages</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除郵件中</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
-        <translation type="unfinished"></translation>
+        <translation>無法丟棄郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法將郵件複製到未配置的帳戶裡</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
-        <translation type="unfinished"></translation>
+        <translation>無法將郵件複製到多個目標帳戶裡！</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法複製帳戶郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法移動未配置的帳戶郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法標記未配置的帳戶</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
-        <translation type="unfinished"></translation>
+        <translation>無法同步添加郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
-        <translation type="unfinished"></translation>
+        <translation>無法同步更新郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>無法同步添加郵件，內容方案不一致</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
-        <translation type="unfinished"></translation>
+        <translation>無法同步更新消息，內容方案不一致</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
         <source>Could not delete messages</source>
-        <translation type="unfinished"></translation>
+        <translation>無法刪除郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法為無效的帳戶建立資料夾</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>無法重新命名無效的資料夾</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
-        <translation type="unfinished"></translation>
+        <translation>無法刪除無效資料夾</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法搜尋未配置帳戶的郵件</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
-        <translation type="unfinished"></translation>
+        <translation>無法寄針對未配置帳戶的協議特定請求</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
-        <translation type="unfinished"></translation>
+        <translation>無法執行請求的動作！</translation>
     </message>
 </context>
 <context>
@@ -2191,7 +2194,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
-        <translation type="unfinished"></translation>
+        <translation>帳戶已儲存</translation>
     </message>
 </context>
 <context>
@@ -2215,7 +2218,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>今天，%1</translation>
     </message>
 </context>
 <context>
@@ -2223,7 +2226,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>從我的 Ubuntu 裝置上使用 Dekko 發送</translation>
     </message>
 </context>
 <context>
@@ -2231,7 +2234,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/SubjectField.qml" line="56"/>
         <source>Subject:</source>
-        <translation>主題：</translation>
+        <translation>標題：</translation>
     </message>
 </context>
 <context>
@@ -2340,17 +2343,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件發送</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件發送</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
-        <translation type="unfinished"></translation>
+        <translation>郵件傳送失敗</translation>
     </message>
 </context>
 </TS>

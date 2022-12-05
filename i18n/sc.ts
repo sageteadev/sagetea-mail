@@ -6,7 +6,7 @@
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="26"/>
         <source>Account Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cunfiguratzione de su contu: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/AccountSettingsList.qml" line="56"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
-        <translation type="unfinished"></translation>
+        <translation>Indiritzu de posta non vàlidu</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
-        <translation type="unfinished"></translation>
+        <translation>Imbiadu cun Dekko dae su dispositivu Ubuntu miu</translation>
     </message>
 </context>
 <context>
@@ -53,17 +53,17 @@
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cantzella %1</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguru chi boles cantzellare custu contu?</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Contu cantzelladu</translation>
     </message>
 </context>
 <context>
@@ -158,7 +158,9 @@
         <source>A IMAP server configuration was found for your domain.
 
 Would you like to use this instead?</source>
-        <translation type="unfinished"></translation>
+        <translation>Cunfiguratzione de serbidore IMAP agatada pro custu domìniu.
+
+Boles impreare custa?</translation>
     </message>
 </context>
 <context>
@@ -166,7 +168,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="38"/>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Messàgiu nou</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/BottomEdgeComposer.qml" line="66"/>
@@ -179,7 +181,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettings.qml" line="7"/>
         <source>Manage cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesti sa memòria temporànea</translation>
     </message>
 </context>
 <context>
@@ -187,47 +189,47 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="26"/>
         <source>Manage cache: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesti sa memòria temporànea: %1</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="35"/>
         <source>One Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Una chida</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="36"/>
         <source>Fortnight</source>
-        <translation type="unfinished"></translation>
+        <translation>Duas chidas</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="37"/>
         <source>One Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Unu mese</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="38"/>
         <source>Three Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Tres meses</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="39"/>
         <source>Six Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses meses</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="45"/>
         <source>Clear messages from cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Isbòida messàgios dae sa memòria temporànea</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="46"/>
         <source>This will clear messages older than the given period</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;operatzione at a cantzellare is messàgios prus antigos de su perìodu seberadu</translation>
     </message>
     <message>
         <location filename="../plugins/cache-manager-plugin/qml/CacheSettingsPage.qml" line="75"/>
         <source>Clear now</source>
-        <translation type="unfinished"></translation>
+        <translation>Cantzella immoe</translation>
     </message>
 </context>
 <context>
@@ -235,7 +237,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/messageview/CleanMessagePage.qml" line="29"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Messàgiu</translation>
     </message>
 </context>
 <context>
@@ -244,13 +246,13 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
-        <translation type="unfinished"></translation>
+        <translation>messàgios</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
         <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
-        <translation type="unfinished"></translation>
+        <translation>messàgiu</translation>
     </message>
 </context>
 <context>
@@ -289,7 +291,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Botza sarvada.</translation>
     </message>
 </context>
 <context>
@@ -297,17 +299,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Imbia</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Sarva sa botza</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Iscarta</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
@@ -320,12 +322,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
-        <translation type="unfinished"></translation>
+        <translation>Iscarta su messàgiu</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguru chi boles iscartare custu messàgiu?</translation>
     </message>
 </context>
 <context>
@@ -439,7 +441,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="31"/>
         <source>Copies and Folders: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Còpias e cartellas: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="120"/>
@@ -536,12 +538,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="303"/>
         <source>Open in browser?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ddu boles abèrrere in su navigadore?</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/webview/DekkoWebView.qml" line="304"/>
         <source>Confirm to open %1 in web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Cunfirma chi boles abèrrere %1 in su navigadore</translation>
     </message>
 </context>
 <context>
@@ -567,12 +569,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="27"/>
         <source>Details: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Detàllios: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DetailsGroup.qml" line="62"/>
         <source>Account name</source>
-        <translation>Nùmene de su contu</translation>
+        <translation>Nòmine de su contu</translation>
     </message>
 </context>
 <context>
@@ -580,12 +582,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Faddina</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota</translation>
     </message>
 </context>
 <context>
@@ -666,17 +668,17 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Nissuna connessione</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa connessione no est a disponimentu</translation>
     </message>
     <message>
         <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Atzione iscadida</translation>
     </message>
 </context>
 <context>
@@ -692,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizatzione de is modìficas pro su contu %1</translation>
     </message>
 </context>
 <context>
@@ -708,37 +710,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
-        <translation type="unfinished"></translation>
+        <translation>de importu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
-        <translation type="unfinished"></translation>
+        <translation>no importante</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
-        <translation type="unfinished"></translation>
+        <translation>lèghidu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
-        <translation type="unfinished"></translation>
+        <translation>de lèghere</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
-        <translation type="unfinished"></translation>
+        <translation>de fàghere</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
-        <translation type="unfinished"></translation>
+        <translation>giai fatu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinnalende %1 messàgios %2</translation>
     </message>
 </context>
 <context>
@@ -746,27 +748,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Botzas</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>In intrada</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Àliga</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>In essida</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Imbiados</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
@@ -800,7 +802,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Su cuntenutu remotu est blocadu</translation>
     </message>
 </context>
 <context>
@@ -839,7 +841,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="106"/>
         <source>Name</source>
-        <translation>Nùmene</translation>
+        <translation>Nòmine</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="111"/>
@@ -873,12 +875,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbidore in intrada: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
         <source>Hostname</source>
-        <translation>Nùmene de su server</translation>
+        <translation>Nòmine de su server</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="115"/>
@@ -888,7 +890,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="124"/>
         <source>Username</source>
-        <translation>Nùmene utente</translation>
+        <translation>Nòmine utente</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="133"/>
@@ -944,7 +946,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="226"/>
         <source>No maximum mail size</source>
-        <translation>Peruna mannària màssima de messàgiu</translation>
+        <translation>Nissuna mannària màssima de messàgiu</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="234"/>
@@ -1006,27 +1008,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Totu</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>De lèghere</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferidos</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>Rispostos</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>Torrados a imbiare</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1036,12 +1038,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Calendàriu</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Locale</translation>
     </message>
 </context>
 <context>
@@ -1079,7 +1081,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinnale comente lèghidu</translation>
     </message>
 </context>
 <context>
@@ -1087,12 +1089,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>Cc</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
@@ -1113,7 +1115,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Messàgiu mòvidu</translation>
     </message>
 </context>
 <context>
@@ -1188,12 +1190,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>tue</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>pro %1</translation>
     </message>
 </context>
 <context>
@@ -1220,32 +1222,33 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Su %1, %2 at iscritu:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Messàgiu torradu a imbiare</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Data: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>Dae: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>Pro: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ogetu: </translation>
     </message>
 </context>
 <context>
@@ -1253,27 +1256,27 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Totu is cartellas in intrada</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Botzas</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Àliga</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>In essida</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Imbiadu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
@@ -1283,7 +1286,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Oe, %1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
@@ -1450,7 +1453,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Iscontza</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
@@ -1503,31 +1506,31 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>oo:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>ddd oo:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM aa</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1685,12 +1688,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="93"/>
         <source>No email account is setup.</source>
-        <translation>Perunu contu de posta eletrònica cunfiguradu.</translation>
+        <translation>Nissunu contu de posta eletrònica cunfiguradu.</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/NoAccountsUI.qml" line="102"/>
         <source>Add now</source>
-        <translation>Agiunghe como</translation>
+        <translation>Agiunghe immoe</translation>
     </message>
 </context>
 <context>
@@ -1698,7 +1701,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NothingSelectedPage.qml" line="55"/>
         <source>No message selected</source>
-        <translation>Perunu messàgiu seletzionadu</translation>
+        <translation>Nissunu messàgiu seletzionadu</translation>
     </message>
 </context>
 <context>
@@ -1706,7 +1709,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>AB</translation>
     </message>
 </context>
 <context>
@@ -1714,7 +1717,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Notìficas</translation>
     </message>
 </context>
 <context>
@@ -1722,12 +1725,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Cunfiguratzione de notìficas: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativadu</translation>
     </message>
 </context>
 <context>
@@ -1735,12 +1738,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="29"/>
         <source>Outgoing Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbidore in essida: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="76"/>
         <source>Hostname</source>
-        <translation>Nùmene de su server</translation>
+        <translation>Nòmine de su server</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="84"/>
@@ -1750,7 +1753,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="93"/>
         <source>Username</source>
-        <translation>Nùmene utente</translation>
+        <translation>Nòmine utente</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/OutgoingServerGroup.qml" line="101"/>
@@ -1913,7 +1916,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="70"/>
         <source>Hostname</source>
-        <translation>Nùmene de su server</translation>
+        <translation>Nòmine de su server</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="79"/>
@@ -1923,7 +1926,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="101"/>
         <source>Username</source>
-        <translation>Nùmene utente</translation>
+        <translation>Nòmine utente</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/ServerDetails.qml" line="110"/>
@@ -2255,12 +2258,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="36"/>
         <source>Name</source>
-        <translation>Nùmene</translation>
+        <translation>Nòmine</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="37"/>
         <source>Full name</source>
-        <translation>Nùmene cumpletu</translation>
+        <translation>Nòmine cumpletu</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/setupwizard/components/UserInputUI.qml" line="44"/>

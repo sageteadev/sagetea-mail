@@ -314,7 +314,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
-        <translation type="unfinished">Legg ved</translation>
+        <translation>Legg ved</translation>
     </message>
 </context>
 <context>
@@ -694,7 +694,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
-        <translation type="unfinished">Synkroniserer endringer for %1 konto</translation>
+        <translation>Synkroniserer endringer for %1 konto</translation>
     </message>
 </context>
 <context>
@@ -794,7 +794,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">Mapper</translation>
+        <translation>Mapper</translation>
     </message>
 </context>
 <context>
@@ -1033,7 +1033,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">Vedlegg</translation>
+        <translation>Vedlegg</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
@@ -1051,37 +1051,37 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">Velg bort alle</translation>
+        <translation>Avvelg alle</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">Velg alle</translation>
+        <translation>Velg alle</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">Gi stjerne</translation>
+        <translation>Stjerne</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">Fjern stjerne</translation>
+        <translation>Fjern stjerne</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Slett</translation>
+        <translation>Slett</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">Merk som ulest</translation>
+        <translation>Merk som ulest</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">Merk som lest</translation>
+        <translation>Merk som lest</translation>
     </message>
 </context>
 <context>
@@ -1291,12 +1291,12 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">Gjøremål</translation>
+        <translation>Gjøremål</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">Ferdig</translation>
+        <translation>Utført</translation>
     </message>
 </context>
 <context>
@@ -1818,7 +1818,7 @@ Would you like to use this instead?</source>
         <source>%n byte(s)</source>
         <translation>
             <numerusform>%n byte</numerusform>
-            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
         </translation>
     </message>
     <message>
@@ -1966,7 +1966,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
-        <translation type="unfinished">Konto fjernet</translation>
+        <translation>Konto fjernet</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
@@ -2017,7 +2017,7 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
-        <translation type="unfinished">Fant ikke vask for konto</translation>
+        <translation type="unfinished">Fant ikke nedtegnelse for konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
@@ -2068,17 +2068,17 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
-        <translation>Kunne ikke eksportere oppdateringer for uoppsatt konto</translation>
+        <translation>Kunne ikke eksportere oppdateringer for ukonfigurert konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
-        <translation>Kunne ikke synkronisere uoppsatt konto</translation>
+        <translation>Kunne ikke synkronisere ukonfigurert konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
-        <translation>Kunne ikke slette meldinger på uoppsatt konto</translation>
+        <translation>Kunne ikke slette meldinger på ukonfigurert konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
@@ -2094,7 +2094,7 @@ Would you like to use this instead?</source>
         <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
         <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
-        <translation>Kunne ikke kopiere meldinger til uoppsatt konto</translation>
+        <translation>Kunne ikke kopiere meldinger til ukonfigurert konto</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
@@ -2131,7 +2131,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
-        <translation type="unfinished">Kunne ikke legge til meldinger asynkront, inkonsekvent innholdsskjema</translation>
+        <translation>Kunne ikke legge til meldinger asynkront, avvik i meldingsformat</translation>
     </message>
     <message>
         <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
@@ -2219,7 +2219,7 @@ Would you like to use this instead?</source>
     <message>
         <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
-        <translation type="unfinished">I dag, %1</translation>
+        <translation>I dag, %1</translation>
     </message>
 </context>
 <context>

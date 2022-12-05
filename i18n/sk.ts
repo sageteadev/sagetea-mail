@@ -476,7 +476,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="196"/>
         <source>Spam folder</source>
-        <translation>Spam</translation>
+        <translation>Priečinok nevyžiadanej pošty</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/CopyFoldersGroup.qml" line="212"/>
@@ -600,7 +600,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="32"/>
         <source>Show smart folders</source>
-        <translation>Ukáž šikovné priečinky</translation>
+        <translation>Ukáž smart priečinky</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="42"/>
@@ -620,7 +620,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/DisplaySettings.qml" line="67"/>
         <source>Prefer plain text</source>
-        <translation>Radšej čistý text</translation>
+        <translation>Uprednostniť čistý text</translation>
     </message>
 </context>
 <context>
@@ -740,7 +740,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Označovanie správ %1 %2</translation>
     </message>
 </context>
 <context>
@@ -748,32 +748,32 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Koncepty</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Doručená pošta</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevyžiadaná pošta</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>K odoslaniu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Odoslané</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Kôš</translation>
     </message>
 </context>
 <context>
@@ -794,7 +794,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/FolderListView.qml" line="29"/>
         <source>Folders</source>
-        <translation type="unfinished">Priečinky</translation>
+        <translation>Priečinky</translation>
     </message>
 </context>
 <context>
@@ -802,7 +802,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdialený obsah je zakázaný</translation>
     </message>
 </context>
 <context>
@@ -818,7 +818,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="15"/>
         <source>Identities</source>
-        <translation>Identity</translation>
+        <translation>Profily</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentitiesListPage.qml" line="107"/>
@@ -831,7 +831,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="55"/>
         <source>Default identity</source>
-        <translation>Predvolená identita</translation>
+        <translation>Predvolený profil</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="68"/>
@@ -862,12 +862,12 @@ Prajete si použiť radšej toto nastavenie?</translation>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="138"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="146"/>
         <source>New identity</source>
-        <translation>Nová identita</translation>
+        <translation>Nový profil</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IdentityInput.qml" line="170"/>
         <source>Edit identity</source>
-        <translation>Upraviť identitu</translation>
+        <translation>Upraviť profil</translation>
     </message>
 </context>
 <context>
@@ -875,7 +875,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="29"/>
         <source>Incoming Server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Prichádzajúci server %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="106"/>
@@ -911,7 +911,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="184"/>
         <source>Allow untrusted certificates</source>
-        <translation>Dovoliť nedôveryhodné certifikáty</translation>
+        <translation>Povovoliť nedôveryhodné certifikáty</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/IncomingServerGroup.qml" line="189"/>
@@ -982,7 +982,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="34"/>
         <source>Identities</source>
-        <translation>Identity</translation>
+        <translation>Profily</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/settings/MailSettings.qml" line="44"/>
@@ -1008,42 +1008,42 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Všetko</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Neprečítané</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
-        <translation type="unfinished"></translation>
+        <translation>Označené hviezdičkou</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
-        <translation type="unfinished"></translation>
+        <translation>Odpovedal</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
-        <translation type="unfinished"></translation>
+        <translation>Preposlané</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
-        <translation type="unfinished">Prílohy</translation>
+        <translation>Prílohy</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalendár</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
-        <translation type="unfinished"></translation>
+        <translation>Miestne</translation>
     </message>
 </context>
 <context>
@@ -1051,37 +1051,37 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
-        <translation type="unfinished">Odznačiť všetky</translation>
+        <translation>Odznačiť všetky</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
-        <translation type="unfinished">Vybrať všetky</translation>
+        <translation>Vybrať všetky</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
-        <translation type="unfinished">Hviezdička</translation>
+        <translation>Hviezdička</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
-        <translation type="unfinished">Odstrániť hviezdičku</translation>
+        <translation>Odstrániť hviezdičku</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
-        <translation type="unfinished">Vymazať</translation>
+        <translation>Vymazať</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
-        <translation type="unfinished">Označiť ako neprečítané</translation>
+        <translation>Označiť ako neprečítané</translation>
     </message>
     <message>
         <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
-        <translation type="unfinished">Označiť ako prečítané</translation>
+        <translation>Označiť ako prečítané</translation>
     </message>
 </context>
 <context>
@@ -1089,17 +1089,17 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="27"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Komu</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="29"/>
         <source>Cc</source>
-        <translation type="unfinished"></translation>
+        <translation>Kópia</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/constants/MailUtils.qml" line="31"/>
         <source>Bcc</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrytá kópia</translation>
     </message>
 </context>
 <context>
@@ -1115,7 +1115,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Správa bola presunutá</translation>
     </message>
 </context>
 <context>
@@ -1190,12 +1190,12 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
-        <translation type="unfinished"></translation>
+        <translation>vy</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>komu %1</translation>
     </message>
 </context>
 <context>
@@ -1222,32 +1222,33 @@ Prajete si použiť radšej toto nastavenie?</translation>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Dňa %1, %2 napísal:
+</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Preposlaná správa</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Dátum: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
-        <translation type="unfinished"></translation>
+        <translation>Od: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>Komu: </translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
-        <translation type="unfinished"></translation>
+        <translation>Predmet: </translation>
     </message>
 </context>
 <context>
@@ -1255,47 +1256,47 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Všetky doručené</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
-        <translation type="unfinished"></translation>
+        <translation>Koncepty</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevyžiadaná pošta</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
-        <translation type="unfinished"></translation>
+        <translation>K odoslaniu</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <translation>Odoslané</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Kôš</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dnes, %1</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
-        <translation type="unfinished">Úlohy</translation>
+        <translation>Úlohy</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
-        <translation type="unfinished">Hotovo</translation>
+        <translation>Hotovo</translation>
     </message>
 </context>
 <context>
@@ -1351,7 +1352,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="105"/>
         <source>Reply</source>
-        <translation>Odpoveď</translation>
+        <translation>Odpovedať</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/popovers/MessageListActionPopover.qml" line="113"/>
@@ -1452,7 +1453,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="210"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>Späť</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/MessageListView.qml" line="334"/>
@@ -1505,31 +1506,31 @@ Prajete si použiť radšej toto nastavenie?</translation>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
-        <translation type="unfinished"></translation>
+        <translation>ddd hh:mm</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
-        <translation type="unfinished"></translation>
+        <translation>dd MMM rr</translation>
     </message>
     <message>
         <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
-        <translation type="unfinished"></translation>
+        <translation>dddd dd</translation>
     </message>
 </context>
 <context>
@@ -1591,7 +1592,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="98"/>
         <source>Smart folders</source>
-        <translation>Šikovné priečinky</translation>
+        <translation>Smart priečinky</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/models/NavMenuModel.qml" line="120"/>
@@ -1637,7 +1638,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="155"/>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/views/NavSideBar.qml" line="151"/>
         <source>Smart folders</source>
-        <translation>Šikovné priečinky</translation>
+        <translation>Smart priečinky</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/components/private/NavSideBar.qml" line="169"/>
@@ -1708,7 +1709,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-plugin/imports/dialogs/NoticePopup.qml" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
@@ -1716,7 +1717,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettings.qml" line="7"/>
         <source>Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifikácie</translation>
     </message>
 </context>
 <context>
@@ -1724,7 +1725,7 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="26"/>
         <source>Notification Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavenia notifikácií: %1</translation>
     </message>
     <message>
         <location filename="../plugins/ubuntu-notification-plugin/qml/NotificationSettingsPage.qml" line="52"/>

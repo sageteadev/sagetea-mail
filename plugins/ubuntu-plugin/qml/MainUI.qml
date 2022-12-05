@@ -14,7 +14,7 @@ Window {
     flags: Qt.Window
     modality: Qt.NonModal
 
-    title: qsTr("Dekko Mail")
+    title: qsTr("Sagetea Mail")
 
     MazDBSettings {
         category: "window-property-cache"

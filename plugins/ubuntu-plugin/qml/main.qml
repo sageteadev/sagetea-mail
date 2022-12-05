@@ -15,31 +15,8 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-import QtQuick 2.4
-import "./views/components"
-import "./views/dialogs"
-import "./views/toasts"
-import "./workers"
 
 Dekko {
     id: dekko
     anchors.fill: parent
-
-    Loader {
-        id: workerLoader
-        asynchronous: true
-        source: "qrc:/qml/workers/Workers.qml"
-    }
-
-
-    // Workers we need straight away
-    QtObject {
-        id: d
-        property MailWorker mailWorker: MailWorker {}
-        property ComposerWorker composeWorker: ComposerWorker {}
-        property ContentWorker contentWorker: ContentWorker{}
-        property Logger logger: Logger {
-            devLoggingEnabled: devModeEnabled
-        }
-    }
 }
