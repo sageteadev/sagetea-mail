@@ -31,6 +31,10 @@ variables:
     - export CLICKABLE_ARCH=$ARCH
     - export CLICKABLE_NON_INTERACTIVE=1
     - clickable build
+  cache:
+    paths:
+      - Qt/
+      - .build/
   artifacts:
     paths:
       - 'build/$ARCH_TRIPLET/*.click'
