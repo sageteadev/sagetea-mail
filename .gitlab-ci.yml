@@ -30,6 +30,7 @@ variables:
     - export CLICKABLE_CONTAINER_MODE=1
     - export CLICKABLE_ARCH=$ARCH
     - export CLICKABLE_NON_INTERACTIVE=1
+    - export Qt.core=Qt/
     - clickable build
   cache:
     paths:
