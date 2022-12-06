@@ -3,9 +3,9 @@ import QtQuick.Window 2.1
 import Ubuntu.Components 1.3
 import SageteaMail.Mail.API 1.0
 import MazDB 1.0
-import Dekko.Controls 1.0
-import Dekko.Ubuntu.Constants 1.0
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Controls 1.0
+import SageteaMail.Ubuntu.Constants 1.0
+import SageteaMail.Ubuntu.Components 1.0
 
 Window {
     id: window

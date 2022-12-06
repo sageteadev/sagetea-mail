@@ -18,12 +18,12 @@
 import QtQuick 2.4
 import QtQuick.Window 2.2
 import QtQuick.Controls.Suru 2.2
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 import SageteaMail.Mail 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.PerformanceMetrics 1.0
-import Dekko.Ubuntu.Components 1.0
-import Dekko.Ubuntu.Constants 1.0
+import SageteaMail.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Constants 1.0
 
 Rectangle {
     id: devPanel

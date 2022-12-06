@@ -7,7 +7,7 @@ import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Accounts 1.0
 import SageteaMail.Mail.Stores.Settings 1.0
 import QuickFlux 1.0
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Components 1.0
 
 PageFlickable {
     id: input

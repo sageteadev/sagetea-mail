@@ -21,7 +21,7 @@ import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Accounts 1.0
 import SageteaMail.Mail.Settings 1.0
-import Dekko.Ubuntu.Components 1.0 as Comps
+import SageteaMail.Ubuntu.Components 1.0 as Comps
 import "./models"
 
 Comps.DekkoPage {

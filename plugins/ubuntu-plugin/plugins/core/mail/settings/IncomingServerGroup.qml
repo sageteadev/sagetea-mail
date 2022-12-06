@@ -22,7 +22,7 @@ import Ubuntu.Components 1.3
 import SageteaMail.Mail.Accounts 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Settings 1.0
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Components 1.0
 import "../components"
 
 SettingsGroupPage {

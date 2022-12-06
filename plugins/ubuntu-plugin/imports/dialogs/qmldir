@@ -1,4 +1,4 @@
-module Dekko.Ubuntu.Dialogs
+module SageteaMail.Ubuntu.Dialogs
 
 ConfirmationDialog 1.0 ConfirmationDialog.qml
 ContentPickerDialog 1.0 ContentPickerDialog.qml

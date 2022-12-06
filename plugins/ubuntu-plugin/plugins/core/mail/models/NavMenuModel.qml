@@ -24,7 +24,7 @@ import SageteaMail.Mail.Stores.Views 1.0
 import SageteaMail.Mail.Stores.Mail 1.0
 import SageteaMail.Mail.Stores.Accounts 1.0
 import "../delegates"
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Components 1.0
 
 VisualItemModel {
 

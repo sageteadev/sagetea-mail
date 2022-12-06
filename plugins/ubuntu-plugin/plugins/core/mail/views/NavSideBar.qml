@@ -7,10 +7,10 @@ import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Mail.Stores.Accounts 1.0
 import SageteaMail.Mail.Stores.Mail 1.0
 import SageteaMail.Mail.Stores.Views 1.0
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 import MazDB 1.0
 import PlugMan 1.0
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Components 1.0
 import "../delegates"
 
 StyledItem {

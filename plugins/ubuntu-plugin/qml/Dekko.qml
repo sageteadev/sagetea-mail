@@ -26,9 +26,9 @@ import SageteaMail.Mail.Stores.Views 1.0
 import SageteaMail.Mail.Stores.Composer 1.0
 import SageteaMail.Mail.Workers 1.0
 
-import Dekko.Ubuntu.Components 1.0
-import Dekko.Ubuntu.Dialogs 1.0
-import Dekko.Ubuntu.Helpers 1.0
+import SageteaMail.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Dialogs 1.0
+import SageteaMail.Ubuntu.Helpers 1.0
 
 import "./workers"
 

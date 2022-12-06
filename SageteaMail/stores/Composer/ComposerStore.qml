@@ -22,7 +22,7 @@ import SageteaMail.Mail.Accounts 1.0
 import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Accounts 1.0
-import Dekko.Utils 1.0 as QtCoreAPI
+import SageteaMail.Utils 1.0 as QtCoreAPI
 
 AppListener {
 

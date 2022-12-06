@@ -35,6 +35,6 @@ Product {
         condition: project.ui === "ubuntu"
         fileTagsFilter: "dialog-plugin"
         qbs.install: project.ui === "ubuntu"
-        qbs.installDir: project.qmlDir + "/Sageteamail/Ubuntu/Dialogs"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Ubuntu/Dialogs"
     }
 }

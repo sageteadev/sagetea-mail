@@ -23,7 +23,7 @@ import Ubuntu.Content 1.1
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Views 1.0
 import SageteaMail.Mail.Stores.Composer 1.0
-import Dekko.Ubuntu.Dialogs 1.0
+import SageteaMail.Ubuntu.Dialogs 1.0
 
 /*!
 *

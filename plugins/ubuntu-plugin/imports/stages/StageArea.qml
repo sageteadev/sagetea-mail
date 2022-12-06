@@ -17,7 +17,7 @@
 */
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Dekko.Controls 1.0
+import SageteaMail.Controls 1.0
 import QuickFlux 1.0
 import SageteaMail.Mail.API 1.0
 // A stage area is a root container used for an area of the MainStage

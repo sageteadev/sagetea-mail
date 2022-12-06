@@ -21,11 +21,11 @@ import QuickFlux 1.0
 import Ubuntu.Components 1.3
 import SageteaMail.Mail.Accounts 1.0
 import SageteaMail.Mail 1.0
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Mail.Stores.Settings 1.0
-import Dekko.Ubuntu.Components 1.0
+import SageteaMail.Ubuntu.Components 1.0
 
 SettingsGroupPage {
     pageHeader.title: qsTr("Copies and Folders: %1").arg(SettingsStore.selectedAccount.name)
