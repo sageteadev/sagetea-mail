@@ -1,4 +1,4 @@
-module Dekko.Mail.API
+module SageteaMail.Mail.API
 singleton AccountKeys 1.0 Accounts/AccountKeys.qml
 singleton AccountActions 1.0 Accounts/AccountActions.qml
 singleton ComposerKeys 1.0 Composer/ComposerKeys.qml

@@ -24,7 +24,7 @@ import Ubuntu.Content 1.3
 import QtQuick.Controls 2.1 as QQC2
 import QtWebEngine 1.5
 import Dekko.Components 1.0
-import Dekko.Mail.Settings 1.0
+import SageteaMail.Mail.Settings 1.0
 import Dekko.Ubuntu.Components 1.0
 import Dekko.Ubuntu.Dialogs 1.0
 import Dekko.WebContext 1.0

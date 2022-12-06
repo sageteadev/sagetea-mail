@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Accounts 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Accounts 1.0
 import Dekko.Ubuntu.Stage 1.0
 import Dekko.Components 1.0
 import PlugMan 1.0

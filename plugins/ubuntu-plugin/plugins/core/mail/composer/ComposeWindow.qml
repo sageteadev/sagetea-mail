@@ -2,9 +2,9 @@ import QtQuick 2.4
 import QtQuick.Window 2.1
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Mail.Workers 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Workers 1.0
 import Dekko.Ubuntu.Dialogs 1.0
 import Dekko.Ubuntu.Components 1.0
 import MazDB 1.0

@@ -19,8 +19,8 @@ import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
 import Ubuntu.Components 1.3
 import Dekko.Components 1.0
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Components 1.0
 import "../delegates"

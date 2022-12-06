@@ -20,8 +20,8 @@ import QtQuick.Controls.Suru 2.2
 import QtFeedback 5.0
 import Ubuntu.Components 1.3
 import Dekko.Components 1.0
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Mail 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Mail 1.0
 import "./private/UiUtils.js" as UiUtils
 import Dekko.Ubuntu.Constants 1.0
 

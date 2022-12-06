@@ -17,8 +17,8 @@
 */
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
 import Dekko.Utils 1.0 as JSUtils
 
 AppListener {

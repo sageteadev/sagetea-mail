@@ -1,2 +1,2 @@
-module Dekko.Mail
+module SageteaMail.Mail
 plugin mail-plugin

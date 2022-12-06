@@ -6,9 +6,9 @@ import MazDB 1.0
 import PlugMan 1.0
 import QuickFlux 1.0
 import Dekko.Controls 1.0
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Mail.Workers 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Workers 1.0
 import Dekko.Ubuntu.Constants 1.0
 import Dekko.Ubuntu.Components 1.0
 import Dekko.Ubuntu.Dialogs 1.0
