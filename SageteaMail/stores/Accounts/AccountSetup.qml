@@ -19,7 +19,7 @@ pragma Singleton
 import QtQuick 2.4
 import QuickFlux 1.0
 import SageteaMail.Mail.Accounts 1.0
-import Sageteamail.AutoConfig 1.0
+import SageteaMail.AutoConfig 1.0
 import SageteaMail.Mail 1.0
 import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Mail.API 1.0
