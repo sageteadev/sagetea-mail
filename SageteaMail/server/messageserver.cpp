@@ -532,7 +532,7 @@ void MessageServer::notifyNewMessages(const QMailMessageIdList &ids)
             QProcess proc;
             QStringList options;
             options.append("-i");
-            options.append("/usr/share/icons/dekko.png");
+            options.append("/usr/share/icons/sageteamail.png");
             options.append(msg.from().name());
             options.append(msg.subject() + "\n" + msg.preview());
             proc.start("notify-send", options);
