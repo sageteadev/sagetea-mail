@@ -18,8 +18,8 @@
 pragma Singleton
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.Mail.Accounts 1.0
-import Dekko.AutoConfig 1.0
+import SageteaMail.Mail.Accounts 1.0
+import Sageteamail.AutoConfig 1.0
 import SageteaMail.Mail 1.0
 import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Mail.API 1.0
@@ -534,7 +534,7 @@ AppListener {
             identity["email"] = account.outgoing.email
             identity["replyTo"] = ""
             //TRANSLATORS: 'convergent' describes the apps ability of being usable on desktop and mobile devices running different OS
-            identity["signature"] = qsTr("Sent with Dekko - the convergent email app")
+            identity["signature"] = qsTr("Sent with SageTea Mail - SageTea.ai Official email client for Ubuntu Touch")
             AccountActions.addIdentity(identity)
         }
     }

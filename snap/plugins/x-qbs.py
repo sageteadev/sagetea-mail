@@ -89,7 +89,7 @@ class QbsPlugin(snapcraft.BasePlugin):
                   'project.binDir:/usr/bin',
                   'project.libDir:/usr/lib/' + arch,
                   'project.qmlDir:/usr/lib/' + arch + '/qt5/qml',
-                  'project.dataDir:/usr/share/dekko',
+                  'project.dataDir:/usr/share/sageteamail',
                   'profile:' + buildProfile] + self.options.options, 
                  env=env)
 
