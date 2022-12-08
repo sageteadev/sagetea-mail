@@ -78,7 +78,7 @@ bool DekkodService::installServiceFile() const
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
     f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../Dekko/plugins\n");
     f.write("   initctl set-env QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\n");
-    f.write("   initctl set-env QMF_DATA=$HOME/.cache/dekko2.dekkoproject\n");
+    f.write("   initctl set-env QMF_DATA=$HOME/.cache/sageteamail2.sagetea\n");
     f.write("end script\n");
     f.write("exec " + appDir.toUtf8() + "/" + m_service.toUtf8() + "\n");
     f.close();
