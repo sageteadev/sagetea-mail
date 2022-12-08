@@ -28,3 +28,7 @@ variables:
 sageteamail:arm64:
   <<: *arm64
   extends: .sageteamail
+
+sageteamail:amd64:
+  <<: *amd64
+  extends: .sageteamail
