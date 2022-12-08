@@ -144,7 +144,7 @@ ActionCreator {
      * @param config The configuration provided by the PresetProvider from the PresetProviderModel
      *
      * ```QML
-     * import Dekko.Accounts 1.0
+     * import SageteaMail.Accounts 1.0
      *
      * ListView {
      *     model: PresetProviderModel {}
