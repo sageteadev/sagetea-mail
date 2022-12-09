@@ -15,8 +15,8 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef DEKKO_H
-#define DEKKO_H
+#ifndef SAGETEAMAIL_H
+#define SAGETEAMAIL_H
 
 #include <QObject>
 #include <QLoggingCategory>
@@ -37,12 +37,12 @@
 
 Q_DECLARE_LOGGING_CATEGORY(DEKKO_MAIN)
 
-class Dekko : public QApplication
+class SageteaMail : public QApplication
 {
     Q_OBJECT
 public:
-    Dekko(int &argc, char **argv);
-    ~Dekko();
+    SageteaMail(int &argc, char **argv);
+    ~SageteaMail();
     /** @short should be run before call to exec() */
     bool setup();
     bool isServerRunning();
@@ -80,4 +80,4 @@ private:
 
 };
 
-#endif // DEKKO_H
+#endif // SAGETEAMAIL_H
