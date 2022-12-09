@@ -35,7 +35,7 @@
 #include <messageserver.h>
 #endif
 
-Q_DECLARE_LOGGING_CATEGORY(DEKKO_MAIN)
+Q_DECLARE_LOGGING_CATEGORY(SAGETEAMAIL_MAIN)
 
 class SageteaMail : public QApplication
 {

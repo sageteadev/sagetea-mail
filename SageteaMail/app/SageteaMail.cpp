@@ -57,7 +57,7 @@ SageteaMail::SageteaMail(int &argc, char **argv) :
     // Useful to be able to check a resource has been included
 //    QDirIterator it(":", QDirIterator::Subdirectories);
 //    while (it.hasNext()) {
-//        qCDebug(DEKKO_MAIN) << it.next();
+//        qCDebug(SAGETEAMAIL_MAIN) << it.next();
 //    }
     parser.setApplicationDescription("SageteaMail email client");
     parser.addHelpOption();
@@ -119,29 +119,29 @@ bool SageteaMail::setup()
     m_serviceRegistry->startServices();
 #else
     if (!isServerRunning()) {
-        qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message server not running attempting to start";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server not running attempting to start";
         if (!startServer()) {
-            qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message server failed to start";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server failed to start";
             return false;
         } else {
-            qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message server started successfully \\o/";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server started successfully \\o/";
         }
     } else {
-        qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message server already running, using that";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server already running, using that";
     }
     m_serviceRegistry->startServices();
 #endif
 
     if (!isWorkerRunning()) {
-        qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message worker not running attempting to start";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker not running attempting to start";
         if (!startWorker()) {
-            qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message worker failed to start";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker failed to start";
             return false;
         } else {
-            qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message worker started successfully \\o/";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker started successfully \\o/";
         }
     } else {
-        qCDebug(DEKKO_MAIN) << "[SageteaMail]" << "Message worker already running, using that";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker already running, using that";
     }
     m_engine.setNetworkAccessManagerFactory(&m_partqnam);
 
@@ -220,7 +220,7 @@ bool SageteaMail::startWorker()
     static const QString binary(QString("/sageteamail-worker"));
     connect(m_worker,SIGNAL(error(QProcess::ProcessError)),
             this,SLOT(workerProcessError(QProcess::ProcessError)));
-    connect(m_worker, &QProcess::readyRead, [=](){ if (m_worker->canReadLine()) qCDebug(DEKKO_MAIN) << m_worker->readLine(); });
+    connect(m_worker, &QProcess::readyRead, [=](){ if (m_worker->canReadLine()) qCDebug(SAGETEAMAIL_MAIN) << m_worker->readLine(); });
     m_worker->start(QMail::messageServerPath() + binary);
     return m_worker->waitForStarted();
 }
