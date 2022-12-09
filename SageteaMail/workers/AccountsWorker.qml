@@ -1,4 +1,5 @@
 /* Copyright (C) 2016 - 2017 Dan Chapman <dpniel@ubuntu.com>
+   Copyright (C) 2022 - 2023 Rúben Carneiro <rubencarneiro01@gmail.com>
 
    This file is part of Dekko email client for Ubuntu devices
 
