@@ -89,7 +89,7 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
     }
 
     qCDebug(PLUGIN_LOADER) << "Looking for dekko spec plugins";
-    // Now scan for any *.sageteamail-plugin specs and generate a DekkoPlugin
+    // Now scan for any *.sageteamail-plugin specs and generate a SageteaMailPlugin
     pluginPaths.clear();
 
     Q_FOREACH(const QString &directory, dirs) {
@@ -101,13 +101,13 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
             }
             pluginPaths << path;
 
-            if (auto pluginInfo = DekkoPlugin::fromSpec(path)) {
+            if (auto pluginInfo = SageteaMailPlugin::fromSpec(path)) {
                 qCDebug(PLUGIN_LOADER) << "+-------------------------------------+";
                 qCDebug(PLUGIN_LOADER) << "PluginReady: " << path;
                 qCDebug(PLUGIN_LOADER) << "Registered: " << pluginInfo->location();
                 qCDebug(PLUGIN_LOADER) << "Path: " << it.fileInfo().absolutePath();
                 qCDebug(PLUGIN_LOADER) << "I18n >> " << pluginInfo->i18n();
-                qobject_cast<DekkoPlugin *>(pluginInfo)->setPluginDirectory(it.fileInfo().absolutePath());
+                qobject_cast<SageteaMailPlugin *>(pluginInfo)->setPluginDirectory(it.fileInfo().absolutePath());
                 registry.insert(pluginInfo->location(), pluginInfo);
                 if (!pluginInfo->i18n().isEmpty()) {
                     // we also load the translations for this plugin now

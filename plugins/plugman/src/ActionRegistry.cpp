@@ -68,7 +68,7 @@ void ActionRegistry::loadActions()
     m_actions << m_defaults;
     auto plugins = PluginRegistry::instance()->getByLocation(m_location);
     for (auto plugin : plugins) {
-        if (auto dp = qobject_cast<DekkoPlugin *>(plugin)) {
+        if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
             PluginIncubator *incubator = new PluginIncubator(this);
             connect(incubator, &PluginIncubator::objectReady, this, &ActionRegistry::finishLoading);
             connect(incubator, &PluginIncubator::error, this, &ActionRegistry::handleError);
