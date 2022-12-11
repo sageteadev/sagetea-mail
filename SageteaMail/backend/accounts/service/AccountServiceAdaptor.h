@@ -29,9 +29,9 @@ QT_END_NAMESPACE
 class AccountServiceAdaptor: public QDBusAbstractAdaptor
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "org.dekkoproject.AccountService")
+    Q_CLASSINFO("D-Bus Interface", "sagetea.sageteamail.AccountService")
     Q_CLASSINFO("D-Bus Introspection", ""
-"  <interface name=\"org.dekkoproject.AccountService\">\n"
+"  <interface name=\"sagetea.sageteamail.AccountService\">\n"
 "    <signal name=\"accountRemoved\">\n"
 "      <arg direction=\"out\" type=\"t\" name=\"id\"/>\n"
 "    </signal>\n"

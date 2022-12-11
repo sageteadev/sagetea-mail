@@ -2,7 +2,7 @@
 #include <QDBusConnection>
 #include "serviceutils.h"
 
-#define ACCOUNTS_SERVICE "org.dekkoproject.Service"
+#define ACCOUNTS_SERVICE "sagetea.sageteamail.Service"
 #define ACCOUNTS_PATH "/accounts"
 
 AccountServiceClient::AccountServiceClient(QObject *parent) : QObject(parent),

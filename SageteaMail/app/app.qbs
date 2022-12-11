@@ -80,7 +80,7 @@ Project {
 
         Group {
             name: "QML Resources"
-            files: ["dekko.qrc"]
+            files: ["sagateamail.qrc"]
         }
 
         Group {

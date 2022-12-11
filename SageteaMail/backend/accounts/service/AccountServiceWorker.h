@@ -7,7 +7,7 @@
 class AccountServiceWorker : public QObject
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "org.dekkoproject.AccountService")
+    Q_CLASSINFO("D-Bus Interface", "sagetea.sageteamail.AccountService")
 public:
     explicit AccountServiceWorker(QObject *parent = 0);
 

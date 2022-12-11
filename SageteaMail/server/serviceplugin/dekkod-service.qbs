@@ -11,7 +11,7 @@ DynamicLibrary {
     cpp.cxxLanguageVersion: "c++11";
     cpp.cxxStandardLibrary: "libstdc++";
     cpp.defines: [
-        "DEKKO_VERSION=\"" + project.version +"\""
+        "SAGETEAMAIL_VERSION=\"" + project.version +"\""
     ]
 
     Group {
