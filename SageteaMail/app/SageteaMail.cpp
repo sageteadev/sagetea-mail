@@ -51,7 +51,7 @@ SageteaMail::SageteaMail(int &argc, char **argv) :
 {
     QCoreApplication::setOrganizationName(APP_ORG);
     QCoreApplication::setApplicationName(APP_NAME);
-    QCoreApplication::setApplicationVersion(DEKKO_VERSION);
+    QCoreApplication::setApplicationVersion(SAGETEAMAIL_VERSION);
 
     // Uncomment to dump out the resource files
     // Useful to be able to check a resource has been included
@@ -162,7 +162,7 @@ bool SageteaMail::setup()
     }
     uris.removeDuplicates();
     m_engine.rootContext()->setContextProperty(QStringLiteral("appUris"), uris);
-    m_engine.load(QUrl("qrc:/qml/SageteaMail.qml"));
+    m_engine.load(QUrl("qrc:/qml/Dekko.qml"));
     return true;
 }
 
