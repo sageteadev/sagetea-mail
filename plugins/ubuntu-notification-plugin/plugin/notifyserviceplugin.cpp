@@ -75,9 +75,9 @@ bool NotifyService::newVersion()
     }
 
     // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
-    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
+    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(SAGETEAMAIL_VERSION);
     if (result) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
     }
     settings.sync();
     return result;
