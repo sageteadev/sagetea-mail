@@ -26,7 +26,7 @@
 #include <QLibrary>
 #include <QStringBuilder>
 
-Q_LOGGING_CATEGORY(PLUGIN_LOADER, "dekko.plugman.loader")
+Q_LOGGING_CATEGORY(PLUGIN_LOADER, "sageteamail.plugman.loader")
 
 PluginLoader::PluginLoader()
 {
