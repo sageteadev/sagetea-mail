@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.Contacts 1.0
-import Dekko.Contacts.Plugin 1.0
+import SageteaMail.Contacts 1.0
+import SageteaMail.Contacts.Plugin 1.0
 
 AddressBookPlugin {
     id: plugin
