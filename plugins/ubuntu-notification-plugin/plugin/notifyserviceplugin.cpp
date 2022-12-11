@@ -10,13 +10,13 @@
 
 NotifyService::NotifyService(QObject *parent): ServicePlugin(parent)
 {
-    m_service = QStringLiteral("dekkod-notify");
+    m_service = QStringLiteral("sageteamaild-notify");
     m_serviceFile = QString("%1/.config/upstart/%2.conf").arg(QDir::homePath(), m_service);
 }
 
 QString NotifyService::pluginId() const
 {
-    return QStringLiteral("dekkod-notify-service");
+    return QStringLiteral("sageteamaild-notify-service");
 }
 
 QString NotifyService::location() const
@@ -67,10 +67,10 @@ bool NotifyService::serviceFileInstalled() const
 
 bool NotifyService::newVersion()
 {
-    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/dekkod-notify/settings.ini");
+    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/sageteamaild-notify/settings.ini");
     QSettings settings(path, QSettings::IniFormat);
     if (!settings.contains(QStringLiteral("version"))) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
         return serviceRunning();
     }
 
@@ -96,7 +96,7 @@ bool NotifyService::installServiceFile() const
     f.write("start on started dekkod\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
-    f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../Dekko/plugins\n");
+    f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../SageteaMail/plugins\n");
     f.write("   initctl set-env QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\n");
     f.write("   initctl set-env QMF_DATA=$HOME/.cache/sageteamail2.sagetea\n");
     f.write("end script\n");
@@ -151,12 +151,12 @@ QVariantMap NotifyService::documentation() const
 
 QString NotifyServicePlugin::name() const
 {
-    return QStringLiteral("dekkod-notify-service");
+    return QStringLiteral("sageteamaild-notify-service");
 }
 
 QString NotifyServicePlugin::description() const
 {
-    return QStringLiteral("Dekko notification service");
+    return QStringLiteral("SageteaMail notification service");
 }
 
 PluginInfo *NotifyServicePlugin::create(QObject *parent) const
