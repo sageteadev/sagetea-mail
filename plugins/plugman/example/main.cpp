@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
     PluginRegistry::instance()->setPluginLocations(QStringList()
                 << QStringLiteral("Composer::ToolbarAction")
                 << QStringLiteral("View::Item")
-                << QStringLiteral("Dekko::Service")
-                << QStringLiteral("Dekko::Listener"));
+                << QStringLiteral("SageteaMail::Service")
+                << QStringLiteral("SageteaMail::Listener"));
 
     // Now load all plugins from supported locations, by passing
     // a list of directories. These can be anywhere you like.
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     // but the ServicePlugin just exposes a start() and stop() method so it can be in this
     // process if required.
     QScopedPointer<ServiceRegistry> services(new ServiceRegistry);
-    services->setServiceKey(QStringLiteral("Dekko::Service"));
+    services->setServiceKey(QStringLiteral("SageteaMail::Service"));
     services->startServices();
 
     qmlRegisterType<ActionRegistry>("Plugins", 0, 1, "ActionRegistry");

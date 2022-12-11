@@ -17,7 +17,7 @@ DekkoPage {
 
     ActionRegistry {
         id: registry
-        location: "Dekko::Settings::MailAction"
+        location: "SageteaMail::Settings::MailAction"
         defaultActions: [
             Action {
                 iconName: "account"

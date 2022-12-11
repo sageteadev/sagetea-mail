@@ -21,7 +21,7 @@ QString NotifyService::pluginId() const
 
 QString NotifyService::location() const
 {
-    return QStringLiteral("Dekko::Service");
+    return QStringLiteral("SageteaMail::Service");
 }
 
 QString NotifyService::i18n() const

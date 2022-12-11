@@ -59,7 +59,7 @@ ViewState {
     ItemRegistry {
         id: itemRegistry
         asynchronous: false
-        location: "Dekko::Stage::Main"
+        location: "SageteaMail::Stage::Main"
         target: dekkoContainer
         loadMode: ItemRegistry.LoadFirstEnabled
     }

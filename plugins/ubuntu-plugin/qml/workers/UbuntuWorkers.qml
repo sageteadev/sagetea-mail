@@ -24,7 +24,7 @@ import SageteaMail.Mail.API 1.0
 // The containing workers should not be required immediately
 // but be available shortly after app start.
 
-// We will also load all plugins that registered as a "Dekko::Listener"
+// We will also load all plugins that registered as a "SageteaMail::Listener"
 // TODO: !This seems to be unused!
 ListenerRegistry {
     defaultListeners: [

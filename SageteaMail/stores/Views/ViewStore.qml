@@ -55,7 +55,7 @@ AppListener {
         type: ViewKeys.stageStackReady
         onDispatched: {
             Log.logStatus("ViewStore::stageStackReady", "Stack is ready")
-            ViewActions.pushStage(registry.findFirstEnabled("Dekko::Stage::Mail"), {})
+            ViewActions.pushStage(registry.findFirstEnabled("SageteaMail::Stage::Mail"), {})
             if (!Client.hasConfiguredAccounts) {
                 console.log("Opening setup wizard as none configured")
                 ViewActions.delayCall(ViewKeys.runSetupWizard)
