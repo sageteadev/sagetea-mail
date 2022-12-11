@@ -129,7 +129,7 @@ bool sageteadService::newVersion()
     static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/sagetead/settings.ini");
     QSettings settings(path, QSettings::IniFormat);
     if (!settings.contains(QStringLiteral("version"))) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
         // sagetead may already be running as we previously didn't version it.
         // So we still need to stop it if running.
         return serviceRunning();
@@ -138,7 +138,7 @@ bool sageteadService::newVersion()
     // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
     const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
     if (result) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
     }
     settings.sync();
     return result;
