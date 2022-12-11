@@ -89,11 +89,11 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
     }
 
     qCDebug(PLUGIN_LOADER) << "Looking for dekko spec plugins";
-    // Now scan for any *.dekko-plugin specs and generate a DekkoPlugin
+    // Now scan for any *.sageteamail-plugin specs and generate a DekkoPlugin
     pluginPaths.clear();
 
     Q_FOREACH(const QString &directory, dirs) {
-        QDirIterator it(directory, QStringList() << "*.dekko-plugin", QDir::Files, QDirIterator::Subdirectories);
+        QDirIterator it(directory, QStringList() << "*.sageteamail-plugin", QDir::Files, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             QString path = it.next();
             if (pluginPaths.contains(path)) {

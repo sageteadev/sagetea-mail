@@ -217,7 +217,7 @@ QString CacheManagerPlugin::name() const
 
 QString CacheManagerPlugin::description() const
 {
-    return QStringLiteral("Dekko cache manager");
+    return QStringLiteral("SageteMail cache manager");
 }
 
 PluginInfo *CacheManagerPlugin::create(QObject *parent) const
