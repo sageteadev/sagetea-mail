@@ -1,8 +1,8 @@
 import qbs
 
 DynamicLibrary {
-    name: "Dekkod Service Plugin"
-    targetName: "dekkod-service"
+    name: "SageteaMaild Service Plugin"
+    targetName: "sageteamaild-service"
     builtByDefault: project.click
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
@@ -17,8 +17,8 @@ DynamicLibrary {
     Group {
         name: "plugin"
         files: [
-            "dekkodserviceplugin.cpp",
-            "dekkodserviceplugin.h",
+            "sageteamaildserviceplugin.cpp",
+            "sageteamaildserviceplugin.h",
         ]
     }
 
