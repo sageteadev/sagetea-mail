@@ -107,7 +107,7 @@ DekkoPage {
     // Plugins can add bulk message actions by registering Action for this location
     ActionRegistry {
         id: multiSelectRegistry
-        location: MailStore.listenerId ? "Dekko::Mail::MultiSelectAction" : ""
+        location: MailStore.listenerId ? "SageteaMail::Mail::MultiSelectAction" : ""
         defaultActions: [
             Action {
                 iconSource: !MailStore.msgList.canSelectAll ? Paths.actionIconUrl(Paths.NoneSelectedIcon) :

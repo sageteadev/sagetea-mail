@@ -4,5 +4,8 @@
 
 # SageTea Mail
 
-SageTea Mail is based on Dekko project https://gitlab.com/dekkan/dekko
-Modified to serve SageTea.Ai as it own mail client for XFone and SageTea Edge Products
+- SageTea Mail is based on Dekko project https://gitlab.com/dekkan/dekko
+- Modified to serve SageTea.Ai as it own mail client for XFone and SageTea Edge Products
+
+## Disclaimer
+- Please note SageTea Mail is a Mobile app for Sagetea Edge and XFone and is still unstable and under development

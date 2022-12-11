@@ -1,5 +1,5 @@
 {
     "id": "ubuntu-folder-picker",
-    "register" : "Dekko::Mail::FolderPicker",
+    "register" : "SageteaMail::Mail::FolderPicker",
     "component" : "MailboxPickerPage.qml"
 }

@@ -56,7 +56,7 @@ Window {
 
             ItemRegistry {
                 target: container
-                location: "Dekko::Mail::Composer::UI"
+                location: "SageteaMail::Mail::Composer::UI"
                 loadMode: ItemRegistry.LoadFirstEnabled
             }
 

@@ -88,10 +88,10 @@ ViewState {
             defaultListeners: [
                 AccountsWorker {},
                 MailboxWorker {
-                    mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
+                    mailboxPickerUrl: itemRegistry.findFirstEnabled("SageteaMail::Mail::FolderPicker")
                 },
                 SettingsWorker {
-                    mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
+                    mailboxPickerUrl: itemRegistry.findFirstEnabled("SageteaMail::Mail::FolderPicker")
                 },
                 UriWorker {},
                 ErrorsWorker {}
