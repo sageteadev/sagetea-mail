@@ -25,3 +25,6 @@
 [submodule "upstream/richtext-editor"]
 	path = upstream/richtext-editor
 	url = https://gitlab.com/uapps/systemcore/sageteamail/richtext-editor.git
+[submodule "upstream/qml-richtext-editor"]
+	path = upstream/qml-richtext-editor
+	url = https://gitlab.com/uapps/systemcore/sageteamail/qml-richtext-editor.git
