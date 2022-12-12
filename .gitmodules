@@ -6,7 +6,7 @@
 	url = https://gitlab.com/dekkoproject/maz-db.git
 [submodule "upstream/notify"]
 	path = upstream/notify
-	url = https://gitlab.com/dekkoproject/notify.git
+	url = https://gitlab.com/uapps/systemcore/sageteamail/notify.git
 [submodule "upstream/pyotherside"]
 	path = upstream/pyotherside
 	url = https://gitlab.com/dekkoproject/pyotherside.git
