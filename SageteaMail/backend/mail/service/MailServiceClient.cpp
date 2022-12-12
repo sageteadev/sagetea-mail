@@ -24,7 +24,7 @@
 #include "serviceutils.h"
 #include "qmailnamespace.h"
 
-#define SERVICE "sagetea.sageteamail.Service"
+#define SERVICE "org.sagetea.Service"
 #define SERVICE_PATH "/mail"
 
 static QPointer<Client> s_client;
