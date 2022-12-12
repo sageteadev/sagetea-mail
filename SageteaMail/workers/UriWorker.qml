@@ -59,10 +59,10 @@ AppListener {
                 return
             }
 
-            if (uri.startsWith("dekko:")) {
+            if (uri.startsWith("sageteamail:")) {
                 var commands = uri.split("://")[1].split("/")
                 if (commands.isEmpty()) {
-                    Log.logInfo("UriListener::processUri", "Dekko command is empty, nothing we can do")
+                    Log.logInfo("UriListener::processUri", "SageteaMail command is empty, nothing we can do")
                     return
                 }
                 switch (commands.at(0).toLowerCase()) {

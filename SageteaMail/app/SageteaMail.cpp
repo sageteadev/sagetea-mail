@@ -59,7 +59,7 @@ SageteaMail::SageteaMail(int &argc, char **argv) :
 //    while (it.hasNext()) {
 //        qCDebug(SAGETEAMAIL_MAIN) << it.next();
 //    }
-    parser.setApplicationDescription("SageteaMail email client");
+    parser.setApplicationDescription("SageteaMail Email client");
     parser.addHelpOption();
     parser.addOption({"d", "Enable dev mode"});
     parser.addOption({"v", "Verbose logging"});

@@ -5,7 +5,7 @@
     "architecture": "@CLICK_ARCH@",
     "title": "SageteaMail",
     "hooks": {
-        "dekko": {
+        "sageteamail2": {
             "apparmor": "sageteamail2.apparmor",
             "content-hub": "sageteamail2-content.json",
             "desktop": "sageteamail2.desktop",
