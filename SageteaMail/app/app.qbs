@@ -35,7 +35,7 @@ Project {
         cpp.defines: [
             "SNAP_MODE",
             "APP_NAME=\"sageteamail\"",
-            "APP_ORG=\"sagetea.ai\"",
+            "APP_ORG=\"sagetea\"",
             "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
         ]
 
@@ -43,8 +43,8 @@ Project {
             condition: project.click
             cpp.defines: [
                 "CLICK_MODE",
-                "APP_NAME=\"sageteamail2.sagetea.ai\"",
-                "APP_ORG=\"sageteamail2.sagetea.ai\"",
+                "APP_NAME=\"sageteamail2.sagetea\"",
+                "APP_ORG=\"sageteamail2.sagetea\"",
                 "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }

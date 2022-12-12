@@ -7,5 +7,5 @@ Name=SageTea Mail
 Keywords=mail;e-mail;IMAP;SMTP;eml;MUA;
 Exec=sageteamail %U
 Icon=@ICON@
-MimeType=x-scheme-handler/mailto;application/dekko;x-scheme-handler/sageteamail;
+MimeType=x-scheme-handler/mailto;application/sageteamail;x-scheme-handler/sageteamail;
 X-Ubuntu-Splash-Color=#F5F5F5
