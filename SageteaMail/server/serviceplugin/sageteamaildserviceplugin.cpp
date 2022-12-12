@@ -7,31 +7,31 @@
 #include <QSettings>
 #include <SnapStandardPaths.h>
 
-sageteadService::sageteadService(QObject *parent): ServicePlugin(parent)
+sageteamaildService::sageteamaildService(QObject *parent): ServicePlugin(parent)
 {
-    m_service = QStringLiteral("sagetead");
+    m_service = QStringLiteral("sageteamaild");
     m_serviceFile = QString("%1/.config/upstart/%2.conf").arg(QDir::homePath(), m_service);
 }
 
-QString sageteadService::pluginId() const
+QString sageteamaildService::pluginId() const
 {
-    return QStringLiteral("sagetead-service");
+    return QStringLiteral("sageteamaild-service");
 }
 
-QString sageteadService::location() const
+QString sageteamaildService::location() const
 {
     return QStringLiteral("SageteaMail::Service");
 }
 
-QString sageteadService::i18n() const
+QString sageteamaildService::i18n() const
 {
     return QString();
 }
 
-void sageteadService::start()
+void sageteamaildService::start()
 {
     if (newVersion()) {
-        qDebug() << "[sageteadService] Stopping service for version upgrade";
+        qDebug() << "[sageteamaildService] Stopping service for version upgrade";
         stopService();
     }
 
@@ -39,15 +39,15 @@ void sageteadService::start()
         // The service is started on login, so actually it should already be running.
         // Overwrite service file to make sure thats not causing the problem.
         // see also issue #114
-        qDebug() << "[sageteadService] Installing service file";
+        qDebug() << "[sageteamaildService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[sageteadService] Starting sagetead service";
+        qDebug() << "[sageteamailddService] Starting sagetead service";
         startService();
     }
 }
 
-void sageteadService::stop()
+void sageteamaildService::stop()
 {
 //    if (serviceRunning()) {
 //        stopService();
@@ -58,16 +58,16 @@ void sageteadService::stop()
 //    }
 }
 
-bool sageteadService::serviceFileInstalled() const
+bool sageteamaildService::serviceFileInstalled() const
 {
     return QFile(m_serviceFile).exists();
 }
 
-bool sageteadService::installServiceFile() const
+bool sageteamaildService::installServiceFile() const
 {
     QFile f(m_serviceFile);
     if (!f.open(QFile::WriteOnly | QFile::Truncate)) {
-        qDebug() << "[sageteadService] Cannot create service file";
+        qDebug() << "[sageteamaildService] Cannot create service file";
         return false;
     }
 
@@ -85,7 +85,7 @@ bool sageteadService::installServiceFile() const
     return true;
 }
 
-bool sageteadService::removeServiceFile() const
+bool sageteamaildService::removeServiceFile() const
 {
     if (serviceFileInstalled()) {
         return QFile(m_serviceFile).remove();
@@ -93,7 +93,7 @@ bool sageteadService::removeServiceFile() const
     return true;
 }
 
-bool sageteadService::serviceRunning() const
+bool sageteamaildService::serviceRunning() const
 {
     QProcess p;
     p.start("initctl", {"status", m_service});
@@ -103,28 +103,28 @@ bool sageteadService::serviceRunning() const
     return output.contains("running");
 }
 
-bool sageteadService::startService()
+bool sageteamaildService::startService()
 {
-    qDebug() << "[sageteadService] should start service";
+    qDebug() << "[sageteamaildService] should start service";
     int ret = QProcess::execute("start", {m_service});
     return ret == 0;
 }
 
-bool sageteadService::restartService()
+bool sageteamaildService::restartService()
 {
-    qDebug() << "[sageteadService] should restart service";
+    qDebug() << "[sageteamaildService] should restart service";
     int ret = QProcess::execute("restart", {m_service});
     return ret == 0;
 }
 
-bool sageteadService::stopService()
+bool sageteamaildService::stopService()
 {
-    qDebug() << "[sageteadService] should stop service";
+    qDebug() << "[sageteamaildService] should stop service";
     int ret = QProcess::execute("stop", {m_service});
     return ret == 0;
 }
 
-bool sageteadService::newVersion()
+bool sageteamaildService::newVersion()
 {
     static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/sagetead/settings.ini");
     QSettings settings(path, QSettings::IniFormat);
@@ -145,24 +145,24 @@ bool sageteadService::newVersion()
     return result;
 }
 
-QVariantMap sageteadService::documentation() const
+QVariantMap sageteamaildService::documentation() const
 {
     return QVariantMap();
 }
 
-QString sageteadServicePlugin::name() const
+QString sageteamaildServicePlugin::name() const
 {
-    return QStringLiteral("sagetead-service");
+    return QStringLiteral("sageteamaildd-service");
 }
 
-QString sageteadServicePlugin::description() const
+QString sageteamaildServicePlugin::description() const
 {
     return QStringLiteral("SageteaMail's messaging server");
 }
 
-PluginInfo *sageteadServicePlugin::create(QObject *parent) const
+PluginInfo *sageteamaildServicePlugin::create(QObject *parent) const
 {
-    return new sageteadService(parent);
+    return new sageteamaildService(parent);
 }
 
 
