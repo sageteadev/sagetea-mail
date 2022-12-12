@@ -24,4 +24,4 @@
 	url = https://gitlab.com/dekkoproject/ubuntu-push-client.git
 [submodule "upstream/richtext-editor"]
 	path = upstream/richtext-editor
-	url = https://gitlab.com/dekkoproject/qml-richtext-editor.git
+	url = https://gitlab.com/uapps/systemcore/sageteamail/qml-richtext-editor.git
