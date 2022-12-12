@@ -9,3 +9,5 @@
 
 ## Disclaimer
 - Please note SageTea Mail is a Mobile app for Sagetea Edge and XFone and is still unstable and under development
+
+# Submodules are also updated
