@@ -135,8 +135,9 @@ bool sageteadService::newVersion()
         return serviceRunning();
     }
 
-    // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
-    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
+    // We also want to support downgrades so just check the version doesn't match SAGETEAMAIL_VERSION
+    // all code should include the same Qstring or it will fail building
+    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(SAGETEAMAIL_VERSION);
     if (result) {
         settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
     }
