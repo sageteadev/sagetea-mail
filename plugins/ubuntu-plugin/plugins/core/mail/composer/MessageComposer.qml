@@ -22,7 +22,7 @@ import SageteaMail.Components 1.0
 import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Composer 1.0
-import Dekko.Markdown 1.0
+import SageteaMail.Markdown 1.0
 import SageteaMail.Ubuntu.Constants 1.0
 
 FocusScope {
