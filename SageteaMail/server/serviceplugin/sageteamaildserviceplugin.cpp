@@ -72,7 +72,7 @@ bool SageteMaildService::installServiceFile() const
     }
 
     QString appDir = QCoreApplication::applicationDirPath();
-    appDir.replace(QRegExp("sageteamil2.sagetea/[^/]+/"), "sageteamail2.sagetea/current/");
+    appDir.replace(QRegExp("sageteamail2.sagetea/[^/]+/"), "sageteamail2.sagetea/current/");
     f.write("start on started unity8\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
