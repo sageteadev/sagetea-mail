@@ -47,7 +47,7 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
     QStringList dirs;
     dirs << qApp->applicationDirPath() % "/plugins";
     dirs << m_pluginPaths;
-    QString pluginEnv = QString(qgetenv("DEKKO_PLUGINS"));
+    QString pluginEnv = QString(qgetenv("SAGETEAMAIL_PLUGINS"));
     if (!pluginEnv.isEmpty()) {
         dirs << pluginEnv;
     }
@@ -88,7 +88,7 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
         }
     }
 
-    qCDebug(PLUGIN_LOADER) << "Looking for dekko spec plugins";
+    qCDebug(PLUGIN_LOADER) << "Looking for sagetemail spec plugins";
     // Now scan for any *.sageteamail-plugin specs and generate a SageteaMailPlugin
     pluginPaths.clear();
 
