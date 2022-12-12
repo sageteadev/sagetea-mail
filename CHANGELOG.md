@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
-- QMF client & server libraries: @dpniel
+- submodule update
 - Dekko.Accounts qml plugin: @dpniel
 - SageteaMail.Mail qml plugin: @dpniel
 
