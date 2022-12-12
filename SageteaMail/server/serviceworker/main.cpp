@@ -7,9 +7,9 @@
 #include <qmailnamespace.h>
 
 
-#define SERVICE "sagetea.sageteamail.Service"
+#define SERVICE "org.sagetea.Service"
 #define SERVICE_PATH "/mail"
-#define ACCOUNTS_SERVICE "sagetea.sageteamail.AccountService"
+#define ACCOUNTS_SERVICE "org.sagetea.AccountService"
 #define ACCOUNTS_PATH "/accounts"
 
 
@@ -19,7 +19,7 @@ Q_DECL_EXPORT int main(int argc, char** argv)
     QCoreApplication app(argc, argv);
 
     if(QMail::fileLock("sageteamail-worker.lock") == -1)
-        qFatal("Could not get sageteamil worker lock. dekko-worker might already be running!");
+        qFatal("Could not get sageteamail worker lock. sageteamail-worker might already be running!");
 
     MailServiceWorker::registerTypes();
 
