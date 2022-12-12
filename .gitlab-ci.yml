@@ -23,7 +23,7 @@ variables:
     paths:
       - 'build/$ARCH_TRIPLET/*.click'
     when: on_success
-    expire_in: 1 week
+    expire_in: 4 days
 
 sageteamail:arm64:
   <<: *arm64
