@@ -152,7 +152,7 @@ QVariantMap sageteamaildService::documentation() const
 
 QString sageteamaildServicePlugin::name() const
 {
-    return QStringLiteral("sageteamaildd-service");
+    return QStringLiteral("sageteamaild-service");
 }
 
 QString sageteamaildServicePlugin::description() const
