@@ -6,11 +6,11 @@
 #include <PluginLoader.h>
 #include <QScopedPointer>
 
-class sageteamaildService : public ServicePlugin
+class SageteMaildService : public ServicePlugin
 {
     Q_OBJECT
 public:
-    explicit sageteamaildService(QObject *parent = 0);
+    explicit SageteMaildService(QObject *parent = 0);
 
     // PluginInfo interface
 public:
@@ -39,7 +39,7 @@ private:
     QString m_serviceFile;
 };
 
-class sageteamaildServicePlugin : public QObject, public PluginInterface
+class SageteamaildServicePlugin : public QObject, public PluginInterface
 {
     Q_OBJECT
     Q_INTERFACES(PluginInterface)
