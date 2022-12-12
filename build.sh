@@ -26,14 +26,14 @@ function install_python_deps
 {
     PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown markupsafe pygments pynliner soupsieve"
     PYTHON_DEPS_DIR=pylibs/lib/python3.5/site-packages/
-    DEKKO_PYTHON_DIR=$CLICK_LD_LIBRARY_PATH/SageteaMail/Python/
+    SAGETEAMAIL_PYTHON_DIR=$CLICK_LD_LIBRARY_PATH/SageteaMail/Python/
 
-    mkdir -p $DEKKO_PYTHON_DIR
+    mkdir -p $SAGETEAMAIL_PYTHON_DIR
     for dep in $PYTHON_DEPS; do
-        cp -r $PYTHON_DEPS_DIR/$dep $DEKKO_PYTHON_DIR
+        cp -r $PYTHON_DEPS_DIR/$dep $SAGETEAMAIL_PYTHON_DIR
     done
     
-    cp -r $PYTHON_DEPS_DIR/importlib_metadata* $DEKKO_PYTHON_DIR
+    cp -r $PYTHON_DEPS_DIR/importlib_metadata* $SAGETEAMAIL_PYTHON_DIR
     #cp -r $PYTHON_DEPS_DIR/zipp.py $DEKKO_PYTHON_DIR
 }
 
