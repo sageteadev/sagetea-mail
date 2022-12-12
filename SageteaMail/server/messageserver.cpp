@@ -556,9 +556,9 @@ void MessageServer::handleSigHup()
     char tmp;
     ::read(sighupFd[1], &tmp, sizeof(tmp));
 #if defined(CLICK)
-    qMailLoggersRecreate("dekko2.dekkoproject", "dekkod", "Msgsrv");
+    qMailLoggersRecreate("sagetemail2.sagetea", "sageteamaild", "Msgsrv");
 #else
-    qMailLoggersRecreate("dekko", "dekkod", "Msgsrv");
+    qMailLoggersRecreate("sageteamail", "sageteamaid", "Msgsrv");
 #endif
 
     snHup->setEnabled(true);

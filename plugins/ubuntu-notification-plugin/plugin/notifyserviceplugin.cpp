@@ -44,7 +44,7 @@ void NotifyService::start()
         qDebug() << "[NotifyService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[NotifyService] Starting dekkod-notify service";
+        qDebug() << "[NotifyService] Starting sageteadd-notify service";
         startService();
     }
 }
@@ -93,7 +93,7 @@ bool NotifyService::installServiceFile() const
 
     QString appDir = QCoreApplication::applicationDirPath();
     appDir.replace(QRegExp("sageteamail2.sagetea/[^/]+/"), "sageteamail2.sagetea/current/");
-    f.write("start on started dekkod\n");
+    f.write("start on started sageteamaild\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
     f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../SageteaMail/plugins\n");

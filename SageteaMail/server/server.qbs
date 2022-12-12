@@ -4,7 +4,7 @@ Project {
     name: "Server"
 
     references: [
-        "serviceplugin/dekkod-service.qbs",
+        "serviceplugin/sageteamild-service.qbs",
         "serviceworker/serviceworker.qbs"
     ]
 
