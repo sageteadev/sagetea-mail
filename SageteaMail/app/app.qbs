@@ -5,7 +5,7 @@ Project {
     name: "App"
 
     QtGuiApplication {
-        name: "Sagetea Mail"
+        name: "SageteaMail"
         targetName: "sageteamail"
 
         Depends { name : "cpp" }
