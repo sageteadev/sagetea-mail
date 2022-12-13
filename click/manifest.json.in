@@ -1,5 +1,5 @@
 {
-    "name": "sageteamail2.sagetea",
+    "name": "sageteamail.sagetea",
     "description": "Sagetea Mail Client.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
