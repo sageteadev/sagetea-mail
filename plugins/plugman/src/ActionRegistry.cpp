@@ -22,7 +22,7 @@
 #include <QQmlComponent>
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_ACTION, "sageteamail.plugman.action")
+Q_LOGGING_CATEGORY(PLUGIN_ACTION, "dekko.plugman.action")
 
 ActionRegistry::ActionRegistry(QObject *parent) : QObject(parent)
 {
@@ -68,7 +68,7 @@ void ActionRegistry::loadActions()
     m_actions << m_defaults;
     auto plugins = PluginRegistry::instance()->getByLocation(m_location);
     for (auto plugin : plugins) {
-        if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
+        if (auto dp = qobject_cast<DekkoPlugin *>(plugin)) {
             PluginIncubator *incubator = new PluginIncubator(this);
             connect(incubator, &PluginIncubator::objectReady, this, &ActionRegistry::finishLoading);
             connect(incubator, &PluginIncubator::error, this, &ActionRegistry::handleError);

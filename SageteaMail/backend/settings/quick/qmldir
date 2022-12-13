@@ -1,2 +1,2 @@
-module SageteaMail.Mail.Settings
+module Dekko.Mail.Settings
 plugin settings-plugin

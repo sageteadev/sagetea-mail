@@ -1,5 +1,5 @@
 {
     "id": "html-viewer-plugin",
-    "register" : "SageteaMail::Listener",
+    "register" : "Dekko::Listener",
     "component" : "Listener.qml"
 }

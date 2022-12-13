@@ -2,7 +2,7 @@ import qbs
 
 DynamicLibrary {
     name: "Cache Manager Plugin"
-    targetName: "sageteamail-cachemgr-plugin"
+    targetName: "dekko-cachemgr-plugin"
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
     Depends { name: "Qt.dbus" }
@@ -16,7 +16,7 @@ DynamicLibrary {
     cpp.cxxStandardLibrary: "libstdc++";
 
     cpp.defines: [
-        "SAGETEAMAIL_VERSION=\"" + project.version +"\""
+        "DEKKO_VERSION=\"" + project.version +"\""
     ]
 
     Group {

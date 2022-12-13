@@ -16,8 +16,8 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 import QtQuick 2.4
-import SageteaMail.Components 1.0
-import SageteaMail.Ubuntu.Constants 1.0
+import Dekko.Components 1.0
+import Dekko.Ubuntu.Constants 1.0
 
 Item {
 

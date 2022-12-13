@@ -17,10 +17,10 @@
 */
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Stores.Settings 1.0
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Settings 1.0
 import PlugMan 1.0
-import SageteaMail.Ubuntu.Components 1.0
+import Dekko.Ubuntu.Components 1.0
 
 DekkoPage {
     pageHeader.title: qsTr("Notification Settings: %1").arg(SettingsStore.selectedAccount.name)
@@ -40,11 +40,11 @@ DekkoPage {
     }
 
     function getCustomSetting(key) {
-        return SettingsStore.selectedAccount.customValue('sageteamail-notify', key);
+        return SettingsStore.selectedAccount.customValue('dekko-notify', key);
     }
 
     function setCustomSetting(key, value) {
-        SettingsStore.selectedAccount.setCustomValue('sageteamail-notify', key, value);
+        SettingsStore.selectedAccount.setCustomValue('dekko-notify', key, value);
     }
 
     PageFlickable {

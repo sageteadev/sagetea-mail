@@ -1,13 +1,32 @@
-[![pipeline status](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/badges/master/pipeline.svg)](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/commits/master)
+[![pipeline status](https://gitlab.com/dekkan/dekko/badges/master/pipeline.svg)](https://gitlab.com/dekkan/dekko/commits/master)
 
-<img width="200px" src="SageteaMail/app/assets/icons/dekko/sageteamail.png" />
+<img width="200px" src="Dekko/app/assets/icons/dekko/dekko.png" />
 
-# SageTea Mail
+# Dekko 2
 
-- SageTea Mail is based on Dekko project https://gitlab.com/dekkan/dekko
-- Modified to serve SageTea.Ai as it own mail client for XFone and SageTea Edge Products
+Dekko2 is an convergent email client for Ubuntu Touch. It is under active development and usable in its beta form.
+Dekko2 lets you add multiple accounts and supports IMAP and SMTP (POP3 is considered experimental) details.
 
-## Disclaimer
-- Please note SageTea Mail is a Mobile app for Sagetea Edge and XFone and is still unstable and under development
+## How to get it
 
-# Submodules are also updated
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/dekko2.dekkoproject)
+
+Or build it yourself following instructions below.
+
+## Building the app:
+
+* install clickable: http://clickable.bhdouglass.com
+* build dependency on the host (despite docker):
+```
+sudo apt-get install qemu-user-static
+```
+* clone:
+```
+git clone --recurse-submodules git@gitlab.com:dekkan/dekko.git
+```
+* connect your device via usb cable
+* build and run:
+```
+cd dekko
+clickable
+```

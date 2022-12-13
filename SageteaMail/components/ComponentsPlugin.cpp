@@ -30,8 +30,8 @@
 
 void ComponentsPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("SageteaMail.Components"));
-    // @uri SageteaMail.Components
+    Q_ASSERT(uri == QLatin1String("Dekko.Components"));
+    // @uri Dekko.Components
     qmlRegisterType<ImageHelper>(uri, 1, 0, "ImageHelper");
     qmlRegisterType<StretchColumn>(uri, 1, 0, "StretchColumn");
     qmlRegisterType<StretchRow>(uri, 1, 0, "StretchRow");

@@ -532,7 +532,7 @@ void MessageServer::notifyNewMessages(const QMailMessageIdList &ids)
             QProcess proc;
             QStringList options;
             options.append("-i");
-            options.append("/usr/share/icons/sageteamail.png");
+            options.append("/usr/share/icons/dekko.png");
             options.append(msg.from().name());
             options.append(msg.subject() + "\n" + msg.preview());
             proc.start("notify-send", options);
@@ -556,9 +556,9 @@ void MessageServer::handleSigHup()
     char tmp;
     ::read(sighupFd[1], &tmp, sizeof(tmp));
 #if defined(CLICK)
-    qMailLoggersRecreate("sagetemail2.sagetea", "sageteamaild", "Msgsrv");
+    qMailLoggersRecreate("dekko2.dekkoproject", "dekkod", "Msgsrv");
 #else
-    qMailLoggersRecreate("sageteamail", "sageteamaid", "Msgsrv");
+    qMailLoggersRecreate("dekko", "dekkod", "Msgsrv");
 #endif
 
     snHup->setEnabled(true);

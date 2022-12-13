@@ -39,7 +39,7 @@ Project {
         Group {
             name: "Plugin specs"
             files: [
-                "qml/**/*.sageteamail-plugin"
+                "qml/**/*.dekko-plugin"
             ]
             fileTags: ["ui-plugin"]
         }

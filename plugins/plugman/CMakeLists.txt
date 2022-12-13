@@ -28,7 +28,7 @@ else()
     if(EXISTS "/etc/debian_version")
         set(LIB_DIR ${CMAKE_INSTALL_LIBDIR}/SageteaMail)
     else()
-        set(LIB_DIR ${CMAKE_INSTALL_LIBDIR}/${CMAKE_LIBRARY_ARCHITECTURE}/SageteaMail)
+        set(LIB_DIR ${CMAKE_INSTALL_LIBDIR}/${CMAKE_LIBRARY_ARCHITECTURE}/Dekko)
     endif()
 
 endif()

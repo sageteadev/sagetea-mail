@@ -2,8 +2,8 @@ import QtQuick 2.4
 import QtQuick.Window 2.1
 import QuickFlux 1.0
 import PlugMan 1.0
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Stores.Mail 1.0
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Mail 1.0
 
 Item {
     id: root
@@ -16,7 +16,7 @@ Item {
             onDispatched: {
 
                 if (d.composeWindow === null) {
-                    var comp = d.getComponent("SageteaMail::Mail::Composer")
+                    var comp = d.getComponent("Dekko::Mail::Composer")
                     if (comp !== null) {
                         d.composeWindow = comp.createObject(root)
                         d.composeWindow.setVisible(true)
@@ -46,7 +46,7 @@ Item {
             onDispatched: {
                 console.log("Open Settings")
                 if (d.settingsWindow === null) {
-                    var comp = d.getComponent("SageteaMail::Mail::Settings")
+                    var comp = d.getComponent("Dekko::Mail::Settings")
                     if (comp !== null) {
                         d.settingsWindow = comp.createObject(root)
                         d.settingsWindow.setVisible(true)
@@ -71,7 +71,7 @@ Item {
             onDispatched: {
                 console.log("Open Mail Setup Wizard")
                 if (d.setupWizard === null) {
-                    var comp = d.getComponent("SageteaMail::Mail::SetupWizard")
+                    var comp = d.getComponent("Dekko::Mail::SetupWizard")
                     if (comp !== null) {
                         d.setupWizard = comp.createObject(root)
                         d.setupWizard.setVisible(true)
@@ -97,7 +97,7 @@ Item {
         id: registry
         asynchronous: true
         target: root
-        location: "SageteaMail::Mail"
+        location: "Dekko::Mail"
         loadMode: ItemRegistry.LoadFirstEnabled
     }
 

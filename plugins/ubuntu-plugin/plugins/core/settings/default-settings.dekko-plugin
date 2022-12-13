@@ -1,5 +1,5 @@
 {
     "id": "ubuntu-mail-settings",
-    "register" : "SageteaMail::Mail::Settings",
+    "register" : "Dekko::Mail::Settings",
     "component" : "SettingsWindow.qml"
 }

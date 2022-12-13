@@ -18,7 +18,7 @@
 #include "ServiceRegistry.h"
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_SERVICE, "sageteamail.plugman.service")
+Q_LOGGING_CATEGORY(PLUGIN_SERVICE, "dekko.plugman.service")
 
 ServiceRegistry::ServiceRegistry(QObject *parent) : QObject(parent)
 {

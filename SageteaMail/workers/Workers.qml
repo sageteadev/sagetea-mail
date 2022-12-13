@@ -22,7 +22,7 @@ import PlugMan 1.0
 // The containing workers should not be required immediately
 // but be available shortly after app start.
 
-// We will also load all plugins that registered as a "SageteaMail::Listener"
+// We will also load all plugins that registered as a "Dekko::Listener"
 ListenerRegistry {
     defaultListeners: [
         AccountsWorker {},

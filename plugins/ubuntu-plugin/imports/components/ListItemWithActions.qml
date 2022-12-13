@@ -19,8 +19,8 @@ import QtQuick.Controls.Suru 2.2
 import QtFeedback 5.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.0 as ListItem
-import SageteaMail.Components 1.0
-import SageteaMail.Ubuntu.Constants 1.0
+import Dekko.Components 1.0
+import Dekko.Ubuntu.Constants 1.0
 
 PixelPerfectItem {
     id: root

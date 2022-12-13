@@ -17,7 +17,7 @@
 */
 pragma Singleton
 import QtQuick 2.4
-import SageteaMail.Mail 1.0
+import Dekko.Mail 1.0
 
 QtObject {
 

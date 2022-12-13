@@ -1,4 +1,4 @@
-module SageteaMail.Mail.Stores.Mail
+module Dekko.Mail.Stores.Mail
 singleton MailStore 1.0 MailStore.qml
 singleton MailboxStore 1.0 MailboxStore.qml
 # only used by MailStore

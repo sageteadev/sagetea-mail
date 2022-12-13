@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtQuick.Window 2.1
 import QuickFlux 1.0
-import SageteaMail.Mail.API 1.0
+import Dekko.Mail.API 1.0
 
 AppListener {
 

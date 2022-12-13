@@ -5,7 +5,7 @@ Project {
     name: "App"
 
     QtGuiApplication {
-        name: "SageteaMail"
+        name: "Sagetea Mail"
         targetName: "sageteamail"
 
         Depends { name : "cpp" }
@@ -36,16 +36,16 @@ Project {
             "SNAP_MODE",
             "APP_NAME=\"sageteamail\"",
             "APP_ORG=\"sagetea\"",
-            "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
+            "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
         ]
 
         Properties {
             condition: project.click
             cpp.defines: [
                 "CLICK_MODE",
-                "APP_NAME=\"sageteamail.sagetea\"",
+                "APP_NAME=\"sageteamail2.sagetea.ai\"",
                 "APP_ORG=\"sagetea\"",
-                "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
+                "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }
 
@@ -80,7 +80,7 @@ Project {
 
         Group {
             name: "QML Resources"
-            files: ["sagateamail.qrc"]
+            files: ["dekko.qrc"]
         }
 
         Group {

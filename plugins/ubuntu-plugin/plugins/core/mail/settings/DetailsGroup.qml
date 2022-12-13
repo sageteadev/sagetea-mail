@@ -18,10 +18,10 @@
 import QtQuick 2.4
 import QuickFlux 1.0
 import Ubuntu.Components 1.3
-import SageteaMail.AutoConfig 1.0
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Stores.Settings 1.0
-import SageteaMail.Ubuntu.Components 1.0
+import Dekko.AutoConfig 1.0
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Settings 1.0
+import Dekko.Ubuntu.Components 1.0
 
 SettingsGroupPage {
     pageHeader.title: qsTr("Details: %1").arg(SettingsStore.selectedAccount.name)

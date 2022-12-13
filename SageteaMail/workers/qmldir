@@ -1,4 +1,4 @@
-module SageteaMail.Mail.Workers
+module Dekko.Mail.Workers
 
 AccountsWorker 1.0 AccountsWorker.qml
 ComposerWorker 1.0 ComposerWorker.qml

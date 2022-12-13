@@ -45,14 +45,14 @@ public:
 
 };
 
-class SageteaMailPlugin : public PluginInfo
+class DekkoPlugin : public PluginInfo
 {
     Q_OBJECT
     Q_PROPERTY(QString component READ component CONSTANT)
 public:
-    explicit SageteaMailPlugin(QObject *parent = 0);
+    explicit DekkoPlugin(QObject *parent = 0);
 
-    static SageteaMailPlugin* fromSpec(const QString &specPath, QObject *parent = 0);
+    static DekkoPlugin* fromSpec(const QString &specPath, QObject *parent = 0);
 
     QString pluginId() const;
     QString location() const;

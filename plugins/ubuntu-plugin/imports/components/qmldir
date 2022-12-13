@@ -1,4 +1,4 @@
-module SageteaMail.Ubuntu.Components
+module Dekko.Ubuntu.Components
 ActionDrawer 1.0 ActionDrawer.qml
 Avatar 1.0 Avatar.qml
 CachedImage 1.0 CachedImage.qml

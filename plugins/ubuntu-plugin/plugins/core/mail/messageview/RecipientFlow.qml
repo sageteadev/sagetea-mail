@@ -18,8 +18,8 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import SageteaMail.Mail 1.0
-import SageteaMail.Ubuntu.Components 1.0
+import Dekko.Mail 1.0
+import Dekko.Ubuntu.Components 1.0
 import "../delegates"
 
 ListItem {

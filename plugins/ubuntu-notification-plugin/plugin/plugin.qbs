@@ -2,7 +2,7 @@ import qbs
 
 DynamicLibrary {
     name: "Notify Service Plugin"
-    targetName: "sageteamail-notify-plugin"
+    targetName: "dekko-notify-plugin"
     builtByDefault: project.click
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
@@ -12,7 +12,7 @@ DynamicLibrary {
     cpp.cxxStandardLibrary: "libstdc++";
 
     cpp.defines: [
-        "SAGETEAMAIL_VERSION=\"" + project.version +"\""
+        "DEKKO_VERSION=\"" + project.version +"\""
     ]
 
     Group {

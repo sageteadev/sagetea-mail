@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import PlugMan 1.0
 import Ubuntu.Components 1.3
-import SageteaMail.Mail.API 1.0
+import Dekko.Mail.API 1.0
 
 Item {
 
@@ -18,7 +18,7 @@ Item {
     // use of the store/worker pattern and use MazDB or MazDBSettings for data persistence
     ActionRegistry {
         id: navRegistry
-        location: "SageteaMail::Stage::Action"
+        location: "Dekko::Stage::Action"
         defaultActions: [
             Action {
                 iconName: "mail-unread"

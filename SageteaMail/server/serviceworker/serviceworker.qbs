@@ -2,7 +2,7 @@ import qbs
 
 CppApplication {
     name: "Service Worker"
-    targetName: "sageteamail-worker"
+    targetName: "dekko-worker"
 
     Depends { name: "Qt.core" }
     Depends { name: "Mail Lib" }

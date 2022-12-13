@@ -1,2 +1,2 @@
-module SageteaMail.Mail.Accounts
+module Dekko.Mail.Accounts
 plugin accounts-plugin

@@ -28,7 +28,7 @@ class AccountServiceInterface: public QDBusAbstractInterface
     Q_OBJECT
 public:
     static inline const char *staticInterfaceName()
-    { return "org.sagetea.AccountService"; }
+    { return "org.dekkoproject.AccountService"; }
 
 public:
     AccountServiceInterface(const QString &service, const QString &path, const QDBusConnection &connection, QObject *parent = 0);

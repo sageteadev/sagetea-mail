@@ -32,12 +32,12 @@
 <context>
     <name>AccountSetup</name>
     <message>
-        <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="220"/>
+        <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
         <translation>無效的電子郵件位址</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
+        <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent using Dekko from my Ubuntu device</source>
         <translation>從我的 Ubuntu 裝置上使用 Dekko 發送</translation>
     </message>
@@ -45,23 +45,23 @@
 <context>
     <name>AccountsWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="36"/>
-        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="90"/>
+        <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
+        <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
         <translation>刪除帳戶失敗</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="54"/>
+        <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
         <translation>移除 %1</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="54"/>
+        <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
         <translation>您確定要刪除此帳戶嗎？</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="87"/>
+        <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
         <translation>已移除帳戶</translation>
     </message>
@@ -243,14 +243,14 @@ Would you like to use this instead?</source>
 <context>
     <name>ClientService</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="78"/>
-        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="82"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
         <translation>郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="78"/>
-        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="82"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
         <translation>郵件</translation>
     </message>
@@ -274,22 +274,22 @@ Would you like to use this instead?</source>
 <context>
     <name>ComposerStore</name>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="86"/>
+        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
         <translation>請選擇寄件人。否則，將不會自動保存任何草稿。考慮設置一個預設標示。</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="90"/>
+        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
         <translation>你的身份有些可疑。請選擇有效的送件人。</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="99"/>
+        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
         <translation>郵件排列。</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="103"/>
+        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
         <translation>草稿已儲存。</translation>
     </message>
@@ -297,22 +297,22 @@ Would you like to use this instead?</source>
 <context>
     <name>ComposerStoreActions</name>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="26"/>
+        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
         <translation>傳送</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="33"/>
+        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
         <translation>儲存草稿</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="40"/>
+        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
         <translation>丟棄</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="47"/>
+        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
         <translation>附加</translation>
     </message>
@@ -320,12 +320,12 @@ Would you like to use this instead?</source>
 <context>
     <name>ComposerWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/ComposerWorker.qml" line="120"/>
+        <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
         <translation>丟棄郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/ComposerWorker.qml" line="120"/>
+        <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
         <translation>您確定要丟棄這封郵件嗎？</translation>
     </message>
@@ -580,12 +580,12 @@ Would you like to use this instead?</source>
 <context>
     <name>DialogWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/DialogWorker.qml" line="39"/>
+        <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/DialogWorker.qml" line="48"/>
+        <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
         <translation>注意</translation>
     </message>
@@ -665,18 +665,18 @@ Would you like to use this instead?</source>
 <context>
     <name>ErrorsWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="78"/>
-        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="82"/>
+        <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
+        <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
         <translation>沒有連接</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="86"/>
+        <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
         <translation>連結不可用</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="102"/>
+        <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
         <translation>動作超時</translation>
     </message>
@@ -692,7 +692,7 @@ Would you like to use this instead?</source>
 <context>
     <name>ExportUpdatesAction</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="144"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
         <translation>同步 %1 帳戶的更改</translation>
     </message>
@@ -708,37 +708,37 @@ Would you like to use this instead?</source>
 <context>
     <name>FlagsAction</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="166"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
         <translation>重要</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="169"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
         <translation>不重要</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="178"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
         <translation>已讀</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="181"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
         <translation>未讀</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="190"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
         <translation>作為行事項目</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="193"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
         <translation>從行事項目中劃除</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="198"/>
+        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
         <translation>標記 %1 郵件 %2</translation>
     </message>
@@ -746,32 +746,32 @@ Would you like to use this instead?</source>
 <context>
     <name>Folder</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="103"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
         <translation>草稿</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="105"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="107"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
         <translation>垃圾郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="109"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
         <translation>寄件匣</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="111"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
         <translation>送出</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="113"/>
+        <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
         <translation>垃圾桶</translation>
     </message>
@@ -800,7 +800,7 @@ Would you like to use this instead?</source>
 <context>
     <name>ForbiddenReply</name>
     <message>
-        <location filename="../SageteaMail/backend/network/ForbiddenReply.cpp" line="24"/>
+        <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
         <translation>遠端內容被禁止</translation>
     </message>
@@ -1006,42 +1006,42 @@ Would you like to use this instead?</source>
 <context>
     <name>MailStore</name>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
         <translation>未讀</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
         <translation>已加星號</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
         <translation>已回覆</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
         <translation>已轉寄</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
         <translation>附件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
         <translation>行事曆</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="39"/>
+        <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
         <translation>當地</translation>
     </message>
@@ -1049,37 +1049,37 @@ Would you like to use this instead?</source>
 <context>
     <name>MailStoreActions</name>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="36"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
         <translation>全部取消選取</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="36"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
         <translation>全部選取</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="49"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
         <translation>星號</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="49"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
         <translation>移除星號</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="57"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="62"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
         <translation>標記為未讀</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="62"/>
+        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
         <translation>標記為已讀</translation>
     </message>
@@ -1113,7 +1113,7 @@ Would you like to use this instead?</source>
 <context>
     <name>MailboxWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/MailboxWorker.qml" line="161"/>
+        <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
         <translation>郵件已移動</translation>
     </message>
@@ -1188,12 +1188,12 @@ Would you like to use this instead?</source>
 <context>
     <name>Message</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="228"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
         <translation>你</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="230"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
         <translation>至 %1</translation>
     </message>
@@ -1219,34 +1219,34 @@ Would you like to use this instead?</source>
 <context>
     <name>MessageBuilder</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="268"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
         <translation>在 %1, %2 寫道：
 </translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="325"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
         <translation>轉發郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="326"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
         <translation>日期： </translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="327"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
         <translation>來自： </translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="328"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
         <translation>收件人： </translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="329"/>
+        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
         <translation>標題： </translation>
     </message>
@@ -1254,47 +1254,47 @@ Would you like to use this instead?</source>
 <context>
     <name>MessageFilterCollection</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="79"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
         <translation>所有收件匣</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="89"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
         <translation>草稿</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="99"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
         <translation>垃圾郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="109"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
         <translation>寄件匣</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="119"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
         <translation>送出</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="128"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
         <translation>垃圾桶</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="140"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
         <translation>今天，%1</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="149"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
         <translation>行事曆</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="158"/>
+        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
         <translation>完成</translation>
     </message>
@@ -1502,32 +1502,32 @@ Would you like to use this instead?</source>
 <context>
     <name>MinimalMessage</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="110"/>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="126"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="110"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
         <translation>hh:mm</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="115"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
         <translation>ddd hh:mm</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="117"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
         <translation>MMMM dd</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="119"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
         <translation>yy MMM dd</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Message.cpp" line="126"/>
+        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
         <translation>dddd dd</translation>
@@ -1814,24 +1814,24 @@ Would you like to use this instead?</source>
 <context>
     <name>QObject</name>
     <message numerus="yes">
-        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="344"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
         <source>%n byte(s)</source>
         <translation>
             <numerusform>%1 位元組</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="346"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="348"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="350"/>
+        <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
@@ -1948,227 +1948,227 @@ Would you like to use this instead?</source>
 <context>
     <name>ServiceHandler</name>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="593"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
         <source>Destroying Service handler</source>
         <translation>銷毀服務處理程式</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="645"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
         <source>Service became unavailable, couldn&apos;t dispatch</source>
         <translation>服務變得不可用，無法分配</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="826"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
         <source>Account updated by other process</source>
         <translation>帳戶已由其他流程進行更新</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="833"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
         <source>Account removed</source>
         <translation>已移除帳戶</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1234"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1283"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
         <source>Request is not progressing</source>
         <translation>請求未取得進展</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1320"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1322"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1370"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
         <source>Cancelled by user</source>
         <translation>被用戶取消</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1379"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1415"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
         <source>Unable to enqueue messages for transmission</source>
         <translation>無法排隊發送郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1463"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1574"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1612"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1650"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1686"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1722"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1763"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1803"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1842"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1882"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1918"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1951"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1988"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2056"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2111"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2188"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2397"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2517"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2553"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2584"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2680"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2949"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1574"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1612"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1650"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1686"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1722"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1763"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1803"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1842"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1882"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1918"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1951"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1988"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2056"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2111"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2188"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2397"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2517"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2553"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2584"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
         <source>Unable to locate source for account</source>
         <translation>無法找到帳戶的來源</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1500"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1536"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
         <source>Unable to locate sink for account</source>
         <translation>無法找到帳戶的接收器</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1547"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
         <source>Unable to retrieve folder list for unconfigured account</source>
         <translation>無法檢查未配置的帳戶資料夾清單</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1585"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1623"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
         <source>Unable to retrieve message list for unconfigured account</source>
         <translation>無法檢查未配置的帳戶郵件清單</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1661"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
         <source>Unable to retrieve new messages for unconfigured account</source>
         <translation>無法為未配置的帳戶進行檢查新的郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1697"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
         <source>Unable to retrieve standard folders for unconfigured account</source>
         <translation>無法為未配置的帳戶進行檢查一般資料夾</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1733"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
         <source>Unable to retrieve messages for unconfigured account</source>
         <translation>無法檢查未配置的帳戶郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1777"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
         <source>Unable to retrieve message part for unconfigured account</source>
         <translation>無法檢查未配置的帳戶郵件部分</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1815"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
         <source>Unable to retrieve message range for unconfigured account</source>
         <translation>無法檢查未配置的帳戶郵件範圍</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1854"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
         <source>Unable to retrieve message part range for unconfigured account</source>
         <translation>無法檢查未配置的帳戶郵件部分範圍</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1893"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
         <source>Unable to retrieve all messages for unconfigured account</source>
         <translation>無法檢查未配置的帳戶所有郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1929"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
         <source>Unable to export updates for unconfigured account</source>
         <translation>無法為未配置的帳戶進行匯出更新</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="1962"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
         <source>Unable to synchronize unconfigured account</source>
         <translation>無法同步未配置的帳戶</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2006"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
         <source>Unable to delete messages for unconfigured account</source>
         <translation>無法刪除未配置的帳戶郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2008"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
         <source>Deleting messages</source>
         <translation>刪除郵件中</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2026"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
         <source>Unable to discard messages</source>
         <translation>無法丟棄郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2075"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2096"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
         <source>Unable to copy messages to unconfigured account</source>
         <translation>無法將郵件複製到未配置的帳戶裡</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2077"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
         <source>Unable to copy messages to multiple destination accounts!</source>
         <translation>無法將郵件複製到多個目標帳戶裡！</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2144"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
         <source>Unable to copy messages for account</source>
         <translation>無法複製帳戶郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2162"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
         <source>Unable to move messages for unconfigured account</source>
         <translation>無法移動未配置的帳戶郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2203"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
         <source>Unable to flag messages for unconfigured account</source>
         <translation>無法標記未配置的帳戶</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2216"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
         <source>Unable to async add messages</source>
         <translation>無法同步添加郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2218"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2305"/>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2365"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
         <source>Unable to async update messages</source>
         <translation>無法同步更新郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2275"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
         <source>Unable to async add messages, inconsistent contentscheme</source>
         <translation>無法同步添加郵件，內容方案不一致</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2327"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
         <source>Unable to async update messages, inconsistent contentscheme</source>
         <translation>無法同步更新消息，內容方案不一致</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2412"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
         <source>Could not delete messages</source>
         <translation>無法刪除郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2493"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
         <source>Unable to create folder for invalid account</source>
         <translation>無法為無效的帳戶建立資料夾</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2530"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
         <source>Unable to rename invalid folder</source>
         <translation>無法重新命名無效的資料夾</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2566"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
         <source>Unable to delete invalid folder</source>
         <translation>無法刪除無效資料夾</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2612"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
         <source>Unable to search messages for unconfigured account</source>
         <translation>無法搜尋未配置帳戶的郵件</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="2926"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
         <source>Unable to forward protocol-specific request for unconfigured account</source>
         <translation>無法寄針對未配置帳戶的協議特定請求</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/server/servicehandler.cpp" line="3174"/>
+        <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
         <source>Failed to perform requested action!</source>
         <translation>無法執行請求的動作！</translation>
     </message>
@@ -2192,7 +2192,7 @@ Would you like to use this instead?</source>
 <context>
     <name>SettingsWorker</name>
     <message>
-        <location filename="../SageteaMail/workers/SettingsWorker.qml" line="103"/>
+        <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
         <translation>帳戶已儲存</translation>
     </message>
@@ -2216,7 +2216,7 @@ Would you like to use this instead?</source>
 <context>
     <name>SmartFolderSet</name>
     <message>
-        <location filename="../SageteaMail/backend/mail/MessageSet.cpp" line="332"/>
+        <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
         <translation>今天，%1</translation>
     </message>
@@ -2224,7 +2224,7 @@ Would you like to use this instead?</source>
 <context>
     <name>SmtpAccountConfiguration</name>
     <message>
-        <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
+        <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent using Dekko from my Ubuntu device</source>
         <translation>從我的 Ubuntu 裝置上使用 Dekko 發送</translation>
     </message>
@@ -2341,17 +2341,17 @@ Would you like to use this instead?</source>
 <context>
     <name>ViewStore</name>
     <message>
-        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="70"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
         <translation>郵件發送</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="72"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
         <translation>郵件發送</translation>
     </message>
     <message>
-        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="75"/>
+        <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
         <translation>郵件傳送失敗</translation>
     </message>

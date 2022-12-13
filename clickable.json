@@ -4,7 +4,6 @@
     "build": "DEBUG_BUILD=${DEBUG_BUILD} ${ROOT}/build.sh",
     "build_dir": "build/${ARCH_TRIPLET}",
     "install_dir": "${BUILD_DIR}/build/install-root/",
-    "qt_version": "5.12",
     "image_setup": {
       "run": [
         "ln -sf /usr/lib/qt5/bin/* /usr/lib/x86_64-linux-gnu/qt5/bin/"

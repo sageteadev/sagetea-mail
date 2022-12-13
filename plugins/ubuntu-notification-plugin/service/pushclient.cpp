@@ -22,7 +22,7 @@
 #include <QJsonDocument>
 #include <QDebug>
 
-#define PUSH_APP_ID "sageteamail2.sagetea_sageteamail"
+#define PUSH_APP_ID "dekko2.dekkoproject_dekko"
 #define PUSH_SERVICE "com.ubuntu.PushNotifications"
 #define POSTAL_SERVICE "com.ubuntu.Postal"
 #define PUSH_PATH "/com/ubuntu/PushNotifications"

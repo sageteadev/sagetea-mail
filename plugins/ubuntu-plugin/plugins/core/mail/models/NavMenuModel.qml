@@ -17,14 +17,14 @@
 */
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import SageteaMail.Mail 1.0
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Settings 1.0
-import SageteaMail.Mail.Stores.Views 1.0
-import SageteaMail.Mail.Stores.Mail 1.0
-import SageteaMail.Mail.Stores.Accounts 1.0
+import Dekko.Mail 1.0
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Settings 1.0
+import Dekko.Mail.Stores.Views 1.0
+import Dekko.Mail.Stores.Mail 1.0
+import Dekko.Mail.Stores.Accounts 1.0
 import "../delegates"
-import SageteaMail.Ubuntu.Components 1.0
+import Dekko.Ubuntu.Components 1.0
 
 VisualItemModel {
 

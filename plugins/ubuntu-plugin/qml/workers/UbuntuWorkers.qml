@@ -17,14 +17,14 @@
 */
 import QtQuick 2.4
 import PlugMan 1.0
-import SageteaMail.Contacts 1.0
-import SageteaMail.Mail.API 1.0
+import Dekko.Contacts 1.0
+import Dekko.Mail.API 1.0
 
 // This component should be created using an async loader
 // The containing workers should not be required immediately
 // but be available shortly after app start.
 
-// We will also load all plugins that registered as a "SageteaMail::Listener"
+// We will also load all plugins that registered as a "Dekko::Listener"
 // TODO: !This seems to be unused!
 ListenerRegistry {
     defaultListeners: [

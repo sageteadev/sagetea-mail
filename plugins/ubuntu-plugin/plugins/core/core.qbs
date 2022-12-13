@@ -84,7 +84,7 @@ Project {
         Group {
             name: "Plugin specs"
             files: [
-                "mail/**/*.sageteamail-plugin"
+                "mail/**/*.dekko-plugin"
             ]
             fileTags: ["mail-ui-plugin"]
         }
@@ -126,7 +126,7 @@ Project {
         Group {
             name: "Plugin specs"
             files: [
-                "settings/**/*.sageteamail-plugin"
+                "settings/**/*.dekko-plugin"
             ]
             fileTags: ["settings-ui-plugin"]
         }

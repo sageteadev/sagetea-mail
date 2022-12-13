@@ -28,7 +28,7 @@ class MailServiceInterface: public QDBusAbstractInterface
     Q_OBJECT
 public:
     static inline const char *staticInterfaceName()
-    { return "org.sagetea.MailService"; }
+    { return "org.dekkoproject.MailService"; }
 
 public:
     MailServiceInterface(const QString &service, const QString &path, const QDBusConnection &connection, QObject *parent = 0);

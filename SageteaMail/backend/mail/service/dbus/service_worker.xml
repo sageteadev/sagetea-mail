@@ -1,6 +1,6 @@
 <!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
 <node>
-  <interface name="org.sagetea.MailService">
+  <interface name="org.dekkoproject.MailService">
     <property name="hasUndoableAction" type="b" access="read"/>
     <property name="undoDescription" type="s" access="read"/>
     <signal name="undoCountChanged">

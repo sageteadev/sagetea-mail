@@ -1,5 +1,4 @@
 /* Copyright (C) 2016 - 2017 Dan Chapman <dpniel@ubuntu.com>
-   Copyright (C) 2022 - 2023 Rúben Carneiro <rubencarneiro01@gmail.com>
 
    This file is part of Dekko email client for Ubuntu devices
 
@@ -18,9 +17,9 @@
 */
 import QtQuick 2.4
 import QuickFlux 1.0
-import SageteaMail.Mail.Accounts 1.0
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Stores.Accounts 1.0
+import Dekko.Mail.Accounts 1.0
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Accounts 1.0
 
 AppListener {
 

@@ -1,5 +1,5 @@
 {
     "id": "ubuntu-mail-setupwizard",
-    "register" : "SageteaMail::Mail::SetupWizard",
+    "register" : "Dekko::Mail::SetupWizard",
     "component" : "SetupWizardWindow.qml"
 }

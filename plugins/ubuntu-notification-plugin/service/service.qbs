@@ -2,7 +2,7 @@ import qbs
 
 QtGuiApplication {
     name: "Notification Watcher"
-    targetName: "sageteamaild-notify"
+    targetName: "dekkod-notify"
 
     Depends { name: "cpp" }
     Depends {

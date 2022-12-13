@@ -1,5 +1,5 @@
 {
     "id": "default-addressbook-plugin",
-    "register" : "SageteaMail::AddressBook::Provider",
+    "register" : "Dekko::AddressBook::Provider",
     "component" : "DefaultPlugin.qml"
 }

@@ -18,7 +18,7 @@ Project {
             name: "QML Sources"
             files: [
                 "qml/*.qml",
-                "qml/*.sageteamail-plugin"
+                "qml/*.dekko-plugin"
             ]
             qbs.install: project.click
             qbs.installDir: project.installDir

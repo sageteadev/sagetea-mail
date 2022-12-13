@@ -18,8 +18,8 @@
 pragma Singleton
 import QtQuick 2.4
 import QuickFlux 1.0
-import SageteaMail.Mail.Accounts 1.0
-import SageteaMail.Mail.Settings 1.0
+import Dekko.Mail.Accounts 1.0
+import Dekko.Mail.Settings 1.0
 
 AppListener {
     property Account selectedAccount: null

@@ -27,7 +27,7 @@
 #include <MailServiceClient.h>
 #include "serviceutils.h"
 
-Q_LOGGING_CATEGORY(D_MSG_LIST, "SageteaMail.Mail.msglist")
+Q_LOGGING_CATEGORY(D_MSG_LIST, "dekko.mail.msglist")
 
 void MessageListWorker::updateMessages(const QMailMessageIdList &idList, const QMailMessageIdList &needsUpdate, const QMailMessageIdList &newIds, const QMap<QMailMessageId, int> &indexMap, const int &limit)
 {

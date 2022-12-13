@@ -22,7 +22,7 @@
 #include <qmailserviceconfiguration.h>
 #include <qmailstore.h>
 
-Q_LOGGING_CATEGORY(D_ACCOUNT, "sageteamail.accounts.account")
+Q_LOGGING_CATEGORY(D_ACCOUNT, "dekko.accounts.account")
 
 const QString Account::imapServiceType = QStringLiteral("imap4");
 const QString Account::popServiceType = QStringLiteral("pop3");

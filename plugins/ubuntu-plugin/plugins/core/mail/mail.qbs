@@ -36,7 +36,7 @@ Project {
         Group {
             name: "Plugin specs"
             files: [
-                "**/*.sageteamail-plugin"
+                "**/*.dekko-plugin"
             ]
             fileTags: ["mail-ui-plugin"]
         }

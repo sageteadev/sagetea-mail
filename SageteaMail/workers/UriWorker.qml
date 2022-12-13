@@ -17,9 +17,9 @@
 */
 import QtQuick 2.4
 import QuickFlux 1.0
-import SageteaMail.Mail.API 1.0
-import SageteaMail.Mail.Stores.Composer 1.0
-import SageteaMail.Utils 1.0 as JSUtils
+import Dekko.Mail.API 1.0
+import Dekko.Mail.Stores.Composer 1.0
+import Dekko.Utils 1.0 as JSUtils
 
 AppListener {
 
@@ -59,10 +59,10 @@ AppListener {
                 return
             }
 
-            if (uri.startsWith("sageteamail:")) {
+            if (uri.startsWith("dekko:")) {
                 var commands = uri.split("://")[1].split("/")
                 if (commands.isEmpty()) {
-                    Log.logInfo("UriListener::processUri", "SageteaMail command is empty, nothing we can do")
+                    Log.logInfo("UriListener::processUri", "Dekko command is empty, nothing we can do")
                     return
                 }
                 switch (commands.at(0).toLowerCase()) {

@@ -8,7 +8,7 @@ set(pluggerQuick_SRCS
 
 add_library(quick-plugger MODULE ${pluggerQuick_SRCS})
 qt5_use_modules(quick-plugger Core Quick)
-target_link_libraries(quick-plugger sageteamail-plugins)
+target_link_libraries(quick-plugger dekko-plugins)
 
 
 set(PLUGGER_DIR ${QT_IMPORTS_DIR}/Plugger)

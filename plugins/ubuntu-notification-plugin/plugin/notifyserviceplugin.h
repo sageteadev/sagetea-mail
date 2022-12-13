@@ -43,7 +43,7 @@ class NotifyServicePlugin : public QObject, public PluginInterface
 {
     Q_OBJECT
     Q_INTERFACES(PluginInterface)
-    Q_PLUGIN_METADATA(IID "sagetea.sageteamail.sageteamaild-notify")
+    Q_PLUGIN_METADATA(IID "org.dekkoproject.dekkod-notify")
 
     // PluginInterface interface
 public:

@@ -3,7 +3,7 @@ import qbs
 DynamicLibrary {
 
     name: "Shared Utils"
-    targetName: "sageteamail-utils"
+    targetName: "dekko-utils"
 
     Depends { name: "cpp" }
     Depends {

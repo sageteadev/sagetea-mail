@@ -19,7 +19,7 @@
 #include <QQmlContext>
 #include <QDebug>
 
-Q_LOGGING_CATEGORY(PLUGIN_INCUBATOR, "sageteamail.plugman.incubator")
+Q_LOGGING_CATEGORY(PLUGIN_INCUBATOR, "dekko.plugman.incubator")
 
 PluginIncubator::PluginIncubator(QObject *parent) : QObject(parent),
     QQmlIncubator(QQmlIncubator::Asynchronous), m_comp(Q_NULLPTR)
