@@ -18,7 +18,7 @@ variables:
     - docker
   script:
     - apt-get update
-    - apt-get -y -f --no-install-recommends install gnupg ubuntu-keyring software-properties-common qtbase5-dev-tools
+    - apt-get -y -f install gnupg ubuntu-keyring build-essential software-properties-common qtbase5-dev-tools
     - add-apt-repository ppa:bhdouglass/clickable
     - apt-get update
     - apt-get install -y clickable locales-all
