@@ -11,6 +11,11 @@ variables:
     ARCH: "arm64"
     ARCH_TRIPLET: "aarch64-linux-gnu"
 
+.amd64: &amd64
+  variables:
+    ARCH: "amd64"
+    ARCH_TRIPLET: "x86_64-linux-gnu"
+
 .sageteamail:
   stage: build
   image: clickable/ci-16.04-$ARCH:$CLICKABLE_VERSION
@@ -26,4 +31,8 @@ variables:
 
 sageteamail:arm64:
   <<: *arm64
+  extends: .sageteamail
+
+sageteamail:amd64:
+  <<: *amd64
   extends: .sageteamail
