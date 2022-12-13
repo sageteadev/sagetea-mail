@@ -4,17 +4,12 @@ stages:
 
 variables:
   DOCKER_DRIVER: overlay2
-  CLICKABLE_VERSION: 6.23.0
+  CLICKABLE_VERSION: 6.24.0
 
 .arm64: &arm64
   variables:
     ARCH: "arm64"
     ARCH_TRIPLET: "aarch64-linux-gnu"
-
-.amd64: &amd64
-  variables:
-    ARCH: "amd64"
-    ARCH_TRIPLET: "x86_64-linux-gnu"
 
 .sageteamail:
   stage: build
@@ -43,8 +38,4 @@ variables:
 
 sageteamail:arm64:
   <<: *arm64
-  extends: .sageteamail
-
-sageteamail:amd64:
-  <<: *amd64
   extends: .sageteamail
