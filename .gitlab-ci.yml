@@ -4,7 +4,7 @@ stages:
 
 variables:
   DOCKER_DRIVER: overlay2
-  CLICKABLE_VERSION: 6.24.0
+  CLICKABLE_VERSION: 6.23.0
 
 .arm64: &arm64
   variables:
