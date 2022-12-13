@@ -29,6 +29,10 @@ variables:
     - export CLICKABLE_CONTAINER_MODE=1
     - export CLICKABLE_ARCH=$ARCH
     - clickable build
+  cache:
+    paths:
+      - Qt/
+      - .build/
   artifacts:
     paths:
       - 'build/$ARCH_TRIPLET/*.click'
