@@ -17,6 +17,6 @@
 
 ## Your Environment
 <!--- Include relevant details about the environment you experienced the issue in -->
-* SageTea Mail version:
+* Dekko version:
 * Ubuntu Touch version:
 * Email provider: 

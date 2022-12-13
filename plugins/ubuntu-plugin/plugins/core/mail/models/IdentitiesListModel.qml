@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import MazDB 1.0
-import Dekko.Mail.Stores.Accounts 1.0
+import SageteaMail.Mail.Stores.Accounts 1.0
 
 MazDBListModel {
     source: AccountStore.identities.sourcePath

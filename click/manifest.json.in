@@ -1,6 +1,6 @@
 {
     "name": "sageteamail2.sagetea",
-    "description": "Experimental release of the next generation Dekko.",
+    "description": "the next gen Sageteam Mail Client.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
     "title": "SageteaMail",

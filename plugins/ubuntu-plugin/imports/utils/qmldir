@@ -1,4 +1,4 @@
-module Dekko.Ubuntu.Helpers
+module SageteaMail.Ubuntu.Helpers
 
 DevPanel 1.0 DevPanel.qml
 DevWindow 1.0 DevWindow.qml

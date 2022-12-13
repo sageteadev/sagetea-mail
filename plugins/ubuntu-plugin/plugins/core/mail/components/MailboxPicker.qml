@@ -17,9 +17,9 @@
 */
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Dekko.Mail 1.0
+import SageteaMail.Mail 1.0
 import "../delegates"
-import Dekko.Ubuntu.Constants 1.0
+import SageteaMail.Ubuntu.Constants 1.0
 
 Item {
     id: picker

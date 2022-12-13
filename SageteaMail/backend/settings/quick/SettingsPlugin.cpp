@@ -23,8 +23,8 @@
 
 void SettingsPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Dekko.Mail.Settings"));
-    // @uri Dekko.Mail.Settings
+    Q_ASSERT(uri == QLatin1String("SageteaMail.Mail.Settings"));
+    // @uri SageteaMail.Mail.Settings
     qmlRegisterSingletonType<PolicyManager>(uri, 1, 0, "PolicyManager", PolicyManager::factory);
     qmlRegisterType<MailPolicy>(uri, 1, 0, "MailPolicy");
     qmlRegisterType<PrivacyPolicy>(uri, 1, 0, "PrivacyPolicy");

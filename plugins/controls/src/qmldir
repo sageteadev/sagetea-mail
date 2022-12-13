@@ -1,4 +1,4 @@
-module Dekko.Controls
+module SageteaMail.Controls
 StackView 1.0 StackView.qml
 StackViewTransition 1.0 StackViewTransition.qml
 StackViewDelegate 1.0 StackViewDelegate.qml

@@ -11,4 +11,3 @@ dekko.qbs
 *.click
 .clickable
 build-armhf
-.gitmodules

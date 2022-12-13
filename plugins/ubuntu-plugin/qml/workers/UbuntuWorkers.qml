@@ -18,7 +18,7 @@
 import QtQuick 2.4
 import PlugMan 1.0
 import Dekko.Contacts 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 
 // This component should be created using an async loader
 // The containing workers should not be required immediately

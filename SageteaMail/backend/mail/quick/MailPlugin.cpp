@@ -34,8 +34,8 @@
 
 void MailPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Dekko.Mail"));
-    // @uri Dekko.Mail
+    Q_ASSERT(uri == QLatin1String("SageteaMail.Mail"));
+    // @uri SageteaMail.Mail
     qmlRegisterType<Folder>(uri, 1, 0, "Folder");
     qmlRegisterType<FolderList>(uri, 1, 0, "FolderList");
     qmlRegisterType<MessageFilterCollection>(uri, 1, 0, "MessageFilterCollection");

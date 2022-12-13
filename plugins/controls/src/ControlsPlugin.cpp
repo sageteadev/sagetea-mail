@@ -6,8 +6,8 @@
 
 void ControlsPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Dekko.Controls"));
-    // @uri Dekko.Controls
+    Q_ASSERT(uri == QLatin1String("SageteaMail.Controls"));
+    // @uri SageteaMail.Controls
     qmlRegisterUncreatableType<QQuickStack>(uri, 1, 0, "Stack", "Cannot be created in QML.");
 }
 

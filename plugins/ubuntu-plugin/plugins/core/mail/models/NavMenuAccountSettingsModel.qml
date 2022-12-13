@@ -19,7 +19,7 @@ import QtQuick 2.4
 import QtQuick.Window 2.2
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 
 VisualItemModel {
     ListItem {
