@@ -16,7 +16,7 @@ add_executable(example ${example_SRCS})
 qt5_use_modules(example Core Quick)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/plugins DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/Main.qml DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-target_link_libraries(example dekko-plugins)
+target_link_libraries(example sageteamail-plugins)
 
 
 set(service_SRCS
