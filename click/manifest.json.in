@@ -1,9 +1,9 @@
 {
-    "name": "sageteamail2.sagetea",
+    "name": "sageteamail.sagetea",
     "description": "SageTea Email Client.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
-    "title": "SageTeaMail",
+    "title": "SageTea Mail",
     "hooks": {
         "sageteamail": {
             "apparmor": "sageteamail2.apparmor",
@@ -20,5 +20,5 @@
         }
     },
     "version": "%VERSION%",
-    "maintainer": "Rúben Carneiro <ruben.carneiro@sagetea.ai>"
+    "maintainer": "Rúben Carneiro <rubencarneiro01@gmail.com>"
 }
