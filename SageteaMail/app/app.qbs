@@ -44,7 +44,7 @@ Project {
             cpp.defines: [
                 "CLICK_MODE",
                 "APP_NAME=\"sageteamail2.sagetea\"",
-                "APP_ORG=\"sageteamail2.sagetea\"",
+                "APP_ORG=\"sagetea\"",
                 "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }
