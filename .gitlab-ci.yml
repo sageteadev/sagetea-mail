@@ -13,7 +13,7 @@ variables:
 
 .sageteamail:
   stage: build
-  image: clickable/ci-16.04-$ARCH:$CLICKABLE_VERSION
+  image: clickable/amd64-16.04-$ARCH:16.04.4-qt5.9
   tags:
     - docker
   script:
