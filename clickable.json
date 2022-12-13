@@ -29,7 +29,6 @@
         "qbs-common",
         "qemu-user-static",
         "zlib1g-dev",
-        "qtbase5-dev"
     ],
     "dependencies_target": [
         "libaccounts-qt5-dev",
