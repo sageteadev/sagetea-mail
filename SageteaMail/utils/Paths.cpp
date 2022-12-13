@@ -365,7 +365,7 @@ QString Paths::providerIconForDomain(const QString &domain)
     } else if (domain == QStringLiteral("me.com")) {
         icon = QStringLiteral("online-account.svg");
     } else if (domain == QStringLiteral("sagetea.ai")) {
-        icon = QStringLiteral("sagetea.png");
+        icon = QStringLiteral("online-account.svg");
     } else {
         icon = QStringLiteral("dekko-app-symbolic.svg");
     }
