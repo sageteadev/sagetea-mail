@@ -1,9 +1,9 @@
 {
-    "name": "sageteamail.sagetea",
+    "name": "sageteamail2.sagetea",
     "description": "SageTea Email Client.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
-    "title": "SageTea Mail",
+    "title": "SageteaMail",
     "hooks": {
         "sageteamail": {
             "apparmor": "sageteamail2.apparmor",
