@@ -1,7 +1,7 @@
 import qbs
 
 Project {
-    name: "Dekko Controls"
+    name: "SageteaMail Controls"
 
     // Install location of dynamic library relative to qbs.installRoot
     property string installDir: "lib" // i.e qbs.installRoot + "/lib"
