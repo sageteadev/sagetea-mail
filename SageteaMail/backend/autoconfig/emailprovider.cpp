@@ -4,7 +4,7 @@
 
 #define NO_VERSION "0.0"
 #define MOZILLA_VERSION "1.1"
-#define DEKKO_VERSION "1.2"
+#define SAGETEAMAIL_VERSION "1.2"
 
 EmailProvider::EmailProvider(QObject *parent) : QObject(parent),
     m_incoming(0), m_outgoing(0), m_format(Xml)
@@ -144,7 +144,7 @@ void EmailProvider::parseXmlData()
         setXmlDomains(provider);
         setXmlName(provider);
         setXmlServers(provider);
-        if (m_version == QStringLiteral(DEKKO_VERSION)) {
+        if (m_version == QStringLiteral(SAGETEAMAIL_VERSION)) {
             // TODO: parse <imap> and <identities>
         }
     } else {

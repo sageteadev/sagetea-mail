@@ -108,8 +108,8 @@ void AutoDiscover::buildNextRequest()
         qDebug() << "[AutoDiscover::REQUEST_AUTOCONFIG_WELLKNOWN_V11]" << "Looking for wellknow autocnfig v1.1";
         m_autoConfig->lookUp(QString("http://%1/.well-known/autoconfig/mail/config-v1.1.xml").arg(m_domain));
         break;
-    case REQUEST_DEKKO_ISPDB:
-        qDebug() << "[AutoDiscover::REQUEST_DEKKO_ISPDB]" << "Querying dekko's ispdb";
+    case REQUEST_SAGETEAMAIL_ISPDB:
+        qDebug() << "[AutoDiscover::REQUEST_SAGETEAMAIL_ISPDB]" << "Querying dekko's ispdb";
         m_autoConfig->lookUp(QString("http://autoconfig.dekkoproject.org/v1.2/%1").arg(m_domain));
         break;
     case REQUEST_AUTOCONFIG_ISPDB:
@@ -159,8 +159,8 @@ void AutoDiscover::handleRequestFailed()
         setStatus(REQUEST_DEKKO_ISPDB);
         buildNextRequest();
         break;
-    case REQUEST_DEKKO_ISPDB:
-        qDebug() << "[AutoDiscover::REQUEST_DEKKO_ISPDB]" << "Failed lookup";
+    case REQUEST_SAGETEAMAIL_ISPDB:
+        qDebug() << "[AutoDiscover::REQUEST_SAGETEAMAIL_ISPDB]" << "Failed lookup";
         setStatus(REQUEST_AUTOCONFIG_ISPDB);
         buildNextRequest();
         break;
