@@ -87,7 +87,7 @@ SageteaMail::SageteaMail(int &argc, char **argv) :
 
 }
 
-SageteaMail::~Sageteamail(){
+SageteaMail::~SageteaMail(){
 #ifndef SERVER_AS_QTHREAD
     delete m_server;
     m_server = 0;
