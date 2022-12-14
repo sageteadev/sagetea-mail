@@ -17,7 +17,7 @@ DekkoPage {
 
     ActionRegistry {
         id: registry
-        location: "Dekko::Settings::PluginAction"
+        location: "SageteaMail::Settings::PluginAction"
         defaultActions: [
 //            Action {
 //                iconName: "mail-unread"

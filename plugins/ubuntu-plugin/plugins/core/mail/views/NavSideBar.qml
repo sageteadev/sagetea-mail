@@ -36,7 +36,7 @@ StyledItem {
 
     ActionRegistry {
         id: headerRegistry
-        location: "Dekko::Mail::NavHeadAction"
+        location: "SageteaMail::Mail::NavHeadAction"
         defaultActions: [
             Action {
                 iconName: "edit"

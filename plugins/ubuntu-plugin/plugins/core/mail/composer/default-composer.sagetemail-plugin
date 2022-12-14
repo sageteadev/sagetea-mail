@@ -1,5 +1,5 @@
 {
     "id": "ubuntu-mail-composer",
-    "register" : "Dekko::Mail::Composer",
+    "register" : "SageteaMail::Mail::Composer",
     "component" : "ComposeWindow.qml"
 }

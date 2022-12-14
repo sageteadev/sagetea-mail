@@ -50,7 +50,7 @@ DekkoPage {
 
     ActionRegistry {
         id: registry
-        location: "Dekko::Settings::AccountAction"
+        location: "SageteaMail::Settings::AccountAction"
         defaultActions: [
             Action {
                 text: qsTr("Details")

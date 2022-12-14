@@ -1,5 +1,5 @@
 {
     "id": "sagetemail-notify-settings",
-    "register" : "Dekko::Settings::AccountAction",
+    "register" : "SageteaMail::Settings::AccountAction",
     "component" : "NotificationSettings.qml"
 }
