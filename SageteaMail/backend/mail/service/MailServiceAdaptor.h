@@ -24,7 +24,7 @@ class QVariant;
 QT_END_NAMESPACE
 
 /*
- * Adaptor class for interface org.dekkoproject.MailService
+ * Adaptor class for interface org.sagetea.MailService
  */
 class MailServiceAdaptor: public QDBusAbstractAdaptor
 {

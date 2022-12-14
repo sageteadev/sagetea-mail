@@ -21,7 +21,7 @@
 #include <QtDBus/QtDBus>
 
 /*
- * Proxy class for interface org.dekkoproject.MailService
+ * Proxy class for interface org.sagetea.MailService
  */
 class MailServiceInterface: public QDBusAbstractInterface
 {

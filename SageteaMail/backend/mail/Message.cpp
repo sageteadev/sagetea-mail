@@ -269,7 +269,7 @@ QUrl Message::findInterestingBodyPart(const QMailMessageId &id, const bool prefe
             return QUrl();
         }
         location = part->location().toString(true);
-        url.setScheme(QStringLiteral("sageteamil-part"));
+        url.setScheme(QStringLiteral("sageteamail-part"));
     }
     url.setHost(QStringLiteral("msg"));
     QUrlQuery query;
