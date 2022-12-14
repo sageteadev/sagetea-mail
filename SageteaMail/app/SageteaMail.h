@@ -41,8 +41,8 @@ class SageteaMail : public QApplication
 {
     Q_OBJECT
 public:
-    Dekko(int &argc, char **argv);
-    ~Dekko();
+    SageteaMail(int &argc, char **argv);
+    ~SageteaMail();
     /** @short should be run before call to exec() */
     bool setup();
     bool isServerRunning();
