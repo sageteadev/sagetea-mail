@@ -7,7 +7,7 @@
 #include <QSettings>
 #include <SnapStandardPaths.h>
 
-SageteaMailService::SageteaMaildService(QObject *parent): ServicePlugin(parent)
+SageteaMaildService::SageteaMaildService(QObject *parent): ServicePlugin(parent)
 {
     m_service = QStringLiteral("sageteamaild");
     m_serviceFile = QString("%1/.config/upstart/%2.conf").arg(QDir::homePath(), m_service);
