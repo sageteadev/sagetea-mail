@@ -113,7 +113,7 @@ void MsgReply::messageReady()
 void MsgReply::init()
 {
     QUrl url;
-    url.setScheme(QStringLiteral("dekko-msg"));
+    url.setScheme(QStringLiteral("sageteamail-msg"));
     url.setHost("msg");
     setUrl(url);
 

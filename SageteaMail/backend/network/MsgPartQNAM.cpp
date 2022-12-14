@@ -24,8 +24,8 @@
 #include "MsgReply.h"
 #include "ForbiddenReply.h"
 
-const QStringList Allowed::urlSchemes = QStringList() << QStringLiteral("dekko-msg")
-                                                      << QStringLiteral("dekko-part")
+const QStringList Allowed::urlSchemes = QStringList() << QStringLiteral("sageteamail-msg")
+                                                      << QStringLiteral("sageteamail-part")
                                                       << QStringLiteral("cid");
 const QStringList Allowed::hosts = QStringList() << QStringLiteral("msg")
                                                  << QStringLiteral("www.gravatar.com")
@@ -75,9 +75,9 @@ QNetworkReply *MsgPartQNAM::createRequest(QNetworkAccessManager::Operation op, c
     if (scheme == QStringLiteral("cid")) {
         QString cidPath = request.url().path();
         return new MsgPartReply(this, messageId, cidPath);
-    } else if (scheme == QStringLiteral("dekko-part")) { // implies we have a location qeury
+    } else if (scheme == QStringLiteral("sageteamail-part")) { // implies we have a location qeury
         if (!query.hasQueryItem(QStringLiteral("location"))) {
-            qDebug() << "dekko-part missing location query item";
+            qDebug() << "sagetemail-part missing location query item";
             // TODO: should we try and determine at least a viewable part instead of bailing out?
             return new ForbiddenReply(this, QStringLiteral("Missing message part location"));
         }
@@ -85,7 +85,7 @@ QNetworkReply *MsgPartQNAM::createRequest(QNetworkAccessManager::Operation op, c
         bool isPlainText = query.hasQueryItem(QStringLiteral("requestFormatting"));
         return new MsgPartReply(this, messageId, location, isPlainText, query.hasQueryItem(QStringLiteral("requestFormatting")));
 
-    } else if (scheme == QStringLiteral("dekko-msg")) {
+    } else if (scheme == QStringLiteral("sageteamail-msg")) {
         // This is a non multipart message so we treat that a little different as it doesn't have parts
         return new MsgReply(this, messageId, query.hasQueryItem(QStringLiteral("requestFormatting")));
     } else {

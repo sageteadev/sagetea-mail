@@ -156,7 +156,7 @@ void AutoDiscover::handleRequestFailed()
         break;
     case REQUEST_AUTOCONFIG_WELLKNOWN_V11:
         qDebug() << "[AutoDiscover::REQUEST_AUTOCONFIG_WELLKNOWN_V11]" << "Failed lookup";
-        setStatus(REQUEST_DEKKO_ISPDB);
+        setStatus(REQUEST_SAGETEAMAIL_ISPDB);
         buildNextRequest();
         break;
     case REQUEST_SAGETEAMAIL_ISPDB:
