@@ -1,6 +1,6 @@
 {
     "name": "sageteamail2.sagetea",
-    "description": "the next gen Sageteam Mail Client.",
+    "description": "SageTea Email Client.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
     "title": "SageteaMail",
@@ -20,5 +20,5 @@
         }
     },
     "version": "%VERSION%",
-    "maintainer": "Rúben Carneiro <ruben.carneiro@sagetea.ai>"
+    "maintainer": "Rúben Carneiro <rubencarneiro01@gmail.com>"
 }

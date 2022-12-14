@@ -2,7 +2,7 @@ import qbs
 
 DynamicLibrary {
     name: "Notify Service Plugin"
-    targetName: "sagetemail-notify-plugin"
+    targetName: "sageteamail-notify-plugin"
     builtByDefault: project.click
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
