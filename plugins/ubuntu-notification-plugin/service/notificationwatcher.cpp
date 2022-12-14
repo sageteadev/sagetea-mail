@@ -102,7 +102,7 @@ QJsonObject NotificationWatcher::card(const QMailMessage &msg)
     const QString fId = QString::number(msg.parentFolderId().toULongLong());
     const QString mId = QString::number(msg.id().toULongLong());
 //    QString actionUri = QString("dekko://notify/%1/%2/%3").arg(pId, fId, mId);
-    QString actionUri = QStringLiteral("appid://sageteamail2.sagetea/sagetemail/current-user-version");
+    QString actionUri = QStringLiteral("appid://sageteamail2.sagetea/sageteamail/current-user-version");
     actions.append(actionUri);
     c["actions"] = actions;
     return c;
@@ -208,7 +208,7 @@ Account *NotificationWatcher::getAccount(const quint64 &id)
 
 QString NotificationWatcher::getTag(const QMailMessageId &id)
 {
-    return QString("sagetemail-%1").arg(QString::number(id.toULongLong()));
+    return QString("sageteamail-%1").arg(QString::number(id.toULongLong()));
 }
 
 

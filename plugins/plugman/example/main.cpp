@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     QGuiApplication a(argc, argv);
 
     QCoreApplication::setApplicationName("pluggy");
-    QCoreApplication::setOrganizationName("sagetemail"); // define the same prefix on all code 
+    QCoreApplication::setOrganizationName("sageteamail"); // define the same prefix on all code 
 
     // First declare the plugin locations we support
     PluginRegistry::instance()->setPluginLocations(QStringList()

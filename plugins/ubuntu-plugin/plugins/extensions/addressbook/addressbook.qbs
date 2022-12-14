@@ -7,7 +7,7 @@ DynamicLibrary {
         name: "Plugin Files"
         prefix: path + "/"
         files: [
-            "*.dekko-plugin",
+            "*.sageteamail-plugin",
             "DefaultPlugin.qml"
         ]
         qbs.install: true

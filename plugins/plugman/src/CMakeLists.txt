@@ -21,7 +21,7 @@ set(libPlugin_SRCS
 add_library(sageteamail-plugins SHARED ${libPlugin_SRCS})
 qt5_use_modules(sageteamail-plugins Core Quick)
 
-install(TARGETS sagetemail-plugins DESTINATION ${LIB_DIR})
+install(TARGETS sageteamail-plugins DESTINATION ${LIB_DIR})
 
 set(PLUGIN_LIB_INC ${CMAKE_CURRENT_SOURCE_DIR})
 

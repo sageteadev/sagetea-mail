@@ -5,7 +5,7 @@ Project {
 
     Product {
         name: "Viewer Plugin"
-        type: "dekko-plugin"
+        type: "sageteamail-plugin"
 
         Group {
             name: "Plugin Files"

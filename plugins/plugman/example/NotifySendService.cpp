@@ -27,7 +27,7 @@ QVariantMap NotifySendService::documentation() const
 void NotifySendService::start() {
     QStringList options;
     options.append("-i");
-    options.append("/usr/share/icons/sagetemail.png");
+    options.append("/usr/share/icons/sageteamail.png");
     options.append(QStringLiteral("Hello Service"));
     options.append(QStringLiteral("This is pretty cool"));
     m_process.start("notify-send", options);

@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Dekko.Contacts 1.0
+import SageteaMail.Contacts 1.0
 import SageteaMail.Ubuntu.Components 1.0
 import SageteaMail.Ubuntu.Constants 1.0
 import "../../actions/views"

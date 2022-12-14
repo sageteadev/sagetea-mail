@@ -44,7 +44,7 @@ DekkoPage {
     }
 
     function setCustomSetting(key, value) {
-        SettingsStore.selectedAccount.setCustomValue('sagetemail-notify', key, value);
+        SettingsStore.selectedAccount.setCustomValue('sageteamail-notify', key, value);
     }
 
     PageFlickable {
