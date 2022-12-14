@@ -76,7 +76,7 @@ bool SageteaMaildService::installServiceFile() const
     f.write("start on started unity8\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
-    f.write("   initctl set-env SAGETEAMAIL_PLUGINS=" + appDir.toUtf8() + "/../SageteMail/plugins\n");
+    f.write("   initctl set-env SAGETEAMAIL_PLUGINS=" + appDir.toUtf8() + "/../SageteaMail/plugins\n");
     f.write("   initctl set-env QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\n");
     f.write("   initctl set-env QMF_DATA=$HOME/.cache/sageteamail2.sagetea\n");
     f.write("end script\n");

@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     // as the executable i.e QCoreApplication::applicationDirPath() + "/plugins".
     // Or alternatively you can also set the DEKKO_PLUGINS environment vairable to a directory
     // that the registry should search.
-    PluginRegistry::instance()->loadPlugins(QStringList() << QStringLiteral("/tmp/SageteMail"));
+    PluginRegistry::instance()->loadPlugins(QStringList() << QStringLiteral("/tmp/SageteaMail"));
 
 
     // Now start any non UI service plugins. These should be run as a qprocess if possibl

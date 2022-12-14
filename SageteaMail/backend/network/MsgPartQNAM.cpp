@@ -77,7 +77,7 @@ QNetworkReply *MsgPartQNAM::createRequest(QNetworkAccessManager::Operation op, c
         return new MsgPartReply(this, messageId, cidPath);
     } else if (scheme == QStringLiteral("sageteamail-part")) { // implies we have a location qeury
         if (!query.hasQueryItem(QStringLiteral("location"))) {
-            qDebug() << "sagetemail-part missing location query item";
+            qDebug() << "sageteamail-part missing location query item";
             // TODO: should we try and determine at least a viewable part instead of bailing out?
             return new ForbiddenReply(this, QStringLiteral("Missing message part location"));
         }

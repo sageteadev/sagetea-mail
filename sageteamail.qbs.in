@@ -4,7 +4,7 @@ import qbs.Process
 Project {
     id: sageteamail
     name: "SageteaMail"
-    property string appName: "Sagetea Mail"
+    property string appName: "SageteaMail"
     property string pkgName: "sageteamail2.sagetea"
     property string version: "0.1.1"
 	property string arch: "%HOST_ARCH%"
