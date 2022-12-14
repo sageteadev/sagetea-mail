@@ -73,7 +73,7 @@ QString CacheManagerService::pluginId() const
 
 QString CacheManagerService::location() const
 {
-    return QStringLiteral("Dekko::Service");
+    return QStringLiteral("SageteaMail::Service");
 }
 
 QString CacheManagerService::i18n() const

@@ -20,7 +20,7 @@ QString DekkodService::pluginId() const
 
 QString DekkodService::location() const
 {
-    return QStringLiteral("Dekko::Service");
+    return QStringLiteral("SageteaMail::Service");
 }
 
 QString DekkodService::i18n() const

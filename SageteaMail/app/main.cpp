@@ -19,19 +19,19 @@
 #include <QTimer>
 #include <QDebug>
 #include <QQuickStyle>
-#include "Dekko.h"
+#include "SageteaMail.h"
 
 int main(int argc, char** argv)
 {
     // set pattern for loggin messages adding date to message text
     qSetMessagePattern("[%{time yyyyMMdd h:mm:ss.zzz t} %{if-category}[%{category}] >> %{endif}%{message}");
 
-    Dekko dekko(argc, argv);
+    SageteaMail sageteamail(argc, argv);
 
-    if (!dekko.setup()) {
+    if (!sageteamail.setup()) {
         return 0;
     }
     QQuickStyle::setStyle("Suru");
 
-    return dekko.exec();
+    return sageteamail.exec();
 }
