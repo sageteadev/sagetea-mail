@@ -22,4 +22,4 @@ export SAGETEAMAIL_PLUGINS=$SNAP/usr/lib/$ARCH/SageteaMail/plugins
 # Location qmf will store the mailstore cache
 export QMF_DATA=$SNAP_USER_COMMON/.cache
 
-exec $SNAP/usr/bin/sageteamil --desktop_file_hint=unity8 "$@"
+exec $SNAP/usr/bin/sageteamail --desktop_file_hint=unity8 "$@"

@@ -19,7 +19,7 @@ Q_DECL_EXPORT int main(int argc, char** argv)
     QCoreApplication app(argc, argv);
 
     if(QMail::fileLock("sageteamail-worker.lock") == -1)
-        qFatal("Could not get sageteamail worker lock. sageteamil-worker might already be running!");
+        qFatal("Could not get sageteamail worker lock. sageteamail-worker might already be running!");
 
     MailServiceWorker::registerTypes();
 
