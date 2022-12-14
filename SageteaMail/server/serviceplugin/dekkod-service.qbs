@@ -17,8 +17,8 @@ DynamicLibrary {
     Group {
         name: "plugin"
         files: [
-            "dekkodserviceplugin.cpp",
-            "dekkodserviceplugin.h",
+            "sageteamaildserviceplugin.cpp",
+            "sageteamaildserviceplugin.h",
         ]
     }
 
