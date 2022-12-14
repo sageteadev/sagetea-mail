@@ -248,7 +248,7 @@ QUrl Message::findInterestingBodyPart(const QMailMessageId &id, const bool prefe
 
     if (msg.multipartType() == QMailMessage::MultipartNone && !msg.body().data().isEmpty()) {
         isPlainText = (msg.body().contentType().content() == QByteArrayLiteral("text/plain"));
-        url.setScheme(QStringLiteral("dekko-msg"));
+        url.setScheme(QStringLiteral("sageteamail-msg"));
     } else {
         QMailMessagePart *part = 0;
         if (!preferPlainText && msg.hasHtmlBody()) {
@@ -269,7 +269,7 @@ QUrl Message::findInterestingBodyPart(const QMailMessageId &id, const bool prefe
             return QUrl();
         }
         location = part->location().toString(true);
-        url.setScheme(QStringLiteral("dekko-part"));
+        url.setScheme(QStringLiteral("sageteamil-part"));
     }
     url.setHost(QStringLiteral("msg"));
     QUrlQuery query;
