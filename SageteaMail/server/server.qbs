@@ -4,13 +4,13 @@ Project {
     name: "Server"
 
     references: [
-        "serviceplugin/dekkod-service.qbs",
+        "serviceplugin/sagteamaild-service.qbs",
         "serviceworker/serviceworker.qbs"
     ]
 
     QtGuiApplication {
         name: "Server"
-        targetName: "dekkod"
+        targetName: "sagetemaild"
 
         Depends { name: "cpp" }
         Depends {

@@ -7,9 +7,9 @@
 #include <qmailnamespace.h>
 
 
-#define SERVICE "org.dekkoproject.Service"
+#define SERVICE "org.sagetea.Service"
 #define SERVICE_PATH "/mail"
-#define ACCOUNTS_SERVICE "org.dekkoproject.AccountService"
+#define ACCOUNTS_SERVICE "org.sagetea.AccountService"
 #define ACCOUNTS_PATH "/accounts"
 
 
@@ -18,8 +18,8 @@ Q_DECL_EXPORT int main(int argc, char** argv)
 
     QCoreApplication app(argc, argv);
 
-    if(QMail::fileLock("dekko-worker.lock") == -1)
-        qFatal("Could not get dekko worker lock. dekko-worker might already be running!");
+    if(QMail::fileLock("sageteamail-worker.lock") == -1)
+        qFatal("Could not get sageteamail worker lock. sageteamil-worker might already be running!");
 
     MailServiceWorker::registerTypes();
 
