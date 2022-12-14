@@ -384,7 +384,7 @@ QString Paths::findUserScript(const QString &scriptName)
 {
     QString script;
     if (script.isEmpty()) {
-        QString desktopFile = QDir(QCoreApplication::applicationDirPath()).absoluteFilePath(QStringLiteral("../../../dekko.desktop"));
+        QString desktopFile = QDir(QCoreApplication::applicationDirPath()).absoluteFilePath(QStringLiteral("../../../sagetemail.desktop"));
         if (QFile::exists(desktopFile)) {
             // we are a click so lets tidy up our manifest path and find qmlfile
             QDir clickRoot = QFileInfo(desktopFile).absoluteDir();
@@ -396,7 +396,7 @@ QString Paths::findUserScript(const QString &scriptName)
     }
 
     if (script.isEmpty()) {
-        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/dekko");
+        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/sagetemail");
         if (QDir(snapPath).exists()) {
             QString myPath = snapPath + QLatin1String("/userscripts/") + scriptName;
             if (QFile::exists(myPath)) {
