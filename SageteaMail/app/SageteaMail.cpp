@@ -158,7 +158,7 @@ bool SageteaMail::setup()
     uris << qgetenv("APP_URIS");
     uris << parser.positionalArguments();
     if (parser.isSet("contacts")) {
-        uris << QStringLiteral("SageteaMail://contacts/open");
+        uris << QStringLiteral("sageteamail://contacts/open");
     }
     uris.removeDuplicates();
     m_engine.rootContext()->setContextProperty(QStringLiteral("appUris"), uris);
@@ -168,7 +168,7 @@ bool SageteaMail::setup()
 
 bool SageteaMail::isServerRunning()
 {
-    int lockid = QMail::fileLock(QStringLiteral("sagetemaild-instance.lock"));
+    int lockid = QMail::fileLock(QStringLiteral("sageteamaild-instance.lock"));
     if (lockid == -1)
         return true;
 
