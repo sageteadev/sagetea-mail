@@ -20,7 +20,7 @@
 #include <QDebug>
 #include <SnapStandardPaths.h>
 
-Q_LOGGING_CATEGORY(PLUGIN_REGISTRY, "dekko.plugman.registry")
+Q_LOGGING_CATEGORY(PLUGIN_REGISTRY, "sageteamail.plugman.registry")
 
 PluginRegistry::PluginRegistry(QObject *parent) : QObject(parent),
     m_loader(new PluginLoader),

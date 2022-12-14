@@ -26,18 +26,18 @@
 #include <QByteArray>
 #include <QStringBuilder>
 
-Q_LOGGING_CATEGORY(PLUGIN_INFO, "dekko.plugman.info")
+Q_LOGGING_CATEGORY(PLUGIN_INFO, "sagetemail.plugman.info")
 
 PluginInfo::PluginInfo(QObject *parent) : QObject(parent)
 {
 }
 
 
-DekkoPlugin::DekkoPlugin(QObject *parent) : PluginInfo(parent)
+SageteaMailPlugin::SageteaMailPlugin(QObject *parent) : PluginInfo(parent)
 {
 }
 
-DekkoPlugin* DekkoPlugin::fromSpec(const QString &specPath, QObject *parent)
+SageteaMailPlugin* SageteaMailPlugin::fromSpec(const QString &specPath, QObject *parent)
 {
     QFile specFile(specPath);
     specFile.open(QFile::ReadOnly);
@@ -45,7 +45,7 @@ DekkoPlugin* DekkoPlugin::fromSpec(const QString &specPath, QObject *parent)
     QJsonDocument p_spec = QJsonDocument().fromJson(specFile.readAll(), &error);
     if (p_spec.isObject()) {
         QJsonObject spec = p_spec.object();
-        DekkoPlugin *p = new DekkoPlugin(parent);
+        SageteaMailPlugin *p = new SageteaMailPlugin(parent);
         p->setSpec(spec);
         return p;
     } else {
@@ -59,17 +59,17 @@ DekkoPlugin* DekkoPlugin::fromSpec(const QString &specPath, QObject *parent)
     }
 }
 
-QString DekkoPlugin::pluginId() const
+QString SageteaMailPlugin::pluginId() const
 {
     return m_spec.value(QStringLiteral("id")).toString();
 }
 
-QString DekkoPlugin::location() const
+QString SageteaMailPlugin::location() const
 {
     return m_spec.value(QStringLiteral("register")).toString();
 }
 
-QString DekkoPlugin::component()
+QString SageteaMailPlugin::component()
 {
     const QString path = m_pluginPath % "/" % m_spec.value(QStringLiteral("component")).toString();
     if (QFileInfo(path).exists()) {
@@ -80,32 +80,32 @@ QString DekkoPlugin::component()
     }
 }
 
-QString DekkoPlugin::i18n() const
+QString SageteaMailPlugin::i18n() const
 {
     return m_spec.value(QStringLiteral("i18n")).toString();
 }
 
-QVariantMap DekkoPlugin::documentation() const
+QVariantMap SageteaMailPlugin::documentation() const
 {
     return m_spec.value(QStringLiteral("documentation")).toObject().toVariantMap();
 }
 
-QVariantMap DekkoPlugin::settings() const
+QVariantMap SageteaMailPlugin::settings() const
 {
     return m_spec.value(QStringLiteral("settings")).toObject().toVariantMap();
 }
 
-QString DekkoPlugin::pluginPath() const
+QString SageteaMailPlugin::pluginPath() const
 {
     return m_pluginPath;
 }
 
-void DekkoPlugin::setSpec(const QJsonObject &spec)
+void SageteaMailPlugin::setSpec(const QJsonObject &spec)
 {
     m_spec = spec;
 }
 
-void DekkoPlugin::setPluginDirectory(const QString &path)
+void SageteaMailPlugin::setPluginDirectory(const QString &path)
 {
     m_pluginPath = path;
 }
