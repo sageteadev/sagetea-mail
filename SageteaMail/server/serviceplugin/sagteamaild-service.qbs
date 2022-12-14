@@ -2,7 +2,7 @@ import qbs
 
 DynamicLibrary {
     name: "SageteaMaild Service Plugin"
-    targetName: "sagetemaild-service"
+    targetName: "sageteamaild-service"
     builtByDefault: project.click
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
