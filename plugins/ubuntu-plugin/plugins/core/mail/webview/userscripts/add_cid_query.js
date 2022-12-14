@@ -28,7 +28,7 @@ function testScheme(scheme, url) {
 }
 
 function isAllowedScheme(url) {
-    return testScheme("cid:", url) || testScheme("dekko-part:", url) || testScheme("dekko-msg:", url);
+    return testScheme("cid:", url) || testScheme("sagetea-part:", url) || testScheme("sagetea-msg:", url);
 }
 
 function returnMessage(msgType, url, msgVal) {

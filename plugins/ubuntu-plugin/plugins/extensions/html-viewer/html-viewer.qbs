@@ -11,7 +11,7 @@ Project {
             name: "Plugin Files"
             prefix: path + "/"
             files: [
-                "*.dekko-plugin",
+                "*.sageteamail-plugin",
                 "*.qml"
             ]
             qbs.install: true

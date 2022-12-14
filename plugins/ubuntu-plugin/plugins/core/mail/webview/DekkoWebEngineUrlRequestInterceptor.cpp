@@ -24,7 +24,7 @@ void DekkoWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestI
 
 bool DekkoWebEngineUrlRequestInterceptor::hasAllowedScheme(const QUrl &url)
 {
-    return this->testScheme("cid", url) || this->testScheme("dekko-part", url) || this->testScheme("dekko-msg", url) || this->testScheme("blob", url);
+    return this->testScheme("cid", url) || this->testScheme("sagetea-part", url) || this->testScheme("sagetea-msg", url) || this->testScheme("blob", url);
 }
 
 bool DekkoWebEngineUrlRequestInterceptor::testScheme(const QString &scheme, const QUrl &url)

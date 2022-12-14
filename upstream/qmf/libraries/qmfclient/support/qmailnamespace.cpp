@@ -310,13 +310,13 @@ QString QMail::messageSettingsPath()
 */
 QString QMail::messageServerLockFilePath()
 {
-    static QString path(lockDir() + QString("dekkod-instance.lock"));
+    static QString path(lockDir() + QString("sageteamaild-instance.lock"));
     //check unix path
 #ifdef Q_OS_UNIX
     //Store the file in /var/lock instead system's temporary directory
 #if !defined(SNAP) && !defined(CLICK)
     if (QDir("/var/lock").exists() && QFileInfo("/var/lock").isWritable()) {
-        path = "/var/lock/dekkod-instance.lock";
+        path = "/var/lock/sageteamaild-instance.lock";
     }
 #endif
 #endif
@@ -973,11 +973,11 @@ int QMail::databaseAutoCloseTimeout()
 QString QMail::lockDir()
 {
 #if defined(IS_UNITY8)
-    return QDir::homePath() + QStringLiteral("/.config/dekko.dekkoproject/lock/");
+    return QDir::homePath() + QStringLiteral("/.config/sageteamail.sagetea/lock/");
 #elif defined(SNAP)
-    return QDir::homePath() + QStringLiteral("/.config/dekko/lock/");
+    return QDir::homePath() + QStringLiteral("/.config/sageteamail/lock/");
 #elif defined(CLICK)
-    return QDir::homePath() + QStringLiteral("/.config/dekko2.dekkoproject/lock/");
+    return QDir::homePath() + QStringLiteral("/.config/sageteamail2.sagetea/lock/");
 #else
     return QDir::tempPath() + '/';
 #endif
@@ -996,13 +996,13 @@ bool QMail::mkLockDir()
 QString QMail::tempDir()
 {
 #if defined(CLICK)
-    static const QString path = QDir::homePath() + QStringLiteral("/.config/dekko2.dekkoproject/tmp/");
+    static const QString path = QDir::homePath() + QStringLiteral("/.config/sageteamail2.sagetea/tmp/");
     if (!QDir(path).exists()) {
         QDir().mkpath(path);
     }
     return path;
 #elif defined(SNAP)
-    static const QString path = QDir::homePath() + QStringLiteral("/.config/dekko/tmp/");
+    static const QString path = QDir::homePath() + QStringLiteral("/.config/sageteamail/tmp/");
     if (!QDir(path).exists()) {
         QDir().mkpath(path);
     }

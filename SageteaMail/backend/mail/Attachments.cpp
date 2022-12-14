@@ -329,7 +329,7 @@ QString Attachment::writePartToFile()
 QUrl Attachment::partFetchUrl()
 {
     QUrl url;
-    url.setScheme(QStringLiteral("dekko-part"));
+    url.setScheme(QStringLiteral("sagetea-part"));
     url.setHost(QStringLiteral("msg"));
     QUrlQuery query;
     query.addQueryItem(QStringLiteral("messageId"), QString::number(m_id.toULongLong()));

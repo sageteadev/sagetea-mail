@@ -109,8 +109,8 @@ void AutoDiscover::buildNextRequest()
         m_autoConfig->lookUp(QString("http://%1/.well-known/autoconfig/mail/config-v1.1.xml").arg(m_domain));
         break;
     case REQUEST_SAGETEAMAIL_ISPDB:
-        qDebug() << "[AutoDiscover::REQUEST_SAGETEAMAIL_ISPDB]" << "Querying dekko's ispdb";
-        m_autoConfig->lookUp(QString("http://autoconfig.dekkoproject.org/v1.2/%1").arg(m_domain));
+        qDebug() << "[AutoDiscover::REQUEST_SAGETEAMAIL_ISPDB]" << "Querying sagetea's ispdb";
+        m_autoConfig->lookUp(QString("http://autoconfig.sagetea.org/v1.2/%1").arg(m_domain));
         break;
     case REQUEST_AUTOCONFIG_ISPDB:
         qDebug() << "[AutoDiscover::REQUEST_AUTOCONFIG_ISPDB]" << "Last chance! trying thunderbirds ispdb...";

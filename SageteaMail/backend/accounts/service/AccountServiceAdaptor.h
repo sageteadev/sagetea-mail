@@ -24,14 +24,14 @@ class QVariant;
 QT_END_NAMESPACE
 
 /*
- * Adaptor class for interface org.dekkoproject.AccountService
+ * Adaptor class for interface org.sagetea.AccountService
  */
 class AccountServiceAdaptor: public QDBusAbstractAdaptor
 {
     Q_OBJECT
     Q_CLASSINFO("D-Bus Interface", "org.sagetea.AccountService")
     Q_CLASSINFO("D-Bus Introspection", ""
-"  <interface name=\"org.dekkoproject.AccountService\">\n"
+"  <interface name=\"org.sagetea.AccountService\">\n"
 "    <signal name=\"accountRemoved\">\n"
 "      <arg direction=\"out\" type=\"t\" name=\"id\"/>\n"
 "    </signal>\n"

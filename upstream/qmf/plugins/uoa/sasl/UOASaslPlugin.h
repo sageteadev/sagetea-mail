@@ -27,7 +27,7 @@
 class UOASaslPlugin : public UOAService
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "dekko.dekkoproject.uoa.SaslPlugin")
+    Q_PLUGIN_METADATA(IID "sageteamail.sagetea.uoa.SaslPlugin")
 
 public:
     explicit UOASaslPlugin(QObject *parent = 0);

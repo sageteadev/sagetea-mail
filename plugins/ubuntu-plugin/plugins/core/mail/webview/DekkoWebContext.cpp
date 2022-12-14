@@ -13,8 +13,8 @@ DekkoWebContext::DekkoWebContext(QQuickWebEngineProfile *parent) : QQuickWebEngi
 {
     this->setRequestInterceptor(&this->urlRequestInterceptor);
 
-    this->installUrlSchemeHandler("dekko-msg", &this->urlSchemeHandler);
-    this->installUrlSchemeHandler("dekko-part", &this->urlSchemeHandler);
+    this->installUrlSchemeHandler("sageteamail-msg", &this->urlSchemeHandler);
+    this->installUrlSchemeHandler("sageteamail-part", &this->urlSchemeHandler);
     this->installUrlSchemeHandler("cid", &this->urlSchemeHandler);
     connect(&this->urlRequestInterceptor, SIGNAL(interceptedRemoteRequest(bool)), this, SLOT(onInterceptedRemoteRequest(bool)));
 }

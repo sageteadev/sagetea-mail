@@ -31,7 +31,7 @@ class MailServiceAdaptor: public QDBusAbstractAdaptor
     Q_OBJECT
     Q_CLASSINFO("D-Bus Interface", "org.sagetea.MailService")
     Q_CLASSINFO("D-Bus Introspection", ""
-"  <interface name=\"org.dekkoproject.MailService\">\n"
+"  <interface name=\"org.sagetea.MailService\">\n"
 "    <property access=\"read\" type=\"b\" name=\"hasUndoableAction\"/>\n"
 "    <property access=\"read\" type=\"s\" name=\"undoDescription\"/>\n"
 "    <signal name=\"undoCountChanged\"/>\n"

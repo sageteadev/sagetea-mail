@@ -27,7 +27,7 @@
 class UOABearerPlugin : public UOAService
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "dekko.dekkoproject.uoa.OAuthBearerPlugin")
+    Q_PLUGIN_METADATA(IID "sageteamail.sagetea.uoa.OAuthBearerPlugin")
 public:
     explicit UOABearerPlugin(QObject *parent = 0);
     // UOAService interface
