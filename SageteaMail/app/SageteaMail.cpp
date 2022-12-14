@@ -168,7 +168,7 @@ bool SageteaMail::setup()
 
 bool SageteaMail::isServerRunning()
 {
-    int lockid = QMail::fileLock(QStringLiteral("SageteaMaild-instance.lock"));
+    int lockid = QMail::fileLock(QStringLiteral("sagetemaild-instance.lock"));
     if (lockid == -1)
         return true;
 
@@ -192,7 +192,7 @@ bool SageteaMail::startServer()
         m_server = 0;
     }
     m_server = new QProcess(this);
-    static const QString binary(QString("/SageteaMaild"));
+    static const QString binary(QString("/sageteamaild"));
     connect(m_server,SIGNAL(error(QProcess::ProcessError)),
             this,SLOT(serverProcessError(QProcess::ProcessError)));
     m_server->start(QMail::messageServerPath() + binary);
@@ -202,7 +202,7 @@ bool SageteaMail::startServer()
 
 bool SageteaMail::isWorkerRunning()
 {
-    int lockid = QMail::fileLock(QStringLiteral("SageteaMail-worker.lock"));
+    int lockid = QMail::fileLock(QStringLiteral("sagetemail-worker.lock"));
     if (lockid == -1)
         return true;
 
@@ -217,7 +217,7 @@ bool SageteaMail::startWorker()
         m_worker = 0;
     }
     m_worker = new QProcess(this);
-    static const QString binary(QString("/SageteaMail-worker"));
+    static const QString binary(QString("/sagetemail-worker"));
     connect(m_worker,SIGNAL(error(QProcess::ProcessError)),
             this,SLOT(workerProcessError(QProcess::ProcessError)));
     connect(m_worker, &QProcess::readyRead, [=](){ if (m_worker->canReadLine()) qCDebug(SAGETEAMAIL_MAIN) << m_worker->readLine(); });
