@@ -40,11 +40,11 @@ DekkoPage {
     }
 
     function getCustomSetting(key) {
-        return SettingsStore.selectedAccount.customValue('dekko-notify', key);
+        return SettingsStore.selectedAccount.customValue('sageteamail-notify', key);
     }
 
     function setCustomSetting(key, value) {
-        SettingsStore.selectedAccount.setCustomValue('dekko-notify', key, value);
+        SettingsStore.selectedAccount.setCustomValue('sagetemail-notify', key, value);
     }
 
     PageFlickable {

@@ -20,7 +20,7 @@
 #include <qmailstore.h>
 #include "pushclient.h"
 
-#define CFG_NAMESPACE "dekko-notify"
+#define CFG_NAMESPACE "sageteamail-notify"
 #define NOTIFY_ENABLED "enabled"
 #define NOTIFY_TYPE "type"
 
@@ -102,7 +102,7 @@ QJsonObject NotificationWatcher::card(const QMailMessage &msg)
     const QString fId = QString::number(msg.parentFolderId().toULongLong());
     const QString mId = QString::number(msg.id().toULongLong());
 //    QString actionUri = QString("dekko://notify/%1/%2/%3").arg(pId, fId, mId);
-    QString actionUri = QStringLiteral("appid://dekko2.dekkoproject/dekko/current-user-version");
+    QString actionUri = QStringLiteral("appid://sageteamail2.sagetea/sagetemail/current-user-version");
     actions.append(actionUri);
     c["actions"] = actions;
     return c;
@@ -208,7 +208,7 @@ Account *NotificationWatcher::getAccount(const quint64 &id)
 
 QString NotificationWatcher::getTag(const QMailMessageId &id)
 {
-    return QString("dekko-%1").arg(QString::number(id.toULongLong()));
+    return QString("sagetemail-%1").arg(QString::number(id.toULongLong()));
 }
 
 

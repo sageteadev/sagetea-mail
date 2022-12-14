@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <application>
     <services>
-        <service id="dekko.dekkoproject_dekko">
+        <service id="sagetemail.sagetea_sagetemail">
             <description>Sync your e-mail with Sagetea Mail</description>
         </service>
     </services>

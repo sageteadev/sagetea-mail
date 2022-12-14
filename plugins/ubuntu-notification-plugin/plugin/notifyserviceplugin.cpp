@@ -10,13 +10,13 @@
 
 NotifyService::NotifyService(QObject *parent): ServicePlugin(parent)
 {
-    m_service = QStringLiteral("dekkod-notify");
+    m_service = QStringLiteral("sageteamaild-notify");
     m_serviceFile = QString("%1/.config/upstart/%2.conf").arg(QDir::homePath(), m_service);
 }
 
 QString NotifyService::pluginId() const
 {
-    return QStringLiteral("dekkod-notify-service");
+    return QStringLiteral("sageteamaild-notify-service");
 }
 
 QString NotifyService::location() const
@@ -44,7 +44,7 @@ void NotifyService::start()
         qDebug() << "[NotifyService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[NotifyService] Starting dekkod-notify service";
+        qDebug() << "[NotifyService] Starting sagetemaild-notify service";
         startService();
     }
 }
@@ -67,17 +67,17 @@ bool NotifyService::serviceFileInstalled() const
 
 bool NotifyService::newVersion()
 {
-    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/dekkod-notify/settings.ini");
+    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/sageteamaild-notify/settings.ini");
     QSettings settings(path, QSettings::IniFormat);
     if (!settings.contains(QStringLiteral("version"))) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
         return serviceRunning();
     }
 
-    // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
-    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
+    // We also want to support downgrades so just check the version doesn't match SAGETEAMAIL_VERSION
+    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(SAGETEAMAIL_VERSION);
     if (result) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
     }
     settings.sync();
     return result;
@@ -92,13 +92,13 @@ bool NotifyService::installServiceFile() const
     }
 
     QString appDir = QCoreApplication::applicationDirPath();
-    appDir.replace(QRegExp("dekko2.dekkoproject/[^/]+/"), "dekko2.dekkoproject/current/");
-    f.write("start on started dekkod\n");
+    appDir.replace(QRegExp("sageteamail2.sagetea/[^/]+/"), "sagetemail2.sagetea/current/");
+    f.write("start on started sageteamaild\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
-    f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../Dekko/plugins\n");
+    f.write("   initctl set-env SAGETEAMAIL_PLUGINS=" + appDir.toUtf8() + "/../SageteaMail/plugins\n");
     f.write("   initctl set-env QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\n");
-    f.write("   initctl set-env QMF_DATA=$HOME/.cache/dekko2.dekkoproject\n");
+    f.write("   initctl set-env QMF_DATA=$HOME/.cache/sageteamail2.sagetea\n");
     f.write("end script\n");
     f.write("exec " + appDir.toUtf8() + "/plugins/notify/" + m_service.toUtf8() + "\n");
     f.close();
@@ -151,12 +151,12 @@ QVariantMap NotifyService::documentation() const
 
 QString NotifyServicePlugin::name() const
 {
-    return QStringLiteral("dekkod-notify-service");
+    return QStringLiteral("sageteamaild-notify-service");
 }
 
 QString NotifyServicePlugin::description() const
 {
-    return QStringLiteral("Dekko notification service");
+    return QStringLiteral("SageteaMail notification service");
 }
 
 PluginInfo *NotifyServicePlugin::create(QObject *parent) const
