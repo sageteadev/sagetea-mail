@@ -1,4 +1,4 @@
-#include "dekkodserviceplugin.h"
+#include "sageteamaildserviceplugin.h"
 #include <QCoreApplication>
 #include <QDir>
 #include <QFile>
@@ -7,31 +7,31 @@
 #include <QSettings>
 #include <SnapStandardPaths.h>
 
-DekkodService::DekkodService(QObject *parent): ServicePlugin(parent)
+SageteaMailService::SageteaMaildService(QObject *parent): ServicePlugin(parent)
 {
-    m_service = QStringLiteral("dekkod");
+    m_service = QStringLiteral("sageteamaild");
     m_serviceFile = QString("%1/.config/upstart/%2.conf").arg(QDir::homePath(), m_service);
 }
 
-QString DekkodService::pluginId() const
+QString SageteaMaildService::pluginId() const
 {
-    return QStringLiteral("dekkod-service");
+    return QStringLiteral("sageteamaild-service");
 }
 
-QString DekkodService::location() const
+QString SageteaMaildService::location() const
 {
     return QStringLiteral("SageteaMail::Service");
 }
 
-QString DekkodService::i18n() const
+QString SageteaMaildService::i18n() const
 {
     return QString();
 }
 
-void DekkodService::start()
+void SageteaMaildService::start()
 {
     if (newVersion()) {
-        qDebug() << "[DekkodService] Stopping service for version upgrade";
+        qDebug() << "[SageteaMaildService] Stopping service for version upgrade";
         stopService();
     }
 
@@ -39,15 +39,15 @@ void DekkodService::start()
         // The service is started on login, so actually it should already be running.
         // Overwrite service file to make sure thats not causing the problem.
         // see also issue #114
-        qDebug() << "[DekkodService] Installing service file";
+        qDebug() << "[SageteaMaildService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[DekkodService] Starting dekkod service";
+        qDebug() << "[SageteaMaildService] Starting sageteamaild service";
         startService();
     }
 }
 
-void DekkodService::stop()
+void SageteaMaildService::stop()
 {
 //    if (serviceRunning()) {
 //        stopService();
@@ -58,34 +58,34 @@ void DekkodService::stop()
 //    }
 }
 
-bool DekkodService::serviceFileInstalled() const
+bool SageteaMaildService::serviceFileInstalled() const
 {
     return QFile(m_serviceFile).exists();
 }
 
-bool DekkodService::installServiceFile() const
+bool SageteaMaildService::installServiceFile() const
 {
     QFile f(m_serviceFile);
     if (!f.open(QFile::WriteOnly | QFile::Truncate)) {
-        qDebug() << "[DekkodService] Cannot create service file";
+        qDebug() << "[SageteaMaildService] Cannot create service file";
         return false;
     }
 
     QString appDir = QCoreApplication::applicationDirPath();
-    appDir.replace(QRegExp("dekko2.dekkoproject/[^/]+/"), "dekko2.dekkoproject/current/");
+    appDir.replace(QRegExp("sageteamail2.sagetea/[^/]+/"), "sageteamail2.sagetea/current/");
     f.write("start on started unity8\n");
     f.write("pre-start script\n");
     f.write("   initctl set-env LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\n");
-    f.write("   initctl set-env DEKKO_PLUGINS=" + appDir.toUtf8() + "/../Dekko/plugins\n");
+    f.write("   initctl set-env SAGETEAMAIL_PLUGINS=" + appDir.toUtf8() + "/../SageteMail/plugins\n");
     f.write("   initctl set-env QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\n");
-    f.write("   initctl set-env QMF_DATA=$HOME/.cache/dekko2.dekkoproject\n");
+    f.write("   initctl set-env QMF_DATA=$HOME/.cache/sageteamail2.sagetea\n");
     f.write("end script\n");
     f.write("exec " + appDir.toUtf8() + "/" + m_service.toUtf8() + "\n");
     f.close();
     return true;
 }
 
-bool DekkodService::removeServiceFile() const
+bool SageteaMaildService::removeServiceFile() const
 {
     if (serviceFileInstalled()) {
         return QFile(m_serviceFile).remove();
@@ -93,7 +93,7 @@ bool DekkodService::removeServiceFile() const
     return true;
 }
 
-bool DekkodService::serviceRunning() const
+bool SageteaMaildService::serviceRunning() const
 {
     QProcess p;
     p.start("initctl", {"status", m_service});
@@ -103,65 +103,65 @@ bool DekkodService::serviceRunning() const
     return output.contains("running");
 }
 
-bool DekkodService::startService()
+bool SageteaMaildService::startService()
 {
-    qDebug() << "[DekkodService] should start service";
+    qDebug() << "[SageteaMaildService] should start service";
     int ret = QProcess::execute("start", {m_service});
     return ret == 0;
 }
 
-bool DekkodService::restartService()
+bool SageteaMaildService::restartService()
 {
-    qDebug() << "[DekkodService] should restart service";
+    qDebug() << "[SageteaMaildService] should restart service";
     int ret = QProcess::execute("restart", {m_service});
     return ret == 0;
 }
 
-bool DekkodService::stopService()
+bool SageteaMaildService::stopService()
 {
-    qDebug() << "[DekkodService] should stop service";
+    qDebug() << "[SageteaMaildService] should stop service";
     int ret = QProcess::execute("stop", {m_service});
     return ret == 0;
 }
 
-bool DekkodService::newVersion()
+bool SageteaMaildService::newVersion()
 {
-    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/dekkod/settings.ini");
+    static const QString path = SnapStandardPaths::writableLocation(SnapStandardPaths::AppConfigLocation) + QStringLiteral("/sageteamaild/settings.ini");
     QSettings settings(path, QSettings::IniFormat);
     if (!settings.contains(QStringLiteral("version"))) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
         // Dekkod may already be running as we previously didn't version it.
         // So we still need to stop it if running.
         return serviceRunning();
     }
 
     // We also want to support downgrades so just check the version doesn't match DEKKO_VERSION
-    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(DEKKO_VERSION);
+    const bool result = settings.value(QStringLiteral("version")).toString() != QStringLiteral(SAGETEAMAIL_VERSION);
     if (result) {
-        settings.setValue(QStringLiteral("version"), QStringLiteral(DEKKO_VERSION));
+        settings.setValue(QStringLiteral("version"), QStringLiteral(SAGETEAMAIL_VERSION));
     }
     settings.sync();
     return result;
 }
 
-QVariantMap DekkodService::documentation() const
+QVariantMap SageteaMaildService::documentation() const
 {
     return QVariantMap();
 }
 
-QString DekkodServicePlugin::name() const
+QString SageteaMaildServicePlugin::name() const
 {
-    return QStringLiteral("dekkod-service");
+    return QStringLiteral("sageteamaild-service");
 }
 
-QString DekkodServicePlugin::description() const
+QString SageteaMaildServicePlugin::description() const
 {
-    return QStringLiteral("Dekko's messaging server");
+    return QStringLiteral("SageteaMail's messaging server");
 }
 
-PluginInfo *DekkodServicePlugin::create(QObject *parent) const
+PluginInfo *SageteaMaildServicePlugin::create(QObject *parent) const
 {
-    return new DekkodService(parent);
+    return new SageteaMaildService(parent);
 }
 
 
