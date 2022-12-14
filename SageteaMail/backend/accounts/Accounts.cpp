@@ -19,7 +19,7 @@
 #include <QDebug>
 #include "qmailstore.h"
 
-Q_LOGGING_CATEGORY(D_ACCOUNTS_LIST, "dekko.accounts.list")
+Q_LOGGING_CATEGORY(D_ACCOUNTS_LIST, "sageteamail.accounts.list")
 
 Accounts::Accounts(QObject *parent) : QObject(parent),
     m_filter(Enabled), m_model(0)

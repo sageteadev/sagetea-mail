@@ -1,6 +1,13 @@
 {
     "files.associations": {
+        "*.ejs": "html",
         "qdbuspendingreply": "cpp",
-        "qtimer": "cpp"
+        "qtimer": "cpp",
+        "qjsonobject": "cpp",
+        "qsettings": "cpp",
+        "qdir": "cpp",
+        "qcoreapplication": "cpp",
+        "qfile": "cpp",
+        "complex": "cpp"
     }
 }
