@@ -22,7 +22,7 @@
 #include <QQmlComponent>
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_ACTION, "sagetemail.plugman.action")
+Q_LOGGING_CATEGORY(PLUGIN_ACTION, "sageteamail.plugman.action")
 
 ActionRegistry::ActionRegistry(QObject *parent) : QObject(parent)
 {

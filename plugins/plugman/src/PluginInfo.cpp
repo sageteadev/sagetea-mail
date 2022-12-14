@@ -26,7 +26,7 @@
 #include <QByteArray>
 #include <QStringBuilder>
 
-Q_LOGGING_CATEGORY(PLUGIN_INFO, "sagetemail.plugman.info")
+Q_LOGGING_CATEGORY(PLUGIN_INFO, "sageteamail.plugman.info")
 
 PluginInfo::PluginInfo(QObject *parent) : QObject(parent)
 {
