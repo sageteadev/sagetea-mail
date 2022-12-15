@@ -1,4 +1,4 @@
-markdown==3.3.3
+markdown
 markupsafe==1.1.1
 cssutils==2.1.0
 jinja2
