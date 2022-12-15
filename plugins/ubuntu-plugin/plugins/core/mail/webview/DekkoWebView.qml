@@ -27,7 +27,7 @@ import SageteaMail.Components 1.0
 import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Ubuntu.Components 1.0
 import SageteaMail.Ubuntu.Dialogs 1.0
-import SageteMail.WebContext 1.0
+import SageteaMail.WebContext 1.0
 import QtQuick.Controls.Suru 2.2
 
 WebEngineView {
