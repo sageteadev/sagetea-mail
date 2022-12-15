@@ -1,4 +1,4 @@
-module Dekko.Markdown
+module SageteaMail.Markdown
 
 MarkdownEditor 1.0 MarkdownEditor.qml
 MarkdownRenderer 1.0 MarkdownRenderer.qml

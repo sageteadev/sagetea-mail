@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
 import Ubuntu.Components 1.3
-import Dekko.Markdown 1.0
+import SageteaMail.Markdown 1.0
 
 ScrollView {
     id: editor
