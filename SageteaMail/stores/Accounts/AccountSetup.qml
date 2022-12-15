@@ -534,7 +534,7 @@ AppListener {
             identity["email"] = account.outgoing.email
             identity["replyTo"] = ""
             //TRANSLATORS: 'convergent' describes the apps ability of being usable on desktop and mobile devices running different OS
-            identity["signature"] = qsTr("Sent with Dekko - the convergent email app")
+            identity["signature"] = qsTr("Sent with SageTea Mail - your office to go mail client")
             AccountActions.addIdentity(identity)
         }
     }
