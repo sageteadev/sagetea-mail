@@ -58,7 +58,7 @@ MsgPartReply::~MsgPartReply() {
 void MsgPartReply::init()
 {
     QUrl url;
-    url.setScheme(QStringLiteral("sageteamail-part"));
+    url.setScheme(QStringLiteral("dekko-part"));
     url.setHost("msg");
     setUrl(url);
 

@@ -20,7 +20,7 @@ import QtFeedback 5.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.0
 import com.canonical.Oxide 1.9 as Oxide
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 
 Oxide.WebContext {
     id: ctxt
