@@ -81,7 +81,7 @@ WebEngineView {
         }
     ]
 
-    context: SageteaMailWebContext {
+    context: DekkoWebContext {
         id: ctxt
 
         readonly property string defaultUserAgent: _ua.defaultUA
