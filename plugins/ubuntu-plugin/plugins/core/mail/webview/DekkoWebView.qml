@@ -81,7 +81,7 @@ WebEngineView {
         }
     ]
 
-    context: DekkoWebContext {
+    context: SageteaMailWebContext {
         id: ctxt
 
         readonly property string defaultUserAgent: _ua.defaultUA
@@ -126,7 +126,7 @@ WebEngineView {
             readonly property string _template: "Mozilla/5.0 (Linux; Ubuntu %1%2%3) AppleWebKit/%4 Chromium/%5 %6Safari/%7%8"
 
             // FIXME: compute at build time (using lsb_release)
-            readonly property string _ubuntuVersion: "15.04"
+            readonly property string _ubuntuVersion: "16.04"
 
             readonly property string _attributes: smallScreen ? "like Android 4.4" : ""
 
