@@ -24,7 +24,7 @@ void SageteaMailWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRe
 
 bool SageteaMailWebEngineUrlRequestInterceptor::hasAllowedScheme(const QUrl &url)
 {
-    return this->testScheme("cid", url) || this->testScheme("sagetea-part", url) || this->testScheme("sagetea-msg", url) || this->testScheme("blob", url);
+    return this->testScheme("cid", url) || this->testScheme("dekko-part", url) || this->testScheme("dekko-msg", url) || this->testScheme("blob", url);
 }
 
 bool SageteaMailWebEngineUrlRequestInterceptor::testScheme(const QString &scheme, const QUrl &url)

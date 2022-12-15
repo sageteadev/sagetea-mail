@@ -255,8 +255,8 @@ WebEngineView {
 
     onNavigationRequested: {
         console.log("[Dekko Web View] RequestUrl", request.url)
-        if (("" + request.url).startsWith("sagetea-msg") ||
-            ("" + request.url).startsWith("sagetea-part") ||
+        if (("" + request.url).startsWith("dekko-msg") ||
+            ("" + request.url).startsWith("dekko-part") ||
             ("" + request.url).startsWith("cid")) {
             request.action = 0
         }
