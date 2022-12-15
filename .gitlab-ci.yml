@@ -6,7 +6,7 @@ stages:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   DOCKER_DRIVER: overlay2
-  CLICKABLE_VERSION: 6.24.0
+  CLICKABLE_VERSION: 6.23.1
 
 .arm64: &arm64
   variables:
