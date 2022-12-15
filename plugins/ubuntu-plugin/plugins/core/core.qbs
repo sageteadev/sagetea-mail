@@ -5,7 +5,7 @@ Project {
 
     DynamicLibrary {
         name: "WebContext"
-        targetName: "dekkowebcontextplugin"
+        targetName: "sageteamailwebcontextplugin"
 
         Depends { name: "cpp" }
         Depends {
@@ -25,7 +25,7 @@ Project {
         Group {
             name: "QML directory"
             files: "mail/webview/qmldir"
-            fileTags: ["dekko-webcontext-plugin"]
+            fileTags: ["sageteamail-webcontext-plugin"]
         }
 
         Group {
@@ -44,7 +44,7 @@ Project {
 
         Group {
             condition: project.ui === "ubuntu"
-            fileTagsFilter: "dekko-webcontext-plugin"
+            fileTagsFilter: "sageteamail-webcontext-plugin"
             qbs.install: project.ui === "ubuntu"
             qbs.installDir: project.qmlDir + "/SageteaMail/" + product.name
         }

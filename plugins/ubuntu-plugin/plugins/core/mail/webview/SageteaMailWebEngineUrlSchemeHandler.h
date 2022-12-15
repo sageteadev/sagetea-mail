@@ -1,5 +1,5 @@
-#ifndef DEKKOURLINTERCEPTOR_H
-#define DEKKOURLINTERCEPTOR_H
+#ifndef SAGETEAMAILURLINTERCEPTOR_H
+#define SAGETEAMAILURLINTERCEPTOR_H
 
 #include <QString>
 #include <QUrl>
@@ -8,14 +8,14 @@
 #include <QNetworkReply>
 #include <QWebEngineUrlRequestJob>
 
-class DekkoWebEngineUrlSchemeHandler : public QWebEngineUrlSchemeHandler
+class SageteaMailWebEngineUrlSchemeHandler : public QWebEngineUrlSchemeHandler
 {
     Q_OBJECT
 
 public:
     void requestStarted(QWebEngineUrlRequestJob *request);
-    explicit DekkoWebEngineUrlSchemeHandler(QWebEngineUrlSchemeHandler *parent = Q_NULLPTR);
-    ~DekkoWebEngineUrlSchemeHandler() {
+    explicit SageteaMailWebEngineUrlSchemeHandler(QWebEngineUrlSchemeHandler *parent = Q_NULLPTR);
+    ~SageteaMailWebEngineUrlSchemeHandler() {
     }
 
     void setMessageUid(QString messageUid);

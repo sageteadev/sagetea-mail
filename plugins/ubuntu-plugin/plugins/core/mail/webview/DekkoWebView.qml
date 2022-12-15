@@ -27,7 +27,7 @@ import SageteaMail.Components 1.0
 import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Ubuntu.Components 1.0
 import SageteaMail.Ubuntu.Dialogs 1.0
-import Dekko.WebContext 1.0
+import SageteMail.WebContext 1.0
 import QtQuick.Controls.Suru 2.2
 
 WebEngineView {
@@ -81,7 +81,7 @@ WebEngineView {
         }
     ]
 
-    context: DekkoWebContext {
+    context: SageteaMailWebContext {
         id: ctxt
 
         readonly property string defaultUserAgent: _ua.defaultUA

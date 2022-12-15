@@ -1,6 +1,6 @@
-#include "DekkoWebContext.h"
-#include "DekkoWebEngineUrlSchemeHandler.h"
-#include "DekkoWebEngineUrlRequestInterceptor.h"
+#include "SageteaMailWebContext.h"
+#include "SageteaMailWebEngineUrlSchemeHandler.h"
+#include "SageteaMailWebEngineUrlRequestInterceptor.h"
 #include <QQmlEngine>
 #include <QtQml>
 #include <QDebug>
@@ -9,7 +9,7 @@
 #include <QCoreApplication>
 #include <QStandardPaths>
 
-DekkoWebContext::DekkoWebContext(QQuickWebEngineProfile *parent) : QQuickWebEngineProfile(parent)
+SageteaMailWebContext::SageteaMailWebContext(QQuickWebEngineProfile *parent) : QQuickWebEngineProfile(parent)
 {
     this->setRequestInterceptor(&this->urlRequestInterceptor);
 
@@ -19,7 +19,7 @@ DekkoWebContext::DekkoWebContext(QQuickWebEngineProfile *parent) : QQuickWebEngi
     connect(&this->urlRequestInterceptor, SIGNAL(interceptedRemoteRequest(bool)), this, SLOT(onInterceptedRemoteRequest(bool)));
 }
 
-void DekkoWebContext::onInterceptedRemoteRequest(bool wasBlocked)
+void SageteaMailWebContext::onInterceptedRemoteRequest(bool wasBlocked)
 {
     if (wasBlocked)
     {
@@ -27,28 +27,28 @@ void DekkoWebContext::onInterceptedRemoteRequest(bool wasBlocked)
     }
 }
 
-void DekkoWebContext::setMessageUid(QString messageUid)
+void SageteaMailWebContext::setMessageUid(QString messageUid)
 {
     this->urlSchemeHandler.setMessageUid(messageUid);
 }
 
-void DekkoWebContext::setRemoteContentAllowed(bool allowed)
+void SageteaMailWebContext::setRemoteContentAllowed(bool allowed)
 {
     this->urlRequestInterceptor.setBlockRemoteResources(!allowed);
 }
 
-QString DekkoWebContext::getMessageUid() const
+QString SageteaMailWebContext::getMessageUid() const
 {
     return this->urlSchemeHandler.getMessageUid();
 }
 
-bool DekkoWebContext::isRemoteContentAllowed() const
+bool SageteaMailWebContext::isRemoteContentAllowed() const
 {
     return !this->urlRequestInterceptor.areRemoteResourcesBlocked();
 }
 
 
-QString DekkoWebContext::cacheLocation() const
+QString SageteaMailWebContext::cacheLocation() const
 {
     QDir location(QStandardPaths::writableLocation(QStandardPaths::CacheLocation));
     if (!location.exists()) {
@@ -57,7 +57,7 @@ QString DekkoWebContext::cacheLocation() const
     return location.absolutePath();
 }
 
-QString DekkoWebContext::dataLocation() const
+QString SageteaMailWebContext::dataLocation() const
 {
     QDir location(QStandardPaths::writableLocation(QStandardPaths::DataLocation));
     if (!location.exists()) {
@@ -70,7 +70,7 @@ QString DekkoWebContext::dataLocation() const
     return location.absolutePath();
 }
 
-int DekkoWebContext::cacheSizeHint() const
+int SageteaMailWebContext::cacheSizeHint() const
 {
     if (QCoreApplication::applicationName() == "webbrowser-app") {
         // Let chromium decide the optimum cache size based on available disk space
@@ -93,12 +93,12 @@ int DekkoWebContext::cacheSizeHint() const
     }
 }
 
-QObject * DekkoWebContext::qmlEngineInjector() const
+QObject * SageteaMailWebContext::qmlEngineInjector() const
 {
     return nullptr;
 }
 
-void DekkoWebContext::setQmlEngineInjector(QObject * dummy)
+void SageteaMailWebContext::setQmlEngineInjector(QObject * dummy)
 {
     QQmlEngine* engine = qmlEngine(dummy);
     if (!engine) {

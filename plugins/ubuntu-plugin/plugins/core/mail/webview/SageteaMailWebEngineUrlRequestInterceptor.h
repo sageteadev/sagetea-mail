@@ -1,18 +1,18 @@
-#ifndef DEKKOWEBENGINEURLREQUESTINTERCEPTOR_H
-#define DEKKOWEBENGINEURLREQUESTINTERCEPTOR_H
+#ifndef SAGETEAMAILWEBENGINEURLREQUESTINTERCEPTOR_H
+#define SAGETEAMAILWEBENGINEURLREQUESTINTERCEPTOR_H
 
 #include <QString>
 #include <QUrl>
 #include <QWebEngineUrlRequestInterceptor>
 
-class DekkoWebEngineUrlRequestInterceptor : public QWebEngineUrlRequestInterceptor
+class SageteaMailWebEngineUrlRequestInterceptor : public QWebEngineUrlRequestInterceptor
 {
 
     Q_OBJECT
 public:
     void interceptRequest(QWebEngineUrlRequestInfo &info);
-    explicit DekkoWebEngineUrlRequestInterceptor(QWebEngineUrlRequestInterceptor *parent = Q_NULLPTR);
-    ~DekkoWebEngineUrlRequestInterceptor() {
+    explicit SageteaMailWebEngineUrlRequestInterceptor(QWebEngineUrlRequestInterceptor *parent = Q_NULLPTR);
+    ~SageteaMailWebEngineUrlRequestInterceptor() {
     }
 
 //    void setCid(QString cid);
