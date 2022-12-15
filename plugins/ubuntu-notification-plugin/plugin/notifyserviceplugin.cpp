@@ -44,7 +44,7 @@ void NotifyService::start()
         qDebug() << "[NotifyService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[NotifyService] Starting sagetemaild-notify service";
+        qDebug() << "[NotifyService] Starting sageteamaild-notify service";
         startService();
     }
 }

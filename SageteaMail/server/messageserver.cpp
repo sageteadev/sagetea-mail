@@ -558,7 +558,7 @@ void MessageServer::handleSigHup()
 #if defined(CLICK)
     qMailLoggersRecreate("sageteamail2.sagetea", "sageteamaild", "Msgsrv");
 #else
-    qMailLoggersRecreate("sageteamail", "sagetemaild", "Msgsrv");
+    qMailLoggersRecreate("sageteamail", "sageteamaild", "Msgsrv");
 #endif
 
     snHup->setEnabled(true);
