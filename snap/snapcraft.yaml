@@ -6,7 +6,7 @@ confinement: strict
 grade: devel
 
 apps:
-    dekko:
+    sageteamail:
         command: desktop-launch $SNAP/bin/sageteamail-launch "@"
         plugs:
             - browser-sandbox
@@ -35,7 +35,7 @@ parts:
         plugin: dump
         source: snap/
         organize:
-            dekko.launcher: bin/sageteamail-launch
+            sageteamail.launcher: bin/sageteamail-launch
         prime:
             - -plugins
     
