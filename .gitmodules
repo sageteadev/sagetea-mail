@@ -1,9 +1,6 @@
 [submodule "upstream/richtext-editor"]
 	path = upstream/richtext-editor
 	url = https://gitlab.com/uapps/systemcore/sageteamail/qml-richtext-editor.git
-[submodule "upstream/qmf"]
-	path = upstream/qmf
-	url = https://gitlab.com/dekkan/messagingframework.git
 [submodule "upstream/maz-db"]
 	path = upstream/maz-db
 	url = https://gitlab.com/dekkoproject/maz-db.git
@@ -25,3 +22,6 @@
 [submodule "upstream/ubuntu-push-client"]
 	path = upstream/ubuntu-push-client
 	url = https://gitlab.com/dekkoproject/ubuntu-push-client.git
+[submodule "upstream/qmf"]
+	path = upstream/qmf
+	url = https://gitlab.com/uapps/systemcore/sageteamail/messagingframework.git
