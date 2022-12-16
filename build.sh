@@ -46,9 +46,9 @@ else
     qbs setup-toolchains /usr/bin/${ARCH_TRIPLET}-gcc gcc-$ARCH
 fi
 
-qbs setup-qt /usr/lib/${ARCH_TRIPLET}/qt5/bin/qmake dekkoqt5-$ARCH
-qbs config profiles.dekkoqt5-$ARCH.baseProfile gcc-$ARCH
-qbs config profiles.dekkoqt5-$ARCH.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
+qbs setup-qt /usr/lib/${ARCH_TRIPLET}/qt5/bin/qmake sageteamilqt5-$ARCH
+qbs config profiles.sageteamilqt5-$ARCH.baseProfile gcc-$ARCH
+qbs config profiles.sagetemailqt5-$ARCH.Qt.core.binPath /usr/lib/x86_64-linux-gnu/qt5/bin
 
 export DIR_PREFIX=/lib/${ARCH_TRIPLET}
 export BIN_DIR=$DIR_PREFIX/bin
