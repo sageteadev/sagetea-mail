@@ -63,7 +63,7 @@ Project {
                 "pygments/**",
                 "html2text/**",
                 "importlib_metadata**/**",
-                "zipp**"
+                "zipp/**"
             ]
             // cssutils comes with a large test suite
             // which we don't really need in the snap
