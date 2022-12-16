@@ -9,7 +9,7 @@ Project {
         type: "python-qml-plugin"
 
         // This probe does all the hard work of fetching from pypi
-        /*Probe {
+        Probe {
             id: pip3
             // Declare your list of pypi packages here
             readonly property string requirementsFile: project.sourceDirectory + "/requirements.txt"
@@ -40,7 +40,7 @@ Project {
                     p.close()
                 }
             }
-        }*/
+        }
 
         // Here we define the python directories we want to include in our
         // qml plugin.
