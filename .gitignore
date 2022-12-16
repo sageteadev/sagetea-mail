@@ -5,6 +5,7 @@ __build
 *.qbs.user
 snap/plugins/__pycache__
 /Qt
+#pylibs
 click/manifest.json
 dekko.qbs
 *.click
