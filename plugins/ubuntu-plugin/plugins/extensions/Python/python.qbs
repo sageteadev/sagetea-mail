@@ -15,12 +15,12 @@ Project {
             readonly property string requirementsFile: project.sourceDirectory + "/requirements.txt"
             // DO NOT EDIT MANUALLY. this would normally be hidden
             // inside a module.
-            property bool installed: false
+            property bool installed: true
             // The directory where you want to install pypi packages
             // You might like to add this directory to you .gitignore/.bzrignore
             property string sourceDir: project.sourceDirectory + "/pylibs"
 
-            configure: {
+            /*configure: {
                 if (!requirementsFile.length) {
                     return
                 }
@@ -40,7 +40,7 @@ Project {
                     p.close()
                 }
             }
-        }
+        }*/
 
         // Here we define the python directories we want to include in our
         // qml plugin.
