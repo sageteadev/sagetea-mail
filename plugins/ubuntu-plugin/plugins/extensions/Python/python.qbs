@@ -39,8 +39,8 @@ Project {
                 } finally {
                     p.close()
                 }
-            }
-        }*/
+            }*/
+        }
 
         // Here we define the python directories we want to include in our
         // qml plugin.
