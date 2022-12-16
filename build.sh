@@ -24,7 +24,7 @@ cat ${DIR}/click/sageteamail2.desktop.in | sed "s/%HOST_ARCH_TRIPLET%/${ARCH_TRI
 
 function install_python_deps
 {
-    PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown2 markupsafe pygments pynliner soupsieve zipp"
+    PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown markupsafe pygments pynliner soupsieve zipp"
     PYTHON_DEPS_DIR=pylibs/lib/python3.5/site-packages/
     SAGETEAMAIL_PYTHON_DIR=$CLICK_LD_LIBRARY_PATH/SageteaMail/Python/
 

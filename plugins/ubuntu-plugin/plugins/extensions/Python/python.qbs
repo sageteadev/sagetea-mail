@@ -53,7 +53,7 @@ Project {
             // The idea here is to only declare what's _required_ to reduce our size a bit
             files: [
                 "soupsieve/**",
-                "markdown2/**",
+                "markdown/**",
                 "jinja2/**",
                 "markupsafe/**",
                 "bs4/**",
