@@ -1,11 +1,11 @@
 bs4
-markdown
+markdown==1.7
 markupsafe
 cssutils
 jinja2
 pynliner
 pygments
 html2text
-importlib-metadata
+importlib-metadata==1.7.0
 zipp
 soupsieve
