@@ -12,7 +12,7 @@ Project {
         Probe {
             id: pip3
             // Declare your list of pypi packages here
-            readonly property string requirementsFile: project.sourceDirectory + "/requirements.txt"
+            //readonly property string requirementsFile: project.sourceDirectory + "/requirements.txt"
             // DO NOT EDIT MANUALLY. this would normally be hidden
             // inside a module.
             property bool installed: true
