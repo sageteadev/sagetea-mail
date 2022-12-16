@@ -1,12 +1,10 @@
 stages:
   - build
-  - snapbuild
   - deploy
 
 variables:
-  GIT_SUBMODULE_STRATEGY: recursive
   DOCKER_DRIVER: overlay2
-  CLICKABLE_VERSION: 6.23.0
+  CLICKABLE_VERSION: 6.24.0
 
 .arm64: &arm64
   variables:
@@ -15,21 +13,10 @@ variables:
 
 .sageteamail:
   stage: build
-  image: clickable/amd64-16.04-arm64:6.23.2-16.04.4-qt5.9
+  image: clickable/ci-16.04-$ARCH:$CLICKABLE_VERSION
+  tags:
     - docker
   script:
-    - apt-get update
-    - apt-get -y -f --no-install-recommends install gnupg ubuntu-keyring software-properties-common
-    - add-apt-repository ppa:bhdouglass/clickable
-    - apt-get update
-    - apt-get install -y clickable locales-all
-    - apt-get -y remove wget
-    - apt-get -y autoremove
-    - apt-get clean 
-    - rm -rf /var/lib/apt/lists/*
-    - export CLICKABLE_CONTAINER_MODE=1
-    - export CLICKABLE_ARCH=$ARCH
-    - export CLICKABLE_NON_INTERACTIVE=1
     - clickable build
   artifacts:
     paths:
@@ -40,3 +27,4 @@ variables:
 sageteamail:arm64:
   <<: *arm64
   extends: .sageteamail
+
