@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import io.thp.pyotherside 1.4
+import io.thp.pyotherside 1.5
 
 Python {
     id: python
@@ -10,9 +10,9 @@ Python {
 
     Component.onCompleted: {
         addImportPath(Qt.resolvedUrl("."))
-        for (var i in importPaths) {
-            addImportPath(Qt.resolvedUrl(importPaths[i]))
-        }
+        importModule('metadata')
+        importModule('markdown')
+        importModule('zipp')
         ready()
     }
 }
