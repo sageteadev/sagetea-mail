@@ -1,5 +1,7 @@
-markdown
-jinja2
+markdown==3.3.3
+cssutils==2.1.0
+jinja2==2.8
+markupsafe==1.1.1
 pynliner
 pygments
 html2text
