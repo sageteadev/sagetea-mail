@@ -1,12 +1,6 @@
-[submodule "upstream/richtext-editor"]
-	path = upstream/richtext-editor
-	url = https://gitlab.com/uapps/systemcore/sageteamail/qml-richtext-editor.git
 [submodule "upstream/maz-db"]
 	path = upstream/maz-db
 	url = https://gitlab.com/dekkoproject/maz-db.git
-[submodule "upstream/notify"]
-	path = upstream/notify
-	url = https://gitlab.com/uapps/systemcore/sageteamail/notify.git
 [submodule "upstream/quick-flux"]
 	path = upstream/quick-flux
 	url = https://gitlab.com/dekkan/quick-flux.git
@@ -25,3 +19,9 @@
 [submodule "upstream/pyotherside"]
 	path = upstream/pyotherside
 	url = https://gitlab.com/dekkoproject/pyotherside.git
+[submodule "upstream/notify"]
+	path = upstream/notify
+	url = https://gitlab.com/uapps/systemcore/sageteamail/notify.git
+[submodule "upstream/richtext-editor"]
+	path = upstream/richtext-editor
+	url = https://gitlab.com/uapps/systemcore/sageteamail/qml-richtext-editor.git
