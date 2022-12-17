@@ -28,12 +28,12 @@
         "qbs",
         "qbs-common",
         "qemu-user-static",
-        "qml-module-qtwebengine",
         "zlib1g-dev"
     ],
     "dependencies_target": [
         "libaccounts-qt5-dev",
         "qtbase5-dev",
+        "qml-module-qtwebengine",
         "libconnectivity-qt1-dev",
         "libsasl2-dev",
         "libsasl2-modules",
