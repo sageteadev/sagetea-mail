@@ -103,6 +103,5 @@ Project {
             qbs.install: true
             qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
             qbs.installSourceBase: path
-        }
     }
 }

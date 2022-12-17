@@ -21,7 +21,7 @@ fi
 DIR=$(dirname "${BASH_SOURCE[0]}")
 cat ${DIR}/sageteamail.qbs.in | sed "s/%HOST_ARCH%/${ARCH}/" > ${DIR}/sageteamail.qbs
 cat ${DIR}/click/sageteamail2.desktop.in | sed "s/%HOST_ARCH_TRIPLET%/${ARCH_TRIPLET}/g" > ${DIR}/click/sageteamail2.desktop
-
+'
 function install_python_deps
 {
     PYTHON_DEPS="bs4 cssutils encutils html2text jinja2 markdown markupsafe pygments pynliner soupsieve zipp"
@@ -35,7 +35,7 @@ function install_python_deps
     
     cp -r $PYTHON_DEPS_DIR/importlib_metadata* $SAGETEAMAIL_PYTHON_DIR
     #cp -r $PYTHON_DEPS_DIR/zipp/zipp.py $SAGETEAMAIL_PYTHON_DIR
-}
+}'
 
 ROOT="$( cd "$DIR" >/dev/null 2>&1 && pwd )"
 cd $ROOT
