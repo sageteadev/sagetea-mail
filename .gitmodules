@@ -22,6 +22,3 @@
 [submodule "upstream/notify"]
 	path = upstream/notify
 	url = https://gitlab.com/uapps/systemcore/sageteamail/notify.git
-[submodule "upstream/pyotherside"]
-	path = upstream/pyotherside
-	url = https://gitlab.com/uapps/systemcore/sageteamail/pyotherside.git
