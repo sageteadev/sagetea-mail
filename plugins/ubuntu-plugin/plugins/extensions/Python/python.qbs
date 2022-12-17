@@ -4,7 +4,7 @@ import qbs.Process
 Project {
     name: "Python"
 
-    Product {
+    /*Product {
         name: project.name + " Plugin"
         type: "python-qml-plugin"
 
@@ -80,7 +80,7 @@ Project {
             qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
             // This ensures we maintain the directory structure
             qbs.installSourceBase: pip3.sourceDir + (project.click ? "/lib/python3.4/site-packages/" : "/lib/python3.5/site-packages/")
-        }
+        }*/
 
         Group {
             files: [
