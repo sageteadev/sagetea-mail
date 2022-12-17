@@ -13,7 +13,15 @@ Python {
         addImportPath(Qt.resolvedUrl("."))
         importModule('metadata')
         importModule('markdown')
+        importModule('cssutils')
+        importModule('jinja2')
+        importModule('markupsafe')
+        importModule('pynliner')
+        importModule('pygments')
+        importModule('html2text')
+        importModule('importlib-metadata')
         importModule('zipp')
+        importModule('soupsieve')
         ready()
     }
 }
