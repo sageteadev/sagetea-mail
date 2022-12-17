@@ -7,7 +7,8 @@ Python {
     signal ready()
 
     property var importPaths: []
-
+// please unsure to import the libs
+// this will for modules to be imported and fix crashing when when try to create or reply msg
     Component.onCompleted: {
         addImportPath(Qt.resolvedUrl("."))
         importModule('metadata')
