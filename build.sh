@@ -56,7 +56,7 @@ export LIB_DIR=$DIR_PREFIX
 export DATA_DIR=/usr/share/sageteamail
 export QML_DIR=$LIB_DIR
 
-qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress config:build project.click:true project.pyotherside:false project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:sageteamailqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT qbs.installPrefix:/
+qbs build -d $BUILD_DIR -f . --clean-install-root --show-progress config:build project.click:true project.pyotherside:true project.binDir:$BIN_DIR project.libDir:$LIB_DIR project.qmlDir:$QML_DIR project.dataDir:$DATA_DIR profile:sageteamailqt5-$ARCH qbs.buildVariant:$BUILD_VARIANT qbs.installPrefix:/
 
 install_python_deps
 
