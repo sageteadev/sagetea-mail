@@ -28,6 +28,7 @@
         "qbs",
         "qbs-common",
         "qemu-user-static",
+        "qml-module-qtwebengine"
         "zlib1g-dev"
     ],
     "dependencies_target": [
