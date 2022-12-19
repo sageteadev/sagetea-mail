@@ -81,5 +81,5 @@ parts:
         prime:
             - usr/lib/*/qt5/qml
             - usr/lib/*/libpython*
-        after: [dekko]
+        after: [sageteamail]
 

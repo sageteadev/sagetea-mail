@@ -17,6 +17,6 @@
 
 ## Your Environment
 <!--- Include relevant details about the environment you experienced the issue in -->
-* Dekko version:
+* Sagetea Mail version:
 * Ubuntu Touch version:
 * Email provider: 
