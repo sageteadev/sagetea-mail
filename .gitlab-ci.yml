@@ -1,6 +1,7 @@
 stages:
   - build
   - snapbuild
+  - release
   - deploy
 
 variables:
@@ -37,6 +38,12 @@ snap:amd64:
     - docker
   script:
     - snapcraft snap --destructive-mode
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y -qq software-properties-common dirmngr
+    - apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $UBPORTS_KEY
+    - apt-add-repository $UBPORTS_PPA -y
+    - apt-get update -qq
   cache:
     paths:
     untracked: true
@@ -45,4 +52,12 @@ snap:amd64:
       - '*.snap'
     when: on_success
     expire_in: 1 week
+
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli
+  when: manual
+  except:
+  - tags
+  script: release-cli create --name "v0.1.1" --description "Fisr Release of SageTea Mail" --tag-name "v0.1.1" --ref $CI_COMMIT_SHA
 
