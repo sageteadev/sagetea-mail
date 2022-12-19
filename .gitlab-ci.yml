@@ -1,5 +1,6 @@
 stages:
   - build
+  - snapbuild
   - deploy
 
 variables:
@@ -28,4 +29,26 @@ variables:
 sageteamail:arm64:
   <<: *arm64
   extends: .sageteamail
+
+snap:amd64:
+  stage: snapbuild
+  image: snapcore/snapcraft:stable
+  tags:
+    - docker
+  script:
+    - snapcraft snap --destructive-mode
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y -qq software-properties-common dirmngr
+    - apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $UBPORTS_KEY
+    - apt-add-repository $UBPORTS_PPA -y
+    - apt-get update -qq
+  cache:
+    paths:
+    untracked: true
+  artifacts:
+    paths:
+      - '*.snap'
+    when: on_success
+    expire_in: 1 week
 
