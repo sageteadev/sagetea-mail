@@ -24,7 +24,7 @@ Window {
     title: qsTr("Dekko Composer")
 
     onClosing: {
-        if (ComposerStore.builder.hasDraft) {
+        if (ComposerStore.builder.hasDraft && !isRunningOnMir) {
             close.accepted = false
             ComposerActions.discardMessage()
         } else {

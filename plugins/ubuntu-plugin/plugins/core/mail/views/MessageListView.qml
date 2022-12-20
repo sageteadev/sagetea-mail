@@ -261,6 +261,10 @@ DekkoPage {
                     }
                 }
 
+                Keys.onDeletePressed: {
+                    MessageActions.deleteMessage(currentItem.msg.messageId)
+                }
+
 //                add: DekkoAnimation.listViewAddTransition
                 addDisplaced: DekkoAnimation.listViewAddDisplacedTransition
                 remove: DekkoAnimation.listViewRemoveTransition
