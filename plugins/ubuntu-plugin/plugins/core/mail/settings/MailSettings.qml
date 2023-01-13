@@ -52,7 +52,15 @@ DekkoPage {
                 onTriggered: SettingsActions.openSettingsGroup(
                                  Qt.resolvedUrl("./PrivacySettingsPage.qml")
                              )
-            }
+            },
+            Action {
+                iconName: "preferences-desktop-logins-items-symbolic"
+                text: qsTr("Contributors")
+                onTriggered: SettingsActions.openSettingsGroup(
+                                 Qt.resolvedUrl("../models/ContributorsModel.qml")
+                             )
+            },
+            
         ]
     }
 
