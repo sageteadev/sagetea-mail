@@ -195,7 +195,8 @@ StyledItem {
                         width: parent.width * 4 / 5
                         wrapMode: Text.WordWrap
                         horizontalAlignment: Text.AlignHCenter
-                        text: i18n.tr("You are runnig a free edition of SageTeaMail, condider upgrade to <a href=\"https://sagetea.ai/product/sagetea-mail/\">Pro</a>")
+                        color: UbuntuColors.orange
+                        text: i18n.tr("You are using a free version of SageTeaMail, consider upgrading to <a href=\"https://sagetea.ai/product/sagetea-mail/\">Pro</a>")
                         font.bold: true
                         onLinkActivated: Qt.openUrlExternally(link)
                     }
