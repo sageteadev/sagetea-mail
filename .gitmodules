@@ -1,6 +1,3 @@
-[submodule "upstream/maz-db"]
-	path = upstream/maz-db
-	url = https://gitlab.com/dekkoproject/maz-db.git
 [submodule "upstream/quick-flux"]
 	path = upstream/quick-flux
 	url = https://gitlab.com/dekkan/quick-flux.git
