@@ -1,2 +1,2 @@
-module Dekko.Mail.Stores.Settings
+module SageteaMail.Mail.Stores.Settings
 singleton SettingsStore 1.0 SettingsStore.qml

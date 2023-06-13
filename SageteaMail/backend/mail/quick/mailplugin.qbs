@@ -53,12 +53,12 @@ DynamicLibrary {
         ]
         fileTags: ["mail-resources"]
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Mail"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Mail"
     }
 
     Group {
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Mail"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Mail"
         fileTagsFilter: product.type
     }
 }
