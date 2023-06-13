@@ -17,11 +17,6 @@ default:
     ARCH: "arm64"
     ARCH_TRIPLET: "aarch64-linux-gnu"
 
-.amd64: &amd64
-  variables:
-    ARCH: "amd64"
-    ARCH_TRIPLET: "x86_64-linux-gnu"
-
 .sageteamail:
   stage: build
   tags:
@@ -36,8 +31,4 @@ default:
 
 sageteamail:arm64:
   <<: *arm64
-  extends: .sageteamail
-
-sageteamail:amd64:
-  <<: *amd64
   extends: .sageteamail
