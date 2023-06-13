@@ -1,12 +1,12 @@
 [submodule "upstream/qmf"]
 	path = upstream/qmf
-	url = https://gitlab.com/dekkan/messagingframework.git
+	url = https://gitlab.com/uapps/systemcore/sageteamail/focal/messagingframework.git
 [submodule "upstream/maz-db"]
 	path = upstream/maz-db
 	url = https://gitlab.com/dekkoproject/maz-db.git
 [submodule "upstream/notify"]
 	path = upstream/notify
-	url = https://gitlab.com/dekkan/notify.git
+	url = https://gitlab.com/uapps/systemcore/sageteamail/focal/notify.git
 [submodule "upstream/quick-flux"]
 	path = upstream/quick-flux
 	url = https://gitlab.com/dekkan/quick-flux.git
@@ -21,4 +21,4 @@
 	url = https://gitlab.com/dekkoproject/ubuntu-push-client.git
 [submodule "upstream/richtext-editor"]
 	path = upstream/richtext-editor
-	url = https://gitlab.com/dekkan/qml-richtext-editor.git
+	url = https://gitlab.com/uapps/systemcore/sageteamail/focal/qml-richtext-editor.git
