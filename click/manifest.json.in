@@ -1,0 +1,24 @@
+{
+    "name": "sageteamail2.sagetea",
+    "description": "Sagetea Mail Client for XFone.",
+    "framework": "@CLICK_FRAMEWORK@",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Sagetea Mail",
+    "hooks": {
+        "sageteamail": {
+            "apparmor": "sageteamail2.apparmor",
+            "content-hub": "sageteamail2-content.json",
+            "desktop": "sageteamail2.desktop",
+            "urls": "sageteamail2.url-dispatcher"
+        },
+        "sageteamaild": {
+            "apparmor": "sageteamaild.apparmor"
+        },
+        "sageteamail-notify": {
+            "apparmor": "sageteamailhelper-aa.json",
+            "push-helper": "sageteamail-helper.json"
+        }
+    },
+    "version": "%VERSION%",
+    "maintainer": "Rúben Carneiro <rubencarneiro01£gmail.com>"
+}

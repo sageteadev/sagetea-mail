@@ -1,0 +1,5 @@
+{
+    "id": "ubuntu-folder-picker",
+    "register" : "Dekko::Mail::FolderPicker",
+    "component" : "MailboxPickerPage.qml"
+}
