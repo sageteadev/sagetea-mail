@@ -5,8 +5,8 @@ Project {
     name: "App"
 
     QtGuiApplication {
-        name: "Dekko Mail"
-        targetName: "dekko"
+        name: "Sagetea Mail"
+        targetName: "sageteamail"
 
         Depends { name : "cpp" }
         Depends {
@@ -34,8 +34,8 @@ Project {
 
         cpp.defines: [
             "SNAP_MODE",
-            "APP_NAME=\"dekko\"",
-            "APP_ORG=\"dekkoproject\"",
+            "APP_NAME=\"sageteamail\"",
+            "APP_ORG=\"sagetea\"",
             "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
         ]
 
@@ -43,8 +43,8 @@ Project {
             condition: project.click
             cpp.defines: [
                 "CLICK_MODE",
-                "APP_NAME=\"dekko2.dekkoproject\"",
-                "APP_ORG=\"dekko2.dekkoproject\"",
+                "APP_NAME=\"sageteamail2.sagetea\"",
+                "APP_ORG=\"sageteamail2.sagetea\"",
                 "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }
@@ -69,7 +69,7 @@ Project {
                 "assets/configuration/**"
             ]
             qbs.install: true
-            qbs.installDir: "/usr/share/dekko/configuration"
+            qbs.installDir: "/usr/share/sagetea/configuration"
             qbs.installSourceBase: "assets/configuration"
         }
 

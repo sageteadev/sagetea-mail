@@ -52,12 +52,12 @@ DynamicLibrary {
         ]
         fileTags: ["account-resources"]
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Mail/Accounts"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Accounts"
     }
 
     Group {
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Mail/Accounts"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Accounts"
         fileTagsFilter: product.type
     }
 }
