@@ -77,7 +77,7 @@ Project {
         Group {
             fileTagsFilter: "py-libs"
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/" + project.name
+            qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
             // This ensures we maintain the directory structure
             qbs.installSourceBase: pip3.sourceDir + (project.click ? "/lib/python3.4/site-packages/" : "/lib/python3.8/site-packages/")
         }
@@ -101,7 +101,7 @@ Project {
         Group {
             fileTagsFilter: "py-comps"
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/" + project.name
+            qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
             qbs.installSourceBase: path
         }
     }

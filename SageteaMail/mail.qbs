@@ -11,7 +11,7 @@ Project {
             files: ["api/public/**"]
             fileTags: ["public-qml-api"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/Mail/API"
+            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/API"
             qbs.installSourceBase: "api/public"
         }
 
@@ -23,7 +23,7 @@ Project {
             files: ["api/private/**"]
             fileTags: ["private-qml-api"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/Mail/API/Private"
+            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/API/Private"
             qbs.installSourceBase: "api/private"
         }
     }
@@ -36,7 +36,7 @@ Project {
             files: ["stores/**"]
             fileTags: ["mail-stores"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/Mail/Stores"
+            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Stores"
             qbs.installSourceBase: "stores"
         }
         readonly property stringList qmlImportPaths: [
@@ -52,7 +52,7 @@ Project {
             files: ["workers/**"]
             fileTags: ["mail-workers"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/Dekko/Mail/Workers"
+            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Workers"
             qbs.installSourceBase: "workers"
         }
     }

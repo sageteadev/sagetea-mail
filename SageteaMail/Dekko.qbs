@@ -1,5 +1,5 @@
 import qbs
 
 Project {
-    name: "Dekko"
+    name: "SageteaMail"
 }

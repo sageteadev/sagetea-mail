@@ -67,6 +67,6 @@ DynamicLibrary {
         files: ["*.js", "qmldir"]
         fileTags: ["js-utils"]
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Utils"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Utils"
     }
 }

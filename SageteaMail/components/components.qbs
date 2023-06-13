@@ -62,13 +62,13 @@ DynamicLibrary {
 
     Group {
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Components"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Components"
         fileTagsFilter: product.type
     }
 
     Group {
         qbs.install: true
-        qbs.installDir: project.qmlDir + "/Dekko/Components"
+        qbs.installDir: project.qmlDir + "/SageteaMail/Components"
         fileTagsFilter: "comp-resources"
     }
 }
