@@ -1,3 +1,0 @@
-module SageteaMail.Mail.Stores.Accounts
-singleton AccountSetup 1.0 AccountSetup.qml
-singleton AccountStore 1.0 AccountStore.qml

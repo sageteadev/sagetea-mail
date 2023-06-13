@@ -1,2 +1,0 @@
-module SageteaMail.Mail.Stores.Views
-singleton ViewStore 1.0 ViewStore.qml

@@ -1,5 +1,0 @@
-{
-    "id": "default-addressbook-plugin",
-    "register" : "SageteaMail::AddressBook::Provider",
-    "component" : "DefaultPlugin.qml"
-}

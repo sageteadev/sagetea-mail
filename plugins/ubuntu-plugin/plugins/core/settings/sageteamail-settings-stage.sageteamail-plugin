@@ -1,5 +1,0 @@
-{
-    "id": "ubuntu-settings-stage",
-    "register" : "SageteaMail::Stage::Settings",
-    "component" : "SettingsStage.qml"
-}

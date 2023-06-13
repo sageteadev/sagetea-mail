@@ -1,5 +1,0 @@
-{
-    "id": "cache-manager-settings",
-    "register" : "SageteaMail::Settings::AccountAction",
-    "component" : "CacheSettings.qml"
-}

@@ -1,5 +1,0 @@
-{
-    "id": "ubuntu-mail-composer-ui",
-    "register" : "SageteaMail::Mail::Composer::UI",
-    "component" : "Composer.qml"
-}
