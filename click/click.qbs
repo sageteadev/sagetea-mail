@@ -18,7 +18,7 @@ Product {
         name: "Click Manifests"
         files: [
             "sageteamail2-content.json",
-            "sagetemail2.url-dispatcher",
+            "sageteamail2.url-dispatcher",
             "manifest.json",
         ]
         fileTags: ["clickroot"]
