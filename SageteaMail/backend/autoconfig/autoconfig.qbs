@@ -6,7 +6,7 @@ DynamicLibrary {
     name: "AutoConfig Plugin"
     targetName: "autoconfig"
 
-    readonly property string installDir: project.qmlDir + "/Dekko/AutoConfig"
+    readonly property string installDir: project.qmlDir + "/SageteaMail/AutoConfig"
 
     Probes.PkgConfigProbe {
         id: connectivity
