@@ -5,7 +5,7 @@ set -e
 export QT_SELECT=qt5
 
 ROOT_DIR=$PWD
-BACKEND_DIR=$ROOT_DIR/Dekko/backend
+BACKEND_DIR=$ROOT_DIR/SageteaMail/backend
 MAIL_DIR=$BACKEND_DIR/mail/service
 ACCOUNT_DIR=$BACKEND_DIR/accounts/service
 
