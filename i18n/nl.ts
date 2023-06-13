@@ -165,12 +165,12 @@
 <context>
     <name>AccountSetup</name>
     <message>
-        <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="220"/>
+        <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="220"/>
         <source>Invalid email address</source>
         <translation>Het e-mailadres is ongeldig</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Accounts/AccountSetup.qml" line="536"/>
+        <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
         <source>Sent with Dekko</source>
         <translation>Verstuurd met Dekko</translation>
     </message>
@@ -178,23 +178,23 @@
 <context>
     <name>AccountsWorker</name>
     <message>
-        <location filename="../Dekko/workers/AccountsWorker.qml" line="36"/>
-        <location filename="../Dekko/workers/AccountsWorker.qml" line="90"/>
+        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="36"/>
+        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="90"/>
         <source>Account removal failed</source>
         <translation>Het account kan niet worden verwijderd</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
+        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="54"/>
         <source>Remove %1</source>
         <translation>%1 verwijderen</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/AccountsWorker.qml" line="54"/>
+        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="54"/>
         <source>Are you sure you wish to remove this account?</source>
         <translation>Weet je zeker dat je dit account wilt verwijderen?</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/AccountsWorker.qml" line="87"/>
+        <location filename="../SageteaMail/workers/AccountsWorker.qml" line="87"/>
         <source>Account removed</source>
         <translation>Het account is verwijderd</translation>
     </message>
@@ -679,14 +679,14 @@ Wil je die instellingen gebruiken?</translation>
 <context>
     <name>ClientService</name>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="82"/>
         <source>messages</source>
         <translation>berichten</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="78"/>
-        <location filename="../Dekko/backend/mail/service/ClientService.cpp" line="82"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="78"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientService.cpp" line="82"/>
         <source>message</source>
         <translation>bericht</translation>
     </message>
@@ -710,22 +710,22 @@ Wil je die instellingen gebruiken?</translation>
 <context>
     <name>ComposerStore</name>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="86"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="86"/>
         <source>Please select a sender. Otherwise no drafts will be saved automatically. Consider setting a default identity.</source>
         <translation>Kies een afzender om concepten automatisch te bewaren. Overweeg ook een standaardidentiteit in te stellen.</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="90"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="90"/>
         <source>Somethings fishy with your Identity. Please select a valid sender.</source>
         <translation>Er iets mis met je identiteit - kies een geldige afzender.</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="99"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="99"/>
         <source>Message queued.</source>
         <translation>Het bericht staat in de wachtrij.</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStore.qml" line="103"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStore.qml" line="103"/>
         <source>Draft saved.</source>
         <translation>Er is een concept bewaard.</translation>
     </message>
@@ -733,22 +733,22 @@ Wil je die instellingen gebruiken?</translation>
 <context>
     <name>ComposerStoreActions</name>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="26"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="26"/>
         <source>Send</source>
         <translation>Versturen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="33"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="33"/>
         <source>Save draft</source>
         <translation>Concept opslaan</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="40"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="40"/>
         <source>Discard</source>
         <translation>Verwerpen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Composer/ComposerStoreActions.qml" line="47"/>
+        <location filename="../SageteaMail/stores/Composer/ComposerStoreActions.qml" line="47"/>
         <source>Attach</source>
         <translation>Bijvoegen</translation>
     </message>
@@ -756,12 +756,12 @@ Wil je die instellingen gebruiken?</translation>
 <context>
     <name>ComposerWorker</name>
     <message>
-        <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
+        <location filename="../SageteaMail/workers/ComposerWorker.qml" line="120"/>
         <source>Discard message</source>
         <translation>Bericht afbreken</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/ComposerWorker.qml" line="120"/>
+        <location filename="../SageteaMail/workers/ComposerWorker.qml" line="120"/>
         <source>Are you sure you want to discard this message?</source>
         <translation>Weet je zeker dat je dit bericht wilt afbreken?</translation>
     </message>
@@ -1067,12 +1067,12 @@ Wil je die instellingen gebruiken?</translation>
 <context>
     <name>DialogWorker</name>
     <message>
-        <location filename="../Dekko/workers/DialogWorker.qml" line="39"/>
+        <location filename="../SageteaMail/workers/DialogWorker.qml" line="39"/>
         <source>Error</source>
         <translation>Foutmelding</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/DialogWorker.qml" line="48"/>
+        <location filename="../SageteaMail/workers/DialogWorker.qml" line="48"/>
         <source>Notice</source>
         <translation>Let op</translation>
     </message>
@@ -2182,18 +2182,18 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>ErrorsWorker</name>
     <message>
-        <location filename="../Dekko/workers/ErrorsWorker.qml" line="78"/>
-        <location filename="../Dekko/workers/ErrorsWorker.qml" line="82"/>
+        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="78"/>
+        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="82"/>
         <source>No connection</source>
         <translation>Geen internetverbinding</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/ErrorsWorker.qml" line="86"/>
+        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="86"/>
         <source>Connection unavailable</source>
         <translation>Geen internetverbinding</translation>
     </message>
     <message>
-        <location filename="../Dekko/workers/ErrorsWorker.qml" line="102"/>
+        <location filename="../SageteaMail/workers/ErrorsWorker.qml" line="102"/>
         <source>Action timed out</source>
         <translation>Verbinding verlopen</translation>
     </message>
@@ -2209,7 +2209,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>ExportUpdatesAction</name>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="144"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="144"/>
         <source>Syncing changes for %1 account</source>
         <translation>Bezig met synchroniseren van %1-account…</translation>
     </message>
@@ -2225,37 +2225,37 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>FlagsAction</name>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="166"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="166"/>
         <source>important</source>
         <translation>belangrijk</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="169"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="169"/>
         <source>not important</source>
         <translation>onbelangrijk</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="178"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="178"/>
         <source>read</source>
         <translation>gelezen</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="181"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="181"/>
         <source>unread</source>
         <translation>ongelezen</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="190"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="190"/>
         <source>as todo</source>
         <translation>als taak</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="193"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="193"/>
         <source>no longer todo</source>
         <translation>taak afgerond</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/service/ClientServiceAction.cpp" line="198"/>
+        <location filename="../SageteaMail/backend/mail/service/ClientServiceAction.cpp" line="198"/>
         <source>Marking %1 messages %2</source>
         <translation>Bezig met markeren van %1 berichten als %2…</translation>
     </message>
@@ -2263,32 +2263,32 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>Folder</name>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="103"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="103"/>
         <source>Drafts</source>
         <translation>Concepten</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="105"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="105"/>
         <source>Inbox</source>
         <translation>Postvak in</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="107"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="107"/>
         <source>Spam</source>
         <translation>Ongewenst</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="109"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="109"/>
         <source>Outbox</source>
         <translation>Postvak uit</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="111"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="111"/>
         <source>Sent</source>
         <translation>Verzonden</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Folder.cpp" line="113"/>
+        <location filename="../SageteaMail/backend/mail/Folder.cpp" line="113"/>
         <source>Trash</source>
         <translation>Prullenbak</translation>
     </message>
@@ -2377,7 +2377,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>ForbiddenReply</name>
     <message>
-        <location filename="../Dekko/backend/network/ForbiddenReply.cpp" line="24"/>
+        <location filename="../SageteaMail/backend/network/ForbiddenReply.cpp" line="24"/>
         <source>Remote content is banned</source>
         <translation>Externe inhoud is geblokkeerd</translation>
     </message>
@@ -3310,42 +3310,42 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MailStore</name>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>All</source>
         <translation>Alles</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Unread</source>
         <translation>Ongelezen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Starred</source>
         <translation>Favorieten</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Replied</source>
         <translation>Beantwoord</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Forwarded</source>
         <translation>Doorgestuurd</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Attachments</source>
         <translation>Bijlagen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="38"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="38"/>
         <source>Calendar</source>
         <translation>Agenda</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStore.qml" line="39"/>
+        <location filename="../SageteaMail/stores/Mail/MailStore.qml" line="39"/>
         <source>Local</source>
         <translation>Lokaal</translation>
     </message>
@@ -3353,37 +3353,37 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MailStoreActions</name>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Unselect all</source>
         <translation>Niets selecteren</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="36"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="36"/>
         <source>Select all</source>
         <translation>Alles selecteren</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Star</source>
         <translation>Toev. aan favorieten</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="49"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="49"/>
         <source>Remove star</source>
         <translation>Verw. uit favorieten</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="57"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="57"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as un-read</source>
         <translation>Markeren als ongelezen</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Mail/MailStoreActions.qml" line="62"/>
+        <location filename="../SageteaMail/stores/Mail/MailStoreActions.qml" line="62"/>
         <source>Mark as read</source>
         <translation>Markeren als gelezen</translation>
     </message>
@@ -3417,7 +3417,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MailboxWorker</name>
     <message>
-        <location filename="../Dekko/workers/MailboxWorker.qml" line="161"/>
+        <location filename="../SageteaMail/workers/MailboxWorker.qml" line="161"/>
         <source>Message moved</source>
         <translation>Het bericht is verplaatst</translation>
     </message>
@@ -3492,12 +3492,12 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>Message</name>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="228"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="228"/>
         <source>you</source>
         <translation>ik</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="230"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="230"/>
         <source>to %1</source>
         <translation>aan %1</translation>
     </message>
@@ -3523,34 +3523,34 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MessageBuilder</name>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="268"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="268"/>
         <source>On %1, %2 wrote:
 </source>
         <translation>Op %1 schreef %2:
 </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="325"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="325"/>
         <source>Forwarded Message</source>
         <translation>Doorgestuurd bericht</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="326"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="326"/>
         <source>Date: </source>
         <translation>Datum: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="327"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="327"/>
         <source>From: </source>
         <translation>Van: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="328"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="328"/>
         <source>To: </source>
         <translation>Aan: </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageBuilder.cpp" line="329"/>
+        <location filename="../SageteaMail/backend/mail/MessageBuilder.cpp" line="329"/>
         <source>Subject: </source>
         <translation>Onderwerp: </translation>
     </message>
@@ -3558,47 +3558,47 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MessageFilterCollection</name>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="79"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="79"/>
         <source>All inboxes</source>
         <translation>Alle postvakken</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="89"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="89"/>
         <source>Drafts</source>
         <translation>Concepten</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="99"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="99"/>
         <source>Spam</source>
         <translation>Ongewenst</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="109"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="109"/>
         <source>Outbox</source>
         <translation>Postvak uit</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="119"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="119"/>
         <source>Sent</source>
         <translation>Verzonden</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="128"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="128"/>
         <source>Trash</source>
         <translation>Prullenbak</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="140"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="140"/>
         <source>Today, %1</source>
         <translation>Vandaag (%1)</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="149"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="149"/>
         <source>To-do</source>
         <translation>Taak</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/MessageFilterCollection.cpp" line="158"/>
+        <location filename="../SageteaMail/backend/mail/MessageFilterCollection.cpp" line="158"/>
         <source>Done</source>
         <translation>Afgerond</translation>
     </message>
@@ -3832,32 +3832,32 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>MinimalMessage</name>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="110"/>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="110"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="126"/>
         <source>hh:mm</source>
         <comment>time format as hours:minutes e.g. 12:45</comment>
         <translation>hh:mm</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="115"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="115"/>
         <source>ddd hh:mm</source>
         <comment>time/date format as short day name hours:minutes e.g. Mon. 12:45</comment>
         <translation>ddd hh:mm</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="117"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="117"/>
         <source>dd MMM</source>
         <comment>date format as day name and month e.g. 02 May</comment>
         <translation>dd MMM</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="119"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="119"/>
         <source>dd MMM yy</source>
         <comment>date format as day month year e.g. 31 02 2020</comment>
         <translation>dd MMM yy</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Message.cpp" line="126"/>
+        <location filename="../SageteaMail/backend/mail/Message.cpp" line="126"/>
         <source>dddd dd</source>
         <comment>time format as long day name and day e.g. Monday 02</comment>
         <translation>dddd dd</translation>
@@ -4824,7 +4824,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>QObject</name>
     <message numerus="yes">
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="344"/>
+        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="344"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentlistwidget.cpp" line="55"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentoptions.cpp" line="367"/>
         <location filename="../upstream/qmf/qt-messaging-framework/examples/qtmail/attachmentlistwidget.cpp" line="55"/>
@@ -4836,7 +4836,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         </translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="346"/>
+        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="346"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentlistwidget.cpp" line="57"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentoptions.cpp" line="369"/>
         <location filename="../upstream/qmf/qt-messaging-framework/examples/qtmail/attachmentlistwidget.cpp" line="57"/>
@@ -4845,7 +4845,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="348"/>
+        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="348"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentlistwidget.cpp" line="59"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentoptions.cpp" line="371"/>
         <location filename="../upstream/qmf/qt-messaging-framework/examples/qtmail/attachmentlistwidget.cpp" line="59"/>
@@ -4854,7 +4854,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location filename="../Dekko/backend/mail/Attachments.cpp" line="350"/>
+        <location filename="../SageteaMail/backend/mail/Attachments.cpp" line="350"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentlistwidget.cpp" line="61"/>
         <location filename="../upstream/qmf/examples/qtmail/attachmentoptions.cpp" line="373"/>
         <location filename="../upstream/qmf/qt-messaging-framework/examples/qtmail/attachmentlistwidget.cpp" line="61"/>
@@ -5372,7 +5372,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>S:</name>
     <message>
-        <location filename="../build/x86_64-linux-gnu/build/install-root/lib/x86_64-linux-gnu/Dekko/Mail/Stores/Accounts/AccountSetup.qml" line="536"/>
+        <location filename="../build/x86_64-linux-gnu/build/install-root/lib/x86_64-linux-gnu/SageteaMail/Mail/Stores/Accounts/AccountSetup.qml" line="536"/>
         <source></source>
         <comment>&apos;convergent&apos; describes the apps ability of being usable on desktop and mobile devices running different OS</comment>
         <translation></translation>
@@ -5638,7 +5638,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>ServiceHandler</name>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="593"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="593"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="581"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="581"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="589"/>
@@ -5646,7 +5646,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Bezig met vernietigen van dienstafhandeling…</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="645"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="645"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="633"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="633"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="641"/>
@@ -5654,7 +5654,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De dienst is niet beschikbaar - verwerken is niet mogelijk</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="826"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="826"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="802"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="802"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="822"/>
@@ -5662,7 +5662,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Het account is bijgewerkt door een ander proces</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="833"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="833"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="808"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="808"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="829"/>
@@ -5670,8 +5670,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Het account is verwijderd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1234"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1283"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1234"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1283"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1209"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1258"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1209"/>
@@ -5682,9 +5682,9 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Het verzoek kan niet worden verwerkt</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1320"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1322"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1370"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1320"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1322"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1370"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1295"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1297"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1345"/>
@@ -5698,8 +5698,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Afgebroken door gebruiker</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1379"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1415"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1379"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1415"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1354"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1390"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1354"/>
@@ -5710,28 +5710,28 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De berichten kunnen niet in de wachtrij worden geplaatst</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1463"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1574"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1612"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1650"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1686"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1722"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1763"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1803"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1842"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1882"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1918"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1951"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1988"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2056"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2111"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2188"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2397"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2517"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2553"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2584"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2680"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2949"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1463"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1574"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1612"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1650"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1686"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1722"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1763"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1803"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1842"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1882"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1918"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1951"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1988"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2056"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2111"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2188"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2397"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2517"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2553"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2584"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2680"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2949"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1438"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1549"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1587"/>
@@ -5803,8 +5803,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De accountbron kan niet worden gevonden</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1500"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1536"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1500"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1536"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1475"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1511"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1475"/>
@@ -5815,7 +5815,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De accountsink kan niet worden gevonden</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1547"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1547"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1522"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1522"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1543"/>
@@ -5823,8 +5823,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Mappenlijsten van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1585"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1623"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1585"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1623"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1560"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1598"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1560"/>
@@ -5835,7 +5835,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichtlijsten van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1661"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1661"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1636"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1636"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1657"/>
@@ -5843,7 +5843,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1697"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1697"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1672"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1672"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1693"/>
@@ -5851,7 +5851,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Standaardmappen van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1733"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1733"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1708"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1708"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1729"/>
@@ -5859,7 +5859,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1777"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1777"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1752"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1752"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1773"/>
@@ -5867,7 +5867,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichtdelen van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1815"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1815"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1790"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1790"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1811"/>
@@ -5875,7 +5875,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Het berichtbereik van niet-ingestelde accounts kan niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1854"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1854"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1829"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1829"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1850"/>
@@ -5883,7 +5883,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Her berichtdeelbereik van niet-ingestelde accounts kan niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1893"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1893"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1868"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1868"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1889"/>
@@ -5891,7 +5891,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Alle berichten van niet-ingestelde accounts kunnen niet worden opgehaald</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1929"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1929"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1904"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1904"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1925"/>
@@ -5899,7 +5899,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Updates van niet-ingestelde accounts kunnen niet worden geëxporteerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="1962"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="1962"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1937"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1937"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="1958"/>
@@ -5907,7 +5907,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Niet-ingestelde accounts kunnen niet worden gesynchroniseerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2006"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2006"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1981"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1981"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2002"/>
@@ -5915,7 +5915,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten kunnen niet worden verwijderd van niet-ingestelde accounts</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2008"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2008"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="1983"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="1983"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2004"/>
@@ -5923,7 +5923,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Bezig met verwijderen…</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2026"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2026"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2001"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2001"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2022"/>
@@ -5931,8 +5931,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De berichten kunnen niet worden afgebroken</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2075"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2096"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2075"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2096"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2050"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2071"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2050"/>
@@ -5943,7 +5943,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van niet-ingestelde accounts kunnen niet worden gekopieerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2077"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2077"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2052"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2052"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2073"/>
@@ -5951,7 +5951,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten kunnen niet worden gekopieerd naar meerdere bestemmingen!</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2144"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2144"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2119"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2119"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2140"/>
@@ -5959,7 +5959,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van dit account kunnen niet worden gekopieerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2162"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2162"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2137"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2137"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2158"/>
@@ -5967,7 +5967,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van niet-ingestelde accounts kunnen niet worden verplaatst</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2203"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2203"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2178"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2178"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2199"/>
@@ -5975,7 +5975,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichten van niet-ingestelde accounts kunnen niet worden gelabeld</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2216"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2216"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2191"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2191"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2212"/>
@@ -5983,9 +5983,9 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichttoevoegingen kunnen niet worden gesynchroniseerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2218"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2305"/>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2365"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2218"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2305"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2365"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2193"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2280"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2340"/>
@@ -5999,7 +5999,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichtupdates kunnen niet worden gesynchroniseerd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2275"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2275"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2250"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2250"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2271"/>
@@ -6007,7 +6007,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichttoevoegingen kunnen niet worden gesynchroniseerd: inconsistent inhoudsschema</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2327"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2327"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2302"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2302"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2323"/>
@@ -6015,7 +6015,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Berichttoevoegingen kunnen niet worden bijgewerkt: inconsistent inhoudsschema</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2412"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2412"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2387"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2387"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2408"/>
@@ -6023,7 +6023,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>De berichten kunnen niet worden verwijderd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2493"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2493"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2468"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2468"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2489"/>
@@ -6031,7 +6031,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Er kunnen geen mappen worden aangemaakt op ongeldige accounts</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2530"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2530"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2505"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2505"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2526"/>
@@ -6039,7 +6039,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Ongeldige mappen kunnen niet van naam worden gewijzigd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2566"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2566"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2541"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2541"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2562"/>
@@ -6047,7 +6047,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Ongeldige mappen kunnen niet worden verwijderd</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2612"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2612"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2587"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2622"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2608"/>
@@ -6055,7 +6055,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Er kunnen geen berichten worden gezocht op niet-ingestelde accounts</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="2926"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="2926"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="2901"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="2936"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="2922"/>
@@ -6063,7 +6063,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
         <translation>Er kunnen geen specifieke doorstuurverzoeken worden gedaan op niet-ingestelde accounts</translation>
     </message>
     <message>
-        <location filename="../Dekko/server/servicehandler.cpp" line="3174"/>
+        <location filename="../SageteaMail/server/servicehandler.cpp" line="3174"/>
         <location filename="../upstream/qmf/qt-messaging-framework/src/tools/messageserver/servicehandler.cpp" line="3149"/>
         <location filename="../upstream/qmf/src/tools/messageserver/servicehandler.cpp" line="3184"/>
         <location filename="../upstream/qmf/tools/messageserver/servicehandler.cpp" line="3170"/>
@@ -6095,7 +6095,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>SettingsWorker</name>
     <message>
-        <location filename="../Dekko/workers/SettingsWorker.qml" line="103"/>
+        <location filename="../SageteaMail/workers/SettingsWorker.qml" line="103"/>
         <source>Account saved</source>
         <translation>Het account is opgeslagen</translation>
     </message>
@@ -6129,7 +6129,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>SmartFolderSet</name>
     <message>
-        <location filename="../Dekko/backend/mail/MessageSet.cpp" line="332"/>
+        <location filename="../SageteaMail/backend/mail/MessageSet.cpp" line="332"/>
         <source>Today, %1</source>
         <translation>Vandaag (%1)</translation>
     </message>
@@ -6137,7 +6137,7 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>SmtpAccountConfiguration</name>
     <message>
-        <location filename="../Dekko/backend/accounts/AccountConfiguration.cpp" line="459"/>
+        <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
         <source>Sent with Dekko</source>
         <translation>Verstuurd met Dekko</translation>
     </message>
@@ -6457,17 +6457,17 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
 <context>
     <name>ViewStore</name>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="70"/>
+        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="70"/>
         <source>Messages sent</source>
         <translation>De berichten zijn verstuurd</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="72"/>
+        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="72"/>
         <source>Message sent</source>
         <translation>Het bericht is verstuurd</translation>
     </message>
     <message>
-        <location filename="../Dekko/stores/Views/ViewStore.qml" line="75"/>
+        <location filename="../SageteaMail/stores/Views/ViewStore.qml" line="75"/>
         <source>Message sending failed</source>
         <translation>Het bericht kan niet worden verstuurd</translation>
     </message>
