@@ -2,10 +2,10 @@ import qbs
 import qbs.Process
 
 Project {
-    id: sageteamail
-    name: "Sagetea Mail"
-    property string appName: "Sagetea Mail"
-    property string pkgName: "sageteamail.sagetea"
+    id: dekko
+    name: "Dekko Project"
+    property string appName: "Dekko"
+    property string pkgName: "dekko.dekkoproject"
     property string version: "0.4.0"
 	property string arch: "%HOST_ARCH%"
 
@@ -50,7 +50,7 @@ Project {
                       be in the import path or can be picked up via QML2_IMPORT_PATH"
     }
 
-    property string dataDir: "share/sageteamail"
+    property string dataDir: "share/dekko"
 
     property string pluginDir: binDir + "/plugins"
 
@@ -109,13 +109,13 @@ Project {
     qbsSearchPaths: [ path ]
 
     references: [
-        "SageteaMail/components/components.qbs",
-        "SageteaMail/utils/utils.qbs",
+        "Dekko/components/components.qbs",
+        "Dekko/utils/utils.qbs",
         "upstream/third-party.qbs",
         "plugins/plugins.qbs",
-        "SageteaMail/backend/backend.qbs",
-        "SageteaMail/server/server.qbs",
-        "SageteaMail/app/app.qbs"
+        "Dekko/backend/backend.qbs",
+        "Dekko/server/server.qbs",
+        "Dekko/app/app.qbs"
     ]
 
     DynamicLibrary {
@@ -146,11 +146,11 @@ Project {
         name: "API"
         Group {
             name: "Public API"
-            files: ["SageteaMail/api/public/**"]
+            files: ["Dekko/api/public/**"]
             fileTags: ["public-qml-api"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/API"
-            qbs.installSourceBase: "SageteaMail/api/public"
+            qbs.installDir: project.qmlDir + "/Dekko/Mail/API"
+            qbs.installSourceBase: "Dekko/api/public"
         }
 
         readonly property stringList qmlImportPaths: [ qbs.installRoot + "/" + project.qmlDir ]
@@ -158,11 +158,11 @@ Project {
 
         Group {
             name: "Private API"
-            files: ["SageteaMail/api/private/**"]
+            files: ["Dekko/api/private/**"]
             fileTags: ["private-qml-api"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/API/Private"
-            qbs.installSourceBase: "SageteaMail/api/private"
+            qbs.installDir: project.qmlDir + "/Dekko/Mail/API/Private"
+            qbs.installSourceBase: "Dekko/api/private"
         }
     }
 
@@ -171,11 +171,11 @@ Project {
 
         Group {
             name: "Mail Stores"
-            files: ["SageteaMail/stores/**"]
+            files: ["Dekko/stores/**"]
             fileTags: ["mail-stores"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Stores"
-            qbs.installSourceBase: "SageteaMail/stores"
+            qbs.installDir: project.qmlDir + "/Dekko/Mail/Stores"
+            qbs.installSourceBase: "Dekko/stores"
         }
         readonly property stringList qmlImportPaths: [
             qbs.installRoot + "/" + project.qmlDir + "/"
@@ -187,11 +187,11 @@ Project {
 
         Group {
             name: "Mail Workers"
-            files: ["SageteaMail/workers/**"]
+            files: ["Dekko/workers/**"]
             fileTags: ["mail-workers"]
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/Mail/Workers"
-            qbs.installSourceBase: "SageteaMail/workers"
+            qbs.installDir: project.qmlDir + "/Dekko/Mail/Workers"
+            qbs.installSourceBase: "Dekko/workers"
         }
     }
 

@@ -5,7 +5,7 @@ Project {
 
     // Install location of dynamic library relative to qbs.installRoot
     property string installDir: "lib" // i.e qbs.installRoot + "/lib"
-    readonly property string qmlDirName: "SageteaMail/Controls"
+    readonly property string qmlDirName: "Dekko/Controls"
 
     DynamicLibrary {
         id: controlsLib

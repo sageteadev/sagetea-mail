@@ -1,24 +1,24 @@
 {
-    "name": "sageteamail2.sagetea",
-    "description": "Sagetea Mail Client for XFone.",
+    "name": "dekko2.dekkoproject",
+    "description": "Experimental release of the next generation Dekko.",
     "framework": "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
-    "title": "Sagetea Mail",
+    "title": "Dekko 2",
     "hooks": {
-        "sageteamail": {
-            "apparmor": "sageteamail2.apparmor",
-            "content-hub": "sageteamail2-content.json",
-            "desktop": "sageteamail2.desktop",
-            "urls": "sageteamail2.url-dispatcher"
+        "dekko": {
+            "apparmor": "dekko2.apparmor",
+            "content-hub": "dekko2-content.json",
+            "desktop": "dekko2.desktop",
+            "urls": "dekko2.url-dispatcher"
         },
-        "sageteamaild": {
-            "apparmor": "sageteamaild.apparmor"
+        "dekkod": {
+            "apparmor": "dekkod.apparmor"
         },
-        "sageteamail-notify": {
-            "apparmor": "sageteamailhelper-aa.json",
-            "push-helper": "sageteamail-helper.json"
+        "dekko-notify": {
+            "apparmor": "dekkohelper-aa.json",
+            "push-helper": "dekko-helper.json"
         }
     },
     "version": "%VERSION%",
-    "maintainer": "Rúben Carneiro <rubencarneiro01£gmail.com>"
+    "maintainer": "Dan Chapman <dpniel@ubuntu.com>"
 }

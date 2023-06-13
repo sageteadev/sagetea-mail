@@ -12,12 +12,22 @@ variables:
 default:
   image: "clickable/ci-$UT_VERSION-$ARCH:$CLICKABLE_VERSION"
 
+.armhf: &armhf
+  variables:
+    ARCH: "armhf"
+    ARCH_TRIPLET: "arm-linux-gnueabihf"
+
 .arm64: &arm64
   variables:
     ARCH: "arm64"
     ARCH_TRIPLET: "aarch64-linux-gnu"
 
-.sageteamail:
+.amd64: &amd64
+  variables:
+    ARCH: "amd64"
+    ARCH_TRIPLET: "x86_64-linux-gnu"
+
+.dekko:
   stage: build
   tags:
     - docker
@@ -29,6 +39,43 @@ default:
     when: on_success
     expire_in: 1 week
 
-sageteamail:arm64:
+dekko:armhf:
+  <<: *armhf
+  extends: .dekko
+
+dekko:arm64:
   <<: *arm64
-  extends: .sageteamail
+  extends: .dekko
+
+dekko:amd64:
+  <<: *amd64
+  extends: .dekko
+
+docs:
+  stage: doc
+  image: clickable/ci-16.04-amd64:$CLICKABLE_VERSION
+  script:
+    - apt update
+    - apt install -y doxygen plantuml graphviz doxyqml wget
+    - wget -O /usr/share/plantuml/plantuml.jar https://downloads.sourceforge.net/project/plantuml/plantuml.jar?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fplantuml%2Ffiles%2Fplantuml.jar%2Fdownload&ts=1591870450
+    - doxygen
+  artifacts:
+    paths:
+      - ./doxygen-out
+
+pages:
+  stage: deploy
+  image: ruby:2.3
+  script:
+    - mv doxygen-out/html/* ./
+    - mv docs/Gemfile* ./
+    - mv docs/_config.yml ./
+    - bundle install
+    - bundle exec jekyll build -d public
+  dependencies:
+    - docs
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

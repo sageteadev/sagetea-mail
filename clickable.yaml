@@ -48,7 +48,7 @@ libraries:
   update-ts-files:
     builder: custom
     build: cd ${ROOT} && scripts/update-i18n \
-      SageteaMail \
+      Dekko \
       plugins/ubuntu-plugin \
       plugins/ubuntu-notification-plugin \
       plugins/cache-manager-plugin

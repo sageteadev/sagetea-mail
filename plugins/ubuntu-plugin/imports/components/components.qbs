@@ -38,7 +38,7 @@ Project {
             condition: project.ui === "ubuntu"
             fileTagsFilter: "components-plugin"
             qbs.install: project.ui === "ubuntu"
-            qbs.installDir: project.qmlDir + "/SageteaMail/Lomiri/Components"
+            qbs.installDir: project.qmlDir + "/Dekko/Lomiri/Components"
         }
     }
 
@@ -69,7 +69,7 @@ Project {
             condition: project.ui === "ubuntu"
             fileTagsFilter: "priv-components-plugin"
             qbs.install: project.ui === "ubuntu"
-            qbs.installDir: project.qmlDir + "/SageteaMail/Lomiri/Components/private"
+            qbs.installDir: project.qmlDir + "/Dekko/Lomiri/Components/private"
         }
 
     }

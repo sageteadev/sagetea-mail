@@ -15,7 +15,7 @@ add_library(controlsplugin MODULE ${ControlsPlugin_SRCS})
 
 qt5_use_modules(controlsplugin Core Quick Svg)
 
-set(CONTROLS_PLUGIN_DIR ${QT_IMPORTS_DIR}/SageteaMail/Controls)
+set(CONTROLS_PLUGIN_DIR ${QT_IMPORTS_DIR}/Dekko/Controls)
 
 set(QML_CTRL_SRCS
     ${CMAKE_CURRENT_SOURCE_DIR}/StackView.qml

@@ -8,8 +8,8 @@ Product {
     Group {
         name: "AppArmor"
         files: [
-            "openstore/sageteamail2.apparmor",
-            "openstore/sageteamaild.apparmor"
+            "openstore/dekko2.apparmor",
+            "openstore/dekkod.apparmor"
         ]
         fileTags: ["clickroot"]
     }
@@ -17,8 +17,8 @@ Product {
     Group {
         name: "Click Manifests"
         files: [
-            "sageteamail2-content.json",
-            "sageteamail2.url-dispatcher",
+            "dekko2-content.json",
+            "dekko2.url-dispatcher",
             "manifest.json",
         ]
         fileTags: ["clickroot"]
@@ -27,7 +27,7 @@ Product {
     Group {
         name: "Launcher"
         files: [
-            "sageteamaild-launch"
+            "dekkod-launch"
         ]
         fileTags: ["clickbin"]
     }
@@ -35,8 +35,8 @@ Product {
     Group {
         name: "Desktop Files"
         files: [
-            "sageteamail2.desktop",
-            "sageteamaild.desktop",
+            "dekko2.desktop",
+            "dekkod.desktop",
         ]
         fileTags: ["clickroot"]
     }
@@ -44,9 +44,9 @@ Product {
     Group {
         name: "Push Helper"
         files: [
-            "sageteamailhelper-aa.json",
-            "sageteamail-helper.json",
-            "sageteamail-helper"
+            "dekkohelper-aa.json",
+            "dekko-helper.json",
+            "dekko-helper"
         ]
         fileTags: ["clickroot"]
     }

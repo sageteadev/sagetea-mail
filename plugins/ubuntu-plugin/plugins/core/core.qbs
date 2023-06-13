@@ -46,14 +46,14 @@ Project {
             condition: project.ui === "ubuntu"
             fileTagsFilter: "dekko-webcontext-plugin"
             qbs.install: project.ui === "ubuntu"
-            qbs.installDir: project.qmlDir + "/SageteaMail/" + product.name
+            qbs.installDir: project.qmlDir + "/Dekko/" + product.name
         }
 
         Group {
             condition: project.ui === "ubuntu"
             fileTagsFilter: product.type
             qbs.install: project.ui === "ubuntu"
-            qbs.installDir: project.qmlDir + "/SageteaMail/" + product.name
+            qbs.installDir: project.qmlDir + "/Dekko/" + product.name
         }
     }
 

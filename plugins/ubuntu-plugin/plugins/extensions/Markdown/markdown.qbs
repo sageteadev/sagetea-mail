@@ -47,7 +47,7 @@ Project {
         Group {
             fileTagsFilter: "md-plugin"
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
+            qbs.installDir: project.qmlDir + "/Dekko/" + project.name
         }
 
         Group {
@@ -63,7 +63,7 @@ Project {
         Group {
             fileTagsFilter: product.type
             qbs.install: true
-            qbs.installDir: project.qmlDir + "/SageteaMail/" + project.name
+            qbs.installDir: project.qmlDir + "/Dekko/" + project.name
         }
     }
 }
