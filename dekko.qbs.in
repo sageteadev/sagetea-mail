@@ -109,13 +109,13 @@ Project {
     qbsSearchPaths: [ path ]
 
     references: [
-        "/SageteaMail/components/components.qbs",
-        "/SageteaMail/utils/utils.qbs",
+        "SageteaMail/components/components.qbs",
+        "SageteaMail/utils/utils.qbs",
         "upstream/third-party.qbs",
         "plugins/plugins.qbs",
-        "/SageteaMail/backend/backend.qbs",
-        "/SageteaMail/server/server.qbs",
-        "/SageteaMail/app/app.qbs"
+        "SageteaMail/backend/backend.qbs",
+        "SageteaMail/server/server.qbs",
+        "SageteaMail/app/app.qbs"
     ]
 
     DynamicLibrary {
