@@ -21,14 +21,14 @@ import Lomiri.Components.Popups 1.3
 import PlugMan 1.0
 
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Settings 1.0
+import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Mail.Stores.Views 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Mail.Workers 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Workers 1.0
 
 import SageteaMail.Lomiri.Components 1.0
-import Dekko.Lomiri.Dialogs 1.0
-import Dekko.Lomiri.Helpers 1.0
+import SageteaMail.Lomiri.Dialogs 1.0
+import SageteaMail.Lomiri.Helpers 1.0
 
 import "./workers"
 
@@ -59,7 +59,7 @@ ViewState {
     ItemRegistry {
         id: itemRegistry
         asynchronous: false
-        location: "Dekko::Stage::Main"
+        location: "SageteaMail::Stage::Main"
         target: dekkoContainer
         loadMode: ItemRegistry.LoadFirstEnabled
     }
@@ -88,10 +88,10 @@ ViewState {
             defaultListeners: [
                 AccountsWorker {},
                 MailboxWorker {
-                    mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
+                    mailboxPickerUrl: itemRegistry.findFirstEnabled("SageteaMail::Mail::FolderPicker")
                 },
                 SettingsWorker {
-                    mailboxPickerUrl: itemRegistry.findFirstEnabled("Dekko::Mail::FolderPicker")
+                    mailboxPickerUrl: itemRegistry.findFirstEnabled("SageteaMail::Mail::FolderPicker")
                 },
                 UriWorker {},
                 ErrorsWorker {}

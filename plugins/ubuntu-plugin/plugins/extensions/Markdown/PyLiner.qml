@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Dekko.Python 1.0
+import SageteaMail.Python 1.0
 import SageteaMail.Mail.API 1.0
 
 Item {

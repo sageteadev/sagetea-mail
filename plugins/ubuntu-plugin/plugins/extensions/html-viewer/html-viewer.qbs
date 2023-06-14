@@ -5,13 +5,13 @@ Project {
 
     Product {
         name: "Viewer Plugin"
-        type: "dekko-plugin"
+        type: "sageteamail-plugin"
 
         Group {
             name: "Plugin Files"
             prefix: path + "/"
             files: [
-                "*.dekko-plugin",
+                "*.sageteamail-plugin",
                 "*.qml"
             ]
             qbs.install: true

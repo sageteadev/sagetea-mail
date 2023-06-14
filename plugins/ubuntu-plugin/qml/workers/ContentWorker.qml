@@ -22,8 +22,8 @@ import Lomiri.Components.Popups 1.3
 import Lomiri.Content 1.1
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Views 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Lomiri.Dialogs 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Lomiri.Dialogs 1.0
 
 /*!
 *
