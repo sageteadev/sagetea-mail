@@ -1,6 +1,6 @@
 /* Copyright (C) 2016 - 2017 Dan Chapman <dpniel@ubuntu.com>
 
-   This file is part of Dekko email client for Ubuntu devices
+   This file is part of SageteaMail email client for Ubuntu devices
 
    This program is free software; you can redistribute it and/or
    modify it under the terms of the GNU General Public License as
@@ -19,19 +19,19 @@
 #include <QTimer>
 #include <QDebug>
 #include <QQuickStyle>
-#include "Dekko.h"
+#include "SageteaMail.h"
 
 int main(int argc, char** argv)
 {
     // set pattern for loggin messages adding date to message text
     qSetMessagePattern("[%{time yyyyMMdd h:mm:ss.zzz t} %{if-category}[%{category}] >> %{endif}%{message}");
 
-    Dekko dekko(argc, argv);
+    SageteaMail sageteamail(argc, argv);
 
-    if (!dekko.setup()) {
+    if (!sageteamail.setup()) {
         return 0;
     }
     QQuickStyle::setStyle("Suru");
 
-    return dekko.exec();
+    return sageteamail.exec();
 }

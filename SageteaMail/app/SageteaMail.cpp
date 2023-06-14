@@ -1,6 +1,6 @@
 /* Copyright (C) 2016 - 2017 Dan Chapman <dpniel@ubuntu.com>
 
-   This file is part of Dekko email client for Ubuntu devices
+   This file is part of SageteaMail email client for Ubuntu devices
 
    This program is free software; you can redistribute it and/or
    modify it under the terms of the GNU General Public License as
@@ -15,7 +15,7 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "Dekko.h"
+#include "SageteaMail.h"
 #include <QDebug>
 #include <qmailnamespace.h>
 #include <qmaillog.h>
@@ -35,9 +35,9 @@
 #define MEDIUM_FF_WDTH 800
 #define LARGE_FF_WIDTH 1100
 
-Q_LOGGING_CATEGORY(DEKKO_MAIN, "dekko.main")
+Q_LOGGING_CATEGORY(SAGETEAMAIL_MAIN, "sageteamail.main")
 
-Dekko::Dekko(int &argc, char **argv) :
+SageteaMail::SageteaMail(int &argc, char **argv) :
     QApplication(argc, argv),
     m_serviceRegistry(0),
 #ifdef SERVER_AS_QTHREAD
@@ -57,9 +57,9 @@ Dekko::Dekko(int &argc, char **argv) :
     // Useful to be able to check a resource has been included
 //    QDirIterator it(":", QDirIterator::Subdirectories);
 //    while (it.hasNext()) {
-//        qCDebug(DEKKO_MAIN) << it.next();
+//        qCDebug(SAGETEAMAIL_MAIN) << it.next();
 //    }
-    parser.setApplicationDescription("Dekko email client");
+    parser.setApplicationDescription("SageteaMail email client");
     parser.addHelpOption();
     parser.addOption({"d", "Enable dev mode"});
     parser.addOption({"v", "Verbose logging"});
@@ -78,16 +78,16 @@ Dekko::Dekko(int &argc, char **argv) :
 
     parser.process(cArgs);
 
-    m_verboseLogging = (parser.isSet("d") || parser.isSet("v") || QFile::exists(QStringLiteral("/tmp/dekko-debug")));
+    m_verboseLogging = (parser.isSet("d") || parser.isSet("v") || QFile::exists(QStringLiteral("/tmp/sageteamail-debug")));
 
     if(!m_verboseLogging)
-            qputenv("QT_LOGGING_RULES", "dekko.*=false");
+            qputenv("QT_LOGGING_RULES", "sageteamail.*=false");
         else
-            qputenv("QT_LOGGING_RULES", "dekko.*=true");
+            qputenv("QT_LOGGING_RULES", "sageteamail.*=true");
 
 }
 
-Dekko::~Dekko(){
+SageteaMail::~SageteaMail(){
 #ifndef SERVER_AS_QTHREAD
     delete m_server;
     m_server = 0;
@@ -96,7 +96,7 @@ Dekko::~Dekko(){
 #endif
 }
 
-bool Dekko::setup()
+bool SageteaMail::setup()
 {
     QStringList arguments = this->arguments();
     Q_UNUSED(arguments);
@@ -113,41 +113,41 @@ bool Dekko::setup()
 
     loadPlugins();
     m_serviceRegistry = new ServiceRegistry(this);
-    m_serviceRegistry->setServiceKey(QStringLiteral("Dekko::Service"));
+    m_serviceRegistry->setServiceKey(QStringLiteral("SageteaMail::Service"));
 
 #if defined(CLICK_MODE)
     m_serviceRegistry->startServices();
 #else
     if (!isServerRunning()) {
-        qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message server not running attempting to start";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server not running attempting to start";
         if (!startServer()) {
-            qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message server failed to start";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server failed to start";
             return false;
         } else {
-            qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message server started successfully \\o/";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server started successfully \\o/";
         }
     } else {
-        qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message server already running, using that";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message server already running, using that";
     }
     m_serviceRegistry->startServices();
 #endif
 
     if (!isWorkerRunning()) {
-        qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message worker not running attempting to start";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker not running attempting to start";
         if (!startWorker()) {
-            qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message worker failed to start";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker failed to start";
             return false;
         } else {
-            qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message worker started successfully \\o/";
+            qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker started successfully \\o/";
         }
     } else {
-        qCDebug(DEKKO_MAIN) << "[Dekko]" << "Message worker already running, using that";
+        qCDebug(SAGETEAMAIL_MAIN) << "[SageteaMail]" << "Message worker already running, using that";
     }
     m_engine.setNetworkAccessManagerFactory(&m_partqnam);
 
     devMode = parser.isSet("d");
 
-    m_engine.rootContext()->setContextProperty("dekkoapp", this);
+    m_engine.rootContext()->setContextProperty("sageteamailapp", this);
     m_engine.rootContext()->setContextProperty("service", m_serviceRegistry);
     m_engine.rootContext()->setContextProperty("devModeEnabled", QVariant(devMode));
     m_engine.rootContext()->setContextProperty("verboseLogging", QVariant(m_verboseLogging));
@@ -166,9 +166,9 @@ bool Dekko::setup()
     return true;
 }
 
-bool Dekko::isServerRunning()
+bool SageteaMail::isServerRunning()
 {
-    int lockid = QMail::fileLock(QStringLiteral("dekkod-instance.lock"));
+    int lockid = QMail::fileLock(QStringLiteral("sageteamaild-instance.lock"));
     if (lockid == -1)
         return true;
 
@@ -176,7 +176,7 @@ bool Dekko::isServerRunning()
     return false;
 }
 
-bool Dekko::startServer()
+bool SageteaMail::startServer()
 {
 #ifdef SERVER_AS_QTHREAD
     // Use MessageServerThread
@@ -192,7 +192,7 @@ bool Dekko::startServer()
         m_server = 0;
     }
     m_server = new QProcess(this);
-    static const QString binary(QString("/dekkod"));
+    static const QString binary(QString("/sageteamaild"));
     connect(m_server,SIGNAL(error(QProcess::ProcessError)),
             this,SLOT(serverProcessError(QProcess::ProcessError)));
     m_server->start(QMail::messageServerPath() + binary);
@@ -200,9 +200,9 @@ bool Dekko::startServer()
 #endif
 }
 
-bool Dekko::isWorkerRunning()
+bool SageteaMail::isWorkerRunning()
 {
-    int lockid = QMail::fileLock(QStringLiteral("dekko-worker.lock"));
+    int lockid = QMail::fileLock(QStringLiteral("sageteamail-worker.lock"));
     if (lockid == -1)
         return true;
 
@@ -210,27 +210,27 @@ bool Dekko::isWorkerRunning()
     return false;
 }
 
-bool Dekko::startWorker()
+bool SageteaMail::startWorker()
 {
     if (m_worker) {
         delete m_worker;
         m_worker = 0;
     }
     m_worker = new QProcess(this);
-    static const QString binary(QString("/dekko-worker"));
+    static const QString binary(QString("/sageteamail-worker"));
     connect(m_worker,SIGNAL(error(QProcess::ProcessError)),
             this,SLOT(workerProcessError(QProcess::ProcessError)));
-    connect(m_worker, &QProcess::readyRead, [=](){ if (m_worker->canReadLine()) qCDebug(DEKKO_MAIN) << m_worker->readLine(); });
+    connect(m_worker, &QProcess::readyRead, [=](){ if (m_worker->canReadLine()) qCDebug(SAGETEAMAIL_MAIN) << m_worker->readLine(); });
     m_worker->start(QMail::messageServerPath() + binary);
     return m_worker->waitForStarted();
 }
 
-void Dekko::trimCache()
+void SageteaMail::trimCache()
 {
     m_engine.trimComponentCache();
 }
-// TODO: show popup in mainview about server vanishing and Dekko will now close.
-void Dekko::serverProcessError(QProcess::ProcessError error)
+// TODO: show popup in mainview about server vanishing and SageteaMail will now close.
+void SageteaMail::serverProcessError(QProcess::ProcessError error)
 {
     qDebug() << "[Error] " << error;
     qWarning() << "[ERROR] Message server stopped, trying to restart";
@@ -239,7 +239,7 @@ void Dekko::serverProcessError(QProcess::ProcessError error)
     startServer();
 }
 
-void Dekko::workerProcessError(QProcess::ProcessError error)
+void SageteaMail::workerProcessError(QProcess::ProcessError error)
 {
     qDebug() << "[Error] " << error;
     qWarning() << "[ERROR] Message worker stopped, trying to restart";
@@ -248,7 +248,7 @@ void Dekko::workerProcessError(QProcess::ProcessError error)
     startWorker();
 }
 
-void Dekko::loadPlugins()
+void SageteaMail::loadPlugins()
 {
     PluginRegistry::instance()->setPluginLocations(
                 QStringList()

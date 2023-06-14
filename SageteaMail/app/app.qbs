@@ -80,13 +80,13 @@ Project {
 
         Group {
             name: "QML Resources"
-            files: ["dekko.qrc"]
+            files: ["sageteamail.qrc"]
         }
 
         Group {
             name: "App Icon"
             files: [
-                "assets/icons/dekko/dekko.png"
+                "assets/icons/dekko/sageteamail.png"
             ]
             qbs.install: project.click
             qbs.installDir: "/"
