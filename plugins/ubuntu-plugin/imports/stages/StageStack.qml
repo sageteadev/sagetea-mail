@@ -20,9 +20,9 @@ import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import QuickFlux 1.0
 import Dekko.Controls 1.0
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Views 1.0
-import Dekko.Lomiri.Constants 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Views 1.0
+import SageteaMail.Lomiri.Constants 1.0
 
 // {item: message.page, properties: message.properties}
 StackView {

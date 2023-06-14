@@ -20,7 +20,7 @@ import QtQuick.Controls.Suru 2.2
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Dekko.Mail 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Composer 1.0
 
 Popover {

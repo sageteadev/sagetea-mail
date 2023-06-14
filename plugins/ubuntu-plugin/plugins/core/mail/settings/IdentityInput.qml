@@ -3,11 +3,11 @@ import Lomiri.Components 1.3
 import QtQuick.Controls.Suru 2.2
 // FIXME: These are most likely going to be deprecated soon
 import Lomiri.Components.ListItems 1.0 as CanWeStillUseThis
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Accounts 1.0
 import Dekko.Mail.Stores.Settings 1.0
 import QuickFlux 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 
 PageFlickable {
     id: input

@@ -19,8 +19,8 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import QtQuick.Controls.Suru 2.2
 import Lomiri.Components 1.3
-import Dekko.Components 1.0
-import Dekko.Lomiri.Constants 1.0
+import SageteaMail.Components 1.0
+import SageteaMail.Lomiri.Constants 1.0
 
 PixelPerfectItem {
     id: dekkoHeader

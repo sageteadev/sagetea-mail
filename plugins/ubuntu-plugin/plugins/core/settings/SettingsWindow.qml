@@ -6,11 +6,11 @@ import MazDB 1.0
 import PlugMan 1.0
 import QuickFlux 1.0
 import Dekko.Controls 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Composer 1.0
 import Dekko.Mail.Workers 1.0
-import Dekko.Lomiri.Constants 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Constants 1.0
+import SageteaMail.Lomiri.Components 1.0
 import Dekko.Lomiri.Dialogs 1.0
 
 Window {

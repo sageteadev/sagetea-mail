@@ -20,13 +20,13 @@ import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import PlugMan 1.0
 
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Settings 1.0
-import Dekko.Mail.Stores.Views 1.0
+import SageteaMail.Mail.Stores.Views 1.0
 import Dekko.Mail.Stores.Composer 1.0
 import Dekko.Mail.Workers 1.0
 
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import Dekko.Lomiri.Dialogs 1.0
 import Dekko.Lomiri.Helpers 1.0
 

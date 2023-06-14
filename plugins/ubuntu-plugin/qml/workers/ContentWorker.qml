@@ -20,8 +20,8 @@ import QtQuick.Window 2.1
 import QuickFlux 1.0
 import Lomiri.Components.Popups 1.3
 import Lomiri.Content 1.1
-import Dekko.Mail.API 1.0
-import Dekko.Mail.Stores.Views 1.0
+import SageteaMail.Mail.API 1.0
+import SageteaMail.Mail.Stores.Views 1.0
 import Dekko.Mail.Stores.Composer 1.0
 import Dekko.Lomiri.Dialogs 1.0
 

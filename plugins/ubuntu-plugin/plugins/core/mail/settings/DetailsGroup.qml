@@ -19,9 +19,9 @@ import QtQuick 2.4
 import QuickFlux 1.0
 import Lomiri.Components 1.3
 import Dekko.AutoConfig 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Settings 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 
 SettingsGroupPage {
     pageHeader.title: qsTr("Details: %1").arg(SettingsStore.selectedAccount.name)

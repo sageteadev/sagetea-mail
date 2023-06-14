@@ -19,10 +19,10 @@ import QtQuick 2.4
 import Lomiri.Components 1.3
 import QtWebEngine 1.5 
 import Dekko.Mail 1.0
-import Dekko.Components 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import "../../webview"
-import Dekko.Lomiri.Constants 1.0
+import SageteaMail.Lomiri.Constants 1.0
 
 DekkoPage {
 

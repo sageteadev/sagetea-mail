@@ -21,7 +21,7 @@ import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import Dekko.Mail 1.0
 import Dekko.Controls 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import "../messageview"
 
 Popover {

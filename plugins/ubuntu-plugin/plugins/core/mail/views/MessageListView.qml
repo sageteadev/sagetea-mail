@@ -20,12 +20,12 @@ import QtQuick.Controls.Suru 2.2
 import Lomiri.Components 1.3
 import Dekko.Mail.Accounts 1.0
 import Dekko.Mail 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Mail 1.0
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 import Dekko.Mail.Settings 1.0
-import Dekko.Lomiri.Components 1.0
-import Dekko.Lomiri.Constants 1.0
+import SageteaMail.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Constants 1.0
 import QuickFlux 1.0
 import PlugMan 1.0
 import MazDB 1.0

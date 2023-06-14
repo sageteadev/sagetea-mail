@@ -18,12 +18,12 @@
 import QtQuick 2.4
 import QuickFlux 1.0
 import Lomiri.Components 1.3
-import Dekko.Components 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Components 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Settings 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import "../settings"
-import Dekko.Lomiri.Constants 1.0
+import SageteaMail.Lomiri.Constants 1.0
 import Dekko.Lomiri.Stage 1.0
 import Dekko.Lomiri.Helpers 1.0
 

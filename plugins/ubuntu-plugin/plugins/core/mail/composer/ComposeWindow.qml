@@ -2,11 +2,11 @@ import QtQuick 2.4
 import QtQuick.Window 2.1
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Composer 1.0
 import Dekko.Mail.Workers 1.0
 import Dekko.Lomiri.Dialogs 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import MazDB 1.0
 import PlugMan 1.0
 import QuickFlux 1.0

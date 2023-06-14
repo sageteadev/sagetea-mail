@@ -1,12 +1,12 @@
 import QtQuick 2.4
 import Lomiri.Components 1.3
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Mail.Stores.Accounts 1.0
 import Dekko.Lomiri.Stage 1.0
-import Dekko.Components 1.0
+import SageteaMail.Components 1.0
 import PlugMan 1.0
 import Dekko.Lomiri.Stage 1.0
-import Dekko.Lomiri.Components 1.0
+import SageteaMail.Lomiri.Components 1.0
 import "../"
 
 BaseStage {

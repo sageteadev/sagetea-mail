@@ -22,7 +22,7 @@ import Dekko.Mail.Accounts 1.0
 import Dekko.AutoConfig 1.0
 import Dekko.Mail 1.0
 import Dekko.Mail.Settings 1.0
-import Dekko.Mail.API 1.0
+import SageteaMail.Mail.API 1.0
 import Dekko.Utils 1.0 as QtCoreAPI
 
 /*!
