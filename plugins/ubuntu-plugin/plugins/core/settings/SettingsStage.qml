@@ -20,12 +20,12 @@ import QuickFlux 1.0
 import Lomiri.Components 1.3
 import SageteaMail.Components 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Settings 1.0
+import SageteaMail.Mail.Stores.Settings 1.0
 import SageteaMail.Lomiri.Components 1.0
 import "../settings"
 import SageteaMail.Lomiri.Constants 1.0
-import Dekko.Lomiri.Stage 1.0
-import Dekko.Lomiri.Helpers 1.0
+import SageteaMail.Lomiri.Stage 1.0
+import SageteaMail.Lomiri.Helpers 1.0
 
 BaseStage {
     id: settingsStage

@@ -17,7 +17,7 @@
 */
 import QtQuick 2.4
 import Lomiri.Components 1.3
-import Dekko.Mail 1.0
+import SageteaMail.Mail 1.0
 import "../delegates"
 import SageteaMail.Lomiri.Constants 1.0
 

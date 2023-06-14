@@ -21,9 +21,9 @@ import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.1
 import QtGraphicalEffects 1.0
 import SageteaMail.Components 1.0
-import Dekko.Mail 1.0
+import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Settings 1.0
+import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Lomiri.Components 1.0
 import "../popovers"
 import SageteaMail.Lomiri.Constants 1.0

@@ -18,10 +18,10 @@
 import QtQuick 2.4
 import QuickFlux 1.0
 import Lomiri.Components 1.3
-import Dekko.Mail.Accounts 1.0
+import SageteaMail.Mail.Accounts 1.0
 import SageteaMail.Mail.API 1.0
 import SageteaMail.Mail.Stores.Views 1.0
-import Dekko.Mail.Stores.Settings 1.0
+import SageteaMail.Mail.Stores.Settings 1.0
 import SageteaMail.Lomiri.Components 1.0
 
 DekkoPage {

@@ -7,8 +7,8 @@
 
 void AutoConfigPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Dekko.AutoConfig"));
-    // @uri Dekko.AutoConfig
+    Q_ASSERT(uri == QLatin1String("SageteaMail.AutoConfig"));
+    // @uri SageteaMail.AutoConfig
     qmlRegisterType<AutoDiscover>(uri, 1, 0, "AutoDiscover");
     qmlRegisterType<EmailProvider>(uri, 1, 0, "EmailProvider");
     qmlRegisterType<ServerConfig>(uri, 1, 0, "ServerConfig");

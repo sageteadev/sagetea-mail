@@ -5,13 +5,13 @@ import Lomiri.Components.Popups 1.3
 import MazDB 1.0
 import PlugMan 1.0
 import QuickFlux 1.0
-import Dekko.Controls 1.0
+import SageteaMail.Controls 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Mail.Workers 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Workers 1.0
 import SageteaMail.Lomiri.Constants 1.0
 import SageteaMail.Lomiri.Components 1.0
-import Dekko.Lomiri.Dialogs 1.0
+import SageteaMail.Lomiri.Dialogs 1.0
 
 Window {
     id: window

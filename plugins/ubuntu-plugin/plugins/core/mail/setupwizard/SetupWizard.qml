@@ -17,10 +17,10 @@
 */
 import QtQuick 2.4
 import QtQml.StateMachine 1.0 as DSM
-import Dekko.Controls 1.0
-import Dekko.Mail 1.0
+import SageteaMail.Controls 1.0
+import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Accounts 1.0
+import SageteaMail.Mail.Stores.Accounts 1.0
 import QuickFlux 1.0
 import "./states"
 

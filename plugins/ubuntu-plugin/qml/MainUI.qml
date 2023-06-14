@@ -30,7 +30,7 @@ Window {
         Loader {
             asynchronous: false
             anchors.fill: parent
-            source: Qt.resolvedUrl("./Dekko.qml")
+            source: Qt.resolvedUrl("./SageteaMail.qml")
         }
     }
 }

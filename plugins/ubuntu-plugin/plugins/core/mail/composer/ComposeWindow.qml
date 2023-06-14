@@ -3,9 +3,9 @@ import QtQuick.Window 2.1
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Mail.Workers 1.0
-import Dekko.Lomiri.Dialogs 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Workers 1.0
+import SageteaMail.Lomiri.Dialogs 1.0
 import SageteaMail.Lomiri.Components 1.0
 import MazDB 1.0
 import PlugMan 1.0
@@ -21,7 +21,7 @@ Window {
     flags: Qt.Window
     modality: Qt.NonModal
 
-    title: qsTr("Dekko Composer")
+    title: qsTr("SageteaMail Composer")
 
     onClosing: {
         if (ComposerStore.builder.hasDraft) {
@@ -56,7 +56,7 @@ Window {
 
             ItemRegistry {
                 target: container
-                location: "Dekko::Mail::Composer::UI"
+                location: "SageteaMail::Mail::Composer::UI"
                 loadMode: ItemRegistry.LoadFirstEnabled
             }
 

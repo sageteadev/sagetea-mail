@@ -28,7 +28,7 @@ class AccountConfiguration;
 void AccountsPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("SageteaMail.Mail.Accounts"));
-    // @uri Dekko.Accounts
+    // @uri SageteaMail.Accounts
     qmlRegisterType<Account>(uri, 1, 0, "Account");
     qmlRegisterType<AccountValidator>(uri, 1, 0, "AccountValidator");
     qmlRegisterType<NewAccount>(uri, 1, 0, "NewAccount");

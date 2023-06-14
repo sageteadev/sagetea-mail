@@ -5,8 +5,8 @@
 
 void MarkdownDocumentPlugin::registerTypes(const char *uri)
 {
-    Q_ASSERT(uri == QLatin1String("Dekko.Markdown"));
-    // @uri Dekko.Markdown
+    Q_ASSERT(uri == QLatin1String("SageteaMail.Markdown"));
+    // @uri SageteaMail.Markdown
     qmlRegisterType<MarkdownDocument>(uri, 1, 0, "MarkdownDocument");
     qmlRegisterType<FormattingOptions>(uri, 1, 0, "FormattingOptions");
 }

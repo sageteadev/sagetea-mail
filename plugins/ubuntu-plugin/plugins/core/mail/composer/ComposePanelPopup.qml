@@ -22,7 +22,7 @@ import Lomiri.Components.Popups 1.3
 import SageteaMail.Components 1.0
 import QuickFlux 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
 import SageteaMail.Lomiri.Components 1.0
 import SageteaMail.Lomiri.Constants 1.0
 

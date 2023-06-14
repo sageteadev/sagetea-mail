@@ -19,7 +19,7 @@ import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
 import Lomiri.Components 1.3
 import SageteaMail.Components 1.0
-import Dekko.Mail.Settings 1.0
+import SageteaMail.Mail.Settings 1.0
 import SageteaMail.Lomiri.Constants 1.0
 import "./private/UiUtils.js" as UiUtils
 
