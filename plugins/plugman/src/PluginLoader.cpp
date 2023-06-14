@@ -26,7 +26,7 @@
 #include <QLibrary>
 #include <QStringBuilder>
 
-Q_LOGGING_CATEGORY(PLUGIN_LOADER, "dekko.plugman.loader")
+Q_LOGGING_CATEGORY(PLUGIN_LOADER, "sageteamail.plugman.loader")
 
 PluginLoader::PluginLoader()
 {
@@ -47,7 +47,7 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
     QStringList dirs;
     dirs << qApp->applicationDirPath() % "/plugins";
     dirs << m_pluginPaths;
-    QString pluginEnv = QString(qgetenv("DEKKO_PLUGINS"));
+    QString pluginEnv = QString(qgetenv("SAGETEAMAIL_PLUGINS"));
     if (!pluginEnv.isEmpty()) {
         dirs << pluginEnv;
     }
@@ -88,12 +88,12 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
         }
     }
 
-    qCDebug(PLUGIN_LOADER) << "Looking for dekko spec plugins";
-    // Now scan for any *.dekko-plugin specs and generate a DekkoPlugin
+    qCDebug(PLUGIN_LOADER) << "Looking for sageteamail spec plugins";
+    // Now scan for any *.dekko-plugin specs and generate a SageteaMailPlugin
     pluginPaths.clear();
 
     Q_FOREACH(const QString &directory, dirs) {
-        QDirIterator it(directory, QStringList() << "*.dekko-plugin", QDir::Files, QDirIterator::Subdirectories);
+        QDirIterator it(directory, QStringList() << "*.sageteamail-plugin", QDir::Files, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             QString path = it.next();
             if (pluginPaths.contains(path)) {
@@ -101,13 +101,13 @@ void PluginLoader::loadPlugins(QMultiMap<QString, PluginInfo *> &registry, const
             }
             pluginPaths << path;
 
-            if (auto pluginInfo = DekkoPlugin::fromSpec(path)) {
+            if (auto pluginInfo = SageteaMailPlugin::fromSpec(path)) {
                 qCDebug(PLUGIN_LOADER) << "+-------------------------------------+";
                 qCDebug(PLUGIN_LOADER) << "PluginReady: " << path;
                 qCDebug(PLUGIN_LOADER) << "Registered: " << pluginInfo->location();
                 qCDebug(PLUGIN_LOADER) << "Path: " << it.fileInfo().absolutePath();
                 qCDebug(PLUGIN_LOADER) << "I18n >> " << pluginInfo->i18n();
-                qobject_cast<DekkoPlugin *>(pluginInfo)->setPluginDirectory(it.fileInfo().absolutePath());
+                qobject_cast<SageteaMailPlugin *>(pluginInfo)->setPluginDirectory(it.fileInfo().absolutePath());
                 registry.insert(pluginInfo->location(), pluginInfo);
                 if (!pluginInfo->i18n().isEmpty()) {
                     // we also load the translations for this plugin now

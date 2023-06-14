@@ -3,7 +3,7 @@
 #include <QQuickWindow>
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_ITEM_REGISTRY, "dekko.plugman.itemregistry")
+Q_LOGGING_CATEGORY(PLUGIN_ITEM_REGISTRY, "sageteaMail.plugman.itemregistry")
 
 ItemRegistry::ItemRegistry(QObject *parent) : QObject(parent),
     m_loadMode(LoadAll), m_asynchronous(true)
@@ -45,7 +45,7 @@ QString ItemRegistry::findFirstEnabled(const QString &location)
         return QString();
     }
     qCDebug(PLUGIN_ITEM_REGISTRY) << "Found first enabled plugin";
-    auto firstplugin = qobject_cast<DekkoPlugin *>(plugins.first());
+    auto firstplugin = qobject_cast<SageteaMailPlugin *>(plugins.first());
     return firstplugin->component();
 }
 
@@ -110,7 +110,7 @@ void ItemRegistry::loadIfPossible()
             return;
         }
         qCDebug(PLUGIN_ITEM_REGISTRY) << "Loading first enabled plugin";
-        auto firstplugin = qobject_cast<DekkoPlugin *>(plugins.first());
+        auto firstplugin = qobject_cast<SageteaMailPlugin *>(plugins.first());
         if (m_asynchronous) {
             createItemAsync(firstplugin->component());
         } else {
@@ -127,7 +127,7 @@ void ItemRegistry::loadIfPossible()
             return;
         }
         qCDebug(PLUGIN_ITEM_REGISTRY) << "Loading last enabled plugin";
-        auto lastplugin = qobject_cast<DekkoPlugin *>(plugins.last());
+        auto lastplugin = qobject_cast<SageteaMailPlugin *>(plugins.last());
         if (m_asynchronous) {
             createItemAsync(lastplugin->component());
         } else {
@@ -141,7 +141,7 @@ void ItemRegistry::loadIfPossible()
         qCDebug(PLUGIN_ITEM_REGISTRY) << "Loading all plugins and default items";
         reparentItemsToTarget(m_defaultItems); // default items get appended first
         for (auto plugin : plugins) {
-            if (auto dp = qobject_cast<DekkoPlugin *>(plugin)) {
+            if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
                 if (m_asynchronous) {
                     createItemAsync(dp->component());
                 } else {
@@ -163,7 +163,7 @@ void ItemRegistry::loadIfPossible()
         QQuickItem *item = Q_NULLPTR;
         for (auto plugin : plugins) {
             if (plugin->pluginId() == m_pluginId) {
-                if (auto dp = qobject_cast<DekkoPlugin *>(plugin)) {
+                if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
                     qCDebug(PLUGIN_ITEM_REGISTRY) << "Found plugin with id: " << m_pluginId;
                     item = createItemFromUrl(dp->component());
                 }

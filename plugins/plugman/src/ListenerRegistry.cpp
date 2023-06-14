@@ -19,7 +19,7 @@
 #include <QQmlEngine>
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_LISTENER, "dekko.plugman.listener")
+Q_LOGGING_CATEGORY(PLUGIN_LISTENER, "sageteamail.plugman.listener")
 
 ListenerRegistry::ListenerRegistry(QObject *parent) : QObject(parent)
 {
@@ -52,7 +52,7 @@ void ListenerRegistry::componentComplete()
 {
     auto plugins = PluginRegistry::instance()->getByLocation(QStringLiteral("Dekko::Listener"));
     for (auto plugin : plugins) {
-        if (auto dp = qobject_cast<DekkoPlugin *>(plugin)) {
+        if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
             qCDebug(PLUGIN_LISTENER) << "Loading plugin: " << dp->pluginId();
             QQuickItem *item = createListenerFromURl(dp->component());
             if (item) {
