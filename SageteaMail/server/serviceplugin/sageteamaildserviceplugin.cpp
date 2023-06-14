@@ -42,7 +42,7 @@ void SageteaMaildService::start()
         qDebug() << "[SageteaMaildService] Installing service file";
         installServiceFile();
 
-        qDebug() << "[SageteaMaildService] Starting dekkod service";
+        qDebug() << "[SageteaMaildService] Starting sageteamaild service";
         startService();
     }
 }

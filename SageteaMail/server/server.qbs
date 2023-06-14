@@ -10,7 +10,7 @@ Project {
 
     QtGuiApplication {
         name: "Server"
-        targetName: "dekkod"
+        targetName: "sageteamaild"
 
         Depends { name: "cpp" }
         Depends {

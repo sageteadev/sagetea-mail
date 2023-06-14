@@ -556,9 +556,9 @@ void MessageServer::handleSigHup()
     char tmp;
     ::read(sighupFd[1], &tmp, sizeof(tmp));
 #if defined(CLICK)
-    qMailLoggersRecreate("dekko2.dekkoproject", "dekkod", "Msgsrv");
+    qMailLoggersRecreate("sageteamail2.sagetea", "sageteamaild", "Msgsrv");
 #else
-    qMailLoggersRecreate("dekko", "dekkod", "Msgsrv");
+    qMailLoggersRecreate("sageteamail", "sageteamaild", "Msgsrv");
 #endif
 
     snHup->setEnabled(true);
@@ -584,8 +584,8 @@ MessageServerThread::~MessageServerThread()
 
 void MessageServerThread::run()
 {
-    // This is ~/.config/dekko.dekkoproject/dekkod.conf
-//    qMailLoggersRecreate("dekko.dekkoproject", "dekkod", "Msgsrv");
+    // This is ~/.config/sageteamaild.sagetea/sageteamaild.conf
+//    qMailLoggersRecreate("sageteamail.sagetea", "sageteamaild", "Msgsrv");
     // Start messageserver
     MessageServer server;
 

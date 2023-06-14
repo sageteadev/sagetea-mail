@@ -85,7 +85,7 @@ bool NotifyService::installServiceFile() const
 
     f.write("[Unit]\n");
     f.write("Description=SageteaMail Notify Service\n");
-    f.write("Requires=dekkod.service\n");
+    f.write("Requires=sageteamaild.service\n");
 
     f.write("\n[Service]\n");
     f.write("ExecStart=" + appDir.toUtf8() + "/plugins/notify/" + m_service.toUtf8() + "\n");
