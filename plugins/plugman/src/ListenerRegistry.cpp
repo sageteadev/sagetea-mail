@@ -50,7 +50,7 @@ QQuickItem *ListenerRegistry::createListenerFromURl(const QString &url)
 
 void ListenerRegistry::componentComplete()
 {
-    auto plugins = PluginRegistry::instance()->getByLocation(QStringLiteral("Dekko::Listener"));
+    auto plugins = PluginRegistry::instance()->getByLocation(QStringLiteral("SageteaMail::Listener"));
     for (auto plugin : plugins) {
         if (auto dp = qobject_cast<SageteaMailPlugin *>(plugin)) {
             qCDebug(PLUGIN_LISTENER) << "Loading plugin: " << dp->pluginId();

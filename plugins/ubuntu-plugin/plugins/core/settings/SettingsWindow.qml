@@ -56,7 +56,7 @@ Window {
                 height: parent.height
                 ItemRegistry {
                     target: container
-                    location: "Dekko::Stage::Settings"
+                    location: "SageteaMail::Stage::Settings"
                     loadMode: ItemRegistry.LoadFirstEnabled
                 }
             }

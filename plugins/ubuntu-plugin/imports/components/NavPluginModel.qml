@@ -18,7 +18,7 @@ Item {
     // use of the store/worker pattern and use MazDB or MazDBSettings for data persistence
     ActionRegistry {
         id: navRegistry
-        location: "Dekko::Stage::Action"
+        location: "SageteaMail::Stage::Action"
         defaultActions: [
             Action {
                 iconName: "mail-unread"

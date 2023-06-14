@@ -1,5 +1,5 @@
 {
     "id": "default-mail-settings",
-    "register" : "Dekko::Settings::PluginAction",
+    "register" : "SageteaMail::Settings::PluginAction",
     "component" : "MailSettingsAction.qml"
 }
