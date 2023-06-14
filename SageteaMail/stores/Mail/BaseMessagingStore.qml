@@ -17,7 +17,7 @@
 */
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.Mail 1.0
+import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
 
 /*!

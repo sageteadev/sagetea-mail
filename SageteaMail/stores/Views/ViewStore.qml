@@ -18,12 +18,12 @@
 pragma Singleton
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.Mail 1.0
+import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Accounts 1.0
-import Dekko.Mail.Stores.Mail 1.0
-import Dekko.Mail.Stores.Composer 1.0
-import Dekko.Utils 1.0 as QtCoreAPI
+import SageteaMail.Mail.Stores.Accounts 1.0
+import SageteaMail.Mail.Stores.Mail 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
+import SageteaMail.Utils 1.0 as QtCoreAPI
 import PlugMan 1.0
 
 /*!
@@ -55,7 +55,7 @@ AppListener {
         type: ViewKeys.stageStackReady
         onDispatched: {
             Log.logStatus("ViewStore::stageStackReady", "Stack is ready")
-            ViewActions.pushStage(registry.findFirstEnabled("Dekko::Stage::Mail"), {})
+            ViewActions.pushStage(registry.findFirstEnabled("SageteaMail::Stage::Mail"), {})
             if (!Client.hasConfiguredAccounts) {
                 console.log("Opening setup wizard as none configured")
                 ViewActions.delayCall(ViewKeys.runSetupWizard)

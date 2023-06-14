@@ -17,10 +17,10 @@
 */
 import QtQuick 2.4
 import QuickFlux 1.0
-import Dekko.AutoConfig 1.0
-import Dekko.Mail 1.0
+import SageteaMail.AutoConfig 1.0
+import SageteaMail.Mail 1.0
 import SageteaMail.Mail.API 1.0
-import Dekko.Mail.Stores.Composer 1.0
+import SageteaMail.Mail.Stores.Composer 1.0
 
 AppListener {
     waitFor: [ComposerStore.listenerId]
