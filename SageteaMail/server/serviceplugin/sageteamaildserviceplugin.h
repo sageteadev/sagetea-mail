@@ -1,16 +1,16 @@
-#ifndef DEKKODSERVICEPLUGIN_H
-#define DEKKODSERVICEPLUGIN_H
+#ifndef SAGETEAMAILDSERVICEPLUGIN_H
+#define SAGETEAMAILDSERVICEPLUGIN_H
 
 #include <QObject>
 #include <PluginInfo.h>
 #include <PluginLoader.h>
 #include <QScopedPointer>
 
-class DekkodService : public ServicePlugin
+class SageteaMaildService : public ServicePlugin
 {
     Q_OBJECT
 public:
-    explicit DekkodService(QObject *parent = 0);
+    explicit SageteaMaildService(QObject *parent = 0);
 
     // PluginInfo interface
 public:
@@ -39,11 +39,11 @@ private:
     QString m_serviceFile;
 };
 
-class DekkodServicePlugin : public QObject, public PluginInterface
+class SageteaMailServicePlugin : public QObject, public PluginInterface
 {
     Q_OBJECT
     Q_INTERFACES(PluginInterface)
-    Q_PLUGIN_METADATA(IID "org.dekkoproject.dekkod")
+    Q_PLUGIN_METADATA(IID "org.sagetea.sageteamaild")
 
     // PluginInterface interface
 public:
@@ -52,4 +52,4 @@ public:
     virtual PluginInfo *create(QObject *parent) const;
 };
 
-#endif // DEKKODSERVICEPLUGIN_H
+#endif // SAGETEAMAILDSERVICEPLUGIN_H

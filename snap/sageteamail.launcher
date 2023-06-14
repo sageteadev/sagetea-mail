@@ -17,7 +17,7 @@ export APP_ID=sageteamail
 
 # App specific plugin locations
 export QMF_PLUGINS=$SNAP/usr/lib/$ARCH/qmf/plugins5
-export DEKKO_PLUGINS=$SNAP/usr/lib/$ARCH/SageteaMail/plugins
+export SAGETEAMAIL_PLUGINS=$SNAP/usr/lib/$ARCH/SageteaMail/plugins
 
 # Location qmf will store the mailstore cache
 export QMF_DATA=$SNAP_USER_COMMON/.cache

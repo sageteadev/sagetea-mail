@@ -1,8 +1,8 @@
 import qbs
 
 DynamicLibrary {
-    name: "Dekkod Service Plugin"
-    targetName: "dekkod-service"
+    name: "SageteaMaild Service Plugin"
+    targetName: "sageteamaild-service"
     builtByDefault: project.click
     Depends { name: "cpp" }
     Depends { name: "Qt.core" }
@@ -11,14 +11,14 @@ DynamicLibrary {
     cpp.cxxLanguageVersion: "c++11";
     cpp.cxxStandardLibrary: "libstdc++";
     cpp.defines: [
-        "DEKKO_VERSION=\"" + project.version +"\""
+        "SAGETEAMAIL_VERSION=\"" + project.version +"\""
     ]
 
     Group {
         name: "plugin"
         files: [
-            "dekkodserviceplugin.cpp",
-            "dekkodserviceplugin.h",
+            "sageteamaildserviceplugin.cpp",
+            "sageteamaildserviceplugin.h",
         ]
     }
 

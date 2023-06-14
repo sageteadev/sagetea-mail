@@ -51,7 +51,7 @@ Dekko::Dekko(int &argc, char **argv) :
 {
     QCoreApplication::setOrganizationName(APP_ORG);
     QCoreApplication::setApplicationName(APP_NAME);
-    QCoreApplication::setApplicationVersion(DEKKO_VERSION);
+    QCoreApplication::setApplicationVersion(SAGETEAMAIL_VERSION);
 
     // Uncomment to dump out the resource files
     // Useful to be able to check a resource has been included

@@ -22,7 +22,7 @@
 #include <QJsonDocument>
 #include <QDebug>
 
-#define PUSH_APP_ID "dekko2.dekkoproject_dekko"
+#define PUSH_APP_ID "sageteamail2.sagetea_sageteamail"
 #define PUSH_SERVICE "com.lomiri.PushNotifications"
 #define POSTAL_SERVICE "com.lomiri.Postal"
 #define PUSH_PATH "/com/lomiri/PushNotifications"

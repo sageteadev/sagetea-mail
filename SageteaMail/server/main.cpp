@@ -50,9 +50,9 @@
 #endif
 
 #if defined(CLICK)
-#define APP_NAME "dekko2.dekkoproject"
+#define APP_NAME "sageteamail2.sagetea"
 #else
-#define APP_NAME "dekko"
+#define APP_NAME "sageteamail"
 #endif
 
 #if !defined(NO_SHUTDOWN_SIGNAL_HANDLING) && defined(Q_OS_UNIX)
@@ -72,7 +72,7 @@ static void shutdown(int n)
 
 static void recreateLoggers(int n)
 {
-    qMailLoggersRecreate(APP_NAME, "dekkod", "Msgsrv");
+    qMailLoggersRecreate(APP_NAME, "sageteamaild", "Msgsrv");
     qDebug() << "Received signal" << n << ", logs recreated.";
 }
 #endif
@@ -86,10 +86,10 @@ Q_DECL_EXPORT int main(int argc, char** argv)
     QCoreApplication app(argc, argv);
 #endif
 
-    // This is ~/.config/dekko.dekkoproject/dekkod.conf
-    qMailLoggersRecreate(APP_NAME, "dekkod", "Msgsrv");
+    // This is ~/.config/dekko.dekkoproject/sageteamaild.conf
+    qMailLoggersRecreate(APP_NAME, "sageteamaild", "Msgsrv");
 
-    if(QMail::fileLock("dekkod-instance.lock") == -1)
+    if(QMail::fileLock("sageteamaild-instance.lock") == -1)
         qFatal("Could not get messageserver lock. Messageserver might already be running!");
 
     MessageServer server;

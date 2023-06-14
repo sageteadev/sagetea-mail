@@ -1,5 +1,0 @@
-{
-    "id": "dekko-notify-settings",
-    "register" : "Dekko::Settings::AccountAction",
-    "component" : "NotificationSettings.qml"
-}

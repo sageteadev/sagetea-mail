@@ -36,7 +36,7 @@ Project {
             "SNAP_MODE",
             "APP_NAME=\"sageteamail\"",
             "APP_ORG=\"sagetea\"",
-            "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
+            "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
         ]
 
         Properties {
@@ -45,7 +45,7 @@ Project {
                 "CLICK_MODE",
                 "APP_NAME=\"sageteamail2.sagetea\"",
                 "APP_ORG=\"sageteamail2.sagetea\"",
-                "DEKKO_VERSION=\"" + project.version + "-" + project.revision + "\""
+                "SAGETEAMAIL_VERSION=\"" + project.version + "-" + project.revision + "\""
             ]
         }
 
