@@ -1,2 +1,2 @@
-module Dekko.AutoConfig
+module SageteaMail.AutoConfig
 plugin autoconfig
