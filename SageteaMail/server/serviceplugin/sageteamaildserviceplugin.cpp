@@ -20,7 +20,7 @@ QString SageteaMailService::pluginId() const
 
 QString SageteaMailService::location() const
 {
-    return QStringLiteral("Dekko::Service");
+    return QStringLiteral("SageteaMail::Service");
 }
 
 QString SageteaMailService::i18n() const
