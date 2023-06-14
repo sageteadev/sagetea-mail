@@ -323,9 +323,9 @@ QString Paths::findProviderFile()
 {
     QString configFile;
     // TODO: make this configurable
-    const QString filePath = QStringLiteral("/usr/share/dekko/configuration/serviceProviders.conf");
+    const QString filePath = QStringLiteral("/usr/share/sageteamail/configuration/serviceProviders.conf");
     if (configFile.isEmpty()) {
-        QString desktopFile = QDir(QCoreApplication::applicationDirPath()).absoluteFilePath(QStringLiteral("../../../dekko2.desktop"));
+        QString desktopFile = QDir(QCoreApplication::applicationDirPath()).absoluteFilePath(QStringLiteral("../../../sageteamail2.desktop"));
         if (QFile::exists(desktopFile)) {
             QDir clickRoot = QFileInfo(desktopFile).absoluteDir();
             QString myPath = clickRoot.absolutePath() + QLatin1Char('/') + filePath;
@@ -336,7 +336,7 @@ QString Paths::findProviderFile()
     }
 
     if (configFile.isEmpty()) {
-        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/dekko");
+        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/sageteamail");
         if (QDir(snapPath).exists()) {
             QString myPath = snapPath + QLatin1Char('/') + filePath;
             if (QFile::exists(myPath)) {
@@ -394,7 +394,7 @@ QString Paths::findUserScript(const QString &scriptName)
     }
 
     if (script.isEmpty()) {
-        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/dekko");
+        const QString snapPath = QString(qgetenv("SNAP")) + QStringLiteral("/usr/share/sageteamail");
         if (QDir(snapPath).exists()) {
             QString myPath = snapPath + QLatin1String("/userscripts/") + scriptName;
             if (QFile::exists(myPath)) {
