@@ -21,6 +21,6 @@ import QtQuick 2.4
 QtObject {
 
     function newContactUri(address) {
-        return "dekko://contacts/new/%1".arg(address)
+        return "sageteamail://contacts/new/%1".arg(address)
     }
 }
