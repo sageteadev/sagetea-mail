@@ -7,7 +7,7 @@ grade: devel
 
 apps:
     dekko:
-        command: desktop-launch $SNAP/bin/dekko-launch "@"
+        command: desktop-launch $SNAP/bin/sageteamail-launch "@"
         plugs:
             - browser-sandbox
             - gsettings
@@ -35,7 +35,7 @@ parts:
         plugin: dump
         source: snap/
         organize:
-            dekko.launcher: bin/dekko-launch
+            dekko.launcher: bin/sageteamail-launch
         prime:
             - -plugins
     

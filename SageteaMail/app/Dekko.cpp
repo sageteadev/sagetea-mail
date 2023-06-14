@@ -158,7 +158,7 @@ bool Dekko::setup()
     uris << qgetenv("APP_URIS");
     uris << parser.positionalArguments();
     if (parser.isSet("contacts")) {
-        uris << QStringLiteral("dekko://contacts/open");
+        uris << QStringLiteral("sageteamail://contacts/open");
     }
     uris.removeDuplicates();
     m_engine.rootContext()->setContextProperty(QStringLiteral("appUris"), uris);
@@ -252,24 +252,24 @@ void Dekko::loadPlugins()
 {
     PluginRegistry::instance()->setPluginLocations(
                 QStringList()
-                << QStringLiteral("Dekko::Mail")
-                << QStringLiteral("Dekko::Mail::Composer")
-                << QStringLiteral("Dekko::Mail::Composer::UI")
-                << QStringLiteral("Dekko::Mail::Settings")
-                << QStringLiteral("Dekko::Mail::SetupWizard")
-                << QStringLiteral("Dekko::Stage::Settings")
-                << QStringLiteral("Dekko::Settings::AccountAction")
-                << QStringLiteral("Dekko::Settings::PluginAction")
-                << QStringLiteral("Dekko::Settings::MailAction")
-                << QStringLiteral("Dekko::Stage::Main")
-                << QStringLiteral("Dekko::Stage::Mail")
-                << QStringLiteral("Dekko::Stage::Action")
-                << QStringLiteral("Dekko::Mail::NavHeadAction")
-                << QStringLiteral("Dekko::Service")
-                << QStringLiteral("Dekko::Listener")
-                << QStringLiteral("Dekko::AddressBook::Provider")
-                << QStringLiteral("Dekko::Mail::MultiSelectAction")
-                << QStringLiteral("Dekko::Mail::FolderPicker")
+                << QStringLiteral("SageteaMail::Mail")
+                << QStringLiteral("SageteaMail::Mail::Composer")
+                << QStringLiteral("SageteaMail::Mail::Composer::UI")
+                << QStringLiteral("SageteaMail::Mail::Settings")
+                << QStringLiteral("SageteaMail::Mail::SetupWizard")
+                << QStringLiteral("SageteaMail::Stage::Settings")
+                << QStringLiteral("SageteaMail::Settings::AccountAction")
+                << QStringLiteral("SageteaMail::Settings::PluginAction")
+                << QStringLiteral("SageteaMail::Settings::MailAction")
+                << QStringLiteral("SageteaMail::Stage::Main")
+                << QStringLiteral("SageteaMail::Stage::Mail")
+                << QStringLiteral("SageteaMail::Stage::Action")
+                << QStringLiteral("SageteaMail::Mail::NavHeadAction")
+                << QStringLiteral("SageteaMail::Service")
+                << QStringLiteral("SageteaMail::Listener")
+                << QStringLiteral("SageteaMail::AddressBook::Provider")
+                << QStringLiteral("SageteaMail::Mail::MultiSelectAction")
+                << QStringLiteral("SageteaMail::Mail::FolderPicker")
                 );
 
    PluginRegistry::instance()->loadPlugins(

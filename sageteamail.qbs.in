@@ -50,7 +50,7 @@ Project {
                       be in the import path or can be picked up via QML2_IMPORT_PATH"
     }
 
-    property string dataDir: "share/dekko"
+    property string dataDir: "share/sageteamail"
 
     property string pluginDir: binDir + "/plugins"
 
