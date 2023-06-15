@@ -3,7 +3,7 @@
 #include <QQuickWindow>
 #include "PluginRegistry.h"
 
-Q_LOGGING_CATEGORY(PLUGIN_ITEM_REGISTRY, "sageteaMail.plugman.itemregistry")
+Q_LOGGING_CATEGORY(PLUGIN_ITEM_REGISTRY, "sageteamail.plugman.itemregistry")
 
 ItemRegistry::ItemRegistry(QObject *parent) : QObject(parent),
     m_loadMode(LoadAll), m_asynchronous(true)
