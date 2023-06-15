@@ -162,7 +162,7 @@ bool SageteaMail::setup()
     }
     uris.removeDuplicates();
     m_engine.rootContext()->setContextProperty(QStringLiteral("appUris"), uris);
-    m_engine.load(QUrl("qrc:/qml/Dekko.qml"));
+    m_engine.load(QUrl("qrc:/qml/SageteaMail.qml"));
     return true;
 }
 

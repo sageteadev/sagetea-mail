@@ -16,7 +16,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-Dekko {
-    id: dekko
+SageteaMail {
+    id: sageteamail
     anchors.fill: parent
 }

@@ -33,7 +33,7 @@ import SageteaMail.Lomiri.Helpers 1.0
 import "./workers"
 
 ViewState {
-    id: dekko
+    id: sageteamail
 
     anchors.fill: parent
     onStateChanged: {
