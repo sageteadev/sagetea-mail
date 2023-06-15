@@ -35,7 +35,7 @@ ListItemWithActions {
             target: attachment
             onReadyToOpen: {
                 if (isRunningOnMir) {
-                    ContentActions.exportFile(dekko, url)
+                    ContentActions.exportFile(sageteamail, url)
                 } else {
                     Qt.openUrlExternally(url)
                 }

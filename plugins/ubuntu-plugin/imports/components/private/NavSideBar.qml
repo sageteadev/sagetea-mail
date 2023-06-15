@@ -64,7 +64,7 @@ StyledItem {
             width: parent.width
             height: units.gu(5)
             implicitHeight: height
-            visible: !dekko.isMediumFF
+            visible: !sageteamail.isMediumFF
 
             StretchRow {
                 anchors {

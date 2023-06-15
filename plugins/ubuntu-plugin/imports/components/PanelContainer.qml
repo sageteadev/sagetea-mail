@@ -42,7 +42,7 @@ Item {
     // You only really want to set this to true if this panel is the main page container
     // for mobile / small form factor devices.
     property bool stretchOnSmallFF: false
-    property var viewState: dekko ? dekko : undefined
+    property var viewState: sageteamail ? sageteamail : undefined
     readonly property bool expanded: !d.collapsed
     default property alias content: internal.data
     property alias contentItem: internal

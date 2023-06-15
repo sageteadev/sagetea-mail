@@ -261,7 +261,7 @@ WebEngineView {
             request.action = 0
         }
         else {
-            PopupUtils.open(linkClickedDialog, dekko, {externalLink: request.url})
+            PopupUtils.open(linkClickedDialog, sageteamail, {externalLink: request.url})
             request.action = 255
         }
     }

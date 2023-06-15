@@ -67,7 +67,7 @@ Popups.PopupBase  {
         id: stateChangeConnection
         onStateChanged: {
             if (isExport && picker.activeTransfer.state === ContentTransfer.InProgress) {
-                picker.activeTransfer.items = [transferComponent.createObject(dekko, {"url": fileUrl}) ]
+                picker.activeTransfer.items = [transferComponent.createObject(sageteamail, {"url": fileUrl}) ]
                 picker.activeTransfer.state = ContentTransfer.Charged;
                 closeTimer.start();
             } else if (!isExport && picker.activeTransfer.state === ContentTransfer.Charged){
