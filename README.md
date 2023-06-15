@@ -1,8 +1,10 @@
 [![pipeline status](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/badges/focal/pipeline.svg)](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/commits/focal)
 
+<p align="center">
 <img width="200px" src="SageteaMail/app/assets/icons/dekko/sageteamail.png" />
+</p>
 
-# SageTea Mail
+<h1 style="text-align: center;">SagetTea Mail</h1>
 
 - SageTea Mail is based on Dekko project https://gitlab.com/dekkan/dekko
 - Modified to serve SageTea.Ai as it own mail client for XFone and SageTea Edge Products
@@ -30,4 +32,4 @@ Working - Fixed
 - [X] Fixed Python Issue when importing modules
 
 _____________________________________
-Copyright (C) 2022 - 2023 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail
+Copyright (C) 2023 - 2024 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail

@@ -1,12 +1,12 @@
-name: dekko
+name: sageteamail
 version: 0.9.7
-summary: Dekko email client
+summary: SageteaMail email client
 description: Fast e-mail client for Ubuntu devices
 confinement: strict
 grade: devel
 
 apps:
-    dekko:
+    sageteamail:
         command: desktop-launch $SNAP/bin/sageteamail-launch "@"
         plugs:
             - browser-sandbox
@@ -35,12 +35,12 @@ parts:
         plugin: dump
         source: snap/
         organize:
-            dekko.launcher: bin/sageteamail-launch
+            sageteamail.launcher: bin/sageteamail-launch
         prime:
             - -plugins
     
 
-    dekko:
+    sageteamail:
         plugin: qbs
         source: "."
         profile: "clang"
@@ -80,5 +80,5 @@ parts:
         prime:
             - usr/lib/*/qt5/qml
             - usr/lib/*/libpython*
-        after: [dekko]
+        after: [sageteamail]
 
