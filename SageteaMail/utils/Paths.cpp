@@ -323,7 +323,7 @@ QString Paths::findProviderFile()
 {
     QString configFile;
     // TODO: make this configurable
-    const QString filePath = QStringLiteral("/usr/share/sagete/configuration/serviceProviders.conf");
+    const QString filePath = QStringLiteral("/usr/share/sagetea/configuration/serviceProviders.conf");
     if (configFile.isEmpty()) {
         QString desktopFile = QDir(QCoreApplication::applicationDirPath()).absoluteFilePath(QStringLiteral("../../../sageteamail2.desktop"));
         if (QFile::exists(desktopFile)) {
