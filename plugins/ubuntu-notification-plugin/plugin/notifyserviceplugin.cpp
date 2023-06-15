@@ -93,7 +93,7 @@ bool NotifyService::installServiceFile() const
     f.write("Environment=\"LD_LIBRARY_PATH=" + appDir.toUtf8() + "/../:$LD_LIBRARY_PATH\"\n");
     f.write("Environment=\"SAGETEAMAIL_PLUGINS=" + appDir.toUtf8() + "/../SageteaMail/plugins\"\n");
     f.write("Environment=\"QMF_PLUGINS=" + appDir.toUtf8() + "/../qmf/plugins5\"\n");
-    f.write("Environment=\"QMF_DATA=" + QDir::homePath().toUtf8() + "/.cache/sageteamail2.dekkoproject\"\n");
+    f.write("Environment=\"QMF_DATA=" + QDir::homePath().toUtf8() + "/.cache/sageteamail2.sagetea\"\n");
     f.write("Restart=on-failure\n");
 
     f.write("\n[Install]\n");
