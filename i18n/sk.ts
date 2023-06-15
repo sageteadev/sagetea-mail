@@ -171,7 +171,7 @@
     </message>
     <message>
         <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -695,8 +695,8 @@ Prajete si použiť radšej toto nastavenie?</translation>
     <name>ComposeWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
-        <source>Dekko Composer</source>
-        <translation>Dekko okno pre editáciu</translation>
+        <source>SageteaMail Composer</source>
+        <translation>SageteaMail okno pre editáciu</translation>
     </message>
 </context>
 <context>
@@ -3438,8 +3438,8 @@ Do you want to resume composing the message?</source>
     <name>MainUI</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
-        <source>Dekko Mail</source>
-        <translation>Pošta Dekko</translation>
+        <source>SageteaMail Mail</source>
+        <translation>Pošta SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6102,8 +6102,8 @@ Do you want to resume composing the message?</source>
     <name>SettingsWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
-        <source>Dekko Settings</source>
-        <translation>Nastavenia Dekko</translation>
+        <source>SageteaMail Settings</source>
+        <translation>Nastavenia SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6152,7 +6152,7 @@ Do you want to resume composing the message?</source>
     <name>SmtpAccountConfiguration</name>
     <message>
         <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

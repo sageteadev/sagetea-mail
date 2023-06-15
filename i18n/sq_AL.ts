@@ -120,7 +120,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -490,8 +490,8 @@ Would you like to use this instead?</source>
 <context>
     <name>ComposeWindow</name>
     <message>
-        <source>Dekko Composer</source>
-        <translation>Dekko Kompozitori</translation>
+        <source>SageteaMail Composer</source>
+        <translation>SageteaMail Kompozitori</translation>
     </message>
 </context>
 <context>
@@ -2325,8 +2325,8 @@ Do you want to resume composing the message?</source>
 <context>
     <name>MainUI</name>
     <message>
-        <source>Dekko Mail</source>
-        <translation>Dekko Maili</translation>
+        <source>SageteaMail Mail</source>
+        <translation>SageteaMail Maili</translation>
     </message>
 </context>
 <context>
@@ -4035,8 +4035,8 @@ Do you want to resume composing the message?</source>
 <context>
     <name>SettingsWindow</name>
     <message>
-        <source>Dekko Settings</source>
-        <translation>Konfigurimi i Dekko</translation>
+        <source>SageteaMail Settings</source>
+        <translation>Konfigurimi i SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -4077,7 +4077,7 @@ Do you want to resume composing the message?</source>
 <context>
     <name>SmtpAccountConfiguration</name>
     <message>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

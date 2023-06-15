@@ -171,7 +171,7 @@
     </message>
     <message>
         <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -695,8 +695,8 @@ Přejete si použít raději toto nastavení?</translation>
     <name>ComposeWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
-        <source>Dekko Composer</source>
-        <translation>Dekko editační okno</translation>
+        <source>SageteaMail Composer</source>
+        <translation>SageteaMail editační okno</translation>
     </message>
 </context>
 <context>
@@ -3438,8 +3438,8 @@ Do you want to resume composing the message?</source>
     <name>MainUI</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
-        <source>Dekko Mail</source>
-        <translation>Pošta Dekko</translation>
+        <source>SageteaMail Mail</source>
+        <translation>Pošta SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6104,8 +6104,8 @@ Datum: %1
     <name>SettingsWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
-        <source>Dekko Settings</source>
-        <translation>Nastavení Dekko</translation>
+        <source>SageteaMail Settings</source>
+        <translation>Nastavení SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6154,7 +6154,7 @@ Datum: %1
     <name>SmtpAccountConfiguration</name>
     <message>
         <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

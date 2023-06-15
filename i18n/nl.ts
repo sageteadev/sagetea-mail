@@ -171,8 +171,8 @@
     </message>
     <message>
         <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
-        <source>Sent with Dekko</source>
-        <translation>Verstuurd met Dekko</translation>
+        <source>Sent with SageteaMail</source>
+        <translation>Verstuurd met SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -695,7 +695,7 @@ Wil je die instellingen gebruiken?</translation>
     <name>ComposeWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
-        <source>Dekko Composer</source>
+        <source>SageteaMail Composer</source>
         <translation>Opstellen</translation>
     </message>
 </context>
@@ -3426,8 +3426,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
     <name>MainUI</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
-        <source>Dekko Mail</source>
-        <translation>Dekko Mail</translation>
+        <source>SageteaMail Mail</source>
+        <translation>SageteaMail Mail</translation>
     </message>
 </context>
 <context>
@@ -6088,8 +6088,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
     <name>SettingsWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
-        <source>Dekko Settings</source>
-        <translation>Dekko-instellingen</translation>
+        <source>SageteaMail Settings</source>
+        <translation>SageteaMail-instellingen</translation>
     </message>
 </context>
 <context>
@@ -6138,8 +6138,8 @@ Wil je doorgaan met het opstellen van het vorige bericht?</translation>
     <name>SmtpAccountConfiguration</name>
     <message>
         <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
-        <source>Sent with Dekko</source>
-        <translation>Verstuurd met Dekko</translation>
+        <source>Sent with SageteaMail</source>
+        <translation>Verstuurd met SageteaMail</translation>
     </message>
 </context>
 <context>

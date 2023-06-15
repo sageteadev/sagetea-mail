@@ -171,7 +171,7 @@
     </message>
     <message>
         <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -695,7 +695,7 @@ Would you like to use this instead?</source>
     <name>ComposeWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
-        <source>Dekko Composer</source>
+        <source>SageteaMail Composer</source>
         <translation>Dekko編輯器</translation>
     </message>
 </context>
@@ -3412,8 +3412,8 @@ Do you want to resume composing the message?</source>
     <name>MainUI</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
-        <source>Dekko Mail</source>
-        <translation>Dekko 郵件</translation>
+        <source>SageteaMail Mail</source>
+        <translation>SageteaMail 郵件</translation>
     </message>
 </context>
 <context>
@@ -6072,8 +6072,8 @@ Do you want to resume composing the message?</source>
     <name>SettingsWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
-        <source>Dekko Settings</source>
-        <translation>Dekko 設定</translation>
+        <source>SageteaMail Settings</source>
+        <translation>SageteaMail 設定</translation>
     </message>
 </context>
 <context>
@@ -6122,7 +6122,7 @@ Do you want to resume composing the message?</source>
     <name>SmtpAccountConfiguration</name>
     <message>
         <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -171,7 +171,7 @@
     </message>
     <message>
         <location filename="../SageteaMail/stores/Accounts/AccountSetup.qml" line="536"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -695,8 +695,8 @@ Quererías usalo en cambio?</translation>
     <name>ComposeWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/mail/composer/ComposeWindow.qml" line="24"/>
-        <source>Dekko Composer</source>
-        <translation>Editor de Dekko</translation>
+        <source>SageteaMail Composer</source>
+        <translation>Editor de SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -3425,8 +3425,8 @@ Do you want to resume composing the message?</source>
     <name>MainUI</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/qml/MainUI.qml" line="17"/>
-        <source>Dekko Mail</source>
-        <translation>Correo Dekko</translation>
+        <source>SageteaMail Mail</source>
+        <translation>Correo SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6087,8 +6087,8 @@ Do you want to resume composing the message?</source>
     <name>SettingsWindow</name>
     <message>
         <location filename="../plugins/ubuntu-plugin/plugins/core/settings/SettingsWindow.qml" line="26"/>
-        <source>Dekko Settings</source>
-        <translation>Axustes de Dekko</translation>
+        <source>SageteaMail Settings</source>
+        <translation>Axustes de SageteaMail</translation>
     </message>
 </context>
 <context>
@@ -6137,7 +6137,7 @@ Do you want to resume composing the message?</source>
     <name>SmtpAccountConfiguration</name>
     <message>
         <location filename="../SageteaMail/backend/accounts/AccountConfiguration.cpp" line="459"/>
-        <source>Sent with Dekko</source>
+        <source>Sent with SageteaMail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

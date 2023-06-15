@@ -456,7 +456,7 @@ QString SmtpAccountConfiguration::initials()
 
 QString SmtpAccountConfiguration::signature() const
 {
-    static const QString defaultSig = QStringLiteral("-- \n%1").arg(tr("Sent with Dekko"));
+    static const QString defaultSig = QStringLiteral("-- \n%1").arg(tr("Sent with SageteaMail"));
     return m_service->value(AccountKeys::signature, defaultSig);
 }
 
