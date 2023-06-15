@@ -21,14 +21,14 @@
 #include <QtDBus/QtDBus>
 
 /*
- * Proxy class for interface org.dekkoproject.MailService
+ * Proxy class for interface org.sagetea.MailService
  */
 class MailServiceInterface: public QDBusAbstractInterface
 {
     Q_OBJECT
 public:
     static inline const char *staticInterfaceName()
-    { return "org.dekkoproject.MailService"; }
+    { return "org.sagetea.MailService"; }
 
 public:
     MailServiceInterface(const QString &service, const QString &path, const QDBusConnection &connection, QObject *parent = 0);
