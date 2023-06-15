@@ -18,7 +18,7 @@
 #include "AccountConfiguration.h"
 #include <QStringList>
 
-Q_LOGGING_CATEGORY(D_ACCOUNT_CONF, "dekko.accounts.config")
+Q_LOGGING_CATEGORY(D_ACCOUNT_CONF, "sageteamail.accounts.config")
 
 //TODO: Move to seperate file??
 const QString AccountKeys::name = QStringLiteral("username");

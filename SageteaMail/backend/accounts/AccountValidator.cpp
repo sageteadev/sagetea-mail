@@ -18,7 +18,7 @@
 #include "AccountValidator.h"
 #include <QTimer>
 
-Q_LOGGING_CATEGORY(D_ACCOUNTS_VALIDATOR, "dekko.accounts.validator")
+Q_LOGGING_CATEGORY(D_ACCOUNTS_VALIDATOR, "sageteamail.accounts.validator")
 
 AccountValidator::AccountValidator(QObject *parent) : QObject(parent),
     m_inProgress(false), m_state(None), m_timer(new QTimer(this))

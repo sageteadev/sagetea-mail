@@ -1,41 +1,33 @@
-[![pipeline status](https://gitlab.com/dekkan/dekko/badges/master/pipeline.svg)](https://gitlab.com/dekkan/dekko/commits/master)
+[![pipeline status](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/badges/focal/pipeline.svg)](https://gitlab.sagetea.ai/xfone/sagemail/sagetea-mail/commits/focal)
 
-<img width="200px" src="Dekko/app/assets/icons/dekko/dekko.png" />
+<img width="200px" src="SageteaMail/app/assets/icons/dekko/sageteamail.png" />
 
-# Dekko 2
+# SageTea Mail
 
-Dekko2 is an convergent email client for Ubuntu Touch. It is under active development and usable in its beta form.
-Dekko2 lets you add multiple accounts and supports IMAP and SMTP (POP3 is considered experimental) details.
+- SageTea Mail is based on Dekko project https://gitlab.com/dekkan/dekko
+- Modified to serve SageTea.Ai as it own mail client for XFone and SageTea Edge Products
 
-## How to get it
+## Disclaimer
+- Please note SageTea Mail is a Mobile app for Sagetea Edge and XFone and is still unstable and under development
 
-[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/dekko2.dekkoproject)
+# Submodules are also updated
 
-Or build it yourself following instructions below.
+Working - Fixed
+----------------
 
-## Building the app:
+- [X] Composer Fixed
+- [X] Accounts Fixed
+- [X] Notifications Works
+- [X] Webview Fixed
+- [X] Open External links on browser works
+- [X] Compose Emails Fixed
+- [X] Reply to emails Fixed
+- [X] Fixed crash on reply
+- [X] Attatchements Fixed
+- [X] Delete Mail Fixed
+- [X] Built Agains QT 5.12 Fixed
+- [X] Update Submodules to work on SageTea Mail
+- [X] Fixed Python Issue when importing modules
 
-* install clickable: http://clickable.bhdouglass.com
-* build dependency on the host (despite docker):
-```
-sudo apt-get install qemu-user-static
-```
-* clone:
-```
-git clone --recurse-submodules git@gitlab.com:dekkan/dekko.git
-```
-* connect your device via usb cable
-* build and run:
-```
-cd dekko
-clickable
-```
-## i18n: Translating Dekko into your Language
-
-You can easily contribute to the localization of this project (i.e. the
-translation into your language) by visiting (and signing up with) the
-Hosted Weblate service:
-https://hosted.weblate.org/projects/ubports/dekko/
-
-The localization platform of this project is sponsored by Hosted Weblate
-via their free hosting plan for Libre and Open Source Projects.
+_____________________________________
+Copyright (C) 2022 - 2023 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail
