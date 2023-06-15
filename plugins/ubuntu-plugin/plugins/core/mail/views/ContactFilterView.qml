@@ -40,7 +40,7 @@ DekkoPage {
         iconName: "back"
         onTriggered: ViewActions.popStageArea(ViewKeys.messageListStack)
     }
-    extendHeader: !dekko.isSmallFF
+    extendHeader: !sageteamail.isSmallFF
 
     MessageList {
         id: msgList
@@ -152,7 +152,7 @@ DekkoPage {
             addDisplaced: DekkoAnimation.listViewAddDisplacedTransition
             remove: DekkoAnimation.listViewRemoveTransition
             removeDisplaced: DekkoAnimation.listViewRemoveDisplacedTransition
-            highlight: !dekko.isSmallFF ? Style.highlightBar : null
+            highlight: !sageteamail.isSmallFF ? Style.highlightBar : null
             highlightFollowsCurrentItem: true
             highlightMoveDuration: 200
             model: msgList.model

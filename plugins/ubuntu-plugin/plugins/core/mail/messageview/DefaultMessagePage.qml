@@ -123,7 +123,7 @@ DekkoPage {
                 right: parent.right
                 top: detailsPanel.bottom
                 bottom: parent.bottom
-                leftMargin: !dekko.isSmallFF ? Style.smallSpacing : 0
+                leftMargin: !sageteamail.isSmallFF ? Style.smallSpacing : 0
             }
         }
 

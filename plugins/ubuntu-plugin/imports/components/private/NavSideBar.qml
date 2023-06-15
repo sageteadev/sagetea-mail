@@ -41,15 +41,15 @@ StyledItem {
             Action {
                 iconName: "edit"
                 onTriggered: ViewActions.openComposer()
-                visible: dekko.isLargeFF
+                visible: sageteamail.isLargeFF
             },
             Action {
                 iconName: "like"
-                visible: dekko.isSmallFF
+                visible: sageteamail.isSmallFF
             },
             Action {
                 iconName: "settings"
-                visible: dekko.isSmallFF
+                visible: sageteamail.isSmallFF
                 onTriggered: ViewActions.openSettings()
             }
         ]
@@ -81,7 +81,7 @@ StyledItem {
                     iconSize: units.gu(2.5)
                     highlightColor: LomiriColors.slate
                     action: Action {
-                        visible: dekko.isSmallFF
+                        visible: sageteamail.isSmallFF
                         iconName: "navigation-menu"
                         onTriggered: ViewActions.toggleNavDrawer()
                     }

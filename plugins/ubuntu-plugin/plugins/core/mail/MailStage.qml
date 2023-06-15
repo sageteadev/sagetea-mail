@@ -54,8 +54,8 @@ BaseStage {
         // for smaller FF's
         PanelContainer {
             id: p1
-            visible: dekko.isLargeFF
-            resizable: !dekko.isSmallFF
+            visible: sageteamail.isLargeFF
+            resizable: !sageteamail.isSmallFF
             minSize: units.gu(20)
             maxSize: units.gu(50)
             height: parent.height
@@ -80,7 +80,7 @@ BaseStage {
             // on small FF. This sets the implicit width to -1
             // and restores it on going back to larger FF's
             stretchOnSmallFF: true
-            resizable: !dekko.isSmallFF
+            resizable: !sageteamail.isSmallFF
             minSize: units.gu(40)
             maxSize: units.gu(60)
             size: units.gu(40)
@@ -116,7 +116,7 @@ BaseStage {
                     top: parent.top
                     bottom: parent.bottom
                 }
-                enabled: !dekko.isLargeFF
+                enabled: !sageteamail.isLargeFF
                 visible: enabled
                 animate: true
                 width: Style.defaultPanelWidth
@@ -129,7 +129,7 @@ BaseStage {
         }
         // Take rest of space when visible
         Stretcher {
-            visible: !dekko.isSmallFF
+            visible: !sageteamail.isSmallFF
             anchors {
                 top: parent.top
                 bottom: parent.bottom
@@ -154,7 +154,7 @@ BaseStage {
 
         PanelContainer {
             id: p3
-            visible: dekko.isLargeFF && pluginStage.stackCount
+            visible: sageteamail.isLargeFF && pluginStage.stackCount
             minSize: units.gu(20)
             maxSize: units.gu(40)
             size: units.gu(30)
@@ -189,7 +189,7 @@ BaseStage {
                 MessageActions.setCurrentMessage(message.msgId)
 
                 var style = Qt.resolvedUrl("./messageview/DefaultMessagePage.qml")
-                if (dekko.isSmallFF) {
+                if (sageteamail.isSmallFF) {
                     // leftStage push msgview
                     ViewActions.pushToStageArea(ViewKeys.messageListStack, style, {msgId: message.msgId})
                 } else {
@@ -217,7 +217,7 @@ BaseStage {
             type: MessageKeys.openAccountFolder
             onDispatched: {
                 ViewActions.closeNavDrawer()
-                if (dekko.isLargeFF) {
+                if (sageteamail.isLargeFF) {
                     ViewActions.pushToStageArea(ViewKeys.navigationStack,
                                                 Qt.resolvedUrl("./views/FolderListView.qml"),
                                                 {

@@ -40,7 +40,7 @@ DekkoPage {
             SettingsActions.pickFolderCancelled(pickerId)
         }
     }
-    extendHeader: !dekko.isSmallFF
+    extendHeader: !sageteamail.isSmallFF
 
     PageContent {
         MailboxPicker {

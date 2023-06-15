@@ -57,16 +57,16 @@ DekkoPage {
                         left: parent.left
                         right: starIcon.left
                     }
-                    spacing: dekko.isSmallFF ? 0 : Style.smallSpacing
+                    spacing: sageteamail.isSmallFF ? 0 : Style.smallSpacing
 
                     AbstractButton {
                         id: backBtn
                         height: parent.height
-                        width: dekko.isSmallFF ? Style.largeSpacing : 0
+                        width: sageteamail.isSmallFF ? Style.largeSpacing : 0
                         Icon {
                             height: Style.defaultSpacing
                             width: Style.defaultSpacing
-                            visible: dekko.isSmallFF
+                            visible: sageteamail.isSmallFF
                             name: "back"
                             anchors {
                                 horizontalCenter: parent.horizontalCenter
@@ -151,7 +151,7 @@ DekkoPage {
                         right: parent.right
                     }
                     layoutDirection: Qt.RightToLeft
-                    spacing: dekko.isSmallFF ? 0 : Style.smallSpacing
+                    spacing: sageteamail.isSmallFF ? 0 : Style.smallSpacing
 
                     AbstractButton {
                         id: delBtn
@@ -238,7 +238,7 @@ DekkoPage {
             id: webview
             anchors {
                 fill: parent
-                leftMargin: !dekko.isSmallFF ? units.gu(1) : 0
+                leftMargin: !sageteamail.isSmallFF ? units.gu(1) : 0
             }
 
             url: "about:blank"

@@ -53,7 +53,7 @@ VisualItemModel {
             ProgressionSlot{}
         }
         onClicked: {
-            if (dekko.isSmallFF) {
+            if (sageteamail.isSmallFF) {
                 ViewActions.pushToStageArea(ViewKeys.messageListStack, Qt.resolvedUrl("../settings/DisplaySettingsPage.qml"), {})
             } else {
                 PopupUtils.open(Qt.resolvedUrl("../settings/DisplaySettingsPopup.qml"))
@@ -75,7 +75,7 @@ VisualItemModel {
             ProgressionSlot{}
         }
         onClicked: {
-            if (dekko.isSmallFF) {
+            if (sageteamail.isSmallFF) {
                 ViewActions.pushToStageArea(ViewKeys.messageListStack, Qt.resolvedUrl("../settings/PrivacySettingsPage.qml"), {})
             } else {
                 PopupUtils.open(Qt.resolvedUrl("../settings/PrivacySettingsPopup.qml"))

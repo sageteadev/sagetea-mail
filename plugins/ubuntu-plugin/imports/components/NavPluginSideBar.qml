@@ -31,7 +31,7 @@ Rectangle {
             height: units.gu(6)
             width: bar.width
             implicitHeight: height
-            visible: !dekko.isLargeFF
+            visible: !sageteamail.isLargeFF
 
             onClicked: ViewActions.toggleNavDrawer()
 
@@ -53,7 +53,7 @@ Rectangle {
 
         Line {
             color: LomiriColors.slate
-            visible: !dekko.isLargeFF
+            visible: !sageteamail.isLargeFF
             anchors {
                 left: parent.left
                 right: parent.right

@@ -32,10 +32,10 @@ DekkoPage {
     pageHeader.title: pageTitle
     pageHeader.backAction: Action {
         iconName: "back"
-        onTriggered: ViewActions.popStageArea(dekko.isLargeFF ? ViewKeys.navigationStack : ViewKeys.messageListStack)
+        onTriggered: ViewActions.popStageArea(sageteamail.isLargeFF ? ViewKeys.navigationStack : ViewKeys.messageListStack)
     }
-    pageHeader.composeButtonEnabled: !dekko.isSmallFF
-    extendHeader: !dekko.isSmallFF
+    pageHeader.composeButtonEnabled: !sageteamail.isSmallFF
+    extendHeader: !sageteamail.isSmallFF
 
     PageContent {
 

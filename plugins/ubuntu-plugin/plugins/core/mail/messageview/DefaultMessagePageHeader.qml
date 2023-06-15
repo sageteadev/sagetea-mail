@@ -29,14 +29,14 @@ Item {
 
     property var msg
 
-    height: dekko.isSmallFF ? units.gu(6) : units.gu(9.075)
+    height: sageteamail.isSmallFF ? units.gu(6) : units.gu(9.075)
     anchors {
         left: parent.left
         right: parent.right
         top: parent.top
     }
 
-    property bool showBack: dekko.isSmallFF
+    property bool showBack: sageteamail.isSmallFF
 
     HeaderButton {
         id: inner_button
@@ -89,7 +89,7 @@ Item {
             text: msg.from.name
             clip: true
             elide: Text.ElideRight
-            visible: !dekko.isSmallFF
+            visible: !sageteamail.isSmallFF
             font.weight: Font.Normal
 
         }
@@ -123,7 +123,7 @@ Item {
             iconName: "delete"
             shortcut: "Delete"
             onTriggered: {
-                if (dekko.isSmallFF) {
+                if (sageteamail.isSmallFF) {
                     ViewActions.popStageArea(ViewKeys.messageListStack)
                     ViewActions.delayCall('resetSelectedMsgIndex')
                     ViewActions.delayCallWithArgs('deleteMessage', {msgId: msg.messageId})

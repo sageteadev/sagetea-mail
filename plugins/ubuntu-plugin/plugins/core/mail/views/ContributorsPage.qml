@@ -24,7 +24,7 @@ DekkoPage {
 
     pageHeader.title: qsTr("Contributors")
 
-    extendHeader: !dekko.isSmallFF
+    extendHeader: !sageteamail.isSmallFF
     pageHeader.backAction: Action {
         iconName: "back"
         onTriggered: internalStack.pop()

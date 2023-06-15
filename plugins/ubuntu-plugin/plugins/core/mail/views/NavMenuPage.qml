@@ -28,7 +28,7 @@ Comps.DekkoPage {
     id: menuPage
 
     pageHeader.title: qsTr("Mail")
-    pageHeader.composeButtonEnabled: tabBar.currentIndex === 0 && dekko.isLargeFF
+    pageHeader.composeButtonEnabled: tabBar.currentIndex === 0 && sageteamail.isLargeFF
     extendHeader: true
 
     Comps.PageContent {

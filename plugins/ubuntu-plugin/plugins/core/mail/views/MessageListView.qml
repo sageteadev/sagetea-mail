@@ -41,8 +41,8 @@ DekkoPage {
     pageHeader {
         title: MailStore.folderTitle
         enableSearching: true
-        composeButtonEnabled: !dekko.isLargeFF
-        backAction: dekko.isSmallFF || MailStore.isInSelectionMode ? drawerAction : null
+        composeButtonEnabled: !sageteamail.isLargeFF
+        backAction: sageteamail.isSmallFF || MailStore.isInSelectionMode ? drawerAction : null
         filterSections: isSearchMode ? MailStore.searchFilters : MailStore.defaultFilters
         multiSelectActionList: multiSelectRegistry.actions
     }
@@ -265,7 +265,7 @@ DekkoPage {
                 remove: DekkoAnimation.listViewRemoveTransition
                 removeDisplaced: DekkoAnimation.listViewRemoveDisplacedTransition
 
-                highlight: !dekko.isSmallFF ? Style.highlightBar : null
+                highlight: !sageteamail.isSmallFF ? Style.highlightBar : null
                 highlightFollowsCurrentItem: true
                 highlightMoveDuration: 200
                 cacheBuffer: units.gu(120)

@@ -47,7 +47,7 @@ Item {
             addDisplaced: DekkoAnimation.listViewAddDisplacedTransition
             remove: DekkoAnimation.listViewRemoveTransition
             removeDisplaced: DekkoAnimation.listViewRemoveDisplacedTransition
-            highlight: !dekko.isSmallFF ? Style.highlightBar : null
+            highlight: !sageteamail.isSmallFF ? Style.highlightBar : null
             highlightFollowsCurrentItem: true
             highlightMoveDuration: 200
             currentIndex: -1

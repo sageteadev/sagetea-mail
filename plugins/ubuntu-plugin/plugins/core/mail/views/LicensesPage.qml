@@ -23,7 +23,7 @@ import "./models"
 DekkoPage {
 
     pageHeader.title: qsTr("Licenses")
-    extendHeader: !dekko.isSmallFF
+    extendHeader: !sageteamail.isSmallFF
     pageHeader.backAction: Action {
         iconName: "back"
         onTriggered: internalStack.pop()

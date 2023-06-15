@@ -27,7 +27,7 @@ BaseStage {
             height: parent.height
             width: units.gu(8)
             implicitWidth: width
-            visible: !dekko.isSmallFF && !AccountSetup.wizardRunning
+            visible: !sageteamail.isSmallFF && !AccountSetup.wizardRunning
         }
         
         Stretcher {

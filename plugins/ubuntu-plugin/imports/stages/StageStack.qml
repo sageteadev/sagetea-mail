@@ -56,7 +56,7 @@ StackView {
         Filter {
             type: ViewKeys.openMessageComposer
             onDispatched: {
-                if (dekko.isLargeFF) {
+                if (sageteamail.isLargeFF) {
                     PopupUtils.open(Qt.resolvedUrl("../composer/ComposePanelPopup.qml"), dekkoContainer, {})
                 }
             }

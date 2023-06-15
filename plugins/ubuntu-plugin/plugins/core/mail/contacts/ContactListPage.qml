@@ -9,7 +9,7 @@ import SageteaMail.Lomiri.Constants 1.0
 DekkoPage {
     id: contactsListPage
     pageHeader.title: addressBook ? addressBook.name : qsTr("Address book")
-    pageHeader.backAction:!dekko.isLargeFF ? bkAction : null
+    pageHeader.backAction:!sageteamail.isLargeFF ? bkAction : null
 
     Action {
         id: bkAction

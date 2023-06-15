@@ -116,7 +116,7 @@ BottomEdgeConfiguration {
             runWhen: ViewKeys.closeComposer
             enabled: listenerEnabled
             script: {
-                if (!dekko.isLargeFF) {
+                if (!sageteamail.isLargeFF) {
                     bottomEdge.collapse()
                 } else {
                     exit.bind(this, 0)
@@ -124,7 +124,7 @@ BottomEdgeConfiguration {
             }
         }
         AppListener {
-            enabled: !dekko.isLargeFF
+            enabled: !sageteamail.isLargeFF
             filter: ViewKeys.closeComposer
             onDispatched: {
                 bottomEdge.collapse()
