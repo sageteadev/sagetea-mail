@@ -45,4 +45,4 @@ release:
     - echo "Publish Release"
   artifacts:
     paths:
-      - ./*.click
+      - 'build/$ARCH_TRIPLET/*.click'
