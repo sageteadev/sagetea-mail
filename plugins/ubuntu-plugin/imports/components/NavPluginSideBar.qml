@@ -153,5 +153,28 @@ Rectangle {
                 anchors.centerIn: parent
             }
         }
+
+        AbstractButton {
+            id: infoBtn
+            height: units.gu(7)
+            width: bar.width
+            implicitHeight: height
+
+            onClicked: ViewActions.openSettings()
+
+            Rectangle {
+                anchors.fill: parent
+                visible: settingsBtn.pressed
+                color: LomiriColors.slate
+            }
+
+            Icon {
+                name: "info"
+                color: LomiriColors.silk
+                height: units.gu(3.4)
+                width: height
+                anchors.centerIn: parent
+            }
+        }
     }
 }
