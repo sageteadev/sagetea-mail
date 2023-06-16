@@ -1,9 +1,9 @@
-#ifndef DEKKOWEBCONTEXTPLUGIN_H
-#define DEKKOWEBCONTEXTPLUGIN_H
+#ifndef SAGETEAMAILWEBCONTEXTPLUGIN_H
+#define SAGETEAMAILWEBCONTEXTPLUGIN_H
 #include <QtQml/QQmlEngine>
 #include <QtQml/QQmlExtensionPlugin>
 
-class DekkoWebContextPlugin : public QQmlExtensionPlugin
+class SageteaMailWebContextPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface")

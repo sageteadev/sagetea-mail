@@ -1,13 +1,13 @@
-#ifndef DEKKOWEBCONTEXT_H
-#define DEKKOWEBCONTEXT_H
+#ifndef SAGETEAMAILWEBCONTEXT_H
+#define SAGETEAMAILWEBCONTEXT_H
 
-#include "DekkoWebEngineUrlRequestInterceptor.h"
-#include "DekkoWebEngineUrlSchemeHandler.h"
+#include "SageteaMailWebEngineUrlRequestInterceptor.h"
+#include "SageteaMailWebEngineUrlSchemeHandler.h"
 #include <QString>
 #include <QUrl>
 #include <QQuickWebEngineProfile>
 
-class DekkoWebContext : public QQuickWebEngineProfile
+class SageteaMailWebContext : public QQuickWebEngineProfile
 {
     Q_OBJECT
     Q_PROPERTY(QString messageUid READ getMessageUid WRITE setMessageUid NOTIFY messageUidChanged)
@@ -18,8 +18,8 @@ class DekkoWebContext : public QQuickWebEngineProfile
     Q_PROPERTY(QObject * qmlEngineInjector READ qmlEngineInjector WRITE setQmlEngineInjector NOTIFY qmlEngineInjectorChanged)
 
 public:
-    explicit DekkoWebContext(QQuickWebEngineProfile *parent = Q_NULLPTR);
-    ~DekkoWebContext() {
+    explicit SageteaMailWebContext(QQuickWebEngineProfile *parent = Q_NULLPTR);
+    ~SageteaMailWebContext() {
     }
 
     void setMessageUid(QString messageUid);
@@ -48,8 +48,8 @@ public slots:
     void onInterceptedRemoteRequest(bool wasBlocked);
 
 private:
-    DekkoWebEngineUrlRequestInterceptor urlRequestInterceptor;
-    DekkoWebEngineUrlSchemeHandler urlSchemeHandler;
+    SageteaMailWebEngineUrlRequestInterceptor urlRequestInterceptor;
+    SageteaMailWebEngineUrlSchemeHandler urlSchemeHandler;
 };
 
 #endif

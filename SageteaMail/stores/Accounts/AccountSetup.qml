@@ -533,7 +533,7 @@ AppListener {
             identity["name"] = account.outgoing.name
             identity["email"] = account.outgoing.email
             identity["replyTo"] = ""
-            identity["signature"] = qsTr("Sent with Dekko")
+            identity["signature"] = qsTr("Sent with SageTea Mail")
             AccountActions.addIdentity(identity)
         }
     }

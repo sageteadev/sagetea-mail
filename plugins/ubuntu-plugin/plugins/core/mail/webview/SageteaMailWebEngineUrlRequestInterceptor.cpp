@@ -1,13 +1,13 @@
-#include "DekkoWebEngineUrlRequestInterceptor.h"
+#include "SageteaMailWebEngineUrlRequestInterceptor.h"
 #include <QWebEngineUrlRequestInfo>
 #include <QDebug>
 
-DekkoWebEngineUrlRequestInterceptor::DekkoWebEngineUrlRequestInterceptor(QWebEngineUrlRequestInterceptor *parent) : QWebEngineUrlRequestInterceptor(parent),
+SageteaMailWebEngineUrlRequestInterceptor::SageteaMailWebEngineUrlRequestInterceptor(QWebEngineUrlRequestInterceptor *parent) : QWebEngineUrlRequestInterceptor(parent),
     remoteResourcesAreBlocked(true)
 {
 }
 
-void DekkoWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
+void SageteaMailWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 {
     auto requestUrl = info.requestUrl();
 
@@ -22,22 +22,22 @@ void DekkoWebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestI
     }
 }
 
-bool DekkoWebEngineUrlRequestInterceptor::hasAllowedScheme(const QUrl &url)
+bool SageteaMailWebEngineUrlRequestInterceptor::hasAllowedScheme(const QUrl &url)
 {
     return this->testScheme("cid", url) || this->testScheme("dekko-part", url) || this->testScheme("dekko-msg", url) || this->testScheme("blob", url);
 }
 
-bool DekkoWebEngineUrlRequestInterceptor::testScheme(const QString &scheme, const QUrl &url)
+bool SageteaMailWebEngineUrlRequestInterceptor::testScheme(const QString &scheme, const QUrl &url)
 {
     return url.scheme() == scheme;
 }
 
-void DekkoWebEngineUrlRequestInterceptor::setBlockRemoteResources(bool doBlock)
+void SageteaMailWebEngineUrlRequestInterceptor::setBlockRemoteResources(bool doBlock)
 {
     this->remoteResourcesAreBlocked = doBlock;
 }
 
-bool DekkoWebEngineUrlRequestInterceptor::areRemoteResourcesBlocked() const
+bool SageteaMailWebEngineUrlRequestInterceptor::areRemoteResourcesBlocked() const
 {
     return this->remoteResourcesAreBlocked;
 }

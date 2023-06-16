@@ -1,13 +1,13 @@
-#include "DekkoWebEngineUrlSchemeHandler.h"
+#include "SageteaMailWebEngineUrlSchemeHandler.h"
 #include <QDebug>
 #include <QNetworkRequest>
 
-DekkoWebEngineUrlSchemeHandler::DekkoWebEngineUrlSchemeHandler(QWebEngineUrlSchemeHandler *parent) : QWebEngineUrlSchemeHandler(parent),
+SageteaMailWebEngineUrlSchemeHandler::SageteaMailWebEngineUrlSchemeHandler(QWebEngineUrlSchemeHandler *parent) : QWebEngineUrlSchemeHandler(parent),
     messageUid(""), pendingRequest(nullptr), customNetworkAccessManager(nullptr)
 {
 }
 
-void DekkoWebEngineUrlSchemeHandler::requestStarted(QWebEngineUrlRequestJob *request)
+void SageteaMailWebEngineUrlSchemeHandler::requestStarted(QWebEngineUrlRequestJob *request)
 {
     auto requestUrl = request->requestUrl();
     qDebug() << "Scheme handler called for " << requestUrl.toString();
@@ -31,7 +31,7 @@ void DekkoWebEngineUrlSchemeHandler::requestStarted(QWebEngineUrlRequestJob *req
     }
 }
 
-void DekkoWebEngineUrlSchemeHandler::onReply(QNetworkReply *reply)
+void SageteaMailWebEngineUrlSchemeHandler::onReply(QNetworkReply *reply)
 {
     if (!pendingRequest)
     {
@@ -42,26 +42,26 @@ void DekkoWebEngineUrlSchemeHandler::onReply(QNetworkReply *reply)
     this->pendingRequest = nullptr;
 }
 
-bool DekkoWebEngineUrlSchemeHandler::testScheme(const QString &scheme, const QUrl &url)
+bool SageteaMailWebEngineUrlSchemeHandler::testScheme(const QString &scheme, const QUrl &url)
 {
     return url.scheme() == scheme;
 }
 
-void DekkoWebEngineUrlSchemeHandler::setMessageUid(QString messageUid)
+void SageteaMailWebEngineUrlSchemeHandler::setMessageUid(QString messageUid)
 {
     this->messageUid = messageUid;
 }
 
-QString DekkoWebEngineUrlSchemeHandler::getMessageUid() const
+QString SageteaMailWebEngineUrlSchemeHandler::getMessageUid() const
 {
     return this->messageUid;
 }
 
-void DekkoWebEngineUrlSchemeHandler::setNetworkAccessManager(QNetworkAccessManager * qnam)
+void SageteaMailWebEngineUrlSchemeHandler::setNetworkAccessManager(QNetworkAccessManager * qnam)
 {
     this->customNetworkAccessManager = qnam;
 
     connect(this->customNetworkAccessManager, &QNetworkAccessManager::finished,
-            this, &DekkoWebEngineUrlSchemeHandler::onReply);
+            this, &SageteaMailWebEngineUrlSchemeHandler::onReply);
 }
 
