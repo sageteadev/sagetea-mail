@@ -27,24 +27,22 @@ default:
     paths:
       - 'build/$ARCH_TRIPLET/*.click'
     when: on_success
-    expire_in: 1 week
+    expire_in: 3 week
 
 sageteamail:arm64:
   <<: *arm64
   extends: .sageteamail
 
-create:release:
+release:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
-  needs:
-    - job: prepare:release
-      artifacts: true
   variables:
     TAG: '$CI_COMMIT_SHA'
-  script:
-    - echo "Create Release $TAG"
-  release:
-    name: 'Release $TAG'
     tag_name: '$TAG'
     ref: '$TAG'
     description: 'Release $TAG'
+  script:
+    - echo "Publish Release"
+  artifacts:
+    paths:
+      - ./*.click
