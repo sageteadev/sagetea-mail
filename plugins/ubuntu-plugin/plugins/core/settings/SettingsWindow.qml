@@ -23,7 +23,7 @@ Window {
     flags: Qt.Window
     modality: Qt.ApplicationModal
 
-    title: qsTr("Dekko Settings")
+    title: qsTr("SageteaMail Settings")
 
     onClosing: {
         ViewActions.closeSettings()
