@@ -81,7 +81,7 @@ WebEngineView {
         }
     ]
 
-    context: DekkoWebContext {
+    context: SageteaMailWebContext {
         id: ctxt
 
         readonly property string defaultUserAgent: _ua.defaultUA
@@ -254,7 +254,7 @@ WebEngineView {
     onNewViewRequested: navigationRequested
 
     onNavigationRequested: {
-        console.log("[Dekko Web View] RequestUrl", request.url)
+        console.log("[SageteaMail Web View] RequestUrl", request.url)
         if (("" + request.url).startsWith("dekko-msg") ||
             ("" + request.url).startsWith("dekko-part") ||
             ("" + request.url).startsWith("cid")) {
@@ -267,7 +267,7 @@ WebEngineView {
     }
 
     onJavaScriptConsoleMessage: {
-        var msg = "[Dekko Web View] [JS] (%1:%2) %3".arg(sourceID).arg(lineNumber).arg(message)
+        var msg = "[SageteaMail Web View] [JS] (%1:%2) %3".arg(sourceID).arg(lineNumber).arg(message)
         console.log(msg)
     }
 
