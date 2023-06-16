@@ -43,8 +43,12 @@ Ubuntu 16.04
 - [X] Fixed Python Issue when importing modules
 - [X] Cache Mannager allow you to set a time to delete/clean caches
 
+_____________________________________
 
-##Screenshots
+<div align="center">
+
+## Screenshots
+
 
 <p float="center">
   <img src="/docs/assets/sageteamail.png" width="200" />
@@ -53,6 +57,7 @@ Ubuntu 16.04
   <img src="/docs/assets/sageteamail4.png" width="200" />
 </p>
 
+</div>
 _____________________________________
 <div align="center">
 Copyright (C) 2023 - 2024 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail
