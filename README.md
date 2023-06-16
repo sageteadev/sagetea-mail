@@ -47,10 +47,10 @@ Ubuntu 16.04
 ##Screenshots
 
 <p float="center">
-  <img src="sageteamail/../docs/assets/sageteamail.png" width="200" />
-  <img src="sageteamail/../docs/assets/sageteamail2.png" width="200" /> 
-  <img src="sageteamail/../docs/assets/sageteamail3.png" width="200" />
-  <img src="sageteamail/../docs/assets/sageteamail4.png" width="200" />
+  <img src="/docs/assets/sageteamail.png" width="200" />
+  <img src="/docs/assets/sageteamail2.png" width="200" /> 
+  <img src="/docs/assets/sageteamail3.png" width="200" />
+  <img src="/docs/assets/sageteamail4.png" width="200" />
 </p>
 
 _____________________________________
