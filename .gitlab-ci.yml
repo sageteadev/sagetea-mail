@@ -1,7 +1,6 @@
 stages:
   - build
   - deploy
-  - release
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -32,17 +31,3 @@ default:
 sageteamail:arm64:
   <<: *arm64
   extends: .sageteamail
-
-release:
-  stage: release
-  image: registry.gitlab.com/gitlab-org/release-cli:latest
-  variables:
-    TAG: '$CI_COMMIT_SHA'
-    tag_name: '$TAG'
-    ref: '$TAG'
-    description: 'Release $TAG'
-  script:
-    - echo "Publish Release"
-  artifacts:
-    paths:
-      - 'build/$ARCH_TRIPLET/*.click'
