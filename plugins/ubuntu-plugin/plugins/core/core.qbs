@@ -44,7 +44,7 @@ Project {
 
         Group {
             condition: project.ui === "ubuntu"
-            fileTagsFilter: "dekko-webcontext-plugin"
+            fileTagsFilter: "sageteamail-webcontext-plugin"
             qbs.install: project.ui === "ubuntu"
             qbs.installDir: project.qmlDir + "/SageteaMail/" + product.name
         }
