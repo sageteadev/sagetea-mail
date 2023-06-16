@@ -58,7 +58,9 @@ _____________________________________
 </p>
 
 </div>
-_____________________________________
+
+_________________________________________
+
 <div align="center">
 Copyright (C) 2023 - 2024 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail
 </div>
