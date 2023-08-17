@@ -203,6 +203,7 @@ StyledItem {
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
+                                bottom: parent.bottom
                                 color: LomiriColors.orange
                                 text: i18n.tr("Upgrade to Pro")
                                 font.bold: true
