@@ -63,7 +63,7 @@ _____________________________________
 
 - ` cd sagetea-mail `
 
-- ` clickable build `
+- ` clickable build --arch arm64 `
 
 _________________________________________
 
