@@ -84,6 +84,7 @@ Popover {
         }
 
         Label {
+            id: upgradeLabel
             anchors.horizontalCenter: parent.horizontalCenter
             width: parent.width * 4 / 5
             wrapMode: Text.WordWrap
@@ -93,9 +94,9 @@ Popover {
         }
 
         Button {
-            anchors.horizontalCenter: parent.horizontalCenter
+            id: upgradeButton
             width: parent.width * 4 / 5
-            color: Lomiri.Colours.green
+            color: LomiriColours.orange
             text: i18n.tr("Upgrade to Pro")
             font.bold: true
             onClicked: Qt.openUrlExternally(link)
