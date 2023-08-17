@@ -200,13 +200,23 @@ StyledItem {
                                 font.bold: true
                         }
 
+                            ListItem {
+                                height: dLayout.height
+                                divider.visible: false
+                                onClicked: MessageActions.openAccountFolder(qtObject.name, qtObject.id)
+                                Rectangle {
+                                    anchors.fill: parent
+                                    color: Qt.rgba(0, 0, 0, 0.05)
+                                    visible: dLayout ? dLayout.title.text === ViewStore.selectedNavFolder : false
+                                }
+
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
                                 color: LomiriColors.orange
                                 text: i18n.tr("Upgrade to Pro")
                                 font.bold: true
-                                onClicked: Qt.openUrlExternally(link)
+                                onClicked: Qt.openUrlExternally("https://sagetea.ai/product/sagetea-mail/")
                         }
                     }
                 }
