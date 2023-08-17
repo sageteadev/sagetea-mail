@@ -200,15 +200,11 @@ StyledItem {
                                 font.bold: true
                         }
 
-                            ListItem {
-                                height: dLayout.height
-                                divider.visible: false
-                                onClicked: MessageActions.openAccountFolder(qtObject.name, qtObject.id)
-                                Rectangle {
-                                    anchors.fill: parent
-                                    color: Qt.rgba(0, 0, 0, 0.05)
-                                    visible: dLayout ? dLayout.title.text === ViewStore.selectedNavFolder : false
-                                }
+                            Rectangle {
+                                Layout.fillWidth: true
+                                height: 50
+                                width: 50
+                        }
 
                             Button {
                                 id: upgradeButton
