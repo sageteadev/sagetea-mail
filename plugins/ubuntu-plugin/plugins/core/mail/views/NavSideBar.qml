@@ -188,6 +188,25 @@ StyledItem {
                                     ProgressionSlot{}
                                 }
                             }
+
+                                Label {
+                                    id: upgradeLabel
+                                    anchors.horizontalCenter: parent.horizontalCenter
+                                    width: parent.width * 4 / 5
+                                    wrapMode: Text.WordWrap
+                                    horizontalAlignment: Text.AlignHCenter
+                                    text: i18n.tr("You are runnig a free edition of SageTea Mail, consider upgrade to Pro Version")
+                                    font.bold: true
+                            }
+
+                                Button {
+                                    id: upgradeButton
+                                    width: parent.width * 4 / 5
+                                    color: LomiriColors.orange
+                                    text: i18n.tr("Upgrade to Pro")
+                                    font.bold: true
+                                    onClicked: Qt.openUrlExternally(link)
+                            }
                         }
 //                        Item {
 //                            anchors {
@@ -423,25 +442,6 @@ StyledItem {
                     }
                 }
             }
-        }
-
-        Label {
-            id: upgradeLabel
-            anchors.horizontalCenter: parent.horizontalCenter
-            width: parent.width * 4 / 5
-            wrapMode: Text.WordWrap
-            horizontalAlignment: Text.AlignHCenter
-            text: i18n.tr("You are runnig a free edition of SageTea Mail, consider upgrade to Pro Version")
-            font.bold: true
-        }
-
-        Button {
-            id: upgradeButton
-            width: parent.width * 4 / 5
-            color: LomiriColours.orange
-            text: i18n.tr("Upgrade to Pro")
-            font.bold: true
-            onClicked: Qt.openUrlExternally(link)
         }
     }
 }
