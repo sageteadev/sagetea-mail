@@ -200,10 +200,19 @@ StyledItem {
                                 font.bold: true
                         }
 
+                        Label {
+                                id: spcLabel
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                width: parent.width * 4 / 5
+                                wrapMode: Text.WordWrap
+                                horizontalAlignment: Text.AlignHCenter
+                                text: i18n.tr("")
+                                font.bold: true
+                        }
+
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
-                                bottom: parent.bottom
                                 color: LomiriColors.orange
                                 text: i18n.tr("Upgrade to Pro")
                                 font.bold: true
