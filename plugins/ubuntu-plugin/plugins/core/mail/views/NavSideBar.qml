@@ -200,6 +200,14 @@ StyledItem {
                                 font.bold: true
                         }
 
+                            Item {
+                                // spacer item
+                                Layout.fillWidth: true
+                                Layout.fillHeight: false
+                                color: Qt.rgba(0, 0, 0, 0.05)
+                                Rectangle { anchors.fill: parent; }
+                        }
+
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
