@@ -51,7 +51,9 @@ _____________________________________
 
 ## Build
 - ` git clone --recurse-submodules https://github.com/sageteadev/sagetea-mail.git `
+
 - ` cd sagetea-mail `
+
 - ` clickable build `
 
 
