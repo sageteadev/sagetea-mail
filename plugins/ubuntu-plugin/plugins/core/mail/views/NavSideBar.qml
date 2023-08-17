@@ -199,21 +199,15 @@ StyledItem {
                                 text: i18n.tr("You are runnig a free edition of SageTea Mail, consider upgrade to Pro Version")
                                 font.bold: true
                         }
+                    }
 
-                            Rectangle {
-                                Layout.fillWidth: true
-                                height: 50
-                                width: 50
-                        }
-
-                            Button {
-                                id: upgradeButton
-                                anchors.horizontalCenter: parent.horizontalCenter
-                                color: LomiriColors.orange
-                                text: i18n.tr("Upgrade to Pro")
-                                font.bold: true
-                                onClicked: Qt.openUrlExternally("https://sagetea.ai/product/sagetea-mail/")
-                        }
+                    Button {
+                        id: upgradeButton
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        color: LomiriColors.orange
+                        text: i18n.tr("Upgrade to Pro")
+                        font.bold: true
+                        onClicked: Qt.openUrlExternally("https://sagetea.ai/product/sagetea-mail/")
                     }
                 }
             }
