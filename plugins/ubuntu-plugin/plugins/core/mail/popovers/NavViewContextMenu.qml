@@ -82,5 +82,23 @@ Popover {
                 }
             ]
         }
+
+        Label {
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: parent.width * 4 / 5
+            wrapMode: Text.WordWrap
+            horizontalAlignment: Text.AlignHCenter
+            text: i18n.tr("You are runnig a free edition of SageTea Mail, consider upgrade to Pro Version")
+            font.bold: true
+        }
+
+        Button {
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: parent.width * 4 / 5
+            color: Lomiri.Colours.green
+            text: i18n.tr("Upgrade to Pro")
+            font.bold: true
+            onClicked: Qt.openUrlExternally(link)
+        }
     }
 }
