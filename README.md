@@ -49,14 +49,6 @@ _____________________________________
 
 ## Screenshots
 
-## Build
-- ` git clone --recurse-submodules https://github.com/sageteadev/sagetea-mail.git `
-
-- ` cd sagetea-mail `
-
-- ` clickable build `
-
-
 <p float="center">
   <img src="/docs/assets/sageteamail.png" width="200" />
   <img src="/docs/assets/sageteamail2.png" width="200" /> 
@@ -65,6 +57,13 @@ _____________________________________
 </p>
 
 </div>
+
+## Build
+- ` git clone --recurse-submodules https://github.com/sageteadev/sagetea-mail.git `
+
+- ` cd sagetea-mail `
+
+- ` clickable build `
 
 _________________________________________
 
