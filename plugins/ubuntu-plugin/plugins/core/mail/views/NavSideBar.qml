@@ -200,12 +200,6 @@ StyledItem {
                                 font.bold: true
                         }
 
-                            Rectangle {
-                                Layout.fillWidth: true
-                                height: 50
-                                width: 50
-                        }
-
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
