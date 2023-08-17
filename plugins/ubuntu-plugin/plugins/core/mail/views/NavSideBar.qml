@@ -200,12 +200,10 @@ StyledItem {
                                 font.bold: true
                         }
 
-                            Item {
-                                // spacer item
+                            Rectangle {
                                 Layout.fillWidth: true
-                                Layout.fillHeight: false
-                                color: Qt.rgba(0, 0, 0, 0.05)
-                                Rectangle { anchors.fill: parent; }
+                                height: 50
+                                width: 50
                         }
 
                             Button {
