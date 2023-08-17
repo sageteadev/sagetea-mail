@@ -200,11 +200,6 @@ StyledItem {
                                 font.bold: true
                         }
 
-                            Rectangle {
-                                anchors.fill: parent
-                                color: LomiriColors.inkstone
-                        }
-
                             Button {
                                 id: upgradeButton
                                 anchors.horizontalCenter: parent.horizontalCenter
