@@ -62,5 +62,5 @@ _____________________________________
 _________________________________________
 
 <div align="center">
-Copyright (C) 2023 - 2024 Rúben Carneiro <rubencarneiro01@gmail.com> SageTea Mail
+Copyright (C) 2023 - 2024 SageteaDev <support@sagetea.ai> SageTea Mail
 </div>
